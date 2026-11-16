@@ -43,6 +43,9 @@ SCHEMA = json.load(open(os.path.join(HERE, "response_schema.json")))
 # The kit demo's tracks and the catalog its tools/beatmarker wrote for them (the MP3s stay out of git).
 MUSIC_DIR = os.environ.get("MUSIC_DIR", os.path.join(HERE, "..", "VideoEditorKit", "Demo", "VideoEditorDemo", "Music"))
 VENUE_PAGE_SIZE = 30
+# Catalog v3 is built in the content repo next to this folder (scripts/catalog_v3.json); read on every request.
+CATALOG_V3 = os.environ.get("CATALOG_V3", os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "scripts",
+                                                       "catalog_v3.json"))
 # The script catalog built by Loca's ScriptsAndGuides/guides/tools/build_bundle.py: catalog.json + assets.
 CATALOG_DIR = os.environ.get("SCRIPT_CATALOG_DIR", os.path.join(HERE, "catalog"))
 _catalog = None
@@ -879,6 +882,17 @@ def guide_object_with_links(record, base_url, token):
     return result
 
 
+def catalog_v3():
+    with open(CATALOG_V3, encoding="utf-8") as file:
+        return json.load(file)
+
+
+def resolve_v3(request):
+    """POST /v3/scripts/resolve: request A (kind known) or B (menu item) -> the resolved script (v3_resolver.py)."""
+    from v3_resolver import resolve
+    return resolve(catalog_v3(), request)
+
+
 class Handler(BaseHTTPRequestHandler):
     token = ""
     model = "sonnet"
@@ -975,6 +989,8 @@ class Handler(BaseHTTPRequestHandler):
                 base_url,
                 self.token,
             ))
+        if url.path == "/v3/catalog":
+            return self.run(catalog_v3)
         if url.path == "/v1/venues":
             page = int(parse_qs(url.query).get("page", ["1"])[0])
             return self.run(lambda: venues(page))
@@ -986,13 +1002,16 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         if not self.authorized():
             return
-        if urlparse(self.path).path != "/v1/scripts/write":
+        path = urlparse(self.path).path
+        if path not in ("/v1/scripts/write", "/v3/scripts/resolve"):
             return self.reply(404, {"error": "not found"})
         length = int(self.headers.get("Content-Length", 0))
         try:
             request = json.loads(self.rfile.read(length))
         except json.JSONDecodeError:
             return self.reply(400, {"error": "body is not JSON"})
+        if path == "/v3/scripts/resolve":
+            return self.run(lambda: resolve_v3(request))
         self.run(lambda: write(request, self.model, self.client_left))
 
     def send_catalog_file(self, url):
