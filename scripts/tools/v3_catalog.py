@@ -33,7 +33,8 @@ STEP_FIELDS = {"key", "role", "required", "title", "camera", "where", "direction
 TAG_KEYS = {"daypart", "menuSection", "dishKind", "drinkKind"}
 DAYPARTS = {"morning", "midday", "evening"}
 SLOTS = {"venue.name", "menuItem.name", "menuItem.price", "opinion", "amenity"}
-TONES = ["negative", "negative", "neutral", "positive", "positive"]
+# D-3-levels (owner 2026-11-16): neutral, good, very good; a negative experience goes only to Not for me.
+TONES = ["neutral", "positive", "positive"]
 MIN_VERSIONS, MAX_VERSIONS = 3, 5
 MAX_STEP_SECONDS, MIN_STEP_SECONDS = 8, 3
 CARD_WORDS = 6
@@ -269,10 +270,12 @@ def check_sets(sets, errors):
                 errors.append(f"set {sid}: V6 non_smoking is a fact only, not a chip")
             continue
         levels = s.get("levels") or []
-        if [lv.get("level") for lv in levels] != [1, 2, 3, 4, 5]:
-            errors.append(f"set {sid}: V6 five ordered levels 1-5")
+        if [lv.get("level") for lv in levels] != [1, 2, 3]:
+            errors.append(f"set {sid}: V6 three ordered levels 1-3")
         if [lv.get("tone") for lv in levels] != TONES:
-            errors.append(f"set {sid}: V6 tones negative, negative, neutral, positive, positive")
+            errors.append(f"set {sid}: V6 tones neutral, positive, positive (no negative level)")
+        if s["kind"] != "verdict" and s.get("privateFeedback"):
+            errors.append(f"set {sid}: V7 Not for me is on verdicts only")
         if not s.get("allowCustom"):
             errors.append(f"set {sid}: V6 own words must be allowed")
         if s["kind"] == "verdict":

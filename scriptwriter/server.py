@@ -41,7 +41,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 GRAPHQL = os.environ.get("LOCA_GRAPHQL", "https://creator.graphql.test.loca.us/graphql")
 SCHEMA = json.load(open(os.path.join(HERE, "response_schema.json")))
 # The kit demo's tracks and the catalog its tools/beatmarker wrote for them (the MP3s stay out of git).
-MUSIC_DIR = os.environ.get("MUSIC_DIR", os.path.join(HERE, "..", "VideoEditorKit", "Demo", "VideoEditorDemo", "Music"))
+_KIT_MUSIC = os.path.join("VideoEditorKit", "Demo", "VideoEditorDemo", "Music")
+MUSIC_DIR = os.environ.get("MUSIC_DIR", next((path for path in (os.path.join(HERE, "..", _KIT_MUSIC),
+                                                                  os.path.expanduser(os.path.join("~/Documents/Development", _KIT_MUSIC)))
+                                              if os.path.isdir(path)), os.path.join(HERE, "..", _KIT_MUSIC)))
 VENUE_PAGE_SIZE = 30
 # Catalog v3 is built in the content repo next to this folder (scripts/catalog_v3.json); read on every request.
 CATALOG_V3 = os.environ.get("CATALOG_V3", os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "scripts",
@@ -735,7 +738,11 @@ def written_line(step):
 # Line rules (handoff 2026-11-13, same lexicon as VideoGuides scripts/tools/line_lint.py): a written line frames the
 # moment and states facts; a judgement is the creator's, through the step's {opinion} slot when the request step has
 # an `opinion` block, else not at all. The rules load from the VideoGuides checkout; without it only slots are checked.
-LINE_TOOLS = os.environ.get("LINE_LINT_DIR", os.path.join(HERE, "..", "VideoGuides", "scripts", "tools"))
+# The writer now lives inside the content repo (scriptwriter/), so the tools are one level up; the old sibling layout
+# (Scriptwriter next to VideoGuides) is the fallback.
+_IN_REPO_TOOLS = os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "scripts", "tools")
+LINE_TOOLS = os.environ.get("LINE_LINT_DIR", _IN_REPO_TOOLS if os.path.isdir(_IN_REPO_TOOLS)
+                            else os.path.join(HERE, "..", "VideoGuides", "scripts", "tools"))
 KNOWN_SLOTS = {"venue.name", "menuItem.name", "menuItem.price", "opinion"}
 _line_lint = None
 

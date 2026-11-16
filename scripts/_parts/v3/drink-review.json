@@ -342,7 +342,7 @@
    ],
    "choice": {
     "set": "sip_coffee",
-    "preselect": 3
+    "preselect": 1
    },
    "versions": [
     {
@@ -368,7 +368,7 @@
      },
      "choice": {
       "set": "sip_tea",
-      "preselect": 3
+      "preselect": 1
      }
     },
     {
@@ -377,7 +377,7 @@
      },
      "choice": {
       "set": "sip_iced",
-      "preselect": 3
+      "preselect": 1
      },
      "direction": "Lift the glass toward the lens, then take the sip.",
      "guides": [
@@ -390,7 +390,7 @@
      },
      "choice": {
       "set": "sip_juice",
-      "preselect": 3
+      "preselect": 1
      },
      "direction": "Lift the glass toward the lens, then take the sip.",
      "guides": [
@@ -403,7 +403,7 @@
      },
      "choice": {
       "set": "sip_soft",
-      "preselect": 3
+      "preselect": 1
      },
      "direction": "Lift the glass toward the lens, then take the sip.",
      "guides": [
@@ -416,7 +416,7 @@
      },
      "choice": {
       "set": "sip_beer_wine",
-      "preselect": 3
+      "preselect": 1
      },
      "direction": "Lift the glass toward the lens, then take the sip.",
      "guides": [
@@ -429,7 +429,7 @@
      },
      "choice": {
       "set": "sip_cocktail",
-      "preselect": 3
+      "preselect": 1
      },
      "direction": "Lift the glass toward the lens, then take the sip.",
      "guides": [

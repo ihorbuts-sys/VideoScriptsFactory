@@ -320,7 +320,7 @@
    ],
    "choice": {
     "set": "bite_savory",
-    "preselect": 3
+    "preselect": 1
    },
    "versions": [
     {
@@ -392,7 +392,7 @@
      "gap": "hand-after",
      "choice": {
       "set": "bite_sweet",
-      "preselect": 3
+      "preselect": 1
      }
     },
     {
@@ -401,7 +401,7 @@
      },
      "choice": {
       "set": "bite_sweet",
-      "preselect": 3
+      "preselect": 1
      },
      "direction": "Take the first spoonful or forkful toward the lens, then taste it."
     },
@@ -411,7 +411,7 @@
      },
      "choice": {
       "set": "bite_sweet",
-      "preselect": 3
+      "preselect": 1
      }
     }
    ]

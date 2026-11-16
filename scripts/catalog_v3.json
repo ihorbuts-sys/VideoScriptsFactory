@@ -324,7 +324,7 @@
      ],
      "choice": {
       "set": "bite_savory",
-      "preselect": 3
+      "preselect": 1
      },
      "versions": [
       {
@@ -393,7 +393,7 @@
        "guides": [],
        "choice": {
         "set": "bite_sweet",
-        "preselect": 3
+        "preselect": 1
        }
       },
       {
@@ -402,7 +402,7 @@
        },
        "choice": {
         "set": "bite_sweet",
-        "preselect": 3
+        "preselect": 1
        },
        "direction": "Take the first spoonful or forkful toward the lens, then taste it."
       },
@@ -412,11 +412,11 @@
        },
        "choice": {
         "set": "bite_sweet",
-        "preselect": 3
+        "preselect": 1
        }
       }
      ],
-     "seconds": 7
+     "seconds": 5
     },
     {
      "key": "amenities",
@@ -513,7 +513,7 @@
        ]
       }
      ],
-     "seconds": 8
+     "seconds": 7
     }
    ]
   },
@@ -863,7 +863,7 @@
      ],
      "choice": {
       "set": "sip_coffee",
-      "preselect": 3
+      "preselect": 1
      },
      "versions": [
       {
@@ -889,7 +889,7 @@
        },
        "choice": {
         "set": "sip_tea",
-        "preselect": 3
+        "preselect": 1
        }
       },
       {
@@ -898,7 +898,7 @@
        },
        "choice": {
         "set": "sip_iced",
-        "preselect": 3
+        "preselect": 1
        },
        "direction": "Lift the glass toward the lens, then take the sip.",
        "guides": [
@@ -911,7 +911,7 @@
        },
        "choice": {
         "set": "sip_juice",
-        "preselect": 3
+        "preselect": 1
        },
        "direction": "Lift the glass toward the lens, then take the sip.",
        "guides": [
@@ -924,7 +924,7 @@
        },
        "choice": {
         "set": "sip_soft",
-        "preselect": 3
+        "preselect": 1
        },
        "direction": "Lift the glass toward the lens, then take the sip.",
        "guides": [
@@ -937,7 +937,7 @@
        },
        "choice": {
         "set": "sip_beer_wine",
-        "preselect": 3
+        "preselect": 1
        },
        "direction": "Lift the glass toward the lens, then take the sip.",
        "guides": [
@@ -950,7 +950,7 @@
        },
        "choice": {
         "set": "sip_cocktail",
-        "preselect": 3
+        "preselect": 1
        },
        "direction": "Lift the glass toward the lens, then take the sip.",
        "guides": [
@@ -2003,26 +2003,16 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not again."
+     "tone": "neutral",
+     "text": "Maybe."
     },
     {
      "level": 2,
-     "tone": "negative",
-     "text": "Once was enough."
+     "tone": "positive",
+     "text": "Probably, yes."
     },
     {
      "level": 3,
-     "tone": "neutral",
-     "text": "Maybe, to try more."
-    },
-    {
-     "level": 4,
-     "tone": "positive",
-     "text": "I would."
-    },
-    {
-     "level": 5,
      "tone": "positive",
      "text": "Definitely."
     }
@@ -2042,26 +2032,16 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not again."
+     "tone": "neutral",
+     "text": "Maybe."
     },
     {
      "level": 2,
-     "tone": "negative",
-     "text": "Once was enough."
+     "tone": "positive",
+     "text": "Probably, yes."
     },
     {
      "level": 3,
-     "tone": "neutral",
-     "text": "Maybe, another time."
-    },
-    {
-     "level": 4,
-     "tone": "positive",
-     "text": "I would."
-    },
-    {
-     "level": 5,
      "tone": "positive",
      "text": "Every time."
     }
@@ -2081,28 +2061,18 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not again."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Probably not."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Maybe."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
-     "text": "I would."
+     "text": "Probably, yes."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
-     "text": "Definitely."
+     "text": "Certainly."
     }
    ],
    "allowCustom": true,
@@ -2120,26 +2090,16 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not again."
+     "tone": "neutral",
+     "text": "Maybe."
     },
     {
      "level": 2,
-     "tone": "negative",
-     "text": "Probably not."
+     "tone": "positive",
+     "text": "I think so."
     },
     {
      "level": 3,
-     "tone": "neutral",
-     "text": "Maybe, for touch-ups."
-    },
-    {
-     "level": 4,
-     "tone": "positive",
-     "text": "I would."
-    },
-    {
-     "level": 5,
      "tone": "positive",
      "text": "Already booked again."
     }
@@ -2159,28 +2119,18 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not again."
+     "tone": "neutral",
+     "text": "Maybe."
     },
     {
      "level": 2,
-     "tone": "negative",
-     "text": "Once was enough."
+     "tone": "positive",
+     "text": "Probably, yes."
     },
     {
      "level": 3,
-     "tone": "neutral",
-     "text": "Maybe, with friends."
-    },
-    {
-     "level": 4,
      "tone": "positive",
-     "text": "I would."
-    },
-    {
-     "level": 5,
-     "tone": "positive",
-     "text": "Already planning it."
+     "text": "In a heartbeat."
     }
    ],
    "allowCustom": true,
@@ -2198,28 +2148,18 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not again."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Probably not."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Maybe."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
-     "text": "I would."
+     "text": "Probably, yes."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
-     "text": "Already a regular."
+     "text": "Definitely."
     }
    ],
    "allowCustom": true,
@@ -2237,28 +2177,18 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not again."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Probably not."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Maybe."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
-     "text": "I would."
+     "text": "Probably, yes."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
-     "text": "Definitely."
+     "text": "Certainly."
     }
    ],
    "allowCustom": true,
@@ -2276,33 +2206,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not my thing."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Hmm, not sure."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Okay."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
-     "text": "That's good."
+     "text": "Good."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
-     "text": "So good."
+     "text": "Amazing."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "bite_sweet",
@@ -2310,33 +2230,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Too sweet for me."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Hmm, not sure."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Okay."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
-     "text": "That's nice."
+     "text": "Lovely."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
-     "text": "So good."
+     "text": "Incredible."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "sip_coffee",
@@ -2344,33 +2254,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Too bitter."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Not my cup."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Decent."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
      "text": "Smooth."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
      "text": "Perfect brew."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "sip_tea",
@@ -2378,33 +2278,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Too weak."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Plain."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Nice."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
      "text": "Fragrant."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
      "text": "So soothing."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "sip_iced",
@@ -2412,33 +2302,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Too sweet."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Watery."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Fine."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
      "text": "Refreshing."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
      "text": "So good."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "sip_juice",
@@ -2446,33 +2326,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Too sour."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Plain."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Fresh."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
      "text": "Fruity."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
      "text": "Just right."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "sip_soft",
@@ -2480,33 +2350,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Flat."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Too sweet."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Okay."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
      "text": "Refreshing."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
      "text": "Perfect."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "sip_beer_wine",
@@ -2514,33 +2374,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Not my style."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Plain."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Decent."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
      "text": "Crisp."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
      "text": "Great pour."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "sip_cocktail",
@@ -2548,33 +2398,23 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Too strong."
-    },
-    {
-     "level": 2,
-     "tone": "negative",
-     "text": "Plain."
-    },
-    {
-     "level": 3,
      "tone": "neutral",
      "text": "Balanced."
     },
     {
-     "level": 4,
+     "level": 2,
      "tone": "positive",
      "text": "Great mix."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
-     "text": "Perfect."
+     "text": "Awesome."
     }
    ],
    "allowCustom": true,
    "maxWords": 4,
-   "preselect": 3
+   "preselect": 1
   },
   {
    "id": "place_word",
@@ -2582,26 +2422,16 @@
    "levels": [
     {
      "level": 1,
-     "tone": "negative",
-     "text": "Too cramped."
+     "tone": "neutral",
+     "text": "Simple."
     },
     {
      "level": 2,
-     "tone": "negative",
-     "text": "A bit loud."
-    },
-    {
-     "level": 3,
-     "tone": "neutral",
-     "text": "Calm enough."
-    },
-    {
-     "level": 4,
      "tone": "positive",
      "text": "Cozy."
     },
     {
-     "level": 5,
+     "level": 3,
      "tone": "positive",
      "text": "Really lovely."
     }

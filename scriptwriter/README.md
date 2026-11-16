@@ -53,7 +53,9 @@ shown on the prompter but not read; a `pause` holds the prompter's scrolling.
 
 `menuItem` (optional) is the menu item the script reviews, as `GET /v1/venues/{id}/menu` returns it.
 
-A step may carry `opinion` (`{"set": "verdict_answer", "options": [{"text": "Certainly."}, ...]}`, or only `set`,
+Catalog v3 requests (`kind`) use the step's choice set from `catalog_v3.json`: 3 levels (neutral, good, very good),
+the creator's own words, and Not for me on verdicts only (D-3-levels); the written lines must read with each level.
+The v2 request shape below stays for older clients. A step may carry `opinion` (`{"set": "verdict_answer", "options": [{"text": "Certainly."}, ...]}`, or only `set`,
 looked up in `catalog.json` `opinionSets`): its written line then ends on exactly one `{opinion}` slot the creator
 fills on the device, and the line is timed with the longest option in. Without it no line carries the slot. Each
 written step may also return `card` (at most 6 words, null allowed), the on-screen text for a silent take. The server

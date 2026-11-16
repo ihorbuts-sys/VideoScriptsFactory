@@ -16,7 +16,7 @@ Source of the redesign: Figma "Loca — Video Studio · Step flow", node 291:390
 | Venue | first visit | Agreed 2026-11-16: "treat first visit as Venue" |
 | Locations | first-visit arrive | Agreed 2026-11-16: skip for now |
 | Optional steps (Order "Optional"), skip, retake, continue later | every step required | Agreed 2026-11-16: optional steps exist (replaces the handoff rule "steps stay required") |
-| Verdict chips good / amazing / tasty / okay / your words / Not for me | verdict_answer (Certainly, Absolutely, Maybe..., Once was enough, Not for me) | Agreed 2026-11-16: 5 levels per opinion step, wording fits the step and kind, plus typing your own (section 5) |
+| Verdict chips good / amazing / tasty / okay / your words / Not for me | verdict_answer (Certainly, Absolutely, Maybe..., Once was enough, Not for me) | Agreed 2026-11-16: 3 levels per opinion step (neutral, good, very good; D-3-levels replaced the 5 levels), wording fits the step and kind, plus typing your own; Not for me on verdicts (section 5) |
 | Editor: subtitles from the prompter, extra text, stickers, filters, mute surround, music list | kit editor | Assumed: app work, no catalog change except the sticker rule below |
 
 Figma copy that breaks the v2 line rules is treated as layout only (Assumed): "Worth the $8.50" (judgement outside
@@ -103,22 +103,22 @@ longest choice option and the 40-character typed name in.
 
 `opinionSets` become `choiceSets`; a step's `choice: {set, preselect, order}` fills one slot in its line and card.
 
-- Opinion steps (Agreed 2026-11-16): every opinion step offers **5 levels** from negative to positive plus typing
-  your own. The words are not one fixed list: each step and kind gets synonyms that fit it (a dish verdict, a drink
-  verdict, a venue subject's verdict, a first bite). Modelled as a choice set with 5 ordered levels:
+- Opinion steps (D-3-levels, owner 2026-11-16, replaces the 5 levels agreed earlier the same day): every opinion step
+  offers **3 levels** - neutral, good, very good - plus typing your own words. There is no negative level: a venue ad
+  needs no negative public answer, and a bad experience goes to "Not for me" on the verdict, which is the single
+  private funnel (feedback to the venue, nothing filmed). The creator can still type a negative in their own words.
+  Words fit each step and kind (a dish verdict, a drink verdict, a venue subject's verdict, a first bite):
 
 ```json
 { "id": "verdict_dish", "kind": "verdict", "levels": [
-    { "level": 1, "tone": "negative", "text": "Not again." },
-    { "level": 2, "tone": "negative", "text": "Once was enough." },
-    { "level": 3, "tone": "neutral",  "text": "Maybe, to try more." },
-    { "level": 4, "tone": "positive", "text": "I would." },
-    { "level": 5, "tone": "positive", "text": "Definitely." } ],
-  "allowCustom": true, "preselect": null, "privateFeedback": { "label": "Not for me" } }
+    { "level": 1, "tone": "neutral",  "text": "Maybe." },
+    { "level": 2, "tone": "positive", "text": "Probably, yes." },
+    { "level": 3, "tone": "positive", "text": "Definitely." } ],
+  "allowCustom": true, "preselect": null, "privateFeedback": { "label": "Not for me", "action": "private_feedback" } }
 ```
 
-  Words above are placeholders for the shape; the v3 rewrite writes the per-step sets. Nothing is preselected on a
-  verdict. "Not for me" (private feedback) stays as an extra chip beside the 5 levels (Agreed 2026-11-16).
+  Nothing is preselected on a verdict. Bite, sip and place sets have no "Not for me" (they are not a verdict) and
+  preselect level 1, the neutral answer (Assumed, owner to confirm).
   Levels and tones are for analytics only and never affect the edit, music or ranking.
 - New kind `amenity`, slot `{amenity}`: options are the platform amenities from the business `amenityList`
   (`id title iconUrl slug sort`); the business's own come preselected; custom text allowed; every option tone is
@@ -152,7 +152,7 @@ signature cocktail is a cocktail, a signature latte is coffee). Owner 2026-11-16
 | desserts | plated, dessert plate |
 | breakfast | plated, dessert plate for pancakes |
 
-| Drink kind | Covers | Serving form | Example words for the 5 opinion levels (low to high) |
+| Drink kind | Covers | Serving form | Example words for the opinion levels (see D-3-levels; current words are in the catalog) |
 |---|---|---|---|
 | coffee | espresso, latte, cappuccino, flat white | cup | too bitter, not my cup, decent, smooth, perfect brew |
 | tea and matcha | tea, chai, matcha | cup | too weak, plain, nice, fragrant, so soothing |
@@ -238,7 +238,7 @@ Work list (estimate, all objects as OBJECTS.md requests first, owner approves li
 | Level | Where it changes the text | Where it does not |
 |---|---|---|
 | Dish name `{menuItem.name}` | a slot only: order line, main card, after line, verdict caption | never authored text per name (infinite and unknown) |
-| Dish or drink kind | 3 places, as `variants` keyed by kind (never by form): the after line and title (First bite / First sip / First spoonful), the main direction (pour, break it open, cut, top-down), the opinion words (5 levels worded for the kind) | arrive, place, before, amenities |
+| Dish or drink kind | 3 places, as `variants` keyed by kind (never by form): the after line and title (First bite / First sip / First spoonful), the main direction (pour, break it open, cut, top-down), the opinion words (3 levels worded for the kind) | arrive, place, before, amenities |
 | Subject (dish, drink, venue subject) | verdict object ("Would I come back for it?" vs "...here?"), step titles, the pattern's before/main/after lines | arrive |
 | Service kind | place and before directions and lines ("at the window" / "at the counter" / "at the table") | main, after, verdict |
 | Price | `price: false` variant (no price, no "worth the price") | everything else |
@@ -252,7 +252,7 @@ So: a name needs no texts; a kind needs about 3 variants per script (via `kind`,
 
 | Id | Question | Status |
 |---|---|---|
-| v3-verdict-chips | Figma adjectives or v2 answers | Agreed 2026-11-16: 5 levels from negative to positive, synonyms fitted to each step and kind, plus your own words; "Not for me" kept beside them (Assumed, owner to confirm) |
+| v3-verdict-chips | Figma adjectives or v2 answers | Replaced 2026-11-16 by D-3-levels: neutral, good, very good, plus your own words; "Not for me" on verdicts is the only negative, a private funnel |
 | v3-locations | Locations script | Agreed 2026-11-16: skipped for now |
 | v3-rolls | "rolls" | Agreed 2026-11-16: sushi -> dish kind "sushi and Asian"; wraps -> handhelds |
 | v3-menu-fallback | unknown menu section -> plain dish + kind chip | Agreed 2026-11-16 |
@@ -270,20 +270,20 @@ So: a name needs no texts; a kind needs about 3 variants per script (via `kind`,
 
 Snapshot first (done: `scripts/versions/v2_2026-11-16/`). Then: four kind scripts in `scripts/_parts`; step roles
 and `required`; `variants` replacing lineVariants, noPrice and servingVariants; `choiceSets` with the amenity set;
-dish and drink kind tables, per-step 5-level opinion sets, per-step version pools, menu-section mapping, venue subject table by category; checker rules for roles, variants,
+dish and drink kind tables, per-step 3-level opinion sets, per-step version pools, menu-section mapping, venue subject table by category; checker rules for roles, variants,
 choice sets and the Visit claims rule; build_bundle and the Scriptwriter writer; catalog version 3; review site; app
 handoff rewrite; CHANGELOG entry.
 
 ## 11. Owner answers 2026-11-16 (summary)
 
-1. Opinion chips: 5 levels per opinion step plus typing your own; wording fitted per step and kind.
+1. Opinion chips: 3 levels (neutral, good, very good) per opinion step plus typing your own; Not for me on verdicts only (D-3-levels, replaces the 5 levels).
 2. Text variety: a pool of versions per step; preselect the most relevant, others as "Other options".
 3. Role `main` is required for dish, drink and menu item.
 4. Variant `when` keys use the kind, not the serving form; daypart and menu section tag versions, no automatic switch.
 5. Non-smoking: cannot be filmed; proposal recorded (4 chips).
 6. Fresh and Unique are kinds, not descriptors; one-tap kind chip.
 7. Daypart texts: offered as other options, preselected when they match.
-9. Verdict: 5 levels with fitting synonyms; rolls = sushi; menu fallback, unlisted amenity, mixed venue agreed; guide
+9. Verdict: 3 levels with fitting synonyms (D-3-levels); rolls = sushi; menu fallback, unlisted amenity, mixed venue agreed; guide
    work approved; old ids dropped; sticker CTA explained, open.
 
 9a. 2026-11-16 (closing the review): alcohol kinds in P1; creator-placed call-to-action stickers allowed; "Not for me" kept; non-smoking as an AI fact only.
@@ -355,3 +355,12 @@ guide: guides/p0/guide_labels.json (proposed, owner review).
   `backend_examples/v3/resolver/` (`test_fixtures.py`, 7 of 7 pass). The app keeps the full catalog only as an offline
   fallback and runs the same logic there. Version preselection (tags first, random among equals) stays in the app.
   Motivation: one place to change resolution rules and to read analytics; the app stays thin.
+
+
+## 17. D-3-levels (owner 2026-11-16)
+
+Opinion sets have 3 levels (neutral, good, very good) plus the creator's own words. "Not for me" is the single
+negative option, on verdicts only, and it is the funnel to private feedback, not a spoken answer. Replaces the 5 levels
+(D-5-levels). Motivation: venue ads need no negative public answers; Not for me catches a bad experience privately;
+own words keep the creator free, including a negative in their own words; fewer chips are faster. Assumed: bite, sip
+and place sets have no Not for me and preselect the neutral level 1; verdicts are never preselected.

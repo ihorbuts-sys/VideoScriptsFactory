@@ -88,8 +88,8 @@ Decisions are saved in `guides/review/decisions/`.
 
 ## Rules that always hold
 
-- No prefilled opinions: a judgement only comes from the creator's choice (5 levels plus their own words, and Not
-  for me on verdicts). Nothing is preselected on a verdict.
+- No prefilled opinions: a judgement only comes from the creator's choice (3 levels: neutral, good, very good,
+  plus their own words; Not for me on verdicts is the private way out for a bad experience). Nothing is preselected on a verdict.
 - Every text passes the line checks (no hearsay, no teasers, captions are facts only, timing fits the step).
 - US units in every text. No emoji anywhere.
 - Place settings follow `STYLE.md` (desserts on a dessert plate; pastry, pizza and bakery items with no cutlery).

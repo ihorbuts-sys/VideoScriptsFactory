@@ -38,7 +38,8 @@ Loca deal; the line is written before the visit, so it cannot know the real tast
   owner and legal. A script that supplies praise to an incentivised creator reads as a sentiment condition, so
   (owner 2026-11-13, replacing the 2026-11-11 "editable positive default") no verdict word is prefilled: the verdict
   slot is never preselected, every set has a neutral option and the creator's own words, and the verdict has a private
-  "Not for me" path. The script's own positive word is the first option in its `order`, not a default.
+  "Not for me" path. Catalog v3 (D-3-levels, owner 2026-11-16): sets have 3 levels (neutral, good, very good) and no
+  negative level; Not for me on the verdict is the only negative, a private funnel. The script's own positive word is the first option in its `order`, not a default.
 
 ## Hook / arrive (28 creator lines, 25 sources, 3-29 words, median 12)
 
@@ -142,7 +143,7 @@ disguised as a Chinese buffet" LR26).
 
 ### Positive ending words with evidence
 
-Evidence for the positive options of `verdict_answer`; each script lists its own one first in its verdict `order`
+Evidence for the positive levels of the verdict sets (v2: `verdict_answer`); each script lists its own one first in its verdict `order`
 (owner rule 2026-11-13), never as a preselection. Words in order of how cleanly they end a short line:
 
 | Word / phrase | Evidence (ref) | Form seen |

@@ -14,9 +14,11 @@ characters or under (aim for 8-14), with slots read as two words.
 3. No greeting, series count, score, persona catchphrase, "hidden gem", "best in town", "life changing", "100% worth
    it", "must-try", "run, don't walk", "you have to try it" (LR74, LR75, F3, F11).
 4. A judgement is never written for the creator (owner 2026-11-13, replaces the 2026-11-11 "positive default"): the
-   line ends on an `{opinion}` slot the creator fills from a shared set in `scripts/opinion_sets.json` (verdict:
-   `verdict_answer`, never preselected; first bite and first sip: `bite_reaction`, neutral "Okay." may be
-   preselected). The script's own positive word goes first in the step's `opinion.order`. Price goes in the caption;
+   line ends on an `{opinion}` slot the creator fills. In catalog v3 (D-3-levels, owner 2026-11-16): an `{opinion}` slot is filled from the step's choice set in
+   `scripts/catalog_v3.json` `choiceSets`: 3 levels (neutral, good, very good) plus the creator's own words, no
+   negative level. A verdict is never preselected and offers "Not for me" (private feedback, nothing filmed) as the
+   only negative; bite, sip and place sets preselect the neutral level 1 and have no Not for me.
+   A line must read naturally with each level and with the creator's own words; never write a negative into a line. Price goes in the caption;
    the spoken price is a short fact, and a step that uses the price carries a `noPrice` variant.
 5. A creator who gets the deal or any perk must disclose it in the video (wording with the owner and legal);
    incentives conditioned on positive sentiment are banned in the US (LR68, LR69, N21, N22; UK: LR70). No "I paid
@@ -59,25 +61,25 @@ length never depends on the daypart. The neutral `line` never names a time of da
 
 ## Sip
 
-1. `First sip at {venue.name}. {opinion}` with `bite_reaction` (P0); P1 adds `taste_descriptors` (multi-select,
-   never preselected) (LR35)
+1. `First sip of {menuItem.name}. {opinion}` with the drink kind's sip set (`sip_coffee`, `sip_tea`, `sip_iced`,
+   `sip_juice`, `sip_soft`; 3 levels, neutral preselected) (LR35)
 2. Descriptors ("smooth, balanced, not too sweet") are the creator's pick or own words, never prefilled (LR36, LR37,
    LR54, LR55)
 
 ## First bite
 
-1. `First bite of the {menuItem.name}. {opinion}` with `bite_reaction` (LR2, LR8, LR9, LR47, LR48, LR60)
+1. `First bite of {menuItem.name}. {opinion}` with `bite_savory` or `bite_sweet` (LR2, LR8, LR9, LR47, LR48, LR60)
 2. Texture or part named ("perfect crisp", "the crust") is the creator's ad-lib (LR3, LR8, LR35, LR37, LR48, LR49)
 
 ## Room
 
 1. P0: `Grabbed a table. This is the view from my seat.` (fact, no adjective)
-2. P1: `The room here: {opinion}` with `place_word` ("Love the vibe" LR5, LR9, LR62 is the evidence for the slot)
+2. `Inside {venue.name}. {opinion}` with `place_word` (3 levels, never preselected) ("Love the vibe" LR5, LR9, LR62 is the evidence for the slot)
 
 ## Verdict and price
 
-1. `{menuItem.price} at {venue.name}. Would I come back? {opinion}` with `verdict_answer`, never
-   preselected; `noPrice`: `{venue.name}. Would I come back? {opinion}` (short frames so long real names fit 8 s; there are no short names) (LR13, LR5,
+1. `{menuItem.price} at {venue.name}. Would I come back? {opinion}` with the kind's verdict set (`verdict_dish`, `verdict_drink`,
+   `verdict_place`...; 3 levels plus Not for me), never preselected; `noPrice`: `{venue.name}. Would I come back? {opinion}` (short frames so long real names fit 8 s; there are no short names) (LR13, LR5,
    LR22, LR23, LR59; price as fact LR29, LR48)
 2. P2: `{menuItem.price} per person at {venue.name}. {opinion}` with `value_word` (LR28, LR35, LR67)
 3. Prefilled endings ("Worth every bite", "I'd highly recommend it", "Now I see why people talk about it") are

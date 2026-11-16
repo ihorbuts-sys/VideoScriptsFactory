@@ -21,6 +21,11 @@ script in `scripts/_parts/<kind>.json` and its note.
    a silent take) and, where the line carries a judgement, an `{opinion}` slot with an `opinion` block (`set` from
    `scripts/opinion_sets.json`, `preselect`, `order`; a verdict or taste slot is never preselected, the script's own
    positive word is first in `order`). A line using the price has a `noPrice` variant (`line`, `card`, `caption`).
+   Catalog v3 (D-3-levels, owner 2026-11-16): an `{opinion}` slot is filled from the step's choice set in
+   `scripts/catalog_v3.json` `choiceSets`: 3 levels (neutral, good, very good) plus the creator's own words, no
+   negative level. A verdict is never preselected and offers "Not for me" (private feedback, nothing filmed) as the
+   only negative; bite, sip and place sets preselect the neutral level 1 and have no Not for me.
+   The v2 shape above (`opinion_sets.json`, `order`) stays only for the v2 rollback snapshot.
    No hearsay, no teasers, captions facts only, no time of day in P0, US units in directions; every face guide on a
    step needs a face-free guide (`showsFace` in `guide_levels.json`, a pending one is a warning).
    `scripts/tools/line_lint.py` (L1-L14) enforces it through `check_scripts.py`.

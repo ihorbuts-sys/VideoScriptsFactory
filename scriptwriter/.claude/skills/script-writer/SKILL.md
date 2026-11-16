@@ -109,6 +109,9 @@ key, role, title, whether the step is silent, its direction, its choice set and 
   same role and meaning as the examples.
 - Slots: `{venue.name}`, `{menuItem.name}`; `{menuItem.price}` only when the context has `price: true`; `{opinion}`
   only where the step has an opinion choice set, at most once; `{amenity}` only in the amenities step.
+- Opinion sets have 3 levels (neutral, good, very good) and no negative level; a line must read naturally with
+  each of them and with the creator's own words. Never write a negative judgement into a line: a bad experience
+  goes to Not for me on the verdict.
 - The judgement is the creator's: no adjectives about the food, drink or place outside the slot. No hearsay, no
   teasers, no calls to action, no claims, no time of day unless the request has a daypart. Captions are facts.
 - Visit (health, legal, business services): no outcome claims (cured, won my case, guaranteed), no clients in frame.

@@ -59,13 +59,23 @@ class V3Checks(unittest.TestCase):
 
     def test_verdict_never_preselected(self):
         def m(s, _):
-            self.step(s, "dish-review", "verdict")["choice"]["preselect"] = 5
+            self.step(s, "dish-review", "verdict")["choice"]["preselect"] = 3
         self.assertTrue(self.has(self.run_with(m), "V7"))
 
-    def test_five_levels(self):
+    def test_three_levels(self):
         def m(_, sets):
             sets["verdict_dish"]["levels"].pop()
         self.assertTrue(self.has(self.run_with(m), "V6"))
+
+    def test_no_negative_level(self):
+        def m(_, sets):
+            sets["bite_savory"]["levels"][0]["tone"] = "negative"
+        self.assertTrue(self.has(self.run_with(m), "V6"))
+
+    def test_not_for_me_only_on_verdicts(self):
+        def m(_, sets):
+            sets["bite_savory"]["privateFeedback"] = {"label": "Not for me", "action": "private_feedback"}
+        self.assertTrue(self.has(self.run_with(m), "V7"))
 
     def test_not_for_me_required_on_verdict(self):
         def m(_, sets):

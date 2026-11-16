@@ -165,7 +165,7 @@ DISH_AFTER = {
     "key": "after", "role": "after", "required": False, "title": "First bite", "camera": "back",
     "where": "At the table", "direction": "Lift a forkful toward the lens, then take the bite.",
     "guides": BITE_FORK,
-    "choice": {"set": "bite_savory", "preselect": 3},
+    "choice": {"set": "bite_savory", "preselect": 1},
     "versions": [
         v("First bite of {menuItem.name}. {opinion}", "First bite: {opinion}", "First bite"),
         v("Trying {menuItem.name}. {opinion}", "Verdict so far: {opinion}", "First bite"),
@@ -184,10 +184,10 @@ DISH_AFTER = {
         {"when": {"dishKind": "pizza"}, "direction": "Pick up the pulled slice and take the bite toward the lens.",
          "guides": [], "gap": "hand-after"},
         {"when": {"dishKind": "pastry-bakery"}, "direction": "Break it open toward the lens, then take a bite.",
-         "guides": [], "gap": "hand-after", "choice": {"set": "bite_sweet", "preselect": 3}},
-        {"when": {"dishKind": "desserts"}, "choice": {"set": "bite_sweet", "preselect": 3},
+         "guides": [], "gap": "hand-after", "choice": {"set": "bite_sweet", "preselect": 1}},
+        {"when": {"dishKind": "desserts"}, "choice": {"set": "bite_sweet", "preselect": 1},
          "direction": "Take the first spoonful or forkful toward the lens, then taste it."},
-        {"when": {"dishKind": "breakfast"}, "choice": {"set": "bite_sweet", "preselect": 3}},
+        {"when": {"dishKind": "breakfast"}, "choice": {"set": "bite_sweet", "preselect": 1}},
     ],
 }
 
@@ -236,18 +236,18 @@ SIP = lambda name: [
 DRINK_AFTER = {
     "key": "after", "role": "after", "required": False, "title": "First sip", "camera": "back",
     "where": "At the table", "direction": "Lift the cup toward the lens, then take the sip.",
-    "guides": SIP_CUP, "choice": {"set": "sip_coffee", "preselect": 3}, "versions": SIP("coffee"),
+    "guides": SIP_CUP, "choice": {"set": "sip_coffee", "preselect": 1}, "versions": SIP("coffee"),
     "variants": [
-        {"when": {"drinkKind": "tea-matcha"}, "choice": {"set": "sip_tea", "preselect": 3}},
-        {"when": {"drinkKind": "iced-coffee"}, "choice": {"set": "sip_iced", "preselect": 3},
+        {"when": {"drinkKind": "tea-matcha"}, "choice": {"set": "sip_tea", "preselect": 1}},
+        {"when": {"drinkKind": "iced-coffee"}, "choice": {"set": "sip_iced", "preselect": 1},
          "direction": "Lift the glass toward the lens, then take the sip.", "guides": ["glass_sip_lift"]},
-        {"when": {"drinkKind": "juices-smoothies"}, "choice": {"set": "sip_juice", "preselect": 3},
+        {"when": {"drinkKind": "juices-smoothies"}, "choice": {"set": "sip_juice", "preselect": 1},
          "direction": "Lift the glass toward the lens, then take the sip.", "guides": ["glass_sip_lift"]},
-        {"when": {"drinkKind": "soft-drinks"}, "choice": {"set": "sip_soft", "preselect": 3},
+        {"when": {"drinkKind": "soft-drinks"}, "choice": {"set": "sip_soft", "preselect": 1},
          "direction": "Lift the glass toward the lens, then take the sip.", "guides": ["glass_sip_lift"]},
-        {"when": {"drinkKind": "beer-wine"}, "choice": {"set": "sip_beer_wine", "preselect": 3},
+        {"when": {"drinkKind": "beer-wine"}, "choice": {"set": "sip_beer_wine", "preselect": 1},
          "direction": "Lift the glass toward the lens, then take the sip.", "guides": ["glass_sip_lift"]},
-        {"when": {"drinkKind": "cocktails"}, "choice": {"set": "sip_cocktail", "preselect": 3},
+        {"when": {"drinkKind": "cocktails"}, "choice": {"set": "sip_cocktail", "preselect": 1},
          "direction": "Lift the glass toward the lens, then take the sip.", "guides": ["glass_sip_lift"]},
     ],
 }
