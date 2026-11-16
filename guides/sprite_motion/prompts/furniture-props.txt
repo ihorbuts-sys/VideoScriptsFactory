@@ -1,0 +1,7 @@
+ONE reusable animation asset atlas with FOUR separate cells in a strict 2-by-2 grid. Wide transparent gutters and generous complete-object margins. NO borders, labels, text or numbers. Loose natural slate-blue pencil linework, mostly unfilled transparent interiors, sparse contour hatching. NO individual watercolor coloring, opaque white fill, painted skin, shadow panels, glow or checkerboard. A separate broad scene-wide wash will be added later. Reference is stroke style only. Do not copy its shapes. Natural detailed contours rather than generic graphic primitives.
+Four isolated furniture sprites viewed from an ordinary standing visitor/camera at eye height, horizontal architectural view; top surfaces below the horizon are visible naturally. NO room, floor, people, hands or props attached.
+TOP LEFT: one small cafe table with simple central pedestal and natural oval perspective tabletop, complete to its foot. Empty tabletop.
+TOP RIGHT: one salon styling chair with padded seat/back and hydraulic base, slight three-quarter view, complete chair. NO mirror, person or scissors.
+BOTTOM LEFT: one dressed treatment/massage table with folded towel and simple cloth drape, complete legs and table, view from the patient entrance side. No medical equipment or person.
+BOTTOM RIGHT: one upright acoustic piano, keyboard/front visible in slight three-quarter perspective, no pianist, stool or music stand.
+All assets separately reusable and mostly open line drawings; do not add dense individually shaded panels.

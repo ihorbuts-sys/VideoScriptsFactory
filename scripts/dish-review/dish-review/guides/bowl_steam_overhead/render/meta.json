@@ -1,0 +1,2247 @@
+{
+  "id": "bowl_steam_overhead",
+  "status": "rendered",
+  "record": {
+    "id": "bowl_steam_overhead",
+    "title": "Rise over the bowl",
+    "shotType": "plate",
+    "technique": "overhead pedestal rise at 90 degrees, 14 in to 22 in above the bowl",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+      "stabilization": "cinematicExtendedEnhanced",
+      "continuousFocus": true,
+      "locksFocusExposureWhiteBalance": false,
+      "lensLocked": true,
+      "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Stand, phone flat about 14 in above the bowl; raise it straight up slowly to about 22 in, keeping it flat and the bowl centred.",
+    "sourceScene": "plate_rise_overhead_v2",
+    "newObjects": "serving_bowl (owner-approved 2026-11-16) and dessert spoon (assets.spoon, owner-approved 2026-11-16) right of the bowl",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Overhead 90 deg throughout, standing; lens about 14 in above the bowl rim, held 1 s, rising straight up to about 22 in from 1.0 s to 4.0 s, held to 5 s. Soup variant: the serving_bowl at the place setting, dessert spoon to the right 3/4 in clear; no hands, no people.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+      405,
+      720
+    ],
+    "selectorResolution": [
+      120,
+      213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "availability": "draft",
+    "phoneOrientation": "portrait",
+    "showsFace": false,
+    "needsHelper": false,
+    "guideVisibleToCreator": true,
+    "units": "us",
+    "zoomHint": "1x",
+    "allowedHands": 0,
+    "allowedPeople": 0,
+    "dishVariant": "soup",
+    "scanPrep": {
+      "voxel": 0.0015,
+      "smooth": 0.5,
+      "iterations": 3
+    },
+    "steam": false,
+    "beats": [
+      {
+        "atSec": 0,
+        "text": "Phone flat above the bowl, bowl in the middle."
+      },
+      {
+        "atSec": 1.0,
+        "text": "Raise the phone straight up slowly; keep it flat."
+      },
+      {
+        "atSec": 3.5,
+        "text": "Stop when the spoon is in frame."
+      }
+    ],
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73"
+  },
+  "frame_count": 90,
+  "fps": 15,
+  "resolution": [
+    405,
+    720
+  ],
+  "expected_seconds": 6,
+  "clock": "8 target frames; optional 15 setup frames; durationSec*15 demonstration frames; 7 final target frames",
+  "target_hold_frames": 8,
+  "setup_frames": 0,
+  "move_frames": 75,
+  "final_hold_frames": 7,
+  "source_brief_sha256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+  "builder_sha256": "60e1186f7bac85cae3c026dbd5e8deb610ce5eb51b80baa4af74b52b57e795f4",
+  "scene_builder_sha256": "47a161f72878c0729d002639f410874c10f63baf468c357f140274a69cba0196",
+  "camera_samples": [
+    {
+      "frame": 1,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 2,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 3,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 4,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 5,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 6,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 7,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 8,
+      "phase": "target",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 9,
+      "phase": "demonstration",
+      "u": 0.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 10,
+      "phase": "demonstration",
+      "u": 0.013513513513513514,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 11,
+      "phase": "demonstration",
+      "u": 0.02702702702702703,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 12,
+      "phase": "demonstration",
+      "u": 0.04054054054054054,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 13,
+      "phase": "demonstration",
+      "u": 0.05405405405405406,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 14,
+      "phase": "demonstration",
+      "u": 0.06756756756756757,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 15,
+      "phase": "demonstration",
+      "u": 0.08108108108108109,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 16,
+      "phase": "demonstration",
+      "u": 0.0945945945945946,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 17,
+      "phase": "demonstration",
+      "u": 0.10810810810810811,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 18,
+      "phase": "demonstration",
+      "u": 0.12162162162162163,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 19,
+      "phase": "demonstration",
+      "u": 0.13513513513513514,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 20,
+      "phase": "demonstration",
+      "u": 0.14864864864864866,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 21,
+      "phase": "demonstration",
+      "u": 0.16216216216216217,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 22,
+      "phase": "demonstration",
+      "u": 0.17567567567567569,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 23,
+      "phase": "demonstration",
+      "u": 0.1891891891891892,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686810493469238
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15040040016174316,
+        "x_max": 0.8496778011322021,
+        "y_min": 0.359610378742218,
+        "y_max": 0.7525707483291626
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 24,
+      "phase": "demonstration",
+      "u": 0.20270270270270271,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2686972618103027
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.1504163295030594,
+        "x_max": 0.8496618866920471,
+        "y_min": 0.35961678624153137,
+        "y_max": 0.752559244632721
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 25,
+      "phase": "demonstration",
+      "u": 0.21621621621621623,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2692631483078003
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15097174048423767,
+        "x_max": 0.8491063714027405,
+        "y_min": 0.3598398268222809,
+        "y_max": 0.752157986164093
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 26,
+      "phase": "demonstration",
+      "u": 0.22972972972972974,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2706375122070312
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15231330692768097,
+        "x_max": 0.8477644920349121,
+        "y_min": 0.36037856340408325,
+        "y_max": 0.7511887550354004
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 27,
+      "phase": "demonstration",
+      "u": 0.24324324324324326,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.272820234298706
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15442292392253876,
+        "x_max": 0.8456543684005737,
+        "y_min": 0.3612257242202759,
+        "y_max": 0.7496646642684937
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 28,
+      "phase": "demonstration",
+      "u": 0.25675675675675674,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2758114337921143
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.15727265179157257,
+        "x_max": 0.8428040146827698,
+        "y_min": 0.362370103597641,
+        "y_max": 0.7476058602333069
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 29,
+      "phase": "demonstration",
+      "u": 0.2702702702702703,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2796111106872559
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.16082558035850525,
+        "x_max": 0.8392503261566162,
+        "y_min": 0.3637968599796295,
+        "y_max": 0.7450390458106995
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 30,
+      "phase": "demonstration",
+      "u": 0.28378378378378377,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2842192649841309
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.16503684222698212,
+        "x_max": 0.8350381255149841,
+        "y_min": 0.3654879927635193,
+        "y_max": 0.7419965863227844
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 31,
+      "phase": "demonstration",
+      "u": 0.2972972972972973,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.289517879486084
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.16975171864032745,
+        "x_max": 0.8303222060203552,
+        "y_min": 0.36738133430480957,
+        "y_max": 0.7385903000831604
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 32,
+      "phase": "demonstration",
+      "u": 0.3108108108108108,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.2949020862579346
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.1744086593389511,
+        "x_max": 0.8256641626358032,
+        "y_min": 0.36925145983695984,
+        "y_max": 0.7352257966995239
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 33,
+      "phase": "demonstration",
+      "u": 0.32432432432432434,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3002862930297852
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.17893610894680023,
+        "x_max": 0.8211357593536377,
+        "y_min": 0.3710695505142212,
+        "y_max": 0.7319549322128296
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 34,
+      "phase": "demonstration",
+      "u": 0.33783783783783783,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3056704998016357
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.18333938717842102,
+        "x_max": 0.8167314529418945,
+        "y_min": 0.37283778190612793,
+        "y_max": 0.7287737727165222
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 35,
+      "phase": "demonstration",
+      "u": 0.35135135135135137,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3110547065734863
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.1876235008239746,
+        "x_max": 0.8124464154243469,
+        "y_min": 0.37455815076828003,
+        "y_max": 0.7256786823272705
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 36,
+      "phase": "demonstration",
+      "u": 0.36486486486486486,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.316438913345337
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.19179323315620422,
+        "x_max": 0.8082756996154785,
+        "y_min": 0.3762326240539551,
+        "y_max": 0.7226662039756775
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 37,
+      "phase": "demonstration",
+      "u": 0.3783783783783784,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3218231201171875
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.195853129029274,
+        "x_max": 0.8042149543762207,
+        "y_min": 0.37786296010017395,
+        "y_max": 0.7197331190109253
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 38,
+      "phase": "demonstration",
+      "u": 0.3918918918918919,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.327207326889038
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.19980746507644653,
+        "x_max": 0.8002597093582153,
+        "y_min": 0.3794509172439575,
+        "y_max": 0.7168762683868408
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 39,
+      "phase": "demonstration",
+      "u": 0.40540540540540543,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3325915336608887
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2036602795124054,
+        "x_max": 0.7964060306549072,
+        "y_min": 0.3809981048107147,
+        "y_max": 0.7140927910804749
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 40,
+      "phase": "demonstration",
+      "u": 0.4189189189189189,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3379757404327393
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.20741543173789978,
+        "x_max": 0.792650043964386,
+        "y_min": 0.3825060725212097,
+        "y_max": 0.7113798260688782
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 41,
+      "phase": "demonstration",
+      "u": 0.43243243243243246,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3433599472045898
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.21107664704322815,
+        "x_max": 0.7889879941940308,
+        "y_min": 0.3839763104915619,
+        "y_max": 0.7087347507476807
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 42,
+      "phase": "demonstration",
+      "u": 0.44594594594594594,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3487441539764404
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.21464736759662628,
+        "x_max": 0.7854164838790894,
+        "y_min": 0.38541021943092346,
+        "y_max": 0.7061550617218018
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 43,
+      "phase": "demonstration",
+      "u": 0.4594594594594595,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.354128360748291
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.21813087165355682,
+        "x_max": 0.7819321751594543,
+        "y_min": 0.3868090808391571,
+        "y_max": 0.7036383748054504
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 44,
+      "phase": "demonstration",
+      "u": 0.47297297297297297,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3595125675201416
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.22153034806251526,
+        "x_max": 0.7785319685935974,
+        "y_min": 0.38817423582077026,
+        "y_max": 0.7011824250221252
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 45,
+      "phase": "demonstration",
+      "u": 0.4864864864864865,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3648967742919922
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.22484880685806274,
+        "x_max": 0.7752127647399902,
+        "y_min": 0.38950684666633606,
+        "y_max": 0.6987849473953247
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 46,
+      "phase": "demonstration",
+      "u": 0.5,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3702811002731323
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.22808919847011566,
+        "x_max": 0.7719716429710388,
+        "y_min": 0.3908080756664276,
+        "y_max": 0.6964439153671265
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 47,
+      "phase": "demonstration",
+      "u": 0.5135135135135135,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.375665307044983
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.23125410079956055,
+        "x_max": 0.7688060402870178,
+        "y_min": 0.39207902550697327,
+        "y_max": 0.6941574215888977
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 48,
+      "phase": "demonstration",
+      "u": 0.527027027027027,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3810495138168335
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.23434613645076752,
+        "x_max": 0.7657133340835571,
+        "y_min": 0.3933207094669342,
+        "y_max": 0.6919235587120056
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 49,
+      "phase": "demonstration",
+      "u": 0.5405405405405406,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.386433720588684
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.23736785352230072,
+        "x_max": 0.7626909017562866,
+        "y_min": 0.3945341408252716,
+        "y_max": 0.6897404789924622
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 50,
+      "phase": "demonstration",
+      "u": 0.5540540540540541,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3918179273605347
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.24032162129878998,
+        "x_max": 0.7597364783287048,
+        "y_min": 0.3957202732563019,
+        "y_max": 0.6876065135002136
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 51,
+      "phase": "demonstration",
+      "u": 0.5675675675675675,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.3972021341323853
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.24320964515209198,
+        "x_max": 0.7568477988243103,
+        "y_min": 0.39688003063201904,
+        "y_max": 0.6855200529098511
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 52,
+      "phase": "demonstration",
+      "u": 0.581081081081081,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4025863409042358
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2460341453552246,
+        "x_max": 0.7540226578712463,
+        "y_min": 0.39801427721977234,
+        "y_max": 0.6834794878959656
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 53,
+      "phase": "demonstration",
+      "u": 0.5945945945945946,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4079705476760864
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.248797208070755,
+        "x_max": 0.7512590289115906,
+        "y_min": 0.3991238474845886,
+        "y_max": 0.681483268737793
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 54,
+      "phase": "demonstration",
+      "u": 0.6081081081081081,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.413354754447937
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.25150078535079956,
+        "x_max": 0.7485548257827759,
+        "y_min": 0.40020951628685,
+        "y_max": 0.6795300841331482
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 55,
+      "phase": "demonstration",
+      "u": 0.6216216216216216,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4187389612197876
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2541467845439911,
+        "x_max": 0.745908260345459,
+        "y_min": 0.40127208828926086,
+        "y_max": 0.6776184439659119
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 56,
+      "phase": "demonstration",
+      "u": 0.6351351351351351,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4241231679916382
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2567370533943176,
+        "x_max": 0.7433173656463623,
+        "y_min": 0.4023122787475586,
+        "y_max": 0.6757470965385437
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 57,
+      "phase": "demonstration",
+      "u": 0.6486486486486487,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4295073747634888
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2592732906341553,
+        "x_max": 0.7407805919647217,
+        "y_min": 0.4033307433128357,
+        "y_max": 0.6739147901535034
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 58,
+      "phase": "demonstration",
+      "u": 0.6621621621621622,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4348915815353394
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.26175716519355774,
+        "x_max": 0.7382961511611938,
+        "y_min": 0.40432819724082947,
+        "y_max": 0.6721202731132507
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 59,
+      "phase": "demonstration",
+      "u": 0.6756756756756757,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.44027578830719
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.26419031620025635,
+        "x_max": 0.7358624339103699,
+        "y_min": 0.40530529618263245,
+        "y_max": 0.6703624129295349
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 60,
+      "phase": "demonstration",
+      "u": 0.6891891891891891,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4456599950790405
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.26657429337501526,
+        "x_max": 0.7334779500961304,
+        "y_min": 0.4062626361846924,
+        "y_max": 0.6686400771141052
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 61,
+      "phase": "demonstration",
+      "u": 0.7027027027027027,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4510442018508911
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2689105272293091,
+        "x_max": 0.731141209602356,
+        "y_min": 0.40720081329345703,
+        "y_max": 0.6669522523880005
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 62,
+      "phase": "demonstration",
+      "u": 0.7162162162162162,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4563428163528442
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2711644172668457,
+        "x_max": 0.7288867831230164,
+        "y_min": 0.40810590982437134,
+        "y_max": 0.6653239130973816
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 63,
+      "phase": "demonstration",
+      "u": 0.7297297297297297,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4609509706497192
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2730891704559326,
+        "x_max": 0.726961612701416,
+        "y_min": 0.4088788330554962,
+        "y_max": 0.6639333963394165
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 64,
+      "phase": "demonstration",
+      "u": 0.7432432432432432,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4647506475448608
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27465203404426575,
+        "x_max": 0.7253983616828918,
+        "y_min": 0.4095064401626587,
+        "y_max": 0.6628042459487915
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 65,
+      "phase": "demonstration",
+      "u": 0.7567567567567568,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.467741847038269
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2758672833442688,
+        "x_max": 0.7241828441619873,
+        "y_min": 0.4099944531917572,
+        "y_max": 0.6619263291358948
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 66,
+      "phase": "demonstration",
+      "u": 0.7702702702702703,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4699245691299438
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27674585580825806,
+        "x_max": 0.7233040928840637,
+        "y_min": 0.41034725308418274,
+        "y_max": 0.6612915992736816
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 67,
+      "phase": "demonstration",
+      "u": 0.7837837837837838,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4712989330291748
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2772955298423767,
+        "x_max": 0.7227542996406555,
+        "y_min": 0.4105679988861084,
+        "y_max": 0.6608944535255432
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 68,
+      "phase": "demonstration",
+      "u": 0.7972972972972973,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718648195266724
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.2775210440158844,
+        "x_max": 0.7225287556648254,
+        "y_min": 0.4106585681438446,
+        "y_max": 0.6607315540313721
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 69,
+      "phase": "demonstration",
+      "u": 0.8108108108108109,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 70,
+      "phase": "demonstration",
+      "u": 0.8243243243243243,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 71,
+      "phase": "demonstration",
+      "u": 0.8378378378378378,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 72,
+      "phase": "demonstration",
+      "u": 0.8513513513513513,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 73,
+      "phase": "demonstration",
+      "u": 0.8648648648648649,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 74,
+      "phase": "demonstration",
+      "u": 0.8783783783783784,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 75,
+      "phase": "demonstration",
+      "u": 0.8918918918918919,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 76,
+      "phase": "demonstration",
+      "u": 0.9054054054054054,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 77,
+      "phase": "demonstration",
+      "u": 0.918918918918919,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 78,
+      "phase": "demonstration",
+      "u": 0.9324324324324325,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 79,
+      "phase": "demonstration",
+      "u": 0.9459459459459459,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 80,
+      "phase": "demonstration",
+      "u": 0.9594594594594594,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 81,
+      "phase": "demonstration",
+      "u": 0.972972972972973,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 82,
+      "phase": "demonstration",
+      "u": 0.9864864864864865,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 83,
+      "phase": "demonstration",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 84,
+      "phase": "final",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 85,
+      "phase": "final",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 86,
+      "phase": "final",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 87,
+      "phase": "final",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 88,
+      "phase": "final",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 89,
+      "phase": "final",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    },
+    {
+      "frame": 90,
+      "phase": "final",
+      "u": 1.0,
+      "camera_position": [
+        -1.1733417522918899e-05,
+        -0.029918719083070755,
+        1.4718810319900513
+      ],
+      "camera_rotation_quaternion": [
+        1.0,
+        0.0,
+        -0.0,
+        -0.0
+      ],
+      "target_bounds": {
+        "x_min": 0.27752751111984253,
+        "x_max": 0.7225222587585449,
+        "y_min": 0.41066116094589233,
+        "y_max": 0.6607268452644348
+      },
+      "lens_mm": 24
+    }
+  ],
+  "camera_lens_fixed": true,
+  "lighting_fixed": true,
+  "target_bounds": {
+    "x_min": 0.27752751111984253,
+    "x_max": 0.7225222587585449,
+    "y_min": 0.41066116094589233,
+    "y_max": 0.6607268452644348
+  },
+  "pre_render_review": {
+    "status": "reviewed_before_render",
+    "subject": "Rise over the bowl",
+    "angle": "overhead pedestal rise at 90 degrees, 14 in to 22 in above the bowl",
+    "motion": "overhead pedestal rise at 90 degrees, 14 in to 22 in above the bowl",
+    "focal_point": "Target hero in the protected middle band",
+    "composition": "center",
+    "golden_ratio": "Use the prescribed center, thirds or functional three-point arrangement; no decorative spiral",
+    "lighting": "Fixed light; restrained explicit window/fixture cues only",
+    "contacts": [
+      {
+        "kind": "overhead_pedestal_rise",
+        "lens_above_rim_start_in": 14,
+        "lens_above_rim_end_in": 22,
+        "pitch_deg": 90,
+        "support_surface_z": 0.785,
+        "rise_window_u": [
+          0.2,
+          0.8
+        ]
+      }
+    ],
+    "handover": "None: P0 ends on this shot target",
+    "source_setup": "Overhead 90 deg throughout, standing; lens about 14 in above the bowl rim, held 1 s, rising straight up to about 22 in from 1.0 s to 4.0 s, held to 5 s. Soup variant: the serving_bowl at the place setting, dessert spoon to the right 3/4 in clear; no hands, no people.",
+    "adaptations": [
+      "Pedestal rise with the phone flat (90 degrees) the whole way, standing: lens about 14 in above the bowl rim, held 1 s, rising straight up to about 22 in by 4 s, held to the end.",
+      "Soup variant: dessert spoon to the right, 3/4 in clear of the bowl. Steam strands left out."
+    ]
+  },
+  "maximum_hands": 0,
+  "detailed_people": 0,
+  "silhouettes": 0,
+  "source_surfaces_absent": true,
+  "role_opacity": {
+    "hero": 1.0,
+    "character": 1.0,
+    "hand": 0.65,
+    "support": 0.6,
+    "important_background": 0.76,
+    "foreground": 0.36,
+    "background": 0.2,
+    "structure": 0.24,
+    "lighting_cue": 0.55,
+    "drink_contents": 0.72
+  },
+  "alphaFactor": 1,
+  "probe": null,
+  "strokes": {
+    "structure": {
+      "Underlay": 83,
+      "Contours": 83
+    },
+    "background": {
+      "offscreen_or_occluded": true
+    },
+    "hero": {
+      "Underlay": 3608,
+      "Contours": 3608
+    },
+    "support": {
+      "Underlay": 166,
+      "Contours": 166
+    },
+    "lighting_cue": {
+      "Underlay": 249,
+      "Contours": 249
+    }
+  },
+  "blender_version": "5.2.3 LTS",
+  "picture_in_picture": false,
+  "light_cues": [
+    "Bowl light-facing rim"
+  ],
+  "steam_edge_glow": false,
+  "triangle_markers": [],
+  "light_source_positions": [
+    [
+      -0.6499999761581421,
+      -0.18000000715255737,
+      1.3990405797958374
+    ]
+  ],
+  "forearm_ends_faded": false
+}

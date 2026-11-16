@@ -1,0 +1,21 @@
+{
+ "kind": "menu-item-review",
+ "title": "Review from the menu",
+ "entry": "Food review: From menu",
+ "reviewType": "food",
+ "subjects": "fromMenuSection",
+ "dishSource": {
+  "from": "menu",
+  "kindFrom": "menuSection",
+  "derive": {
+   "dish": "dish-review",
+   "drink": "drink-review"
+  },
+  "fallback": {
+   "kind": "dish-review",
+   "kindChip": "dishKinds"
+  }
+ },
+ "stepsFrom": "derived",
+ "note": "The menu item's section sets dish or drink and its kind (tables.json menuSectionMapping); the steps are those of the derived kind, with price set from the item."
+}

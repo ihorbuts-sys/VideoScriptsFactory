@@ -1,0 +1,1183 @@
+{
+  "templates": [
+    {
+      "id": "restaurant-date-night",
+      "venueKinds": [
+        "dining"
+      ],
+      "title": "Date night",
+      "summary": "The door at dusk, the room, the plate landing, the first bite and what dinner for two cost.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "entrance",
+          "title": "Arrive",
+          "shot": "wide",
+          "position": "Outside, across from the entrance",
+          "direction": "Start across from the entrance with the sign and the lit windows in frame, then walk slowly to the door until it fills the screen.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Date night",
+              "script": "Date night. We booked a table here and finally made it."
+            },
+            {
+              "text": "Tonight's table",
+              "script": "Tonight's table. We booked ahead, so we're all set."
+            },
+            {
+              "text": "Our new spot",
+              "script": "Found our new date night spot. Come in with us."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_entrance.jpg",
+          "overlays": []
+        },
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "Just inside, behind a plant or the door frame",
+          "direction": "Hold the phone right behind a plant or the door frame, then slide sideways past it until the whole room shows.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look at this room",
+              "script": "Look at this room. This is the mood for tonight."
+            },
+            {
+              "text": "Can we talk here?",
+              "script": "Here is how loud it gets. Can we actually talk in here?"
+            },
+            {
+              "text": "Pick your seat",
+              "script": "Here is the seat to ask for when you book."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "dish",
+          "title": "The plate",
+          "shot": "detail",
+          "position": "Seated, phone above your plate",
+          "direction": "When the plate lands, hold the phone above it at an angle with your elbows on the table and circle a little to one side.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Here it comes",
+              "script": "Here it comes. Our server said this is the plate to order."
+            },
+            {
+              "text": "The plate",
+              "script": "This plate, and you can see why we ordered it."
+            },
+            {
+              "text": "Two plates, one table",
+              "script": "Two plates, one table, and we are sharing both."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_dish.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "Seated at the table",
+          "direction": "Front camera at eye level with your date or the table behind you. Lift the first bite and react honestly.",
+          "seconds": 6,
+          "prompter": "First bite of the dish our server picked for us. Okay, wow.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite of the dish our server picked for us. Okay, wow."
+            },
+            {
+              "text": "Not what I expected",
+              "script": "Not what I expected. Better. I am stealing the rest of this."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-date-night_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outro",
+          "title": "Book it",
+          "shot": "close",
+          "position": "Seated at the table, phone close",
+          "direction": "Hold the phone close and a little above your face. Say what dinner for two cost and when to book.",
+          "seconds": 6,
+          "prompter": "Here is what dinner for two cost us, and when to book.",
+          "captions": [
+            {
+              "text": "Book a table",
+              "script": "Here is what dinner for two cost us, and when to book."
+            },
+            {
+              "text": "Worth the booking",
+              "script": "Worth the booking. Everything we had, and the total is on screen."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-date-night_outro.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "restaurant-chef-pick",
+      "venueKinds": [
+        "dining"
+      ],
+      "title": "Chef's pick",
+      "summary": "Ask the kitchen what to order, watch it plated at the pass, take the first bite and give the price.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hands",
+          "title": "Hands at work",
+          "shot": "detail",
+          "position": "At the kitchen pass, with the chef's OK",
+          "direction": "Ask first, then hold the phone straight above the cook's hands at the pass and keep it still while they plate.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Made to order",
+              "script": "Made to order, right here at the pass, while we wait."
+            },
+            {
+              "text": "I asked the chef",
+              "script": "I asked the chef what to order. This is what they made."
+            },
+            {
+              "text": "Straight from the pan",
+              "script": "Straight from the pan to the plate, sauce going on now."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-chef-pick_hands.jpg",
+          "overlays": []
+        },
+        {
+          "id": "cook",
+          "title": "The cook",
+          "shot": "medium",
+          "position": "Behind the cook's shoulder, with their OK",
+          "direction": "Stand just behind the cook's shoulder and lean in slowly as they finish the plate. You talk on the front camera.",
+          "seconds": 6,
+          "prompter": "I asked the chef what to order tonight, and this is it.",
+          "captions": [
+            {
+              "text": "Chef's choice",
+              "script": "I asked the chef what to order tonight, and this is it."
+            },
+            {
+              "text": "Their favourite plate",
+              "script": "Here is the plate the kitchen would pick for themselves."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-chef-pick_cook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "plate",
+          "title": "The plate",
+          "shot": "detail",
+          "position": "At the pass, phone low at plate height",
+          "direction": "Rest the phone low at the edge of the pass and move in slowly until the plate fills the screen.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Chef's pick",
+              "script": "The chef's pick tonight. When the kitchen picks it, you order it."
+            },
+            {
+              "text": "Ready to go out",
+              "script": "Plated and ready to go out. This is what lands on your table."
+            },
+            {
+              "text": "Look at that sauce",
+              "script": "Look at that sauce. Ask them how they make it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-chef-pick_plate.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Front camera. Start with the fork right at the lens, then pull it away to your mouth and react.",
+          "seconds": 6,
+          "prompter": "The chef's pick, first bite. That sauce is the reason to come.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "The chef's pick, first bite. That sauce is the reason to come."
+            },
+            {
+              "text": "Chef was right",
+              "script": "The chef was right. I would not have ordered this on my own."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-chef-pick_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outro",
+          "title": "Come try it",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Hold the phone a little above eye level with the plate in frame. Say the dish name, the price and the venue.",
+          "seconds": 6,
+          "prompter": "Ask for the chef's pick. Here is the price and where we are.",
+          "captions": [
+            {
+              "text": "Ask for it",
+              "script": "Ask for the chef's pick. Here is the price and where we are."
+            },
+            {
+              "text": "Tell them I sent you",
+              "script": "Tell them I sent you, and ask what the kitchen is cooking today."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-chef-pick_outro.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "restaurant-family-table",
+      "venueKinds": [
+        "dining"
+      ],
+      "title": "Family table",
+      "summary": "The kids plate, the family at the table, crayons and high chairs, the parents' plate and the family total.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "kids-plate",
+          "title": "Kids plate",
+          "shot": "detail",
+          "position": "Standing at your table, phone above the plate",
+          "direction": "Hold the phone straight above the kids plate as it is set down and keep it still.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Kids menu",
+              "script": "Here is the kids menu plate. Look at what they get."
+            },
+            {
+              "text": "The kids plate",
+              "script": "This is the kids plate. Let's see if it comes back clean."
+            },
+            {
+              "text": "Kid friendly, for real",
+              "script": "Kid friendly and the food is actually good. Here is the proof."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-family-table_kids-plate.jpg",
+          "overlays": []
+        },
+        {
+          "id": "table",
+          "title": "The table",
+          "shot": "wide",
+          "position": "At the end of your table",
+          "direction": "From the end of the table, turn slowly from one side to the other across your own family and the food.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Family dinner",
+              "script": "Family dinner, all of us at one table, and nobody is bored."
+            },
+            {
+              "text": "Room for everyone?",
+              "script": "Here is how much room there is for all of us."
+            },
+            {
+              "text": "Dinner with the kids",
+              "script": "Dinner with the kids, and the parents get good food too."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-family-table_table.jpg",
+          "overlays": []
+        },
+        {
+          "id": "setup",
+          "title": "Kid stuff",
+          "shot": "detail",
+          "position": "Beside the high chair",
+          "direction": "Hold the phone above the crayons, the kids menu or the high chair tray and move in slowly, then flick the phone to the side.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Kid stuff",
+              "script": "Here is what they bring for the kids at the table."
+            },
+            {
+              "text": "Little extras",
+              "script": "Here are the little things for kids. Parents, you know why that matters."
+            },
+            {
+              "text": "For the kids",
+              "script": "Here is what keeps the kids busy, so dinner stays calm."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-family-table_setup.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "Our plate",
+          "shot": "selfie",
+          "position": "Seated at the table",
+          "direction": "Front camera at eye level, your plate in frame. Take a bite of the grown-up dish and react.",
+          "seconds": 6,
+          "prompter": "The kids are busy, so here is my plate. First bite.",
+          "captions": [
+            {
+              "text": "Parents eat too",
+              "script": "The kids are busy, so here is my plate. First bite."
+            },
+            {
+              "text": "My turn",
+              "script": "My turn. The grown-up plate is just as good as the kids one."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-family-table_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "total",
+          "title": "Family total",
+          "shot": "selfie",
+          "position": "Seated, arm out over the table",
+          "direction": "Hold the phone a little above eye level so the table shows behind you. Say the total for the family and the venue.",
+          "seconds": 6,
+          "prompter": "Dinner for all of us, kids menu included. Here is the total.",
+          "captions": [
+            {
+              "text": "Family total",
+              "script": "Dinner for all of us, kids menu included. Here is the total."
+            },
+            {
+              "text": "Worth it for families",
+              "script": "Worth it for families. Kids eat well and the bill stays sane."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-family-table_total.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "restaurant-weekend-brunch",
+      "venueKinds": [
+        "dining"
+      ],
+      "title": "Weekend brunch",
+      "summary": "The syrup or hollandaise pour, the brunch spread from above, the yolk break, the room and what to order.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "pour",
+          "title": "The pour",
+          "shot": "detail",
+          "position": "Seated, phone at plate height",
+          "direction": "Rest the phone on the table edge level with the plate and keep it still while syrup or hollandaise goes on.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Brunch time",
+              "script": "Brunch time. This is how a weekend should start."
+            },
+            {
+              "text": "Syrup on the stack",
+              "script": "Syrup on the stack, and it keeps going."
+            },
+            {
+              "text": "Hollandaise pour",
+              "script": "Hollandaise going over the eggs. Look at that pour."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-weekend-brunch_pour.jpg",
+          "overlays": []
+        },
+        {
+          "id": "spread",
+          "title": "The spread",
+          "shot": "wide",
+          "position": "Standing at the table",
+          "direction": "Stand up, hold the phone straight down over one plate, then lift it slowly until the whole table fits.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "What we ordered",
+              "script": "Here is what we ordered. Everything is on the table."
+            },
+            {
+              "text": "Brunch for two",
+              "script": "Brunch for two, and we may have ordered for four."
+            },
+            {
+              "text": "The whole table",
+              "script": "The whole table. Look how full these plates come out."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-weekend-brunch_spread.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hook",
+          "title": "Brunch hook",
+          "shot": "selfie",
+          "position": "Seated at the table",
+          "direction": "Front camera at eye level, the table in front of you. Say when brunch is served and what you ordered.",
+          "seconds": 5,
+          "prompter": "Weekend brunch, here is when they serve it and what we ordered.",
+          "captions": [
+            {
+              "text": "Weekend brunch",
+              "script": "Weekend brunch, here is when they serve it and what we ordered."
+            },
+            {
+              "text": "Worth the wait",
+              "script": "Here is how long we waited, and if it was worth it."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-weekend-brunch_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "yolk",
+          "title": "Yolk break",
+          "shot": "detail",
+          "position": "Seated, phone above your plate",
+          "direction": "Hold the phone above your plate at an angle and move in slowly as the fork breaks the yolk or cuts the stack.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The yolk break",
+              "script": "The yolk break. Look at that, this is why you order it."
+            },
+            {
+              "text": "Cut the stack",
+              "script": "Cutting into the stack. Fluffy all the way through."
+            },
+            {
+              "text": "Perfect eggs",
+              "script": "Eggs done right, still runny in the middle."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-weekend-brunch_yolk.jpg",
+          "overlays": []
+        },
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "At your table, phone behind your coffee cup",
+          "direction": "Start with the lens right behind your coffee cup, then slide sideways past it until the room shows.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The room",
+              "script": "Here is the room, and nobody is in a hurry."
+            },
+            {
+              "text": "Get here early",
+              "script": "It fills up fast, so get here early."
+            },
+            {
+              "text": "Pick a table",
+              "script": "Look around and pick your table before it fills."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-weekend-brunch_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "Seated, arm out",
+          "direction": "Hold the phone a little above eye level with your plate in frame. Name the plate to get, when to come and the price.",
+          "seconds": 6,
+          "prompter": "Here is the plate to get, when to come, and what we paid.",
+          "captions": [
+            {
+              "text": "What to order",
+              "script": "Here is the plate to get, when to come, and what we paid."
+            },
+            {
+              "text": "Brunch verdict",
+              "script": "Brunch verdict: come hungry, and here is what to share."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-weekend-brunch_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "restaurant-room-tour",
+      "venueKinds": [
+        "dining"
+      ],
+      "title": "Where to sit",
+      "summary": "A tour of the seats: through the door, the dining room, along the bar, the best table and where to book.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "The hook",
+          "shot": "selfie",
+          "position": "In the doorway",
+          "direction": "Front camera at eye level, standing in the doorway with the room behind you.",
+          "seconds": 6,
+          "prompter": "Every seat in here, ranked: the bar, the booths and the best table.",
+          "captions": [
+            {
+              "text": "Where to sit",
+              "script": "Every seat in here, ranked: the bar, the booths and the best table."
+            },
+            {
+              "text": "Best table here",
+              "script": "I asked the staff for the best table in the house. Come see."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-room-tour_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "door",
+          "title": "Walk in",
+          "shot": "wide",
+          "position": "Outside the entrance",
+          "direction": "Turn to the back camera at chest height and walk slowly to the door until it fills the screen.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Come in",
+              "script": "Come in with me. This is what you see first."
+            },
+            {
+              "text": "Through the door",
+              "script": "Through the door. Here is how big it is inside."
+            },
+            {
+              "text": "The entrance",
+              "script": "Here is the entrance. Look for the sign."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-room-tour_door.jpg",
+          "overlays": []
+        },
+        {
+          "id": "room",
+          "title": "Dining room",
+          "shot": "wide",
+          "position": "Just inside, behind a pillar or plant",
+          "direction": "Hold the phone right behind a pillar or a plant, slide sideways past it until the dining room shows, then flick the phone to the right.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The main room",
+              "script": "The main room. Here is who it suits and how loud it gets."
+            },
+            {
+              "text": "The layout",
+              "script": "Here is the layout: where the booths, tables and kitchen are."
+            },
+            {
+              "text": "The light",
+              "script": "Here is the light in here, for lunch or for dinner."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-room-tour_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bar",
+          "title": "The bar",
+          "shot": "medium",
+          "position": "At the bar, phone low on the counter",
+          "direction": "Rest the phone low on the bar top and slide it slowly along the counter, the bottles above.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Bar seats",
+              "script": "Here are the bar seats. Good for a quick dinner."
+            },
+            {
+              "text": "Solo dinner spot",
+              "script": "Eating alone? Sit at the bar and talk to the bartender."
+            },
+            {
+              "text": "Book or walk in",
+              "script": "Here is whether you need to book a seat at the bar."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-room-tour_bar.jpg",
+          "overlays": []
+        },
+        {
+          "id": "seat",
+          "title": "Best table",
+          "shot": "medium",
+          "position": "Standing beside the table you would book",
+          "direction": "Stand beside the table you would book, hold the phone above it at an angle and lean in slowly over the place setting.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The best table",
+              "script": "This is the one to ask for, and here is why."
+            },
+            {
+              "text": "Book this one",
+              "script": "Book this table by name. Here is how to ask for it."
+            },
+            {
+              "text": "Date night seat",
+              "script": "This is the date night seat. Trust me on this one."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-room-tour_seat.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Where to book",
+          "shot": "selfie",
+          "position": "Seated at that table",
+          "direction": "Sit at that table, front camera at eye level. Say which seat suits which night.",
+          "seconds": 6,
+          "prompter": "Here is which seat suits a date and which suits a quick dinner.",
+          "captions": [
+            {
+              "text": "Pick your seat",
+              "script": "Here is which seat suits a date and which suits a quick dinner."
+            },
+            {
+              "text": "Seat guide",
+              "script": "Here is the seat for groups, for couples and for eating solo."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-room-tour_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "restaurant-lunch-deal",
+      "venueKinds": [
+        "dining"
+      ],
+      "title": "Lunch deal",
+      "summary": "The lunch special: the plate, what it costs, what comes with it, how fast it came, and the Loca offer.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "plate",
+          "title": "The plate",
+          "shot": "detail",
+          "position": "Seated, phone low at plate height",
+          "direction": "Rest the phone low at the table edge and move in slowly until the lunch plate fills the frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Lunch special",
+              "script": "This is the lunch special. Wait until you see the price."
+            },
+            {
+              "text": "Lunch break win",
+              "script": "Lunch break win. Here is how fast it came out."
+            },
+            {
+              "text": "The lunch deal",
+              "script": "The lunch deal I keep hearing about at work."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-lunch-deal_plate.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hook",
+          "title": "The deal",
+          "shot": "selfie",
+          "position": "Seated at the table",
+          "direction": "Front camera at eye level, the plate in front of you. Say what the deal is.",
+          "seconds": 5,
+          "prompter": "The lunch special, and here is exactly what you get for it.",
+          "captions": [
+            {
+              "text": "What you get",
+              "script": "The lunch special, and here is exactly what you get for it."
+            },
+            {
+              "text": "Lunch for one price",
+              "script": "One price, and here is everything that comes with it."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-lunch-deal_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "menu",
+          "title": "The price",
+          "shot": "detail",
+          "position": "Seated, menu on the table",
+          "direction": "Hold the phone above the lunch menu or the board at an angle and move in slowly until the price fills the screen, then flick the phone to the side.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The price",
+              "script": "This is the lunch price, right on the menu."
+            },
+            {
+              "text": "When it runs",
+              "script": "Here is when the deal runs, and where it is on the menu."
+            },
+            {
+              "text": "Versus takeout",
+              "script": "Here is how it compares to takeout, and you get a table."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-lunch-deal_menu.jpg",
+          "overlays": []
+        },
+        {
+          "id": "spread",
+          "title": "What comes with it",
+          "shot": "medium",
+          "position": "Standing at the table",
+          "direction": "Stand up and hold the phone straight down over the table, still, while the plates and the drink are set down.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "All of this",
+              "script": "All of this comes with it, for the one price."
+            },
+            {
+              "text": "The full tray",
+              "script": "The full tray, for one lunch price."
+            },
+            {
+              "text": "What's included",
+              "script": "Here is what comes with the lunch plate."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-lunch-deal_spread.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "Seated at the table",
+          "direction": "Front camera at eye level. Lift the first bite toward the lens and react.",
+          "seconds": 5,
+          "prompter": "Here is how fast it came out, for a lunch break.",
+          "captions": [
+            {
+              "text": "How fast",
+              "script": "Here is how fast it came out, for a lunch break."
+            },
+            {
+              "text": "Back to work full",
+              "script": "Hot and filling. I will be back on my next lunch break."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-lunch-deal_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "offer",
+          "title": "The offer",
+          "shot": "selfie",
+          "position": "Seated, arm out",
+          "direction": "Hold the phone a little above eye level, plate in frame. Say the venue name and the Loca offer.",
+          "seconds": 6,
+          "prompter": "Check the lunch hours on Loca and grab the offer before you go.",
+          "captions": [
+            {
+              "text": "Grab the offer",
+              "script": "Check the lunch hours on Loca and grab the offer before you go."
+            },
+            {
+              "text": "Lunch offer",
+              "script": "The lunch offer is on Loca. Use it on your next lunch."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-lunch-deal_offer.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "restaurant-date-night": {
+      "entrance": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "push-through",
+        "reads": "The storefront grows as we walk up until the door fills the screen; we push through it into the room."
+      },
+      "room": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "wide",
+        "move": "reveal-from-behind",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The blocker slides off and the dining room opens up behind it; cut down to a plate on the table."
+      },
+      "dish": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "orbit-left",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "The plate turns past us as its far side comes round; match-cut on the fork lifting off the plate."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The fork comes up into a still selfie and the face answers; cut to a tighter, higher selfie for the bill."
+      },
+      "outro": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A close, still face from just above while the price and the booking tip land; hold for the end card."
+      }
+    },
+    "restaurant-chef-pick": {
+      "hands": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "Hands plate the dish from above, nothing else moves; match-cut on the same hands seen from behind the cook."
+      },
+      "cook": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "From behind the cook we lean in as the plate is finished; cut low and level with the plate on the pass."
+      },
+      "plate": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "push-through",
+        "reads": "The plate towers and grows until sauce fills the screen; push through it to the fork at the lens."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The fork leaves the lens and the face appears behind it; cut to a higher, still selfie."
+      },
+      "outro": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from just above, face and plate held still while the price lands; hold for the end card."
+      }
+    },
+    "restaurant-family-table": {
+      "kids-plate": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The kids plate lands under the lens from above; cut up to the whole table at eye level."
+      },
+      "table": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The table slides past from left to right; cut down to the crayons and the high chair."
+      },
+      "setup": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "The crayons grow until the colors fill the screen, then the frame flicks away and lands on the parent at the table."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The frame settles out of the whip on a still selfie and the bite; cut to a higher selfie with the table behind."
+      },
+      "total": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie from just above with the whole table behind while the total lands; hold for the end card."
+      }
+    },
+    "restaurant-weekend-brunch": {
+      "pour": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The pour runs down the plate while nothing else moves; cut straight overhead to the same plate."
+      },
+      "spread": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "One plate from above, then the camera rises and the whole table appears around it; cut to the selfie."
+      },
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "A still selfie at the table with the spread in front; cut to the back camera above one plate."
+      },
+      "yolk": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "pull-back-reveal",
+        "reads": "The fork breaks in and the yolk fills the screen; the next shot starts on a detail and pulls back to the room."
+      },
+      "room": {
+        "angle": "eye-level",
+        "start": "detail",
+        "end": "wide",
+        "move": "reveal-from-behind",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The cup slides off and the busy brunch room is there behind it; cut to the verdict selfie."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie from just above, plate in frame, while the pick and the price land; hold for the end card."
+      }
+    },
+    "restaurant-room-tour": {
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie in the doorway; cut to the back camera walking at the door."
+      },
+      "door": {
+        "angle": "pov",
+        "start": "wide",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "push-through",
+        "reads": "The door grows until it fills the screen; push through it to a shot that opens inside."
+      },
+      "room": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "wide",
+        "move": "reveal-from-behind",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The pillar slides off and the room opens up, then the frame flicks right and lands low on the bar."
+      },
+      "bar": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The bar top slides past low with the bottles towering; cut high above the best table."
+      },
+      "seat": {
+        "angle": "high",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The table grows as we lean in over the plates and glasses; cut to the verdict selfie."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie at the best table while the seat tips land; hold for the end card."
+      }
+    },
+    "restaurant-lunch-deal": {
+      "plate": {
+        "angle": "low",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The plate grows from below until it towers in the frame; cut to the selfie."
+      },
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "A still selfie with the plate in front; cut to the back camera above the menu."
+      },
+      "menu": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "The price grows until it fills the screen, then the frame flicks away and lands overhead on the tray."
+      },
+      "spread": {
+        "angle": "top-down",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The plates land around the lunch plate from above; cut to the bite selfie."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The face grows as the bite comes up to the lens; cut to a higher, still selfie for the offer."
+      },
+      "offer": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie from just above while the name and the offer land; hold for the end card."
+      }
+    }
+  }
+}

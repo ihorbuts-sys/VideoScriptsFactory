@@ -1,0 +1,1181 @@
+{
+  "templates": [
+    {
+      "id": "first-visit",
+      "venueKinds": [
+        "coffee",
+        "dining"
+      ],
+      "title": "First visit",
+      "summary": "The door, the order, the first taste and why you would come back.",
+      "featuresMenuItem": true,
+      "dishSource": {
+        "kind": "menu",
+        "typedFallback": {
+          "maxLength": 40,
+          "hint": "The dish or drink you are ordering"
+        }
+      },
+      "steps": [
+        {
+          "id": "entrance",
+          "key": "entrance",
+          "title": "Arrive",
+          "shot": "wide",
+          "position": "Outside, across from the entrance",
+          "direction": "Start across from the door with it centered in the frame, then walk straight at it at an even pace until it fills the screen.",
+          "seconds": 7,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Found it",
+              "script": "Found it. First time at {venue.name}."
+            },
+            {
+              "text": "New spot",
+              "script": "New spot for me. Walking in to try it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-first-visit_entrance.jpg",
+          "overlays": [],
+          "shotType": "entrance",
+          "editOrder": 2,
+          "complexity": "easy",
+          "line": "First time at {venue.name}. Walking in to see what's on the menu.",
+          "caption": "{venue.name}",
+          "idea": "The front of the place, so people can find it.",
+          "guides": [
+            "entrance_sign_tilt_v2",
+            "entrance_sign_tilt",
+            "entrance_friend_static",
+            "entrance_walk_in_v2",
+            "entrance_door_low"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true,
+          "card": "First time at {venue.name}"
+        },
+        {
+          "id": "counter",
+          "key": "counter",
+          "title": "Order",
+          "shot": "medium",
+          "position": "At the counter, behind your own shoulder",
+          "direction": "Hold the phone still over your shoulder toward the menu board and the barista, and ask what first-timers order.",
+          "seconds": 5,
+          "prompter": "Asking the barista what first-timers usually order here.",
+          "captions": [
+            {
+              "text": "The order",
+              "script": "Asking the barista what first-timers usually order here."
+            },
+            {
+              "text": "At the counter",
+              "script": "At the counter, picking my first order here."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-first-visit_counter.jpg",
+          "overlays": [],
+          "shotType": "counter-order",
+          "editOrder": 3,
+          "venueKinds": [
+            "coffee"
+          ],
+          "complexity": "easy",
+          "line": "Asking the barista what first-timers usually order here.",
+          "caption": "Ordering at the counter",
+          "idea": "Where you order, with the menu or the barista in view.",
+          "guides": [
+            "counter_hand_receive",
+            "counter_over_shoulder_v2",
+            "counter_over_shoulder",
+            "counter_edge_to_pass_v2",
+            "counter_edge_to_pass"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true,
+          "card": "Ordering at the counter"
+        },
+        {
+          "id": "menu",
+          "key": "menu",
+          "title": "The menu",
+          "shot": "detail",
+          "position": "Seated, menu flat on the table",
+          "direction": "Hold the phone straight above the menu, elbows on the table, and keep it still on the dish you are ordering.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The menu",
+              "script": "This is the menu. I'm getting {menuItem.name}."
+            },
+            {
+              "text": "What to order",
+              "script": "Reading the menu. I'm ordering {menuItem.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-lunch-deal_menu.jpg",
+          "overlays": [],
+          "shotType": "menu-card",
+          "editOrder": 3,
+          "venueKinds": [
+            "dining"
+          ],
+          "complexity": "easy",
+          "line": "Picking from the menu. I'm ordering {menuItem.name}.",
+          "caption": "The menu",
+          "idea": "The menu on the table, with the dish you are ordering.",
+          "guides": [
+            "menu_card_top_v2",
+            "menu_card_top",
+            "menu_card_push",
+            "menu_wall_board_item"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true,
+          "card": "Ordering {menuItem.name}"
+        },
+        {
+          "id": "drink",
+          "key": "drink",
+          "title": "Your drink",
+          "shot": "detail",
+          "position": "At your table, cup on its saucer",
+          "direction": "Put the cup on your table and film it close: circle it or slide past it until the steam and the handle show.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First time here",
+              "script": "First time at {venue.name}. This is my cup."
+            },
+            {
+              "text": "My order",
+              "script": "My order, on the table at {venue.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-first-visit_pour.jpg",
+          "overlays": [],
+          "shotType": "steam",
+          "editOrder": 1,
+          "required": true,
+          "venueKinds": [
+            "coffee"
+          ],
+          "complexity": "complex",
+          "idea": "Your drink on the table, close enough to see the steam.",
+          "guides": [
+            "steam_orbit_eye",
+            "steam_slide_pull_out",
+            "steam_top_orbit"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "line": null,
+          "caption": null,
+          "card": "First cup at {venue.name}"
+        },
+        {
+          "id": "plate",
+          "key": "plate",
+          "title": "The plate",
+          "shot": "detail",
+          "position": "Seated, phone low beside your plate",
+          "direction": "When the plate lands, film it close: circle it with your elbows on the table, or slide the phone along a napkin.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Here it comes",
+              "script": "Here it comes. My first plate at {venue.name}."
+            },
+            {
+              "text": "The plate",
+              "script": "The plate, on the table at {venue.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_dish.jpg",
+          "overlays": [],
+          "shotType": "plate-reveal",
+          "editOrder": 1,
+          "required": true,
+          "venueKinds": [
+            "dining"
+          ],
+          "complexity": "complex",
+          "idea": "The dish on the table, close enough to see what it is.",
+          "guides": [
+            "plate_rise_overhead_v2",
+            "plate_high_orbit_v2",
+            "plate_tissue_slide",
+            "plate_top_orbit"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "line": null,
+          "caption": null,
+          "card": "First plate at {venue.name}"
+        },
+        {
+          "id": "sip",
+          "key": "sip",
+          "title": "First sip",
+          "shot": "selfie",
+          "position": "Sitting at a table",
+          "direction": "Front camera at arm's length with the cup in frame. Take a sip, lean in a little and react in your own words.",
+          "seconds": 5,
+          "prompter": "First sip at {venue.name}. {opinion}",
+          "captions": [
+            {
+              "text": "First sip",
+              "script": "First sip at {venue.name}. {opinion}"
+            },
+            {
+              "text": "My cup",
+              "script": "Trying my first cup here. {opinion}"
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-first-visit_taste.jpg",
+          "overlays": [],
+          "shotType": "sip",
+          "editOrder": 4,
+          "venueKinds": [
+            "coffee"
+          ],
+          "complexity": "easy",
+          "line": "First sip at {venue.name}. {opinion}",
+          "caption": "First sip",
+          "idea": "You taking the first sip, your face and the cup in frame.",
+          "guides": [
+            "sip_cup_only",
+            "sip_friend_side_v2",
+            "sip_selfie_eye_v2",
+            "sip_high_lean_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true,
+          "card": "First sip: {opinion}",
+          "opinion": {
+            "set": "bite_reaction",
+            "preselect": "okay",
+            "order": [
+              "okay",
+              "good",
+              "not_sure"
+            ]
+          }
+        },
+        {
+          "id": "forkful",
+          "key": "forkful",
+          "title": "First forkful",
+          "shot": "selfie",
+          "position": "Seated at the table",
+          "direction": "Front camera at arm's length, eyes level. Lift the first forkful toward the lens and react in your own words.",
+          "seconds": 5,
+          "prompter": "First forkful at {venue.name}. {opinion}",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First forkful at {venue.name}. {opinion}"
+            },
+            {
+              "text": "My plate",
+              "script": "Trying my first plate here. {opinion}"
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_bite.jpg",
+          "overlays": [],
+          "shotType": "first-bite",
+          "editOrder": 4,
+          "venueKinds": [
+            "dining"
+          ],
+          "complexity": "easy",
+          "line": "First forkful at {venue.name}. {opinion}",
+          "caption": "First bite",
+          "idea": "You taking the first bite, your face and the food in frame.",
+          "guides": [
+            "bite_pip_dish_v2",
+            "bite_friend_three_quarter_v2",
+            "bite_selfie_eye_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true,
+          "card": "First bite: {opinion}",
+          "opinion": {
+            "set": "bite_reaction",
+            "preselect": "okay",
+            "order": [
+              "okay",
+              "good",
+              "not_sure"
+            ]
+          }
+        },
+        {
+          "id": "room",
+          "key": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "At your table, phone behind your cup",
+          "direction": "Start with the lens right behind your cup, then slide sideways until the room shows.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The room",
+              "script": "Grabbed a table. This is the view from my seat."
+            },
+            {
+              "text": "My seat",
+              "script": "This is where I'm sitting at {venue.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_room.jpg",
+          "overlays": [],
+          "shotType": "room-from-table",
+          "editOrder": 5,
+          "venueKinds": [
+            "dining"
+          ],
+          "complexity": "easy",
+          "idea": "The room from your seat, so people see where they would sit.",
+          "guides": [
+            "room_static_wide",
+            "room_tilt_up_from_plate",
+            "room_seated_pan_v2",
+            "room_window_pan_left",
+            "room_bar_pan"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true,
+          "line": "Grabbed a table. This is the view from my seat.",
+          "caption": "The room",
+          "voice": "prompter",
+          "card": "The view from my seat"
+        },
+        {
+          "id": "verdict",
+          "key": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Front camera at arm's length, eyes level. Say where you are and whether you would come back.",
+          "seconds": 6,
+          "prompter": "That's {venue.name}. Would I come back? {opinion}",
+          "captions": [
+            {
+              "text": "{venue.name}",
+              "script": "That's {venue.name}. Would I come back? {opinion}"
+            },
+            {
+              "text": "First visit",
+              "script": "First visit to {venue.name} done. Coming back? {opinion}"
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-first-visit_outro.jpg",
+          "overlays": [],
+          "shotType": "verdict",
+          "editOrder": 6,
+          "required": true,
+          "complexity": "easy",
+          "line": "That's {venue.name}. Would I come back? {opinion}",
+          "caption": "{venue.name}",
+          "idea": "You, looking at the lens, saying why you would come back.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "card": "Would I come back? {opinion}",
+          "opinion": {
+            "set": "verdict_answer",
+            "preselect": null,
+            "order": [
+              "absolutely",
+              "maybe_again",
+              "not_for_me"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "cafe-morning-ritual",
+      "venueKinds": [
+        "coffee",
+        "bakery"
+      ],
+      "title": "Morning ritual",
+      "summary": "A slow morning: the room in early light, the steaming cup, a pastry torn open and your corner.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "light",
+          "title": "Morning light",
+          "shot": "wide",
+          "position": "Inside, by the window",
+          "direction": "Stand still and turn slowly from the window across the room, phone at chest height, turning your hips, not your wrists.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Slow mornings",
+              "script": "Slow mornings start here. Soft light, a warm cup and nowhere to be."
+            },
+            {
+              "text": "Good morning",
+              "script": "Good morning from my favourite window seat in the neighbourhood."
+            },
+            {
+              "text": "Before work",
+              "script": "Right before work, and this is where I spend the time."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-morning-ritual_light.jpg",
+          "overlays": []
+        },
+        {
+          "id": "cup",
+          "title": "The cup",
+          "shot": "detail",
+          "position": "At the table, phone at cup height",
+          "direction": "Rest your elbows on the table, phone level with the cup, and hold still while the steam rises. Then flick the phone right.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Fresh cup",
+              "script": "Fresh cup, still steaming. Nothing beats the first sip."
+            },
+            {
+              "text": "The usual",
+              "script": "The usual: same order, same cup, same table."
+            },
+            {
+              "text": "Just right",
+              "script": "Not too strong, not too sweet. Just right for a slow start."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-morning-ritual_cup.jpg",
+          "overlays": []
+        },
+        {
+          "id": "pastry",
+          "title": "Something sweet",
+          "shot": "detail",
+          "position": "At the table, phone above the plate",
+          "direction": "Hold the phone above the plate at an angle and tear the pastry in half toward the lens, leaning in slowly as the layers open.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "From the case",
+              "script": "Straight from the case. You can see the layers inside."
+            },
+            {
+              "text": "Listen to that",
+              "script": "Listen to that crust when it breaks. Layers all the way through."
+            },
+            {
+              "text": "My pairing",
+              "script": "This pastry with my usual cup. Every morning, no exceptions."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-morning-ritual_pastry.jpg",
+          "overlays": []
+        },
+        {
+          "id": "corner",
+          "title": "Your corner",
+          "shot": "pov",
+          "position": "Sitting at the table",
+          "direction": "Back camera from your eyes onto the table: your hands, the cup, a book or laptop. Lean back slowly as you talk.",
+          "seconds": 7,
+          "prompter": "Same seat every morning, my usual order, and nowhere to be.",
+          "captions": [
+            {
+              "text": "My corner",
+              "script": "Same seat every morning, my usual order, and nowhere to be."
+            },
+            {
+              "text": "Stay a while",
+              "script": "No rush here. Order something good, take the window seat and stay."
+            }
+          ],
+          "pip": true,
+          "imageURL": "cafe-morning-ritual_corner.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "cafe-before-opening",
+      "venueKinds": [
+        "coffee"
+      ],
+      "title": "Before opening",
+      "summary": "Behind the bar before the doors open: the room waking up, the first shot pulled and the first cup out.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "lights",
+          "title": "Lights on",
+          "shot": "wide",
+          "position": "Inside, by the door, before opening",
+          "direction": "Ask the barista first. Hold the phone still from the door while the lights come on and the chairs come down.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Still waking up",
+              "script": "Before opening, and the cafe is still waking up."
+            },
+            {
+              "text": "Before the doors",
+              "script": "This is what happens here before anyone walks in."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-before-opening_lights.jpg",
+          "overlays": []
+        },
+        {
+          "id": "dial",
+          "title": "Dial in",
+          "shot": "medium",
+          "position": "Behind the barista's shoulder",
+          "direction": "Stand behind the barista's shoulder and hold still while they grind, weigh and tamp the first dose.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Dialing in",
+              "script": "First job of the day: dial in the grinder before the line starts."
+            },
+            {
+              "text": "Grind, weigh, tamp",
+              "script": "Grind, weigh, tamp. Same steps every morning, before every shot."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-before-opening_dial.jpg",
+          "overlays": []
+        },
+        {
+          "id": "shot",
+          "title": "First shot",
+          "shot": "detail",
+          "position": "Beside the machine, phone at cup height",
+          "direction": "Phone level with the cup under the spout. As the espresso runs, move in slowly until the crema fills the screen.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First shot",
+              "script": "First shot of the day, pulled before the doors open."
+            },
+            {
+              "text": "Listen to it",
+              "script": "Listen to the machine. Watch the crema build as it runs."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-before-opening_shot.jpg",
+          "overlays": []
+        },
+        {
+          "id": "door",
+          "title": "First cup out",
+          "shot": "medium",
+          "position": "At the counter, customer side",
+          "direction": "Hold the phone above the counter at an angle, almost touching the cup, then lean back slowly as the first customer picks it up. Film hands, not faces.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Doors open",
+              "script": "Doors open, and the first cup of the day goes out."
+            },
+            {
+              "text": "First customer",
+              "script": "First customer of the morning, and the first cup goes to them."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-before-opening_door.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Your cup",
+          "shot": "selfie",
+          "position": "At the counter or a table, arm out",
+          "direction": "Front camera at arm's length, cup in frame. Say what you got, the price and what time they open.",
+          "seconds": 6,
+          "prompter": "Here is when they open, what I got and what it costs.",
+          "captions": [
+            {
+              "text": "Worth the alarm",
+              "script": "Here is when they open, what I got and what it costs."
+            },
+            {
+              "text": "Early bird",
+              "script": "If you come at opening, you get the first shot and no line."
+            }
+          ],
+          "pip": true,
+          "imageURL": "cafe-before-opening_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "cafe-seasonal-drink",
+      "venueKinds": [
+        "coffee"
+      ],
+      "title": "Seasonal drink",
+      "summary": "The drink of the season: the finishing touch, the build, the first sip, the price on the board and the verdict.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "finish",
+          "title": "Finishing touch",
+          "shot": "detail",
+          "position": "At the counter, phone above the cup",
+          "direction": "Hold the phone straight above the cup while the barista adds the topping or the dusting. Lean in slowly as it lands.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Back for the season",
+              "script": "It's back, but only for this season."
+            },
+            {
+              "text": "New on the menu",
+              "script": "New on the menu, and I had to come and try it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-seasonal-drink_finish.jpg",
+          "overlays": []
+        },
+        {
+          "id": "build",
+          "title": "The build",
+          "shot": "detail",
+          "position": "Beside the counter, phone at cup height",
+          "direction": "Phone level with the glass, elbows on the counter. Hold still while each part of the drink goes in.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "How it's made",
+              "script": "Here's how it's made, step by step, right in front of me."
+            },
+            {
+              "text": "Layer by layer",
+              "script": "Layer by layer, watch each part go into the glass."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-seasonal-drink_build.jpg",
+          "overlays": []
+        },
+        {
+          "id": "sip",
+          "title": "First sip",
+          "shot": "selfie",
+          "position": "At the counter or a table",
+          "direction": "Front camera at arm's length, drink in frame. Take a sip, lean in a little and say how it tastes.",
+          "seconds": 6,
+          "prompter": "The seasonal drink is back, but not for long. First sip.",
+          "captions": [
+            {
+              "text": "First sip",
+              "script": "The seasonal drink is back, but not for long. First sip."
+            },
+            {
+              "text": "Sweet or not",
+              "script": "Sweeter than a latte, but you still taste the coffee."
+            }
+          ],
+          "pip": true,
+          "imageURL": "cafe-seasonal-drink_sip.jpg",
+          "overlays": []
+        },
+        {
+          "id": "board",
+          "title": "On the board",
+          "shot": "medium",
+          "position": "In front of the counter, looking up",
+          "direction": "Start on the menu board where the drink and its price are written, then tilt the phone down slowly to the drink on the counter.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Until it's gone",
+              "script": "Here is how long it stays on the board before it's gone."
+            },
+            {
+              "text": "The price",
+              "script": "Here's the price, written right next to the regular lattes."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-seasonal-drink_board.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At a table, arm out",
+          "direction": "Front camera held a little above eye level with the drink in frame. Give your verdict and the price.",
+          "seconds": 6,
+          "prompter": "Here's the price, how sweet it is, and whether I'd get another.",
+          "captions": [
+            {
+              "text": "Verdict",
+              "script": "Here's the price, how sweet it is, and whether I'd get another."
+            },
+            {
+              "text": "Get it this month",
+              "script": "If you like it sweet, get it before it's off the menu."
+            }
+          ],
+          "pip": true,
+          "imageURL": "cafe-seasonal-drink_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "cafe-work-spot",
+      "venueKinds": [
+        "coffee"
+      ],
+      "title": "Work spot test",
+      "summary": "Can you work here: the room, your table, the outlets and the wifi, and a score with the best seat.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "The question",
+          "shot": "selfie",
+          "position": "At the door or a table",
+          "direction": "Front camera at arm's length, laptop bag or cup in frame. Ask the question straight to the lens.",
+          "seconds": 5,
+          "prompter": "Can you actually work here for a whole afternoon? Let's test it.",
+          "captions": [
+            {
+              "text": "Can you work here?",
+              "script": "Can you actually work here for a whole afternoon? Let's test it."
+            },
+            {
+              "text": "Laptop test",
+              "script": "Laptop test: seats, outlets, wifi and noise. Here we go."
+            }
+          ],
+          "pip": true,
+          "imageURL": "cafe-work-spot_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "In the middle of the room",
+          "direction": "Stand still and turn slowly across the tables, hips and phone together. At the end, flick the phone fast to the right.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Seats and light",
+              "script": "Here are the tables, the light, and how busy it gets."
+            },
+            {
+              "text": "Noise level",
+              "script": "Listen to the room and judge if a call would work here."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-work-spot_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "desk",
+          "title": "Your table",
+          "shot": "pov",
+          "position": "Sitting at your table",
+          "direction": "Back camera from your eyes onto the table: laptop, drink and pastry. Move in slowly toward the cup.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "My setup",
+              "script": "Laptop, my drink and a snack. That's my office today."
+            },
+            {
+              "text": "Table size",
+              "script": "Here is how much fits on the table next to the laptop."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-work-spot_desk.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outlets",
+          "title": "Outlets and wifi",
+          "shot": "detail",
+          "position": "At your table, phone over the edge",
+          "direction": "Start on the table edge, then tilt the phone down slowly to the outlet under it, or to the wifi card on the table.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Outlets",
+              "script": "Here is where the outlets are, so you know where to sit."
+            },
+            {
+              "text": "Wifi",
+              "script": "Here is how you get the wifi, and how well it held up."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-work-spot_outlets.jpg",
+          "overlays": []
+        },
+        {
+          "id": "score",
+          "title": "The score",
+          "shot": "selfie",
+          "position": "At your table, arm out",
+          "direction": "Front camera at arm's length, laptop and room behind you. Give a score out of ten and name the best seat.",
+          "seconds": 6,
+          "prompter": "My score for working here, and the one seat worth grabbing.",
+          "captions": [
+            {
+              "text": "The score",
+              "script": "My score for working here, and the one seat worth grabbing."
+            },
+            {
+              "text": "Best seat",
+              "script": "Here is the seat to grab, and why it beats the rest."
+            }
+          ],
+          "pip": true,
+          "imageURL": "cafe-work-spot_score.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "first-visit": {
+      "entrance": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 7,
+        "transitionOut": "cut",
+        "reads": "The door grows as we walk straight at it until it fills the frame; cut to the order."
+      },
+      "counter": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "From behind the shoulder the menu board and the barista hold still while the cup is handed over; match-cut on the cup in hand."
+      },
+      "menu": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The menu held still from above with the dish's line readable; cut to the first forkful."
+      },
+      "drink": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The latte art grows until it fills the frame from above; a whip off the cup lands on the door outside."
+      },
+      "plate": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The plate grows from table height until the dish fills the frame; a whip off it lands on the door outside."
+      },
+      "sip": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The cup rises and the face grows as the creator leans into the sip; cut back to arm's length."
+      },
+      "forkful": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The fork comes up into a still selfie and the face answers; cut to the room behind the cup."
+      },
+      "room": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "wide",
+        "move": "reveal-from-behind",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The cup slides off and the room opens up behind it; cut to the verdict."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face, cup and room held still while the price and the street land."
+      }
+    },
+    "cafe-morning-ritual": {
+      "light": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The room slides past from the window to the counter in morning light; cut to the cup on the table."
+      },
+      "cup": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The cup holds still with steam curling up; a whip to the right lands on the pastry beside it."
+      },
+      "pastry": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The pastry splits and the layers grow toward the lens until the crumb fills the frame; cut to the creator's view of the table."
+      },
+      "corner": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 7,
+        "transitionOut": "cut",
+        "reads": "The table opens up around the hands and cup as the creator leans back, window light in frame."
+      }
+    },
+    "cafe-before-opening": {
+      "lights": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The dark room fills with light while the barista moves through it; cut to behind the barista at the machine."
+      },
+      "dial": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "From behind the shoulder the hands grind and tamp; match-cut on the portafilter locking into the machine."
+      },
+      "shot": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "push-through",
+        "reads": "The espresso runs and the cup grows until the dark crema fills the frame; push through into the next cup leaving the counter."
+      },
+      "door": {
+        "angle": "high",
+        "start": "detail",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The cup lifts away from the lens and the counter opens up around it seen from above; cut to the creator holding their own cup."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face and cup held still while the opening time and price land."
+      }
+    },
+    "cafe-seasonal-drink": {
+      "finish": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The topping lands and the foam grows until it fills the frame from above; cut to the side of the cup."
+      },
+      "build": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "match-cut",
+        "reads": "The layers stack in the glass while the camera stays still; match-cut on the glass rising into the creator's hand."
+      },
+      "sip": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The glass rises and the face grows into the sip; cut to the menu board above the counter."
+      },
+      "board": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "tilt-down",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The board with the drink's name and price slides up out of frame as the drink on the counter comes in below."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from slightly above, face and drink held still while the verdict lands."
+      }
+    },
+    "cafe-work-spot": {
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "A face at arm's length asking the question, held still; cut to the room."
+      },
+      "room": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "The tables and windows slide past; a whip to the right lands on the creator's own table."
+      },
+      "desk": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The table grows toward the cup as the creator leans in; cut to the table edge from above."
+      },
+      "outlets": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "tilt-down",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The table edge slides up and the outlet or wifi card comes into frame below; cut to the creator's face."
+      },
+      "score": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face and laptop held still while the score lands."
+      }
+    }
+  }
+}

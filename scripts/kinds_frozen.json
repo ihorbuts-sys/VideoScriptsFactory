@@ -1,0 +1,94 @@
+{
+ "kindsVersion": 1,
+ "frozenOn": "2026-11-16",
+ "rule": "Ids are never renamed or removed. A new kind is a new id (bump kindsVersion). A removed kind stays with deprecated: true and replacedBy: <id>. Labels can change; ids cannot.",
+ "dishKinds": [
+  {
+   "id": "starters-sides",
+   "form": "plated",
+   "phase": "P0"
+  },
+  {
+   "id": "soups",
+   "form": "bowl",
+   "phase": "P0"
+  },
+  {
+   "id": "bowls-sushi",
+   "form": "bowl",
+   "phase": "P0"
+  },
+  {
+   "id": "mains",
+   "form": "plated",
+   "phase": "P0"
+  },
+  {
+   "id": "salads",
+   "form": "plated",
+   "phase": "P0"
+  },
+  {
+   "id": "pizza",
+   "form": "plated",
+   "phase": "P0"
+  },
+  {
+   "id": "handhelds",
+   "form": "handheld",
+   "phase": "P0"
+  },
+  {
+   "id": "pastry-bakery",
+   "form": "plated",
+   "phase": "P0"
+  },
+  {
+   "id": "desserts",
+   "form": "plated",
+   "phase": "P0"
+  },
+  {
+   "id": "breakfast",
+   "form": "plated",
+   "phase": "P0"
+  }
+ ],
+ "drinkKinds": [
+  {
+   "id": "coffee",
+   "form": "cup",
+   "phase": "P0"
+  },
+  {
+   "id": "tea-matcha",
+   "form": "cup",
+   "phase": "P0"
+  },
+  {
+   "id": "iced-coffee",
+   "form": "glass-straw",
+   "phase": "P0"
+  },
+  {
+   "id": "juices-smoothies",
+   "form": "glass-straw",
+   "phase": "P0"
+  },
+  {
+   "id": "soft-drinks",
+   "form": "glass",
+   "phase": "P0"
+  },
+  {
+   "id": "beer-wine",
+   "form": "glass",
+   "phase": "P1"
+  },
+  {
+   "id": "cocktails",
+   "form": "glass",
+   "phase": "P1"
+  }
+ ]
+}

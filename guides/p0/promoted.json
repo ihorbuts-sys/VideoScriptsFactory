@@ -1,0 +1,2317 @@
+{
+ "rule": "Owner-approved drafts promoted into the P0 registry (p0_catalog.registry appends them). A promoted guide sits right after the guide named in \"after\" (its archived predecessor or the guide it sits next to), else at the end. Archived guides keep their registry record with availability archived; their files are in archive/guides/<date>/<id>/ and can be restored. A promoted id that already exists in the registry (decision rerender, or a revised promoted record) replaces that record in place.",
+ "promotedOn": "2026-11-10",
+ "decisions": [
+  "guides/revisions/2026-11-10/owner_decisions.json",
+  "2026-11-12 guides/review/decisions/drafts-2026-11-11-r2.json (+ steam_top_orbit from drafts-2026-11-11.json)"
+ ],
+ "archived": {
+  "entrance_walk_in": {
+   "replacedBy": "entrance_walk_in_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/entrance_walk_in"
+  },
+  "pour_side_low": {
+   "replacedBy": "pour_side_low_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/pour_side_low"
+  },
+  "plate_high_orbit": {
+   "replacedBy": "plate_high_orbit_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/plate_high_orbit"
+  },
+  "bite_pip_dish": {
+   "replacedBy": "bite_pip_dish_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/bite_pip_dish"
+  },
+  "room_seated_pan": {
+   "replacedBy": "room_seated_pan_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/room_seated_pan"
+  },
+  "room_reveal_plant": {
+   "replacedBy": "room_reveal_plant_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/room_reveal_plant"
+  },
+  "room_reveal_cup": {
+   "replacedBy": "room_tilt_up_from_plate",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/room_reveal_cup"
+  },
+  "bite_selfie_eye": {
+   "replacedBy": "bite_selfie_eye_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/bite_selfie_eye"
+  },
+  "sip_selfie_eye": {
+   "replacedBy": "sip_selfie_eye_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/sip_selfie_eye"
+  },
+  "sip_high_lean": {
+   "replacedBy": "sip_high_lean_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/sip_high_lean"
+  },
+  "verdict_eye_level": {
+   "replacedBy": "verdict_eye_level_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/verdict_eye_level"
+  },
+  "verdict_high_plate": {
+   "replacedBy": "verdict_high_plate_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/verdict_high_plate"
+  },
+  "bite_friend_three_quarter": {
+   "replacedBy": "bite_friend_three_quarter_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/bite_friend_three_quarter"
+  },
+  "sip_friend_side": {
+   "replacedBy": "sip_friend_side_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/sip_friend_side"
+  },
+  "verdict_friend_eye": {
+   "replacedBy": "verdict_friend_eye_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/verdict_friend_eye"
+  },
+  "menu_board_truck": {
+   "replacedBy": "menu_board_truck_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/menu_board_truck"
+  },
+  "counter_through_cup_handle": {
+   "replacedBy": "counter_hand_receive",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/counter_through_cup_handle"
+  },
+  "handoff_counter_cup": {
+   "replacedBy": "handoff_counter_cup_v2",
+   "archivedOn": "2026-11-10",
+   "files": "archive/guides/2026-11-10/handoff_counter_cup"
+  }
+ },
+ "guides": {
+  "entrance_walk_in_v2": {
+   "source": "guides/revisions/2026-11-10/entrance/entrance_walk_in_v2/record.json",
+   "decision": "replace",
+   "after": "entrance_walk_in",
+   "record": {
+    "id": "entrance_walk_in_v2",
+    "title": "Walk up to the door",
+    "shotType": "entrance",
+    "technique": "constant-pace chest-height walk from 4.5 m to the door",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Door centred, phone at your chest. Walk straight at it at an even, slow pace.",
+    "sourceScene": "entrance_walk_in",
+    "newObjects": "none",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the door fills about 0.9 of the frame width, centred; the handle sits right of centre inside the safe box.\n- **Camera**: rear 1x, chest height 1.30 m, about 3 deg down, walk 4.5 m -> 1.5 m from the door at a constant 0.61 m/s over 5 s; the phone does not re-aim.\n- **Objects**: as entrance_walk_in (closed glazed door, sign, welcome stand, room through the windows); hero is the door handle.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "menu_board_tilt_down": {
+   "source": "guides/revisions/2026-11-11-r2/menu_board_tilt_down/record.json",
+   "decision": "replace",
+   "after": null,
+   "record": {
+    "id": "menu_board_tilt_down",
+    "title": "Board down to the counter",
+    "shotType": "menu-board",
+    "technique": "pure tilt down from the board to the counter, 2x",
+    "durationSec": 3,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Feet still, 2x, tilt down slowly from the board to the cups.",
+    "sourceScene": "menu_board_tilt_up",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the board fills 0.85 of the width, its bottom edge at 60% of the frame; the counter top is a\n  thin line at the bottom of the band.\n- **Objects**: hero: the board (`menu_board`); support: counter edge with a card holder and one cup on it\n  (`cup`); background: the shelf of cups; light cue: pendant above the counter (`pendant`), its pool on the\n  counter top.\n- **Placement**: as in 4; the cup at x = 0.4 m on the counter top.\n- **Camera**: start 1.0 m from the counter edge, height 1.1 m (just above the counter), tilt -5 degrees on the\n  cup and the counter edge (cup fills 0.35 width, right of centre); tilt up 35 degrees over 4 s to the board,\n  no walking.\n- **Filming guideline**: \"Start on the counter, tilt up until the board fills the frame.\" Tip: rest the elbows on\n  the counter edge.\n- **Render**: new scene from the `menu_board` and `cup` assets; tilt only.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/menu/menu_board_tilt_down/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "pour_side_low_v2": {
+   "source": "guides/revisions/2026-11-11-r2/pour_side_low_v2/record.json",
+   "decision": "replace",
+   "after": "pour_side_low",
+   "record": {
+    "id": "pour_side_low_v2",
+    "title": "Pour at cup height",
+    "shotType": "pour",
+    "technique": "static three-quarter pour just below the cup rim",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone still in front of the counter edge, lens just below the cup rim, about 30 cm away, through the pour.",
+    "sourceScene": "pour_side_low",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the cup at the right third, 0.7 width, the stream a bright line from the top-left into it,\n  the window behind as a soft rectangle; the counter top at 72%.\n- **Objects**: hero: the cup; action: pitcher and stream (as in 15) from the top-left; support: the saucer;\n  background: window (`window`) 1.5 m behind; light cue: rim highlight on the stream and on the cup's left edge\n  (backlight explains the choice).\n- **Placement**: cup at the origin; window at z = -1.5 m, sill at 1.0 m; the pitcher spout at (-0.1, 0.12 m).\n- **Camera**: 0.35 m from the cup, height 0.08 m above the counter, azimuth -20, tilt 0; still hold of 5 s; the\n  pour from second 0.5 to 4.\n- **Filming guideline**: \"Phone at cup height with the window behind the cup, hold still through the pour.\"\n  Tip: rest the phone's bottom edge on the counter.\n- **Render**: adapt `glass_pour_low_in_cd` (a low pour into a glass) to the cup, without the push-in; still.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/counter/pour_side_low_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "plate_high_orbit_v2": {
+   "source": "guides/revisions/2026-11-10/plates/plate_high_orbit_v2/record.json",
+   "decision": "replace",
+   "after": "plate_high_orbit",
+   "record": {
+    "id": "plate_high_orbit_v2",
+    "title": "Short orbit around the plate",
+    "shotType": "plate-reveal",
+    "technique": "40 degree orbit, 40 degrees of arc",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Elbows on the table, swing the phone around the plate at one even pace, same distance all the way.",
+    "sourceScene": "plate_high_orbit",
+    "newObjects": "none",
+    "composition": "triangle",
+    "camera": "back",
+    "sourceSetup": "Pitch 40 deg, slant radius 0.38 m constant, azimuth -20 -> +20 deg in 4 s; objects as in plate_high_orbit.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "plate_turntable": {
+   "source": "guides/revisions/2026-11-10/plates/plate_turntable/record.json",
+   "decision": "replace",
+   "after": null,
+   "record": {
+    "id": "plate_turntable",
+    "title": "Turn the plate",
+    "shotType": "plate-reveal",
+    "technique": "static 45 degree view, plate turned 90 degrees by hand",
+    "durationSec": 4,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone still at 45 degrees; with one hand on the rim, turn the plate a quarter turn slowly.",
+    "sourceScene": "plate_low_push_in",
+    "newObjects": "none",
+    "composition": "triangle",
+    "camera": "back",
+    "sourceSetup": "Phone still at 45 deg, 27 cm from the food centre, 1x; the left hand turns the plate 90 deg in about 3 s, then slides out to the left.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "allowedHands": 1,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "bite_pip_dish_v2": {
+   "source": "guides/revisions/2026-11-10/plates/bite_pip_dish_v2/record.json",
+   "decision": "replace",
+   "after": "bite_pip_dish",
+   "record": {
+    "id": "bite_pip_dish_v2",
+    "title": "First forkful, food only",
+    "shotType": "first-bite",
+    "technique": "static 45 degree view, fork lifts a bite toward the lens",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone still at 45 degrees over the plate; lift a forkful slowly up toward the lens.",
+    "sourceScene": "bite_pip_dish",
+    "newObjects": "none",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Phone static at 45 deg, 40 cm from the plate area, 1x; the fork lifts 10 cm up and 5 cm toward the lens with three hanging strands; only the cropped grip shows.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "allowedHands": 1,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "sip_cup_only": {
+   "source": "guides/revisions/2026-11-10/steam/sip_cup_only/record.json",
+   "decision": "replace",
+   "after": null,
+   "record": {
+    "id": "sip_cup_only",
+    "title": "Sip, cup only",
+    "shotType": "sip",
+    "technique": "static 45 degree view while one hand lifts the cup out of frame",
+    "durationSec": 4,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone still at 45 degrees on the cup, then lift the cup up and out of frame by its handle; the saucer stays.",
+    "sourceScene": "steam_low_backlit",
+    "newObjects": "none",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Static portrait, 45 degrees down, 40 cm from the cup on 1x. Cup on its saucer, handle to the right-front; the window behind and to the left. One right hand lifts the cup by its handle up and toward the drinker until it leaves the top of the frame; the saucer stays. 4 s.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceInvariant": "Phone still at 45 degrees on the cup; lift the cup up out of frame, the saucer stays.",
+    "availability": "active",
+    "allowedHands": 1,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "room_seated_pan_v2": {
+   "source": "guides/revisions/2026-11-11-r2/room_seated_pan_v2/record.json",
+   "decision": "replace",
+   "after": "room_seated_pan",
+   "record": {
+    "id": "room_seated_pan_v2",
+    "title": "Slow pan from your seat",
+    "shotType": "room-from-table",
+    "technique": "seated 30 degree pan left at an even pace",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Sit with the phone at eye level and turn it slowly left across the room, level all the way.",
+    "sourceScene": "room_seated_pan",
+    "newObjects": "water glass (tall tumbler with water); espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top; dinner knife on the dining-table settings",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Seated lens 115 cm above the floor, pitch 3 deg down, fixed position; pan left 30 deg in 4 s (start 15 deg later than the 45 deg pan; 9.5 deg/s between a 0.8 s ease at each end; RB29 RB30 8-10 deg/s), no tilt; ends on the room tables with your cup at the lower left.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/room/room_seated_pan_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "room_reveal_plant_v2": {
+   "source": "guides/revisions/2026-11-10/room/room_reveal_plant_v2/record.json",
+   "decision": "replace",
+   "after": "room_reveal_plant",
+   "record": {
+    "id": "room_reveal_plant_v2",
+    "title": "Through the leaves into the room",
+    "shotType": "room-from-table",
+    "technique": "seated truck right past a near plant leaf",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "From your seat, hold the lens a hand-width behind a plant leaf, then slide right until the room shows.",
+    "sourceScene": "room_reveal_plant",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Seated lens 115 cm above the floor, pitch 3 deg down; the nearest leaf about 10 cm from the lens; truck right 40 cm in 4 s (about 12 cm/s, peak 15 cm/s); the leaf leaves the frame by second 2.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "room_tilt_up_from_plate": {
+   "source": "guides/revisions/2026-11-10/room/room_tilt_up_from_plate/record.json",
+   "decision": "replace",
+   "after": "room_reveal_cup",
+   "record": {
+    "id": "room_tilt_up_from_plate",
+    "title": "Tilt up from your plate",
+    "shotType": "room-from-table",
+    "technique": "seated tilt up 30 degrees from the plate to the room",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "From your seat, start on your plate and tilt the phone up slowly until the room is level.",
+    "sourceScene": "room_seated_pan",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Seated lens 115 cm above the floor, fixed position; tilt from 33 deg down (plate in the lower half) to 3 deg down in 4 s (about 7.6 deg/s, peak under 10 deg/s); ends on the room with your table edge at the bottom.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "room_static_wide": {
+   "source": "guides/revisions/2026-11-10/room/room_static_wide/record.json",
+   "decision": "replace",
+   "after": null,
+   "record": {
+    "id": "room_static_wide",
+    "title": "Still wide from your seat",
+    "shotType": "room-from-table",
+    "technique": "static wide of the room from the seat",
+    "durationSec": 3,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Rest your elbows on the table, hold the phone level at eye height and keep it still.",
+    "sourceScene": "room_seated_pan",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Seated lens 115 cm above the floor, pitch 3 deg down, static for 3 s; the room tables along the middle, your table edge and cup at the bottom.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "bite_selfie_eye_v2": {
+   "source": "guides/revisions/2026-11-11-r2/bite_selfie_eye_v2/record.json",
+   "decision": "replace",
+   "after": "bite_selfie_eye",
+   "record": {
+    "id": "bite_selfie_eye_v2",
+    "title": "First bite, front camera",
+    "shotType": "first-bite",
+    "technique": "steady front-camera framing with a natural subject action",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Sit at your table and hold the front camera at arm's length, level with your eyes. Raise a small forkful to your mouth, pause before the bite, then lower it. Look at the lens.",
+    "sourceScene": "bite_selfie_eye",
+    "newObjects": "round table; spaghetti wound on the fork (procedural closed loops, like the pasta in assets.pasta)",
+    "composition": "center",
+    "camera": "front",
+    "sourceSetup": "Sit at your table and hold the front camera at arm's length, level with your eyes. Raise a small forkful to your mouth, pause before the bite, then lower it. Look at the lens.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Front camera at arm's length, eyes level, lift the first bite to the lens.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": true,
+    "filmingMode": "selfie",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/people/bite_selfie_eye_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "sip_selfie_eye_v2": {
+   "source": "guides/revisions/2026-11-10/people/sip_selfie_eye_v2/record.json",
+   "decision": "replace",
+   "after": "sip_selfie_eye",
+   "record": {
+    "id": "sip_selfie_eye_v2",
+    "title": "First sip, front camera",
+    "shotType": "sip",
+    "technique": "steady front-camera framing with a natural subject action",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Sit at your table and hold the front camera at arm's length, level with your eyes. Lift the cup from its saucer to your lower lip, pause, then set it back and look into the lens.",
+    "sourceScene": "sip_selfie_eye",
+    "newObjects": "bust silhouette, cup",
+    "composition": "center",
+    "camera": "front",
+    "sourceSetup": "Sit at your table and hold the front camera at arm's length, level with your eyes. Lift the cup from its saucer to your lower lip, pause, then set it back and look into the lens.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Front camera at arm's length, lift the cup, sip, react to the lens.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": true,
+    "filmingMode": "selfie",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "sip_high_lean_v2": {
+   "source": "guides/revisions/2026-11-10/people/sip_high_lean_v2/record.json",
+   "decision": "replace",
+   "after": "sip_high_lean",
+   "record": {
+    "id": "sip_high_lean_v2",
+    "title": "First sip, camera slightly above",
+    "shotType": "sip",
+    "technique": "steady front-camera framing with a natural subject action",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Sit at your table and hold the front camera at arm's length, a little above your eyes, tilted down. Lift the cup without hiding your eyes, pause at the lips, then set it back.",
+    "sourceScene": "sip_high_lean",
+    "newObjects": "none",
+    "composition": "center",
+    "camera": "front",
+    "sourceSetup": "Sit at your table and hold the front camera at arm's length, a little above your eyes, tilted down. Lift the cup without hiding your eyes, pause at the lips, then set it back.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Phone a little above your eyes, cup up, lean in slowly as you sip.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": true,
+    "filmingMode": "selfie",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "verdict_eye_level_v2": {
+   "source": "guides/revisions/2026-11-10/people/verdict_eye_level_v2/record.json",
+   "decision": "replace",
+   "after": "verdict_eye_level",
+   "record": {
+    "id": "verdict_eye_level_v2",
+    "title": "Your verdict, front camera at eye height",
+    "shotType": "verdict",
+    "technique": "steady front-camera framing with a natural subject action",
+    "durationSec": 6,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Sit at your table and hold the front camera at arm's length, level with your eyes. Look into the lens and give one small open-hand gesture, then rest your hand.",
+    "sourceScene": "verdict_eye_level",
+    "newObjects": "bust silhouette",
+    "composition": "center",
+    "camera": "front",
+    "sourceSetup": "Sit at your table and hold the front camera at arm's length, level with your eyes. Look into the lens and give one small open-hand gesture, then rest your hand.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Front camera at arm's length, eyes level, say the price and the street.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": true,
+    "filmingMode": "selfie",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "verdict_high_plate_v2": {
+   "source": "guides/revisions/2026-11-10/people/verdict_high_plate_v2/record.json",
+   "decision": "replace",
+   "after": "verdict_high_plate",
+   "record": {
+    "id": "verdict_high_plate_v2",
+    "title": "Your verdict with the dish",
+    "shotType": "verdict",
+    "technique": "steady front-camera framing with a natural subject action",
+    "durationSec": 6,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Sit at your table and hold the front camera at arm's length, a little above your eyes. Hold your plate up below your chin, tip it toward the lens and give your verdict.",
+    "sourceScene": "verdict_high_plate",
+    "newObjects": "bust silhouette, plate",
+    "composition": "center",
+    "camera": "front",
+    "sourceSetup": "Sit at your table and hold the front camera at arm's length, a little above your eyes. Hold your plate up below your chin, tip it toward the lens and give your verdict.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Phone a little above your eyes with the plate in the frame, give the verdict.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": true,
+    "filmingMode": "selfie",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "bite_friend_three_quarter_v2": {
+   "source": "guides/revisions/2026-11-11-r2/bite_friend_three_quarter_v2/record.json",
+   "decision": "replace",
+   "after": "bite_friend_three_quarter",
+   "record": {
+    "id": "bite_friend_three_quarter_v2",
+    "title": "First bite, filmed by a friend",
+    "shotType": "first-bite",
+    "technique": "eye-height three-quarter camera across the table, static",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Ask a friend across the table to film at your eye height, a little to your side, about 85 cm away. Raise the forkful to your mouth. The phone stays still.",
+    "sourceScene": "bite_friend_three_quarter",
+    "newObjects": "round table; spaghetti wound on the fork (procedural closed loops, like the pasta in assets.pasta)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Ask a friend across the table to film at your eye height, a little to your side, about 85 cm away. Raise the forkful to your mouth. The phone stays still.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Front camera at arm's length, eyes level, lift the first bite to the lens.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": false,
+    "filmingMode": "friend",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/people/bite_friend_three_quarter_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "sip_friend_side_v2": {
+   "source": "guides/revisions/2026-11-10/people/sip_friend_side_v2/record.json",
+   "decision": "replace",
+   "after": "sip_friend_side",
+   "record": {
+    "id": "sip_friend_side_v2",
+    "title": "First sip, friend at a three-quarter angle",
+    "shotType": "sip",
+    "technique": "eye-height three-quarter camera across the table, static",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Ask a friend across the table to film at your eye height from a three-quarter angle, about 85 cm away. Lift the cup with your eyes visible above the rim. The phone stays still.",
+    "sourceScene": "sip_friend_side",
+    "newObjects": "bust silhouette, cup",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Ask a friend across the table to film at your eye height from a three-quarter angle, about 85 cm away. Lift the cup with your eyes visible above the rim. The phone stays still.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Front camera at arm's length, lift the cup, sip, react to the lens.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": false,
+    "filmingMode": "friend",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "verdict_friend_eye_v2": {
+   "source": "guides/revisions/2026-11-10/people/verdict_friend_eye_v2/record.json",
+   "decision": "replace",
+   "after": "verdict_friend_eye",
+   "record": {
+    "id": "verdict_friend_eye_v2",
+    "title": "Your verdict, filmed by a friend",
+    "shotType": "verdict",
+    "technique": "eye-height camera across the table, static",
+    "durationSec": 6,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Ask a friend across the table to hold the rear camera at your eye height, about 1.3 m away. Face the lens and give a small open-hand gesture. The phone stays still.",
+    "sourceScene": "verdict_friend_eye",
+    "newObjects": "bust silhouette",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Ask a friend across the table to hold the rear camera at your eye height, about 1.3 m away. Face the lens and give a small open-hand gesture. The phone stays still.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Front camera at arm's length, eyes level, say the price and the street.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": false,
+    "filmingMode": "friend",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "verdict_propped_rear": {
+   "source": "guides/revisions/2026-11-10/people/verdict_propped_rear/record.json",
+   "decision": "replace",
+   "after": null,
+   "record": {
+    "id": "verdict_propped_rear",
+    "title": "Your verdict, phone propped on the table",
+    "shotType": "verdict",
+    "technique": "rear camera propped on the table, leaning back, static",
+    "durationSec": 6,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Prop the phone upright on the table about 1.2 m from you, rear camera facing you, leaning back slightly against a cup. Face the lens and give a small open-hand gesture.",
+    "sourceScene": "verdict_friend_eye",
+    "newObjects": "bust silhouette",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Prop the phone upright on the table about 1.2 m from you, rear camera facing you, leaning back slightly against a cup. Face the lens and give a small open-hand gesture.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "sourceInvariant": "Front camera at arm's length, eyes level, say the price and the street.",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": false,
+    "filmingMode": "propped",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "menu_board_truck_v2": {
+   "source": "guides/revisions/2026-11-11-r2/menu_board_truck_v2/record.json",
+   "decision": "replace",
+   "after": "menu_board_truck",
+   "record": {
+    "id": "menu_board_truck_v2",
+    "title": "Slide along the board",
+    "shotType": "menu-board",
+    "technique": "sidestep truck at chest height, 1x",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Phone level, sidestep past the board at one slow even pace.",
+    "sourceScene": "menu_board_truck",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Audit row (section 2): adjust speed and height. Old: lens 1.85 m, 0 deg, 1.14 m at 0.29 m/s in 3.9 s. Research variant B2 (truck along the board).\nChange: the truck covers one column step (middle column centred at the start, drinks column centred at the end) because a full board pass (1.14 m) at 10-15 cm/s takes 8-11 s (judgement). Lens lowered from 1.85 to 1.6 m and pitched up 6.5 deg instead of level. Duration stays 4 s.\nOwner review: three support cups on the coffee machine (two on the drip shelf, one on the top), clear of the hero rows.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/menu/menu_board_truck_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "menu_board_static": {
+   "source": "guides/revisions/2026-11-11-r2/menu_board_static/record.json",
+   "decision": "replace",
+   "after": null,
+   "record": {
+    "id": "menu_board_static",
+    "title": "Board straight on",
+    "shotType": "menu-board",
+    "technique": "static straight-on hold, 2x",
+    "durationSec": 3,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Step back, 2x, phone straight at the board, hold still.",
+    "sourceScene": "menu_board_truck",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the board's right third (the drinks column) fills 0.9 of the width; rows read as bars.\n- **Objects**: hero: wall board 1.8 x 0.9 m, three columns of six rows (`menu_board`); support: the counter top\n  edge along the bottom of the band at 68% (a 2 m line, faint); background: a shelf of cups behind the counter\n  (three `cup` repeats, fainter); light cue: a spot pool on the board's right column (yellow, soft).\n- **Placement**: board bottom at 1.5 m on the back wall (z = -1.2 m from the counter edge); counter edge at the\n  origin; cups on a shelf at height 1.3 m, z = -1.1 m.\n- **Camera**: 1.4 m from the board, height 1.6 m, azimuth 0, eye-level; truck right from x = -0.6 m to x = +0.6 m\n  over 4 s at an even pace. The board's left column is the start, the right column the target.\n- **Filming guideline**: \"Phone level, slide sideways past the board at one even pace.\" Tip: step sideways, do not\n  turn.\n- **Render**: reuse `menu_board_eye_truckr_mm`; re-time to the P0 clock.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/menu/menu_board_static/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "counter_hand_receive": {
+   "source": "guides/revisions/2026-11-10/counter/counter_hand_receive/record.json",
+   "decision": "replace",
+   "after": "counter_through_cup_handle",
+   "record": {
+    "id": "counter_hand_receive",
+    "title": "Your hand takes the cup",
+    "shotType": "counter-order",
+    "technique": "static chest-height POV, the barista passes the cup and your hand takes it",
+    "durationSec": 3,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone still at chest height over the counter edge; the barista slides the cup across and your free hand takes it.",
+    "sourceScene": "handoff_counter_cup",
+    "newObjects": "none (approved CC0 hand poses)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "New guide of the 2026-11-10 regeneration; see request.md.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "allowedHands": 2,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "handoff_counter_cup_v2": {
+   "source": "guides/revisions/2026-11-10/counter/handoff_counter_cup_v2/record.json",
+   "decision": "replace",
+   "after": "handoff_counter_cup",
+   "record": {
+    "id": "handoff_counter_cup_v2",
+    "title": "Your cup at the counter",
+    "shotType": "hand-off",
+    "technique": "static chest-height view of the counter spot while the cup arrives",
+    "durationSec": 4,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Frame the empty spot on the counter from chest height, hold still and let the barista slide the cup in.",
+    "sourceScene": "handoff_counter_cup",
+    "newObjects": "none (approved CC0 hand pose)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the cup on its saucer at the centre of the band, 0.8 width (medium), the counter edge at 70%\n  height, the hand that placed it already leaving at the top-right.\n- **Objects**: hero: cup and saucer (`cup`, `saucer`); action: one hand from the far side (`real_hands`,\n  entering top-right at second 1, placing the cup at second 2.5, leaving by second 3.5); support: the counter\n  edge, a card holder; background: machine side (faint); light cue: pendant pool.\n- **Placement**: counter edge along x at the origin; the cup lands at z = -0.15 m; the hand's path from (0.5,\n  -0.6) to the cup.\n- **Camera**: 0.6 m from the counter edge, height 1.35 m (counter + 0.3), azimuth 0, tilt -20 degrees on the\n  landing spot; a still hold of 4 s, the still trigger fires on the steady frame before the hand arrives.\n- **Filming guideline**: \"Frame the empty spot on the counter, hold still, let the cup arrive.\" Tip: start the\n  take before the barista calls your name.\n- **Render**: new scene; the contact rule applies (hand on the cup handle, cup on the saucer).",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "allowedHands": 1,
+    "phoneOrientation": "portrait"
+   }
+  },
+  "entrance_sign_tilt_v2": {
+   "source": "guides/revisions/2026-11-10/entrance/entrance_sign_tilt_v2/record.json",
+   "decision": "add",
+   "after": "entrance_sign_tilt",
+   "record": {
+    "id": "entrance_sign_tilt_v2",
+    "title": "Sign down to the door",
+    "shotType": "entrance",
+    "technique": "standing still, one tilt from the sign down to the door",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Stand still across from the door. Start on the sign, then tilt down to the door in one slow move.",
+    "sourceScene": "entrance_sign_tilt",
+    "newObjects": "hanging sign bracket",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the whole door centred, handle near the middle of the frame, the sign at the top.\n- **Camera**: rear 1x, standing still 5 m from the door, chest height 1.30 m; tilt from 17 deg up to 3 deg down (20 deg) over 4 s, eased; no height change.\n- **Objects**: as entrance_sign_tilt (hanging sign, door, welcome stand, room through the windows); hero is the door.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "sourceInvariant": "Start on the sign, tilt down to the door, then two steps in.",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "entrance_friend_static": {
+   "source": "guides/revisions/2026-11-11-r2/entrance_friend_static/record.json",
+   "decision": "add",
+   "after": "entrance_door_low",
+   "record": {
+    "id": "entrance_friend_static",
+    "title": "A friend films you walking in",
+    "shotType": "entrance",
+    "technique": "static friend-held chest-height frame on the door while you walk in",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Ask a friend to stand 3-4 m from the door and hold the phone still at chest height. Walk in through the door.",
+    "sourceScene": "entrance_door_low (redo, variant A4)",
+    "newObjects": "",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the open doorway centred, the creator seen from behind in the doorway.\n- **Camera**: rear 1x, friend standing still 3.5 m from the door, chest height 1.30 m, level, 5 s static.\n- **Action**: the doorway is empty for 1 s, then the creator walks in from the left at a constant 0.76 m/s and reaches the threshold at the end.\n- **Objects**: open glazed door, sign, welcome stand, room through the windows and doorway, the canonical creator in its source pose.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "allowedHands": 2,
+    "allowedPeople": 1,
+    "content": "canonical-character",
+    "previewMirrored": false,
+    "filmingMode": "friend",
+    "facialAnimation": false,
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/entrance/entrance_friend_static/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "menu_board_tilt_up_v2": {
+   "source": "guides/revisions/2026-11-11-r2/menu_board_tilt_up_v2/record.json",
+   "decision": "add",
+   "after": "menu_board_tilt_up",
+   "record": {
+    "id": "menu_board_tilt_up_v2",
+    "title": "Counter up to the board",
+    "shotType": "menu-board",
+    "technique": "pure tilt up from the counter to the board, 2x",
+    "durationSec": 3,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Feet still, 2x, tilt up slowly from the cups to the board.",
+    "sourceScene": "menu_board_tilt_up",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Audit row (section 2): adjust height or distance, speed, framing. Old: lens 1.13 m, tilt 0.6 down to 18.1 up plus a 22.8 deg yaw, peak 15.4 deg/s, 2.29 m at 1x, board past the right 85% edge. Research variant: reverse of B3 (accepted mirror, audit judgement).\nChange: lens up from 1.13 to 1.5 m, 2x from 3 m, the yaw removed, end pitch 4.8 deg up, the hero narrowed from the whole board to the centre column (the 1.8 m board is wider than a 2x frame at 3 m, judgement). Start frame: the counter front edge with the cups on the counter top. Duration 4 -> 3 s.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/menu/menu_board_tilt_up_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "counter_over_shoulder_v2": {
+   "source": "guides/revisions/2026-11-11-r2/counter_over_shoulder_v2/record.json",
+   "decision": "add",
+   "after": "counter_over_shoulder",
+   "record": {
+    "id": "counter_over_shoulder_v2",
+    "title": "Over your shoulder at the counter",
+    "shotType": "counter-order",
+    "technique": "friend over your shoulder, slow 20 cm push-in",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "A friend films over your right shoulder at shoulder height, pitched slightly down, and pushes in about 20 cm toward the cup and machine.",
+    "sourceScene": "counter_over_shoulder",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the board upper-left on the thirds crossing, the counter edge as a diagonal from the lower-left\n  to the middle-right, the pass with one cup on it at the right third; the creator's shoulder is not drawn.\n- **Objects**: hero: the board and the pass cup together (`menu_board`, `cup` on the counter); support: the\n  espresso machine behind the counter (check `cafe_first_visit.py` for the machine; otherwise generate: a\n  0.7 x 0.45 x 0.5 m box with a group head and a steam wand); background: shelf of cups; light cue: pendant pool\n  on the counter.\n- **Placement**: counter edge along x at the origin; pass cup at x = 0.6 m, z = -0.3 m; machine at x = 0.9 m,\n  z = -0.8 m; board on the back wall at z = -1.3 m, bottom at 1.5 m.\n- **Camera**: 0.9 m from the counter edge, height 1.5 m, azimuth +25 degrees (over the right shoulder),\n  over-shoulder tilt 20 degrees; a still hold of 5 s (the barista's hands may enter from the far side at second\n  2 to place the cup: one hand, `real_hands`).\n- **Filming guideline**: \"Phone over your shoulder on the board and the counter, hold still while you order.\"\n  Tip: the front camera PiP can record your face at the same time.\n- **Render**: the existing `over_shoulder_counter_os_hold` has three phases (grinder, espresso, milk) over 7.2 s;\n  keep only the cup-placed phase at 5 s.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "allowedPeople": 0,
+    "allowedSilhouettes": 1,
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/counter/counter_over_shoulder_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "counter_edge_to_pass_v2": {
+   "source": "guides/revisions/2026-11-11-r2/counter_edge_to_pass_v2/record.json",
+   "decision": "add",
+   "after": "counter_edge_to_pass",
+   "record": {
+    "id": "counter_edge_to_pass_v2",
+    "title": "Along the counter to the pass",
+    "shotType": "counter-order",
+    "technique": "low truck along the counter edge, no turn",
+    "durationSec": 3,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone about 15 cm above the counter, tilted slightly down, and slide it about 18 cm along the edge without turning.",
+    "sourceScene": "counter_edge_to_pass",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the takeaway cup at the pass fills 0.9 of the width (medium), the counter edge runs out of\n  the lower-left corner, the machine's side is a faint block behind.\n- **Objects**: hero: the cup at the pass (`cup`, or generate a takeaway cup with a lid, 0.09 x 0.13 m);\n  support: the counter edge (leading line) and a card holder; background: the espresso machine (as in 8); light\n  cue: window light from the left on the cup's left edge (rim cue).\n- **Placement**: counter edge along x; the cup at x = 0 (origin), 0.1 m in from the edge; machine at x = -0.3 m,\n  z = -0.7 m; card holder at x = -0.8 m.\n- **Camera**: start 1.3 m left of the cup (x = -1.3 m), 0.25 m out from the counter edge, height 1.2 m\n  (counter + 0.15), azimuth +60 degrees looking along the edge, low tilt -5; truck right along the edge to\n  x = -0.35 m, turning to azimuth +10 over 5 s. The counter edge leads to the cup; no staff side.\n- **Filming guideline**: \"Low over the counter, slide along its edge until your cup fills the frame.\" Tip: keep\n  the phone just above counter height.\n- **Render**: new scene; the bar truck in `bar_transition.py` is the nearest builder (one room, one camera, a low\n  truck); no table lean at the end.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/counter/counter_edge_to_pass_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "pour_static_45": {
+   "source": "guides/revisions/2026-11-10/counter/pour_static_45/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "pour_static_45",
+    "title": "Pour from above at 45 degrees",
+    "shotType": "pour",
+    "technique": "static 45 degree view into the cup while someone pours",
+    "durationSec": 5,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone still 45 degrees down into the cup, about 27 cm away, while the barista pours from the top edge.",
+    "sourceScene": "pour_side_low",
+    "newObjects": "none (approved milk pitcher)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "New guide of the 2026-11-10 regeneration; see request.md.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "plate_low_push_in_v2": {
+   "source": "guides/revisions/2026-11-10/plates/plate_low_push_in_v2/record.json",
+   "decision": "add",
+   "after": "plate_low_push_in",
+   "record": {
+    "id": "plate_low_push_in_v2",
+    "title": "3/4 push into the plate",
+    "shotType": "plate-reveal",
+    "technique": "45 degree 3/4 push-in, 20 cm",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Elbows on the table, phone 45 degrees down; push in slowly about 20 cm until the plate fills the width.",
+    "sourceScene": "plate_low_push_in",
+    "newObjects": "none",
+    "composition": "triangle",
+    "camera": "back",
+    "sourceSetup": "45 deg down, 47 -> 27 cm from the food centre, 1x, 20 cm in 4 s at an even pace; place setting as in plate_low_push_in.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "plate_rise_overhead_v2": {
+   "source": "guides/revisions/2026-11-11-r2/plate_rise_overhead_v2/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "plate_rise_overhead_v2",
+    "title": "Overhead rise over the plate",
+    "shotType": "plate-reveal",
+    "technique": "overhead pedestal rise at 90 degrees",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Stand, phone flat above the plate; raise it straight up slowly, keeping it flat and the plate centred.",
+    "sourceScene": "plate_rise_overhead (layout), table_spread_orbit (redo)",
+    "newObjects": "dinner knife (assets.knife) right of the plate",
+    "composition": "triangle",
+    "camera": "back",
+    "sourceSetup": "Overhead 90 deg throughout, lens 0.28 m -> about 0.55 m above the plate in 4 s, standing; cup at one o'clock, fork straight on the left (layout of the pending plate_rise_overhead).",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/plates/plate_rise_overhead_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "steam_low_backlit_v2": {
+   "source": "guides/revisions/2026-11-10/steam/steam_low_backlit_v2/record.json",
+   "decision": "add",
+   "after": "steam_low_backlit",
+   "record": {
+    "id": "steam_low_backlit_v2",
+    "title": "Steam at cup height",
+    "shotType": "steam",
+    "technique": "static cup-height edge hold, side-back window light",
+    "durationSec": 4,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone just past the table edge at cup height, about 35 cm from the cup, a dark wall behind it, and keep still.",
+    "sourceScene": "steam_low_backlit",
+    "newObjects": "none",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Static portrait edge hold: lens 7.5 cm above the table and about 7 cm past its near edge, pitch 2.5 deg down, 34 cm from the cup on 1x. Cup on its saucer; the window behind and to the right (about 1 o'clock); nothing behind the steam. Steam strands rise into the free band above the cup. 4 s.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceInvariant": "Hold the phone just past the table edge at cup height, a dark wall behind the cup, and keep still.",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "steam_static_low": {
+   "source": "guides/revisions/2026-11-10/steam/steam_static_low/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "steam_static_low",
+    "title": "Steam, 15 degrees down",
+    "shotType": "steam",
+    "technique": "static portrait 15 degrees down, side-back window light",
+    "durationSec": 4,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Brace the phone on the table about 35 cm from the cup, tilt it 15 degrees down with a dark wall behind the cup, and keep still.",
+    "sourceScene": "steam_low_backlit",
+    "newObjects": "none",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Static portrait, 15 degrees down, 35 cm from the cup on 1x, lens about 15 cm above the table (phone braced on the table). Cup on its saucer against a dark wall; the window behind and to the left (about 11 o'clock). Steam strands rise into the free band above the cup. 4 s.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceInvariant": "Phone braced on the table, 15 degrees down at the cup, dark wall behind, keep still.",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "handoff_plate_lands_v2": {
+   "source": "guides/revisions/2026-11-11-r2/handoff_plate_lands_v2/record.json",
+   "decision": "add",
+   "after": "handoff_plate_lands",
+   "record": {
+    "id": "handoff_plate_lands_v2",
+    "title": "Plate at your place",
+    "shotType": "hand-off",
+    "technique": "static seated POV on the place setting while the plate arrives",
+    "durationSec": 4,
+    "startTrigger": "still",
+    "capturePreset": {
+     "stabilization": "standard",
+     "continuousFocus": false,
+     "locksFocusExposureWhiteBalance": true,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "From your seat, frame the empty place 45 degrees down, lock focus, hold still while the plate is set down.",
+    "sourceScene": "handoff_plate_lands",
+    "newObjects": "dinner knife beside the plate; water glass (tall tumbler with water)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the place setting (fork left, knife right, glass top-right) at 45 degrees with the plate\n  landed at the centre, 0.9 width; the triangle: glass, fork tip, plate's near rim.\n- **Objects**: hero: the plate with food; action: one hand carrying the plate from the top-left, lowering it over\n  1.5 s, leaving by second 3; support: fork, knife (generate: a knife matching `fork`, blade toward the plate),\n  water glass (`stemmed_glass` or generate a tumbler); background: the far chair.\n- **Placement**: plate lands at the origin; fork at x = -0.17 m, knife at x = +0.17 m, glass at x = 0.2 m, z =\n  -0.25 m; the hand's path from (-0.4, -0.5, 0.3 m high).\n- **Camera**: 0.5 m from the plate, height 0.45 m, azimuth 0, high angle 45; still hold of 4 s.\n- **Filming guideline**: \"Frame your place setting from your seat and hold still while the plate arrives.\" Tip:\n  elbows on the table.\n- **Render**: new scene; the owner's table rule (plate at a usable place setting, cutlery oriented from the\n  diner's view) is enforced by `table_composition.py`.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "allowedHands": 1,
+    "phoneOrientation": "portrait"
+   },
+   "previousSource": "guides/revisions/2026-11-10/counter/handoff_plate_lands_v2/record.json",
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "menu_card_top_v2": {
+   "source": "guides/revisions/2026-11-10/menu/menu_card_top_v2/record.json",
+   "decision": "add",
+   "after": "menu_card_top",
+   "record": {
+    "id": "menu_card_top_v2",
+    "title": "Menu flat on the table, closer",
+    "shotType": "menu-card",
+    "technique": "overhead pedestal down, 1x",
+    "durationSec": 3,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Phone flat over the menu and cup, lower it slowly until the lines read.",
+    "sourceScene": "menu_card_top",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Overhead pedestal down at 90 deg, 1x: 45 -> 30 cm above the card in 3 s, from the whole card with the cup to the readable rows (hero). Cup moved to (0.12, 0.22).",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   }
+  },
+  "counter_edge_to_pass": {
+   "source": "guides/revisions/2026-11-11-r2/counter_edge_to_pass/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "counter_edge_to_pass",
+    "title": "Along the counter to the pass",
+    "shotType": "counter-order",
+    "technique": "low truck along the counter edge ending on the pass",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Low over the counter, slide along its edge until your cup fills the frame.",
+    "sourceScene": "new",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the takeaway cup at the pass fills 0.9 of the width (medium), the counter edge runs out of\n  the lower-left corner, the machine's side is a faint block behind.\n- **Objects**: hero: the cup at the pass (`cup`, or generate a takeaway cup with a lid, 0.09 x 0.13 m);\n  support: the counter edge (leading line) and a card holder; background: the espresso machine (as in 8); light\n  cue: window light from the left on the cup's left edge (rim cue).\n- **Placement**: counter edge along x; the cup at x = 0 (origin), 0.1 m in from the edge; machine at x = -0.3 m,\n  z = -0.7 m; card holder at x = -0.8 m.\n- **Camera**: start 1.3 m left of the cup (x = -1.3 m), 0.25 m out from the counter edge, height 1.2 m\n  (counter + 0.15), azimuth +60 degrees looking along the edge, low tilt -5; truck right along the edge to\n  x = -0.35 m, turning to azimuth +10 over 5 s. The counter edge leads to the cup; no staff side.\n- **Filming guideline**: \"Low over the counter, slide along its edge until your cup fills the frame.\" Tip: keep\n  the phone just above counter height.\n- **Render**: new scene; the bar truck in `bar_transition.py` is the nearest builder (one room, one camera, a low\n  truck); no table lean at the end.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "availability": "active"
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "counter_over_shoulder": {
+   "source": "guides/revisions/2026-11-11-r2/counter_over_shoulder/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "counter_over_shoulder",
+    "title": "Over your shoulder at the counter",
+    "shotType": "counter-order",
+    "technique": "left-to-right slide with a gentle push-in",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "From the customer side, slide the phone about 40 cm left to right while leaning slightly closer, keeping the menu board above the cup.",
+    "sourceScene": "over_shoulder_counter_os_hold (one phase, 5 s)",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the board upper-left on the thirds crossing, the counter edge as a diagonal from the lower-left\n  to the middle-right, the pass with one cup on it at the right third; the creator's shoulder is not drawn.\n- **Objects**: hero: the board and the pass cup together (`menu_board`, `cup` on the counter); support: the\n  espresso machine behind the counter (check `cafe_first_visit.py` for the machine; otherwise generate: a\n  0.7 x 0.45 x 0.5 m box with a group head and a steam wand); background: shelf of cups; light cue: pendant pool\n  on the counter.\n- **Placement**: counter edge along x at the origin; pass cup at x = 0.6 m, z = -0.3 m; machine at x = 0.9 m,\n  z = -0.8 m; board on the back wall at z = -1.3 m, bottom at 1.5 m.\n- **Camera**: 0.9 m from the counter edge, height 1.5 m, azimuth +25 degrees (over the right shoulder),\n  over-shoulder tilt 20 degrees; a still hold of 5 s (the barista's hands may enter from the far side at second\n  2 to place the cup: one hand, `real_hands`).\n- **Filming guideline**: \"Phone over your shoulder on the board and the counter, hold still while you order.\"\n  Tip: the front camera PiP can record your face at the same time.\n- **Render**: the existing `over_shoulder_counter_os_hold` has three phases (grinder, espresso, milk) over 7.2 s;\n  keep only the cup-placed phase at 5 s.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "sourceInvariant": "Phone over your shoulder on the board and the counter, hold still while you order.",
+    "availability": "active"
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "glass_slide_close": {
+   "source": "guides/revisions/2026-11-11-r2/glass_slide_close/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "glass_slide_close",
+    "title": "Slide a cocktail into the close-up",
+    "shotType": "plate-reveal",
+    "technique": "Slide a cocktail into the close-up",
+    "durationSec": 6,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Keep the glass base on the table. Slide the drink gently into the foreground with one hand while filming close with the other.",
+    "sourceScene": "plate_high_orbit",
+    "newObjects": "cocktail glass (three ice cubes at three depths)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Owner tabletop/GIF reference: Keep the glass base on the table. Slide the drink gently into the foreground with one hand while filming close with the other.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "availability": "active",
+    "sourceInvariant": "Keep the glass base on the table. Slide the drink gently into the foreground with one hand while filming close with the other.",
+    "allowedHands": 1,
+    "reusableSteps": [
+     "food-review.dish",
+     "first-visit.plate"
+    ]
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "handoff_plate_lands": {
+   "source": "guides/revisions/2026-11-11-r2/handoff_plate_lands/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "handoff_plate_lands",
+    "title": "Plate at your place",
+    "shotType": "hand-off",
+    "technique": "object-only diagonal plate reveal after service",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "After the plate is set down, keep it at your place setting. Move the phone slightly sideways and up, keeping the rim, glass and cutlery visible.",
+    "sourceScene": "new",
+    "newObjects": "dinner knife beside the plate; water glass (tall tumbler with water)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the place setting (fork left, knife right, glass top-right) at 45 degrees with the plate\n  landed at the centre, 0.9 width; the triangle: glass, fork tip, plate's near rim.\n- **Objects**: hero: the plate with food; action: one hand carrying the plate from the top-left, lowering it over\n  1.5 s, leaving by second 3; support: fork, knife (generate: a knife matching `fork`, blade toward the plate),\n  water glass (`stemmed_glass` or generate a tumbler); background: the far chair.\n- **Placement**: plate lands at the origin; fork at x = -0.17 m, knife at x = +0.17 m, glass at x = 0.2 m, z =\n  -0.25 m; the hand's path from (-0.4, -0.5, 0.3 m high).\n- **Camera**: 0.5 m from the plate, height 0.45 m, azimuth 0, high angle 45; still hold of 4 s.\n- **Filming guideline**: \"Frame your place setting from your seat and hold still while the plate arrives.\" Tip:\n  elbows on the table.\n- **Render**: new scene; the owner's table rule (plate at a usable place setting, cutlery oriented from the\n  diner's view) is enforced by `table_composition.py`.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "sourceInvariant": "Frame your place setting from your seat and hold still while the plate arrives.",
+    "availability": "active"
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "menu_board_tilt_up": {
+   "source": "guides/revisions/2026-11-11-r2/menu_board_tilt_up/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "menu_board_tilt_up",
+    "title": "Counter edge up to the board",
+    "shotType": "menu-board",
+    "technique": "low start on the counter, tilt up to the board",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Start on the counter, tilt up until the board fills the frame.",
+    "sourceScene": "new",
+    "newObjects": "espresso machine turned 90 deg clockwise (working face to the left, side panel to the client; owner ruling), resting on the counter top; drying cups and glasses upside down on top",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: the board fills 0.85 of the width, its bottom edge at 60% of the frame; the counter top is a\n  thin line at the bottom of the band.\n- **Objects**: hero: the board (`menu_board`); support: counter edge with a card holder and one cup on it\n  (`cup`); background: the shelf of cups; light cue: pendant above the counter (`pendant`), its pool on the\n  counter top.\n- **Placement**: as in 4; the cup at x = 0.4 m on the counter top.\n- **Camera**: start 1.0 m from the counter edge, height 1.1 m (just above the counter), tilt -5 degrees on the\n  cup and the counter edge (cup fills 0.35 width, right of centre); tilt up 35 degrees over 4 s to the board,\n  no walking.\n- **Filming guideline**: \"Start on the counter, tilt up until the board fills the frame.\" Tip: rest the elbows on\n  the counter edge.\n- **Render**: new scene from the `menu_board` and `cup` assets; tilt only.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "availability": "active"
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "menu_card_push": {
+   "source": "guides/revisions/2026-11-11-r2/menu_card_push/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "menu_card_push",
+    "title": "Into the dish name",
+    "shotType": "menu-card",
+    "technique": "short curved high-angle approach",
+    "durationSec": 4,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Move closer to one menu line along a small diagonal curve; keep the card flat on the table.",
+    "sourceScene": "card_menu_high_in_cd_whipout (drop the whip)",
+    "newObjects": "light cues: one yellow arc on the far, light-facing table edge; no strokes on the cup body or the table surface",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "- **Target frame**: one price row fills the width (close, 1.3), the row sits on the upper third line.\n- **Objects**: hero: the card (`card`) with the target row 15% taller than the others; support: a fork beside\n  the card (`fork`), the cup at the far corner; background: table edge.\n- **Placement**: card at the origin; fork at x = -0.2 m parallel to the card; cup at x = 0.25 m, z = -0.2 m.\n- **Camera**: start 0.6 m from the card centre, height 0.45 m, azimuth 0, high angle 45 degrees (card fills 0.7);\n  push in to 0.25 m from the row, height 0.2 m, same angle, over 4 s with a slow stop.\n- **Filming guideline**: \"Move in slowly until the dish's line fills the screen, then stop.\" Tip: breathe out and\n  stop; the auto-stop ends the take.\n- **Render**: reuse `card_menu_high_in_cd_whipout` without the whip-out tail.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "sourceInvariant": "Move in slowly until the dish's line fills the screen, then stop.",
+    "availability": "active"
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "pancake_clear_path": {
+   "source": "guides/revisions/2026-11-11-r2/pancake_clear_path/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "pancake_clear_path",
+    "title": "Clear the foreground to reveal pancakes",
+    "shotType": "plate-reveal",
+    "technique": "Clear the foreground to reveal pancakes",
+    "durationSec": 8,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Have a right-side hand pull each drink right and a left-side hand pull the salad left, one by one. Film toward the pancakes at their height; hands stay on their own side.",
+    "sourceScene": "plate_high_orbit",
+    "newObjects": "light cues on the pancake stack and platter; right hand wraps each glass (palm opposition, thumb across the near side, fingers round the far side)",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Owner tabletop/GIF reference: Have a right-side hand pull each drink right and a left-side hand pull the salad left, one by one. Film toward the pancakes at their height; hands stay on their own side.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "availability": "active",
+    "sourceInvariant": "Have a right-side hand pull each drink right and a left-side hand pull the salad left, one by one. Film toward the pancakes at their height; hands stay on their own side.",
+    "allowedHands": 2,
+    "reusableSteps": [
+     "food-review.dish",
+     "first-visit.plate"
+    ]
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "table_spread_orbit": {
+   "source": "guides/revisions/2026-11-11-r2/table_spread_orbit/record.json",
+   "decision": "rerender",
+   "after": null,
+   "record": {
+    "id": "table_spread_orbit",
+    "title": "Rise over the shared table spread",
+    "shotType": "plate-reveal",
+    "technique": "Rise over the shared table spread",
+    "durationSec": 8,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Start at a high three-quarter angle, then raise the phone into an overhead view of the pizza, salad, pasta and drinks. Keep the whole spread in frame at the end.",
+    "sourceScene": "plate_high_orbit",
+    "newObjects": "pizza (8 slices, one pulled out); pasta plate in place of the bread; cocktail glass (three ice cubes at three depths)",
+    "composition": "triangle",
+    "camera": "back",
+    "sourceSetup": "Owner tabletop/GIF reference: Start at a high three-quarter angle, then raise the phone into an overhead view of the pizza, salad, pasta and drinks. Keep the whole spread in frame at the end.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41",
+    "availability": "active",
+    "sourceInvariant": "Start at a high three-quarter angle, then raise the phone into an overhead view of the pizza, salad, pasta and drinks. Keep the whole spread in frame at the end.",
+    "reusableSteps": [
+     "food-review.dish",
+     "first-visit.plate"
+    ]
+   },
+   "revisedOn": "2026-11-12",
+   "revisionDecision": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "menu_wall_board_item": {
+   "source": "guides/revisions/2026-11-11-r2/menu_wall_board_item/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "menu_wall_board_item",
+    "title": "The item on the board",
+    "shotType": "menu-card",
+    "technique": "walk straight at the wall board at 2x, 3.4 m to 2.0 m; one board row highlighted throughout",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Walk slowly up to the board, straight on, to the lit item.",
+    "sourceScene": "menu_board_static",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Round 2 (owner 2026-11-11): rows are ragged left-aligned unlettered bars; the highlight is on from frame 1. Menu-board variant at 2x, pitch at most 10 deg up (RB51, RB33), never zoom while moving (RB23, RA21): one steady walk at the board, straight on, lens 1.45 m (phone raised to just under eye level, judgement), 3.4 m -> 2.0 m from the board face (2.0 m = the near end of the 2-3 m range at 2x, RB51), 0.8 s still, 3.2 s walk (peak 0.50 m/s, walk 0.5-0.8 m/s RB23 RB25), 1.0 s still; pitch 5 -> 10 deg up with the walk. Ends on the centre column third row, outlined by a closed yellow light edge (highlight treatment pending owner approval).",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "promotedOn": "2026-11-12",
+   "decisionFile": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "plate_top_orbit": {
+   "source": "guides/revisions/2026-11-11-r2/plate_top_orbit/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "plate_top_orbit",
+    "title": "Turn above the plate",
+    "shotType": "plate-reveal",
+    "technique": "overhead turn at 90 degrees, 45 degrees about the plate",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Stand, phone flat above the plate; turn it slowly around the plate, keeping it flat and level.",
+    "sourceScene": "plate_rise_overhead_v2",
+    "newObjects": "dinner knife (assets.knife) right of the plate",
+    "composition": "triangle",
+    "camera": "back",
+    "sourceSetup": "Overhead 90 deg throughout at the end height of plate_rise_overhead_v2 (lens about 0.63 m above the table), standing; the phone turns 45 deg about the vertical axis through the plate centre in 4 s, no rise, no tilt; cup at one o'clock, fork straight on the left at the end.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "promotedOn": "2026-11-12",
+   "decisionFile": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "room_bar_pan": {
+   "source": "guides/revisions/2026-11-11-r2/room_bar_pan/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "room_bar_pan",
+    "title": "Turn to the bar",
+    "shotType": "room-from-table",
+    "technique": "seated 40 degree pan right from the room to the bar counter along the right side",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Turn slowly from the room to the bar.",
+    "sourceScene": "room_seated_pan_v2",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Seated lens 115 cm above the floor, pitch 3 deg down, fixed position; starts on the room tables with your table edge and cup; pans right 40 deg in 5 s (8.9 deg/s between a 0.5 s ease at each end; RB29 RB30 8-10 deg/s), no tilt; ends with the bar counter (espresso machine, drying cups) along the right side of the room in the right part of the frame and the room on the left and the menu board on the right wall behind the counter, facing the room, above the espresso machine.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "promotedOn": "2026-11-12",
+   "decisionFile": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "room_window_pan_left": {
+   "source": "guides/revisions/2026-11-11-r2/room_window_pan_left/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "room_window_pan_left",
+    "title": "From the window on your left",
+    "shotType": "room-from-table",
+    "technique": "seated 37 degree pan right from the window beside the table into the room",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": false,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Start on the window beside you, then turn slowly to the room.",
+    "sourceScene": "room_seated_pan_v2",
+    "newObjects": "none",
+    "composition": "thirds",
+    "camera": "back",
+    "sourceSetup": "Seated lens 115 cm above the floor, pitch 3 deg down, fixed position; starts on the window in the wall beside the table on your left with the table edge and your cup; pans right 37 deg in 5 s (8.3 deg/s between a 0.5 s ease at each end; RB29 RB30 8-10 deg/s), no tilt; ends on the room tables with a glazed door and a plant on the far right wall. Round 2 (owner 2026-11-11): window 0.18 m nearer along the line of sight (1.69 -> 1.51 m from the lens to the frame centre); the pan starts 15 deg further toward the room (start heading 27 deg left instead of 42). Round 3 (owner 2026-11-11 r2): pan runs 1 s longer at the same speed, ending 10 deg right of the room axis instead of 2, with a glazed door and a plant in the wall parallel to the window wall. Round 4 (owner 2026-11-11 r2 review): the window slides 0.50 m along its wall toward the room side of the start view (frame centre y 1.00 -> 1.50 m), so the whole frame sits inside the start view; door, plant, pan and timing unchanged. Round 5 (owner 2026-11-11 r2 review): the window moves 1.00 m back toward the lens (frame centre y 1.50 -> 0.50 m), 1 m left in the start frame; room objects beyond its wall plane move inside (left table 0.74 m, plant 0.24 m, far window 1.27 m; the outside partition removed), so only empty space shows through the window.",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "availability": "active",
+    "phoneOrientation": "portrait"
+   },
+   "promotedOn": "2026-11-12",
+   "decisionFile": "guides/review/decisions/drafts-2026-11-11-r2.json"
+  },
+  "steam_top_orbit": {
+   "source": "guides/revisions/2026-11-11/steam/steam_top_orbit/record.json",
+   "decision": "add",
+   "after": null,
+   "record": {
+    "id": "steam_top_orbit",
+    "title": "Turn above the latte",
+    "shotType": "steam",
+    "technique": "top-down flat 40 degree turn about the cup, side-back window light",
+    "durationSec": 5,
+    "startTrigger": "motion",
+    "capturePreset": {
+     "stabilization": "cinematicExtendedEnhanced",
+     "continuousFocus": true,
+     "locksFocusExposureWhiteBalance": false,
+     "lensLocked": true,
+     "frameRate": 30
+    },
+    "setupBeatSeconds": 0,
+    "invariant": "Hold the phone flat about 30 cm above the cup and turn it slowly around the cup, no lift or tilt.",
+    "sourceScene": "pour_top_down_latte",
+    "newObjects": "none",
+    "composition": "center",
+    "camera": "back",
+    "sourceSetup": "Finished rosetta cup on its saucer on the table (pour_top_down_latte cup state; no pitcher, no pour). Portrait phone flat at 90 deg, lens 30 cm above the rim (about 43 cm above the table), 1x (24 mm). The phone turns 40 deg clockwise seen from above about the vertical axis through the cup over 5 s; no rise, tilt or roll other than the turn; the cup stays at 44% from the top. Handle from about 4 o'clock to 3 o'clock in the frame; rosetta stem vertical at the end. Window light at about 1 o'clock behind the cup, cue on the rim. One arc of the table edge in the bottom of the frame. No steam strands (they do not read from straight above).",
+    "alphaFactor": 1,
+    "fps": 15,
+    "resolution": [
+     405,
+     720
+    ],
+    "selectorResolution": [
+     120,
+     213
+    ],
+    "targetHoldFrames": 8,
+    "finalHoldFrames": 7,
+    "availability": "active",
+    "sourceInvariant": "Straight above the cup, hold still, lean in slowly as the milk goes in.",
+    "phoneOrientation": "portrait",
+    "sourceBriefSHA256": "9b811d446a79082f31c80bbba824d683e9d642b89d27c48d732e1aa0a01b7c41"
+   },
+   "promotedOn": "2026-11-12",
+   "decisionFile": "guides/review/decisions/drafts-2026-11-11.json"
+  }
+ },
+ "revisedOn": [
+  "2026-11-12"
+ ]
+}

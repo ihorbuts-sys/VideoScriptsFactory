@@ -1,0 +1,42 @@
+{
+ "id": "plate_rise_overhead",
+ "title": "Rise over the plate",
+ "shotType": "plate-reveal",
+ "technique": "flat-lay reveal: crane up with a tilt from 45 degrees to overhead",
+ "durationSec": 6,
+ "startTrigger": "motion",
+ "capturePreset": {
+  "stabilization": "cinematicExtendedEnhanced",
+  "continuousFocus": true,
+  "locksFocusExposureWhiteBalance": false,
+  "lensLocked": true,
+  "frameRate": 30
+ },
+ "setupBeatSeconds": 0,
+ "invariant": "Sit in front of the plate, phone tilted 45 degrees down, then lift and tilt it slowly until it is flat above the plate.",
+ "sourceScene": "table_spread_orbit",
+ "newObjects": "none",
+ "composition": "triangle",
+ "camera": "back",
+ "sourceSetup": "- **Composition**: plate at the place setting, centred left-right; fork straight, parallel to the plate's left side, 4 cm from the rim; cup on its saucer at one o'clock, handle right. Triangle markers on the plate centre, the cup centre and the fork's middle.\n- **Start**: seat side, straight in front of the plate, phone pitched 45 degrees down, lens 0.45 m from the plate centre.\n- **Move**: one crane up with a tilt over the full 6 s, eased in and out; the plate stays at the same place in the frame.\n- **End**: phone flat above the plate, no roll; plate rim 0.55 of the frame width, plate centre at 55% of the frame height; whole cup, saucer and fork in frame with at least 4% margin; lens at most 0.70 m above the plate.\n- **Objects**: the shared example dish as in plate_low_push_in, rearranged for this guide only. No hands, no people.",
+ "alphaFactor": 1,
+ "fps": 15,
+ "resolution": [
+  405,
+  720
+ ],
+ "selectorResolution": [
+  120,
+  213
+ ],
+ "targetHoldFrames": 8,
+ "finalHoldFrames": 7,
+ "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+ "availability": "draft",
+ "reusableSteps": [
+  "food-review.dish",
+  "first-visit.plate",
+  "food-review-sweet.break",
+  "food-review-handheld.cut"
+ ]
+}

@@ -1,0 +1,699 @@
+11:14.246  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0001.png'
+11:16.597  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0009.png'
+11:19.212  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0010.png'
+11:21.618  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0011.png'
+11:24.297  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0012.png'
+11:26.315  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0013.png'
+11:28.678  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0014.png'
+11:30.731  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0015.png'
+11:32.801  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0016.png'
+11:35.010  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0017.png'
+11:36.850  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0018.png'
+11:39.236  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0019.png'
+11:41.190  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0020.png'
+11:43.193  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0021.png'
+11:45.311  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0022.png'
+11:47.678  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0023.png'
+11:49.794  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0024.png'
+11:51.235  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0025.png'
+11:52.784  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0026.png'
+11:54.184  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0027.png'
+11:55.679  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0028.png'
+11:57.117  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0029.png'
+11:58.519  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0030.png'
+11:59.973  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0031.png'
+12:01.380  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0032.png'
+12:02.749  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0033.png'
+12:04.051  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0034.png'
+12:05.251  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0035.png'
+12:06.759  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0036.png'
+12:08.171  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0037.png'
+12:09.374  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0038.png'
+12:10.493  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0039.png'
+12:11.929  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0040.png'
+12:13.356  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0041.png'
+12:14.569  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0042.png'
+12:15.803  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0043.png'
+12:17.112  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0044.png'
+12:18.517  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0045.png'
+12:19.938  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0046.png'
+12:21.155  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0047.png'
+12:22.552  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0048.png'
+12:23.761  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0049.png'
+12:24.928  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0050.png'
+12:26.301  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0051.png'
+12:27.521  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0052.png'
+12:28.906  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0053.png'
+12:30.383  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0054.png'
+12:31.817  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0055.png'
+12:33.125  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0056.png'
+12:34.786  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0057.png'
+12:36.146  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0058.png'
+12:37.713  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0059.png'
+12:39.040  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0060.png'
+12:40.646  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0061.png'
+12:42.380  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0062.png'
+12:43.729  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0063.png'
+12:45.209  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0064.png'
+12:46.535  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0065.png'
+12:47.957  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0066.png'
+12:49.336  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/frames/frame_0067.png'
+12:49.569  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/surface-isolation.png'
+find_node component: Could not find ID OBCustomer counter top
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCustomer counter top, GEOMETRY))
+find_node component: Could not find ID OBCustomer counter top
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCustomer counter top, TRANSFORM))
+find_node component: Could not find ID OBSaucer
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer, GEOMETRY))
+find_node component: Could not find ID OBSaucer
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer, TRANSFORM))
+find_node component: Could not find ID OBCup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body, GEOMETRY))
+find_node component: Could not find ID OBCup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body, TRANSFORM))
+find_node component: Could not find ID OBCup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle, GEOMETRY))
+find_node component: Could not find ID OBCup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle, TRANSFORM))
+find_node component: Could not find ID OBCup coffee surface
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface, GEOMETRY))
+find_node component: Could not find ID OBCup coffee surface
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface, TRANSFORM))
+find_node component: Could not find ID OBFoam heart contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour, GEOMETRY))
+find_node component: Could not find ID OBFoam heart contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour, TRANSFORM))
+find_node component: Could not find ID OBSaucer.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.001, GEOMETRY))
+find_node component: Could not find ID OBSaucer.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.001, TRANSFORM))
+find_node component: Could not find ID OBCup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.001, GEOMETRY))
+find_node component: Could not find ID OBCup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.001, TRANSFORM))
+find_node component: Could not find ID OBCup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.001, GEOMETRY))
+find_node component: Could not find ID OBCup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.001, TRANSFORM))
+find_node component: Could not find ID OBCup coffee surface.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.001, GEOMETRY))
+find_node component: Could not find ID OBCup coffee surface.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.001, TRANSFORM))
+find_node component: Could not find ID OBFoam heart contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.001, GEOMETRY))
+find_node component: Could not find ID OBFoam heart contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.001, TRANSFORM))
+find_node component: Could not find ID OBSaucer.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.002, GEOMETRY))
+find_node component: Could not find ID OBSaucer.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.002, TRANSFORM))
+find_node component: Could not find ID OBCup hollow ceramic body.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.002, GEOMETRY))
+find_node component: Could not find ID OBCup hollow ceramic body.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.002, TRANSFORM))
+find_node component: Could not find ID OBCup open handle.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.002, GEOMETRY))
+find_node component: Could not find ID OBCup open handle.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.002, TRANSFORM))
+find_node component: Could not find ID OBCup coffee surface.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.002, GEOMETRY))
+find_node component: Could not find ID OBCup coffee surface.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.002, TRANSFORM))
+find_node component: Could not find ID OBFoam heart contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.002, GEOMETRY))
+find_node component: Could not find ID OBFoam heart contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.002, TRANSFORM))
+find_node component: Could not find ID OBCounter front edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter front edge, GEOMETRY))
+find_node component: Could not find ID OBCounter front edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter front edge, TRANSFORM))
+find_node component: Could not find ID OBEspresso machine body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine body, GEOMETRY))
+find_node component: Could not find ID OBEspresso machine body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine body, TRANSFORM))
+find_node component: Could not find ID OBEspresso machine drip shelf
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine drip shelf, GEOMETRY))
+find_node component: Could not find ID OBEspresso machine drip shelf
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine drip shelf, TRANSFORM))
+find_node component: Could not find ID OBEspresso group head
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head, GEOMETRY))
+find_node component: Could not find ID OBEspresso group head
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter basket
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter basket
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle, TRANSFORM))
+find_node component: Could not find ID OBEspresso group head.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head.001, GEOMETRY))
+find_node component: Could not find ID OBEspresso group head.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head.001, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter basket.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket.001, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter basket.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket.001, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle.001, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle.001, TRANSFORM))
+find_node component: Could not find ID OBDrying cup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body, GEOMETRY))
+find_node component: Could not find ID OBDrying cup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body, TRANSFORM))
+find_node component: Could not find ID OBDrying cup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle, GEOMETRY))
+find_node component: Could not find ID OBDrying cup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle, TRANSFORM))
+find_node component: Could not find ID OBDrying cup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body.001, GEOMETRY))
+find_node component: Could not find ID OBDrying cup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body.001, TRANSFORM))
+find_node component: Could not find ID OBDrying cup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle.001, GEOMETRY))
+find_node component: Could not find ID OBDrying cup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle.001, TRANSFORM))
+find_node component: Could not find ID OBDrying glass
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass, GEOMETRY))
+find_node component: Could not find ID OBDrying glass
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass, TRANSFORM))
+find_node component: Could not find ID OBDrying glass.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass.001, GEOMETRY))
+find_node component: Could not find ID OBDrying glass.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass.001, TRANSFORM))
+find_node component: Could not find ID OBMenu board blank frame
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMenu board blank frame, GEOMETRY))
+find_node component: Could not find ID OBMenu board blank frame
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMenu board blank frame, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 0, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 0, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 1, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 1, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 2, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 2, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 3, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 3, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 4, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 4, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 5, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 5, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 0, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 0, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 1, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 1, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 2, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 2, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 3, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 3, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 4, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 4, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 5, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 5, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 0, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 0, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 1, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 1, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 2, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 2, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 3, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 3, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 4, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 4, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 5, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 5, TRANSFORM))
+find_node component: Could not find ID OBBoard top left warm edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard top left warm edge, GEOMETRY))
+find_node component: Could not find ID OBBoard top left warm edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard top left warm edge, TRANSFORM))
+find_node component: Could not find ID OBBoard lower right reflected edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lower right reflected edge, GEOMETRY))
+find_node component: Could not find ID OBBoard lower right reflected edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lower right reflected edge, TRANSFORM))
+find_node component: Could not find ID OBBoard downlight housing
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing, GEOMETRY))
+find_node component: Could not find ID OBBoard downlight housing
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing, TRANSFORM))
+find_node component: Could not find ID OBBoard downlight housing.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing.001, GEOMETRY))
+find_node component: Could not find ID OBBoard downlight housing.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing.001, TRANSFORM))
+find_node component: Could not find ID OBCounter reflected upper lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter reflected upper lip, GEOMETRY))
+find_node component: Could not find ID OBCounter reflected upper lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter reflected upper lip, TRANSFORM))
+find_node component: Could not find ID OBMachine side panel highlight
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMachine side panel highlight, GEOMETRY))
+find_node component: Could not find ID OBMachine side panel highlight
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMachine side panel highlight, TRANSFORM))
+find_node component: Could not find ID OBBoard lamp lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip, GEOMETRY))
+find_node component: Could not find ID OBBoard lamp lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip, TRANSFORM))
+find_node component: Could not find ID OBBoard lamp lip.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip.001, GEOMETRY))
+find_node component: Could not find ID OBBoard lamp lip.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip.001, TRANSFORM))
+find_node component: Could not find ID OBCounter surface reflected light
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter surface reflected light, GEOMETRY))
+find_node component: Could not find ID OBCounter surface reflected light
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter surface reflected light, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.001, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.001, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.002, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.002, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.003
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.003, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.003
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.003, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.004
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.004, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.004
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.004, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_9
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_9, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_9
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_9, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_8
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_8, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_8
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_8, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_7
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_7, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_7
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_7, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_6
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_6, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_6
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_6, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_5, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_5, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_4, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_4, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_3, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_3, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_2, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_2, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_13
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_13, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_13
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_13, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_12
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_12, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_12
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_12, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_11
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_11, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_11
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_11, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_10
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_10, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_10
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_10, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_1, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_1, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_0, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_0, TRANSFORM))
+find_node component: Could not find ID OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484, GEOMETRY))
+find_node component: Could not find ID OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484, TRANSFORM))
+find_node component: Could not find ID OBCustomer counter top
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCustomer counter top, GEOMETRY))
+find_node component: Could not find ID OBCustomer counter top
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCustomer counter top, TRANSFORM))
+find_node component: Could not find ID OBSaucer
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer, GEOMETRY))
+find_node component: Could not find ID OBSaucer
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer, TRANSFORM))
+find_node component: Could not find ID OBCup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body, GEOMETRY))
+find_node component: Could not find ID OBCup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body, TRANSFORM))
+find_node component: Could not find ID OBCup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle, GEOMETRY))
+find_node component: Could not find ID OBCup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle, TRANSFORM))
+find_node component: Could not find ID OBCup coffee surface
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface, GEOMETRY))
+find_node component: Could not find ID OBCup coffee surface
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface, TRANSFORM))
+find_node component: Could not find ID OBFoam heart contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour, GEOMETRY))
+find_node component: Could not find ID OBFoam heart contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour, TRANSFORM))
+find_node component: Could not find ID OBSaucer.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.001, GEOMETRY))
+find_node component: Could not find ID OBSaucer.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.001, TRANSFORM))
+find_node component: Could not find ID OBCup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.001, GEOMETRY))
+find_node component: Could not find ID OBCup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.001, TRANSFORM))
+find_node component: Could not find ID OBCup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.001, GEOMETRY))
+find_node component: Could not find ID OBCup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.001, TRANSFORM))
+find_node component: Could not find ID OBCup coffee surface.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.001, GEOMETRY))
+find_node component: Could not find ID OBCup coffee surface.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.001, TRANSFORM))
+find_node component: Could not find ID OBFoam heart contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.001, GEOMETRY))
+find_node component: Could not find ID OBFoam heart contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.001, TRANSFORM))
+find_node component: Could not find ID OBSaucer.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.002, GEOMETRY))
+find_node component: Could not find ID OBSaucer.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSaucer.002, TRANSFORM))
+find_node component: Could not find ID OBCup hollow ceramic body.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.002, GEOMETRY))
+find_node component: Could not find ID OBCup hollow ceramic body.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup hollow ceramic body.002, TRANSFORM))
+find_node component: Could not find ID OBCup open handle.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.002, GEOMETRY))
+find_node component: Could not find ID OBCup open handle.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup open handle.002, TRANSFORM))
+find_node component: Could not find ID OBCup coffee surface.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.002, GEOMETRY))
+find_node component: Could not find ID OBCup coffee surface.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCup coffee surface.002, TRANSFORM))
+find_node component: Could not find ID OBFoam heart contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.002, GEOMETRY))
+find_node component: Could not find ID OBFoam heart contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBFoam heart contour.002, TRANSFORM))
+find_node component: Could not find ID OBCounter front edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter front edge, GEOMETRY))
+find_node component: Could not find ID OBCounter front edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter front edge, TRANSFORM))
+find_node component: Could not find ID OBEspresso machine body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine body, GEOMETRY))
+find_node component: Could not find ID OBEspresso machine body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine body, TRANSFORM))
+find_node component: Could not find ID OBEspresso machine drip shelf
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine drip shelf, GEOMETRY))
+find_node component: Could not find ID OBEspresso machine drip shelf
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso machine drip shelf, TRANSFORM))
+find_node component: Could not find ID OBEspresso group head
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head, GEOMETRY))
+find_node component: Could not find ID OBEspresso group head
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter basket
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter basket
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle, TRANSFORM))
+find_node component: Could not find ID OBEspresso group head.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head.001, GEOMETRY))
+find_node component: Could not find ID OBEspresso group head.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso group head.001, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter basket.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket.001, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter basket.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter basket.001, TRANSFORM))
+find_node component: Could not find ID OBEspresso portafilter handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle.001, GEOMETRY))
+find_node component: Could not find ID OBEspresso portafilter handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBEspresso portafilter handle.001, TRANSFORM))
+find_node component: Could not find ID OBDrying cup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body, GEOMETRY))
+find_node component: Could not find ID OBDrying cup hollow ceramic body
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body, TRANSFORM))
+find_node component: Could not find ID OBDrying cup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle, GEOMETRY))
+find_node component: Could not find ID OBDrying cup open handle
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle, TRANSFORM))
+find_node component: Could not find ID OBDrying cup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body.001, GEOMETRY))
+find_node component: Could not find ID OBDrying cup hollow ceramic body.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup hollow ceramic body.001, TRANSFORM))
+find_node component: Could not find ID OBDrying cup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle.001, GEOMETRY))
+find_node component: Could not find ID OBDrying cup open handle.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying cup open handle.001, TRANSFORM))
+find_node component: Could not find ID OBDrying glass
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass, GEOMETRY))
+find_node component: Could not find ID OBDrying glass
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass, TRANSFORM))
+find_node component: Could not find ID OBDrying glass.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass.001, GEOMETRY))
+find_node component: Could not find ID OBDrying glass.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBDrying glass.001, TRANSFORM))
+find_node component: Could not find ID OBMenu board blank frame
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMenu board blank frame, GEOMETRY))
+find_node component: Could not find ID OBMenu board blank frame
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMenu board blank frame, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 0, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 0, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 1, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 1, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 2, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 2, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 3, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 3, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 4, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 4, TRANSFORM))
+find_node component: Could not find ID OBBoard column 0 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 5, GEOMETRY))
+find_node component: Could not find ID OBBoard column 0 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 0 row 5, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 0, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 0, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 1, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 1, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 2, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 2, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 3, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 3, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 4, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 4, TRANSFORM))
+find_node component: Could not find ID OBBoard column 1 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 5, GEOMETRY))
+find_node component: Could not find ID OBBoard column 1 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 1 row 5, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 0, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 0, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 1, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 1, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 2, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 2, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 3, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 3, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 4, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 4, TRANSFORM))
+find_node component: Could not find ID OBBoard column 2 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 5, GEOMETRY))
+find_node component: Could not find ID OBBoard column 2 row 5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard column 2 row 5, TRANSFORM))
+find_node component: Could not find ID OBBoard top left warm edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard top left warm edge, GEOMETRY))
+find_node component: Could not find ID OBBoard top left warm edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard top left warm edge, TRANSFORM))
+find_node component: Could not find ID OBBoard lower right reflected edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lower right reflected edge, GEOMETRY))
+find_node component: Could not find ID OBBoard lower right reflected edge
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lower right reflected edge, TRANSFORM))
+find_node component: Could not find ID OBBoard downlight housing
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing, GEOMETRY))
+find_node component: Could not find ID OBBoard downlight housing
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing, TRANSFORM))
+find_node component: Could not find ID OBBoard downlight housing.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing.001, GEOMETRY))
+find_node component: Could not find ID OBBoard downlight housing.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard downlight housing.001, TRANSFORM))
+find_node component: Could not find ID OBCounter reflected upper lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter reflected upper lip, GEOMETRY))
+find_node component: Could not find ID OBCounter reflected upper lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter reflected upper lip, TRANSFORM))
+find_node component: Could not find ID OBMachine side panel highlight
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMachine side panel highlight, GEOMETRY))
+find_node component: Could not find ID OBMachine side panel highlight
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBMachine side panel highlight, TRANSFORM))
+find_node component: Could not find ID OBBoard lamp lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip, GEOMETRY))
+find_node component: Could not find ID OBBoard lamp lip
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip, TRANSFORM))
+find_node component: Could not find ID OBBoard lamp lip.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip.001, GEOMETRY))
+find_node component: Could not find ID OBBoard lamp lip.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBBoard lamp lip.001, TRANSFORM))
+find_node component: Could not find ID OBCounter surface reflected light
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter surface reflected light, GEOMETRY))
+find_node component: Could not find ID OBCounter surface reflected light
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBCounter surface reflected light, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.001, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.001
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.001, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.002, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.002
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.002, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.003
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.003, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.003
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.003, TRANSFORM))
+find_node component: Could not find ID OBSurface light contour.004
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.004, GEOMETRY))
+find_node component: Could not find ID OBSurface light contour.004
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBSurface light contour.004, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_9
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_9, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_9
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_9, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_8
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_8, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_8
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_8, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_7
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_7, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_7
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_7, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_6
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_6, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_6
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_6, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_5, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_5
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_5, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_4, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_4
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_4, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_3, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_3
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_3, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_2, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_2
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_2, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_13
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_13, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_13
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_13, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_12
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_12, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_12
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_12, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_11
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_11, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_11
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_11, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_10
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_10, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_10
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_10, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_1, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_1
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_1, TRANSFORM))
+find_node component: Could not find ID OBtripo_part_0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_0, GEOMETRY))
+find_node component: Could not find ID OBtripo_part_0
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_part_0, TRANSFORM))
+find_node component: Could not find ID OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484, GEOMETRY))
+find_node component: Could not find ID OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484
+add_node_handle_relation(Line Art Modifier) - Could not find op_from (ComponentKey(OBtripo_node_fc7a8fe6-9a99-4b4a-8775-ad9bc6afc484, TRANSFORM))
+12:49.868  render           | Saved: '/Users/ihor.buts/Documents/Development/Loca/.ai/tasks/VIDEO_EDITOR_IMGLY_REPLACEMENT/ScriptsAndGuides/guides/revisions/2026-11-16-v3/venue/venue_order_placed/render/hero-target.png'
+Info: Saved as "scene.blend"
+P0_RENDER_READY venue_order_placed 75
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:31:22)
+
+Blender quit

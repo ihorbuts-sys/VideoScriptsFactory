@@ -1,0 +1,1960 @@
+{
+ "version": 1,
+ "shotTypes": [
+  {
+   "id": "entrance",
+   "title": "Entrance",
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "composition": "center",
+   "camera": "back",
+   "ambientDefault": "noise",
+   "guides": [
+    "entrance_walk_in_v2",
+    "entrance_door_low",
+    "entrance_friend_static",
+    "entrance_sign_tilt",
+    "entrance_sign_tilt_v2"
+   ],
+   "durationSec": {
+    "min": 4,
+    "max": 5
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "menu-board",
+   "title": "Menu board",
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "composition": "thirds",
+   "camera": "back",
+   "ambientDefault": "noise",
+   "guides": [
+    "menu_board_truck_v2",
+    "menu_board_tilt_up",
+    "menu_board_tilt_up_v2",
+    "menu_board_tilt_down",
+    "menu_board_static"
+   ],
+   "durationSec": {
+    "min": 3,
+    "max": 4
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "menu-card",
+   "title": "Menu card",
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "composition": "thirds",
+   "camera": "back",
+   "ambientDefault": "noise",
+   "guides": [
+    "menu_card_top",
+    "menu_card_top_v2",
+    "menu_card_push",
+    "menu_wall_board_item"
+   ],
+   "durationSec": {
+    "min": 3,
+    "max": 5
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "counter-order",
+   "title": "Order at the counter",
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "composition": "thirds",
+   "camera": "back",
+   "ambientDefault": "content",
+   "guides": [
+    "counter_over_shoulder",
+    "counter_over_shoulder_v2",
+    "counter_edge_to_pass",
+    "counter_edge_to_pass_v2",
+    "counter_hand_receive"
+   ],
+   "durationSec": {
+    "min": 3,
+    "max": 5
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "plate-reveal",
+   "title": "Plate reveal",
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "composition": "triangle",
+   "camera": "back",
+   "ambientDefault": "content",
+   "guides": [
+    "plate_low_push_in",
+    "plate_low_push_in_v2",
+    "plate_high_orbit_v2",
+    "plate_tissue_slide",
+    "table_spread_orbit",
+    "glass_slide_close",
+    "pancake_clear_path",
+    "plate_turntable",
+    "plate_rise_overhead_v2",
+    "plate_top_orbit"
+   ],
+   "durationSec": {
+    "min": 4,
+    "max": 8
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "hand-off",
+   "title": "Hand-off",
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "composition": "center",
+   "camera": "back",
+   "ambientDefault": "content",
+   "guides": [
+    "handoff_counter_cup_v2",
+    "handoff_plate_lands",
+    "handoff_plate_lands_v2"
+   ],
+   "durationSec": {
+    "min": 4,
+    "max": 4
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "pour",
+   "title": "Pour",
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "composition": "center",
+   "camera": "back",
+   "ambientDefault": "content",
+   "guides": [
+    "pour_top_down_latte",
+    "pour_side_low_v2",
+    "pour_upside_down",
+    "pour_static_45"
+   ],
+   "durationSec": {
+    "min": 5,
+    "max": 5
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "steam",
+   "title": "Steam",
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "composition": "thirds",
+   "camera": "back",
+   "ambientDefault": "content",
+   "guides": [
+    "steam_low_backlit",
+    "steam_low_backlit_v2",
+    "steam_push_in_high",
+    "steam_orbit_eye",
+    "steam_slide_pull_out",
+    "steam_static_low",
+    "steam_top_orbit"
+   ],
+   "durationSec": {
+    "min": 4,
+    "max": 6
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "first-bite",
+   "title": "First bite",
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "composition": "center",
+   "camera": "front",
+   "ambientDefault": "content",
+   "guides": [
+    "bite_selfie_eye_v2",
+    "bite_pip_dish_v2",
+    "bite_friend_three_quarter_v2"
+   ],
+   "durationSec": {
+    "min": 5,
+    "max": 5
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "sip",
+   "title": "First sip",
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "composition": "center",
+   "camera": "front",
+   "ambientDefault": "content",
+   "guides": [
+    "sip_selfie_eye_v2",
+    "sip_high_lean_v2",
+    "sip_friend_side_v2",
+    "sip_cup_only"
+   ],
+   "durationSec": {
+    "min": 4,
+    "max": 5
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "room-from-table",
+   "title": "Room from the table",
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "composition": "thirds",
+   "camera": "back",
+   "ambientDefault": "noise",
+   "guides": [
+    "room_tilt_up_from_plate",
+    "room_seated_pan_v2",
+    "room_reveal_plant_v2",
+    "room_static_wide",
+    "room_bar_pan",
+    "room_window_pan_left"
+   ],
+   "durationSec": {
+    "min": 3,
+    "max": 5
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  },
+  {
+   "id": "verdict",
+   "title": "Verdict",
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "composition": "center",
+   "camera": "front",
+   "ambientDefault": "content",
+   "guides": [
+    "verdict_eye_level_v2",
+    "verdict_high_plate_v2",
+    "verdict_friend_eye_v2",
+    "verdict_propped_rear"
+   ],
+   "durationSec": {
+    "min": 6,
+    "max": 6
+   },
+   "availability": "active",
+   "deferredGuideIDs": []
+  }
+ ],
+ "guides": {
+  "entrance_walk_in_v2": {
+   "id": "entrance_walk_in_v2",
+   "shotType": "entrance",
+   "title": "Walk up to the door",
+   "invariant": "Door centred, phone at your chest. Walk straight at it at an even, slow pace.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/a934b03ad7911572/entrance_walk_in_v2.png",
+   "sha256": "a934b03ad7911572132b1cf585cff5db21077d4226eb36aa088ba0afc523104a",
+   "selector": "overlays/p0/bf0988f07ad415a5/entrance_walk_in_v2_selector.png",
+   "poster": "overlays/p0/1f706b70247c95b4/entrance_walk_in_v2_poster.png",
+   "content": "object-only"
+  },
+  "entrance_door_low": {
+   "id": "entrance_door_low",
+   "shotType": "entrance",
+   "title": "Through the door at hip height",
+   "invariant": "Phone at hip height, lens forward, walk in without stopping.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/d410079e0d718d14/entrance_door_low.png",
+   "sha256": "d410079e0d718d1406f8714df2502597e3bebad945a027a7688267eca974744e",
+   "selector": "overlays/p0/fd6898e65db05786/entrance_door_low_selector.png",
+   "poster": "overlays/p0/5d52cdd2587e17b5/entrance_door_low_poster.png",
+   "content": "object-only"
+  },
+  "entrance_friend_static": {
+   "id": "entrance_friend_static",
+   "shotType": "entrance",
+   "title": "A friend films you walking in",
+   "invariant": "Ask a friend to stand 3-4 m from the door and hold the phone still at chest height. Walk in through the door.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "filmingMode": "friend",
+   "previewMirrored": false,
+   "facialAnimation": false,
+   "animation": "overlays/p0/0dd189158b409023/entrance_friend_static.png",
+   "sha256": "0dd189158b40902357ff80fc950db135d252ce460f69587afee23e51fc8f797c",
+   "selector": "overlays/p0/7bca1c57c753af20/entrance_friend_static_selector.png",
+   "poster": "overlays/p0/703a2434431912fa/entrance_friend_static_poster.png",
+   "content": "canonical-character"
+  },
+  "entrance_sign_tilt": {
+   "id": "entrance_sign_tilt",
+   "shotType": "entrance",
+   "title": "Sign down to the door",
+   "invariant": "Stay close on the public side. Start on the sign, then lower the phone about 45 cm and tilt smoothly down to the door without pulling back.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/45356fc339465138/entrance_sign_tilt.png",
+   "sha256": "45356fc339465138804859a2cd35fea808ef5b3482ff0103229ee44687094c7c",
+   "selector": "overlays/p0/ee851d6a60e4281e/entrance_sign_tilt_selector.png",
+   "poster": "overlays/p0/40b51cbb9e4a51f8/entrance_sign_tilt_poster.png",
+   "content": "object-only"
+  },
+  "entrance_sign_tilt_v2": {
+   "id": "entrance_sign_tilt_v2",
+   "shotType": "entrance",
+   "title": "Sign down to the door",
+   "invariant": "Stand still across from the door. Start on the sign, then tilt down to the door in one slow move.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/82016c2a6bf259d8/entrance_sign_tilt_v2.png",
+   "sha256": "82016c2a6bf259d8218c9f2aef32e0d947abe1c5638da0aaff1ede88307be5f0",
+   "selector": "overlays/p0/fecf46522f7d1914/entrance_sign_tilt_v2_selector.png",
+   "poster": "overlays/p0/82456af1e06e88ec/entrance_sign_tilt_v2_poster.png",
+   "content": "object-only"
+  },
+  "menu_board_truck_v2": {
+   "id": "menu_board_truck_v2",
+   "shotType": "menu-board",
+   "title": "Slide along the board",
+   "invariant": "Phone level, sidestep past the board at one slow even pace.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/38b12b65fdd4bb20/menu_board_truck_v2.png",
+   "sha256": "38b12b65fdd4bb20a833fa293f4a13a7805364774e76aad49dc120c0f058d989",
+   "selector": "overlays/p0/67ddc9519f0e0456/menu_board_truck_v2_selector.png",
+   "poster": "overlays/p0/9ff32ec1214c4d24/menu_board_truck_v2_poster.png",
+   "content": "object-only"
+  },
+  "menu_board_tilt_up": {
+   "id": "menu_board_tilt_up",
+   "shotType": "menu-board",
+   "title": "Counter edge up to the board",
+   "invariant": "Start on the counter, tilt up until the board fills the frame.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/607148ca89257c1c/menu_board_tilt_up.png",
+   "sha256": "607148ca89257c1c9475435a949df4771cf8ceda6c6d517a8fe276779064c0a7",
+   "selector": "overlays/p0/96b0123702ae9452/menu_board_tilt_up_selector.png",
+   "poster": "overlays/p0/ba03a71fd8f7846e/menu_board_tilt_up_poster.png",
+   "content": "object-only"
+  },
+  "menu_board_tilt_up_v2": {
+   "id": "menu_board_tilt_up_v2",
+   "shotType": "menu-board",
+   "title": "Counter up to the board",
+   "invariant": "Feet still, 2x, tilt up slowly from the cups to the board.",
+   "durationSec": 3,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/9572bd6ffebd0073/menu_board_tilt_up_v2.png",
+   "sha256": "9572bd6ffebd007301ed91991dec9184bf931871dcb5adbc989aa0a547e1c7e4",
+   "selector": "overlays/p0/896047552aabb460/menu_board_tilt_up_v2_selector.png",
+   "poster": "overlays/p0/d84d93ab9b512e8a/menu_board_tilt_up_v2_poster.png",
+   "content": "object-only"
+  },
+  "menu_card_top": {
+   "id": "menu_card_top",
+   "shotType": "menu-card",
+   "title": "Menu flat on the table",
+   "invariant": "Keep the menu flat. Slide the phone sideways about 12 cm, gently settling into an overhead view.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/8310f0f7e4819c51/menu_card_top.png",
+   "sha256": "8310f0f7e4819c519b7062c484f40f0364689f5c131327d274b9d6596849503e",
+   "selector": "overlays/p0/51debce4ed4fb420/menu_card_top_selector.png",
+   "poster": "overlays/p0/5fcfc871ffbf6fd3/menu_card_top_poster.png",
+   "content": "object-only"
+  },
+  "menu_card_top_v2": {
+   "id": "menu_card_top_v2",
+   "shotType": "menu-card",
+   "title": "Menu flat on the table, closer",
+   "invariant": "Phone flat over the menu and cup, lower it slowly until the lines read.",
+   "durationSec": 3,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/f5cba4bf5011bf80/menu_card_top_v2.png",
+   "sha256": "f5cba4bf5011bf80b1f8409b38d23bd4bf482ab243c813ea99430d1363b5c60c",
+   "selector": "overlays/p0/5e91039c0e3cb945/menu_card_top_v2_selector.png",
+   "poster": "overlays/p0/a906680140632ba6/menu_card_top_v2_poster.png",
+   "content": "object-only"
+  },
+  "menu_card_push": {
+   "id": "menu_card_push",
+   "shotType": "menu-card",
+   "title": "Into the dish name",
+   "invariant": "Move closer to one menu line along a small diagonal curve; keep the card flat on the table.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/a7163c661bb4e573/menu_card_push.png",
+   "sha256": "a7163c661bb4e5734ccc080e6cf8888485be10e492db2640e096a3f26b25ffa1",
+   "selector": "overlays/p0/ca3a15471888bdff/menu_card_push_selector.png",
+   "poster": "overlays/p0/55db5f2eb576165b/menu_card_push_poster.png",
+   "content": "object-only"
+  },
+  "counter_over_shoulder": {
+   "id": "counter_over_shoulder",
+   "shotType": "counter-order",
+   "title": "Over your shoulder at the counter",
+   "invariant": "From the customer side, slide the phone about 40 cm left to right while leaning slightly closer, keeping the menu board above the cup.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/68752deb39e7c951/counter_over_shoulder.png",
+   "sha256": "68752deb39e7c951237b18f34923f65fc87d6fb1a873fd98cea741a6e67daceb",
+   "selector": "overlays/p0/1f547247ff35c831/counter_over_shoulder_selector.png",
+   "poster": "overlays/p0/fa5c5b84bfaa586e/counter_over_shoulder_poster.png",
+   "content": "object-only"
+  },
+  "counter_over_shoulder_v2": {
+   "id": "counter_over_shoulder_v2",
+   "shotType": "counter-order",
+   "title": "Over your shoulder at the counter",
+   "invariant": "A friend films over your right shoulder at shoulder height, pitched slightly down, and pushes in about 20 cm toward the cup and machine.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/9e89cd466e3d7d84/counter_over_shoulder_v2.png",
+   "sha256": "9e89cd466e3d7d84a22dfafe05316afa3f54ae3e953e2a0a95fd0e89729d7957",
+   "selector": "overlays/p0/46b704f587fa6ce7/counter_over_shoulder_v2_selector.png",
+   "poster": "overlays/p0/5408bf02d9e81223/counter_over_shoulder_v2_poster.png",
+   "content": "object-with-background-silhouette"
+  },
+  "counter_edge_to_pass": {
+   "id": "counter_edge_to_pass",
+   "shotType": "counter-order",
+   "title": "Along the counter to the pass",
+   "invariant": "Low over the counter, slide along its edge until your cup fills the frame.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/3d9ab92e24f0b1f4/counter_edge_to_pass.png",
+   "sha256": "3d9ab92e24f0b1f400c3b64b12d3dff54c99cbc957b365670e3a07e58b52e2c7",
+   "selector": "overlays/p0/0149418e24e631d2/counter_edge_to_pass_selector.png",
+   "poster": "overlays/p0/c8bc76c1dbadcffd/counter_edge_to_pass_poster.png",
+   "content": "object-only"
+  },
+  "counter_edge_to_pass_v2": {
+   "id": "counter_edge_to_pass_v2",
+   "shotType": "counter-order",
+   "title": "Along the counter to the pass",
+   "invariant": "Hold the phone about 15 cm above the counter, tilted slightly down, and slide it about 18 cm along the edge without turning.",
+   "durationSec": 3,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/7ae87f0986fe7900/counter_edge_to_pass_v2.png",
+   "sha256": "7ae87f0986fe7900b4482e5469a752acccc7c0d626e241a3d58c7a7721edf205",
+   "selector": "overlays/p0/2c65326d44077d6f/counter_edge_to_pass_v2_selector.png",
+   "poster": "overlays/p0/848630a8c9e3e11d/counter_edge_to_pass_v2_poster.png",
+   "content": "object-only"
+  },
+  "plate_low_push_in": {
+   "id": "plate_low_push_in",
+   "shotType": "plate-reveal",
+   "title": "Low push into the plate",
+   "invariant": "Phone at plate height, move in slowly until the dish fills the screen.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/b7ca3bbb50f4fc42/plate_low_push_in.png",
+   "sha256": "b7ca3bbb50f4fc42f3994a40edeb4610b44d1f24459cdbf4defb6060764626a9",
+   "selector": "overlays/p0/5bba54839d4d671d/plate_low_push_in_selector.png",
+   "poster": "overlays/p0/4cfe81ac31d5d8d2/plate_low_push_in_poster.png",
+   "content": "object-only"
+  },
+  "plate_low_push_in_v2": {
+   "id": "plate_low_push_in_v2",
+   "shotType": "plate-reveal",
+   "title": "3/4 push into the plate",
+   "invariant": "Elbows on the table, phone 45 degrees down; push in slowly about 20 cm until the plate fills the width.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/40bff6cbccb0baf5/plate_low_push_in_v2.png",
+   "sha256": "40bff6cbccb0baf51a781c1ab5e9f8b4b6ae309f3b45dda587eb8fcfa26bb88a",
+   "selector": "overlays/p0/6c0fbcc5f0eb7bc5/plate_low_push_in_v2_selector.png",
+   "poster": "overlays/p0/d0092df61ad80515/plate_low_push_in_v2_poster.png",
+   "content": "object-only"
+  },
+  "plate_high_orbit_v2": {
+   "id": "plate_high_orbit_v2",
+   "shotType": "plate-reveal",
+   "title": "Short orbit around the plate",
+   "invariant": "Elbows on the table, swing the phone around the plate at one even pace, same distance all the way.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/db4d250df6782942/plate_high_orbit_v2.png",
+   "sha256": "db4d250df6782942100153c00c9d4e839a543ff8f089991a79062d0a607df141",
+   "selector": "overlays/p0/68f66abfa6760ac2/plate_high_orbit_v2_selector.png",
+   "poster": "overlays/p0/c889cebb4b6e9073/plate_high_orbit_v2_poster.png",
+   "content": "object-only"
+  },
+  "plate_tissue_slide": {
+   "id": "plate_tissue_slide",
+   "shotType": "plate-reveal",
+   "title": "Tissue slide to the plate",
+   "invariant": "Rest the phone bottom edge on a napkin and slide it left to right across the near table edge. Keep the lens facing the dish; do not slide into it.",
+   "durationSec": 4,
+   "startTrigger": "countdown",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 1,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/6ae5f03ca39e74b6/plate_tissue_slide.png",
+   "sha256": "6ae5f03ca39e74b6e619271fad79ab5b585bd5b333870df9cc4cb7a5ddc01c18",
+   "selector": "overlays/p0/c6ef4b483faa35fd/plate_tissue_slide_selector.png",
+   "poster": "overlays/p0/bbfc03c9b6598680/plate_tissue_slide_poster.png",
+   "content": "object-only"
+  },
+  "handoff_counter_cup_v2": {
+   "id": "handoff_counter_cup_v2",
+   "shotType": "hand-off",
+   "title": "Your cup at the counter",
+   "invariant": "Frame the empty spot on the counter from chest height, hold still and let the barista slide the cup in.",
+   "durationSec": 4,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/5ad61b649825f1fe/handoff_counter_cup_v2.png",
+   "sha256": "5ad61b649825f1febef2450e93c7ac77d8084f1676da8aee5276208b5f509407",
+   "selector": "overlays/p0/2befef1ba015ecbf/handoff_counter_cup_v2_selector.png",
+   "poster": "overlays/p0/2c29f2e45b21de30/handoff_counter_cup_v2_poster.png",
+   "content": "cropped-grip"
+  },
+  "handoff_plate_lands": {
+   "id": "handoff_plate_lands",
+   "shotType": "hand-off",
+   "title": "Plate at your place",
+   "invariant": "After the plate is set down, keep it at your place setting. Move the phone slightly sideways and up, keeping the rim, glass and cutlery visible.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/a48c1f70c1970b0c/handoff_plate_lands.png",
+   "sha256": "a48c1f70c1970b0c6d174688352f1dce671cb24402a803bc664b6d1a21e9cb22",
+   "selector": "overlays/p0/6f82b3ee0f8dce4a/handoff_plate_lands_selector.png",
+   "poster": "overlays/p0/3352d558d3945b91/handoff_plate_lands_poster.png",
+   "content": "object-only",
+   "examplePreview": "previews/p0/845ba6d01ef301e5/food-review_dish_handoff.jpg"
+  },
+  "handoff_plate_lands_v2": {
+   "id": "handoff_plate_lands_v2",
+   "shotType": "hand-off",
+   "title": "Plate at your place",
+   "invariant": "From your seat, frame the empty place 45 degrees down, lock focus, hold still while the plate is set down.",
+   "durationSec": 4,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/751b6fd585e277c2/handoff_plate_lands_v2.png",
+   "sha256": "751b6fd585e277c2e6e9411ca1d0988a19714ba193728f3db638fd4487e61328",
+   "selector": "overlays/p0/042b57c82542bab5/handoff_plate_lands_v2_selector.png",
+   "poster": "overlays/p0/302ce88b23d25a86/handoff_plate_lands_v2_poster.png",
+   "content": "cropped-grip"
+  },
+  "pour_top_down_latte": {
+   "id": "pour_top_down_latte",
+   "shotType": "pour",
+   "title": "Latte art from above",
+   "invariant": "Straight above the cup, hold still, lean in slowly as the milk goes in.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/a8e4b3b70091617a/pour_top_down_latte.png",
+   "sha256": "a8e4b3b70091617a1db5d5905787cca59f9973cc7ba3a4731d04eca885ee42d3",
+   "selector": "overlays/p0/63a9745273b40e1e/pour_top_down_latte_selector.png",
+   "poster": "overlays/p0/773955477287f65d/pour_top_down_latte_poster.png",
+   "content": "object-only"
+  },
+  "pour_side_low_v2": {
+   "id": "pour_side_low_v2",
+   "shotType": "pour",
+   "title": "Pour at cup height",
+   "invariant": "Hold the phone still in front of the counter edge, lens just below the cup rim, about 30 cm away, through the pour.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/2cf032a817b91d79/pour_side_low_v2.png",
+   "sha256": "2cf032a817b91d793abd13c3b4fe8472ad6e8825b05470712e1aef4b40122c90",
+   "selector": "overlays/p0/afe4b10cf319267a/pour_side_low_v2_selector.png",
+   "poster": "overlays/p0/9f122626608ba399/pour_side_low_v2_poster.png",
+   "content": "object-only"
+  },
+  "pour_upside_down": {
+   "id": "pour_upside_down",
+   "shotType": "pour",
+   "title": "Upside-down at the counter",
+   "invariant": "Invert the phone so its lens sits just above the counter. Slide it sideways about 18 cm while looking slightly up at the cup and spout.",
+   "durationSec": 5,
+   "startTrigger": "countdown",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 1,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/15ea07529691d7f5/pour_upside_down.png",
+   "sha256": "15ea07529691d7f5280925376418de5b5d87723e913d3a09b0265c85e329ca1e",
+   "selector": "overlays/p0/868e6eecee18e2c0/pour_upside_down_selector.png",
+   "poster": "overlays/p0/8c60d4c7944932d3/pour_upside_down_poster.png",
+   "content": "object-only"
+  },
+  "steam_low_backlit": {
+   "id": "steam_low_backlit",
+   "shotType": "steam",
+   "title": "Steam against the window",
+   "invariant": "With the window behind the steam, slide the phone sideways about 14 cm at cup height, keeping the cup on its saucer.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/6a10c12416857470/steam_low_backlit.png",
+   "sha256": "6a10c124168574708540623a8ea4a3a63ac529f150e6fad4e9954fdd59ca7e4c",
+   "selector": "overlays/p0/f0ded79641c4a0cb/steam_low_backlit_selector.png",
+   "poster": "overlays/p0/38325128d7eb3c35/steam_low_backlit_poster.png",
+   "content": "object-only"
+  },
+  "steam_low_backlit_v2": {
+   "id": "steam_low_backlit_v2",
+   "shotType": "steam",
+   "title": "Steam at cup height",
+   "invariant": "Hold the phone just past the table edge at cup height, about 35 cm from the cup, a dark wall behind it, and keep still.",
+   "durationSec": 4,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/f67f0170fc4412fe/steam_low_backlit_v2.png",
+   "sha256": "f67f0170fc4412fe584d701c7da27f1f6969fb73f43aaa83394f3c552147d95b",
+   "selector": "overlays/p0/569f9c2e6b7ee5ba/steam_low_backlit_v2_selector.png",
+   "poster": "overlays/p0/ae0ed7aa90552d67/steam_low_backlit_v2_poster.png",
+   "content": "object-only"
+  },
+  "steam_push_in_high": {
+   "id": "steam_push_in_high",
+   "shotType": "steam",
+   "title": "Into the steam",
+   "invariant": "Move the phone closer and slightly sideways to reveal the steam and the cup beside its pastry.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/b033b689de36c70c/steam_push_in_high.png",
+   "sha256": "b033b689de36c70c266697896e6668f180769bee92a208474da325e447c64be6",
+   "selector": "overlays/p0/f7e3a1cc14bcdb15/steam_push_in_high_selector.png",
+   "poster": "overlays/p0/2031e70cfe593096/steam_push_in_high_poster.png",
+   "content": "object-only"
+  },
+  "steam_orbit_eye": {
+   "id": "steam_orbit_eye",
+   "shotType": "steam",
+   "title": "Around the cup",
+   "invariant": "Phone level with the cup, circle slowly until the handle comes into view.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/366e1aa8436e8116/steam_orbit_eye.png",
+   "sha256": "366e1aa8436e8116ce1a253b0bc22948300cedfbd94da9be494eeb9159095d69",
+   "selector": "overlays/p0/13d9b20cfb3ed39d/steam_orbit_eye_selector.png",
+   "poster": "overlays/p0/3d5dc56c8745ec2e/steam_orbit_eye_poster.png",
+   "content": "object-only"
+  },
+  "bite_selfie_eye_v2": {
+   "id": "bite_selfie_eye_v2",
+   "shotType": "first-bite",
+   "title": "First bite, front camera",
+   "invariant": "Sit at your table and hold the front camera at arm's length, level with your eyes. Raise a small forkful to your mouth, pause before the bite, then lower it. Look at the lens.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "front",
+   "filmingMode": "selfie",
+   "previewMirrored": true,
+   "facialAnimation": false,
+   "animation": "overlays/p0/fb362a808a351377/bite_selfie_eye_v2.png",
+   "sha256": "fb362a808a35137792903fb3ef4c7386a3e78e6810d9bae7a939229dbcf9a870",
+   "selector": "overlays/p0/1850c9dd79bc3a90/bite_selfie_eye_v2_selector.png",
+   "poster": "overlays/p0/c559d07ffa4b9e4d/bite_selfie_eye_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "bite_pip_dish_v2": {
+   "id": "bite_pip_dish_v2",
+   "shotType": "first-bite",
+   "title": "First forkful, food only",
+   "invariant": "Hold the phone still at 45 degrees over the plate; lift a forkful slowly up toward the lens.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/ec9e7de8fdcc65af/bite_pip_dish_v2.png",
+   "sha256": "ec9e7de8fdcc65af5516193b40d110c1c754a33232e1c41dac1932a8469b5856",
+   "selector": "overlays/p0/ed647ec91fa5abbd/bite_pip_dish_v2_selector.png",
+   "poster": "overlays/p0/a3f10b9a97e7102d/bite_pip_dish_v2_poster.png",
+   "content": "cropped-grip"
+  },
+  "sip_selfie_eye_v2": {
+   "id": "sip_selfie_eye_v2",
+   "shotType": "sip",
+   "title": "First sip, front camera",
+   "invariant": "Sit at your table and hold the front camera at arm's length, level with your eyes. Lift the cup from its saucer to your lower lip, pause, then set it back and look into the lens.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "front",
+   "filmingMode": "selfie",
+   "previewMirrored": true,
+   "facialAnimation": false,
+   "animation": "overlays/p0/a0d39da270189613/sip_selfie_eye_v2.png",
+   "sha256": "a0d39da270189613cb5cc7d273f84252fc89bc3cf91c9a7c874f2cf239d3045b",
+   "selector": "overlays/p0/f6da1b2a9b0944db/sip_selfie_eye_v2_selector.png",
+   "poster": "overlays/p0/36a3a8d060adb052/sip_selfie_eye_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "sip_high_lean_v2": {
+   "id": "sip_high_lean_v2",
+   "shotType": "sip",
+   "title": "First sip, camera slightly above",
+   "invariant": "Sit at your table and hold the front camera at arm's length, a little above your eyes, tilted down. Lift the cup without hiding your eyes, pause at the lips, then set it back.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "front",
+   "filmingMode": "selfie",
+   "previewMirrored": true,
+   "facialAnimation": false,
+   "animation": "overlays/p0/25ff3d18f65b7189/sip_high_lean_v2.png",
+   "sha256": "25ff3d18f65b7189754b7e18311be56291fcccbc6dfb1ba63ba4d96a326714ff",
+   "selector": "overlays/p0/be1644d6d37387eb/sip_high_lean_v2_selector.png",
+   "poster": "overlays/p0/d3ee7e6032aaed0f/sip_high_lean_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "room_tilt_up_from_plate": {
+   "id": "room_tilt_up_from_plate",
+   "shotType": "room-from-table",
+   "title": "Tilt up from your plate",
+   "invariant": "From your seat, start on your plate and tilt the phone up slowly until the room is level.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/40638d7a76a865d2/room_tilt_up_from_plate.png",
+   "sha256": "40638d7a76a865d2e2fc65c42b40f61af3af326e4ceeb7beca6204ec5171c972",
+   "selector": "overlays/p0/ed93d1936635b7f4/room_tilt_up_from_plate_selector.png",
+   "poster": "overlays/p0/85230e47b932182d/room_tilt_up_from_plate_poster.png",
+   "content": "object-only"
+  },
+  "room_seated_pan_v2": {
+   "id": "room_seated_pan_v2",
+   "shotType": "room-from-table",
+   "title": "Slow pan from your seat",
+   "invariant": "Sit with the phone at eye level and turn it slowly left across the room, level all the way.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/4b7da20902f95a78/room_seated_pan_v2.png",
+   "sha256": "4b7da20902f95a7835d0b5585eea26fbbd3fe67d2db12a968d4823e08666af76",
+   "selector": "overlays/p0/6f74e94c8f1fb49c/room_seated_pan_v2_selector.png",
+   "poster": "overlays/p0/d179f0b0e2d0fd73/room_seated_pan_v2_poster.png",
+   "content": "object-only"
+  },
+  "verdict_eye_level_v2": {
+   "id": "verdict_eye_level_v2",
+   "shotType": "verdict",
+   "title": "Your verdict, front camera at eye height",
+   "invariant": "Sit at your table and hold the front camera at arm's length, level with your eyes. Look into the lens and give one small open-hand gesture, then rest your hand.",
+   "durationSec": 6,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "front",
+   "filmingMode": "selfie",
+   "previewMirrored": true,
+   "facialAnimation": false,
+   "animation": "overlays/p0/e7c6b7f620d5e6d3/verdict_eye_level_v2.png",
+   "sha256": "e7c6b7f620d5e6d389b375fc6e3ce0f06a6e9592dae0a0211bcadb8630ec66a1",
+   "selector": "overlays/p0/ad22ce16d594605f/verdict_eye_level_v2_selector.png",
+   "poster": "overlays/p0/3d4a0a8574cb8841/verdict_eye_level_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "verdict_high_plate_v2": {
+   "id": "verdict_high_plate_v2",
+   "shotType": "verdict",
+   "title": "Your verdict with the dish",
+   "invariant": "Sit at your table and hold the front camera at arm's length, a little above your eyes. Hold your plate up below your chin, tip it toward the lens and give your verdict.",
+   "durationSec": 6,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "front",
+   "filmingMode": "selfie",
+   "previewMirrored": true,
+   "facialAnimation": false,
+   "animation": "overlays/p0/382b3c7f5fbab9f8/verdict_high_plate_v2.png",
+   "sha256": "382b3c7f5fbab9f8319cfd5e8b3f4df4ad18f281d97a3e6adda359370e19f716",
+   "selector": "overlays/p0/7785e71f8c2dcfd0/verdict_high_plate_v2_selector.png",
+   "poster": "overlays/p0/83d47430a5ad8944/verdict_high_plate_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "room_reveal_plant_v2": {
+   "id": "room_reveal_plant_v2",
+   "shotType": "room-from-table",
+   "title": "Through the leaves into the room",
+   "invariant": "From your seat, hold the lens a hand-width behind a plant leaf, then slide right until the room shows.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/f348e63342944ddf/room_reveal_plant_v2.png",
+   "sha256": "f348e63342944ddf91163acae0b85b6e02aecbea7fbb6b1d4ff0d1d6f3af947c",
+   "selector": "overlays/p0/a872e1fdb95529c0/room_reveal_plant_v2_selector.png",
+   "poster": "overlays/p0/17b59f4558640d2c/room_reveal_plant_v2_poster.png",
+   "content": "object-only"
+  },
+  "counter_hand_receive": {
+   "id": "counter_hand_receive",
+   "shotType": "counter-order",
+   "title": "Your hand takes the cup",
+   "invariant": "Hold the phone still at chest height over the counter edge; the barista slides the cup across and your free hand takes it.",
+   "durationSec": 3,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/54864d4970c667b4/counter_hand_receive.png",
+   "sha256": "54864d4970c667b4b957b7962fba84ea52e0eba89ec6d0ddb2127ffed1a07298",
+   "selector": "overlays/p0/4297a9256b362ecc/counter_hand_receive_selector.png",
+   "poster": "overlays/p0/8df59e9947e7f54d/counter_hand_receive_poster.png",
+   "content": "cropped-grip"
+  },
+  "steam_slide_pull_out": {
+   "id": "steam_slide_pull_out",
+   "shotType": "steam",
+   "title": "Slide past the cup and pull back",
+   "invariant": "Start close to the cup on its saucer. Slide sideways about 30 cm while pulling back to reveal the pastry and window-side table.",
+   "durationSec": 6,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/644fe717f260881e/steam_slide_pull_out.png",
+   "sha256": "644fe717f260881e2dcb2a0669a42af024a55cb88b32fb84342b38f3bbed72ce",
+   "selector": "overlays/p0/cd3c76caf536118a/steam_slide_pull_out_selector.png",
+   "poster": "overlays/p0/7276932314ebd40c/steam_slide_pull_out_poster.png",
+   "content": "object-only"
+  },
+  "table_spread_orbit": {
+   "id": "table_spread_orbit",
+   "shotType": "plate-reveal",
+   "title": "Rise over the shared table spread",
+   "invariant": "Start at a high three-quarter angle, then raise the phone into an overhead view of the pizza, salad, pasta and drinks. Keep the whole spread in frame at the end.",
+   "durationSec": 8,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/9d59cec4157b9fcd/table_spread_orbit.png",
+   "sha256": "9d59cec4157b9fcd8cb0f07131382d1e38a4fc1d2df5ed35c02d5d3c4f0f5b56",
+   "selector": "overlays/p0/586419c94d97893e/table_spread_orbit_selector.png",
+   "poster": "overlays/p0/d30c3a040ac4173a/table_spread_orbit_poster.png",
+   "content": "object-only"
+  },
+  "glass_slide_close": {
+   "id": "glass_slide_close",
+   "shotType": "plate-reveal",
+   "title": "Slide a cocktail into the close-up",
+   "invariant": "Keep the glass base on the table. Slide the drink gently into the foreground with one hand while filming close with the other.",
+   "durationSec": 6,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/4c83bc2fb0689f5b/glass_slide_close.png",
+   "sha256": "4c83bc2fb0689f5b402c115b4f934c189f176671515838c0fb63dc2a34cd7da3",
+   "selector": "overlays/p0/2ccb26ac311acc53/glass_slide_close_selector.png",
+   "poster": "overlays/p0/d0545180ab8a3318/glass_slide_close_poster.png",
+   "content": "cropped-grip"
+  },
+  "pancake_clear_path": {
+   "id": "pancake_clear_path",
+   "shotType": "plate-reveal",
+   "title": "Clear the foreground to reveal pancakes",
+   "invariant": "Have a right-side hand pull each drink right and a left-side hand pull the salad left, one by one. Film toward the pancakes at their height; hands stay on their own side.",
+   "durationSec": 8,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/f7a096072cb8605f/pancake_clear_path.png",
+   "sha256": "f7a096072cb8605f89ceab79cfc41d8cd7dab9ef96bb2a4b0f0d8f2ac0a3c4e8",
+   "selector": "overlays/p0/999ba4bc1a8637b6/pancake_clear_path_selector.png",
+   "poster": "overlays/p0/6ae9d56fe9bdbde8/pancake_clear_path_poster.png",
+   "content": "cropped-grip"
+  },
+  "bite_friend_three_quarter_v2": {
+   "id": "bite_friend_three_quarter_v2",
+   "shotType": "first-bite",
+   "title": "First bite, filmed by a friend",
+   "invariant": "Ask a friend across the table to film at your eye height, a little to your side, about 85 cm away. Raise the forkful to your mouth. The phone stays still.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "filmingMode": "friend",
+   "previewMirrored": false,
+   "facialAnimation": false,
+   "animation": "overlays/p0/1cc727b2a23c56d7/bite_friend_three_quarter_v2.png",
+   "sha256": "1cc727b2a23c56d75ef84b0e5c9ffd99d6223d52b5cd21c938ceea05b6932ac2",
+   "selector": "overlays/p0/1bbfdd251b1fcdc0/bite_friend_three_quarter_v2_selector.png",
+   "poster": "overlays/p0/c50205b99cad6721/bite_friend_three_quarter_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "sip_friend_side_v2": {
+   "id": "sip_friend_side_v2",
+   "shotType": "sip",
+   "title": "First sip, friend at a three-quarter angle",
+   "invariant": "Ask a friend across the table to film at your eye height from a three-quarter angle, about 85 cm away. Lift the cup with your eyes visible above the rim. The phone stays still.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "filmingMode": "friend",
+   "previewMirrored": false,
+   "facialAnimation": false,
+   "animation": "overlays/p0/57bc1fa4eda39bfe/sip_friend_side_v2.png",
+   "sha256": "57bc1fa4eda39bfe7c5457637d3ceac7a9806059e2f1355f7d3737e04b32b82a",
+   "selector": "overlays/p0/d21394e90434cc5a/sip_friend_side_v2_selector.png",
+   "poster": "overlays/p0/0f2b53ce444abdff/sip_friend_side_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "verdict_friend_eye_v2": {
+   "id": "verdict_friend_eye_v2",
+   "shotType": "verdict",
+   "title": "Your verdict, filmed by a friend",
+   "invariant": "Ask a friend across the table to hold the rear camera at your eye height, about 1.3 m away. Face the lens and give a small open-hand gesture. The phone stays still.",
+   "durationSec": 6,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "filmingMode": "friend",
+   "previewMirrored": false,
+   "facialAnimation": false,
+   "animation": "overlays/p0/29b4c71a374ac25b/verdict_friend_eye_v2.png",
+   "sha256": "29b4c71a374ac25b56ff268ddab6180b5b19a94ee5f3b7e4e391f4988a806779",
+   "selector": "overlays/p0/5d8b92ed3d2ab78a/verdict_friend_eye_v2_selector.png",
+   "poster": "overlays/p0/30696b0dd344bfd4/verdict_friend_eye_v2_poster.png",
+   "content": "canonical-character"
+  },
+  "menu_board_tilt_down": {
+   "id": "menu_board_tilt_down",
+   "shotType": "menu-board",
+   "title": "Board down to the counter",
+   "invariant": "Feet still, 2x, tilt down slowly from the board to the cups.",
+   "durationSec": 3,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/84e48545b07134c7/menu_board_tilt_down.png",
+   "sha256": "84e48545b07134c78809a63b4d9658e99e04f079e6aaa5c110532856d56f006a",
+   "selector": "overlays/p0/32e038b0d7677f8c/menu_board_tilt_down_selector.png",
+   "poster": "overlays/p0/d218ff73cfb1e2d8/menu_board_tilt_down_poster.png",
+   "content": "object-only"
+  },
+  "plate_turntable": {
+   "id": "plate_turntable",
+   "shotType": "plate-reveal",
+   "title": "Turn the plate",
+   "invariant": "Hold the phone still at 45 degrees; with one hand on the rim, turn the plate a quarter turn slowly.",
+   "durationSec": 4,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/c163d2b033d361ff/plate_turntable.png",
+   "sha256": "c163d2b033d361ff99ae997188c6b9e509b6d29aac1785dbc4474eb707a76c13",
+   "selector": "overlays/p0/7d75cfad007aacb8/plate_turntable_selector.png",
+   "poster": "overlays/p0/a7f2a84c0a49d011/plate_turntable_poster.png",
+   "content": "cropped-grip"
+  },
+  "sip_cup_only": {
+   "id": "sip_cup_only",
+   "shotType": "sip",
+   "title": "Sip, cup only",
+   "invariant": "Hold the phone still at 45 degrees on the cup, then lift the cup up and out of frame by its handle; the saucer stays.",
+   "durationSec": 4,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/dbabda0389ffa5a4/sip_cup_only.png",
+   "sha256": "dbabda0389ffa5a41d36ef0768eebd3d9339efabcd61f81549c7b74672f1aff3",
+   "selector": "overlays/p0/02d0819a61d9407d/sip_cup_only_selector.png",
+   "poster": "overlays/p0/d4cc2d2239e4e486/sip_cup_only_poster.png",
+   "content": "cropped-grip"
+  },
+  "room_static_wide": {
+   "id": "room_static_wide",
+   "shotType": "room-from-table",
+   "title": "Still wide from your seat",
+   "invariant": "Rest your elbows on the table, hold the phone level at eye height and keep it still.",
+   "durationSec": 3,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/571fd8c8c95d5c42/room_static_wide.png",
+   "sha256": "571fd8c8c95d5c42ad3f36e1d39687822bebca40f3d03a21d54361e5e2dcb0dc",
+   "selector": "overlays/p0/6cd997d4258cf123/room_static_wide_selector.png",
+   "poster": "overlays/p0/0c2b038217565a69/room_static_wide_poster.png",
+   "content": "object-only"
+  },
+  "verdict_propped_rear": {
+   "id": "verdict_propped_rear",
+   "shotType": "verdict",
+   "title": "Your verdict, phone propped on the table",
+   "invariant": "Prop the phone upright on the table about 1.2 m from you, rear camera facing you, leaning back slightly against a cup. Face the lens and give a small open-hand gesture.",
+   "durationSec": 6,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "filmingMode": "propped",
+   "previewMirrored": false,
+   "facialAnimation": false,
+   "animation": "overlays/p0/8b624870d54a3e2d/verdict_propped_rear.png",
+   "sha256": "8b624870d54a3e2dddef088e1caa16b49f7b87111a478aa841c1ef64baf40e86",
+   "selector": "overlays/p0/12e55907726d3ac5/verdict_propped_rear_selector.png",
+   "poster": "overlays/p0/b0ff7eafdf71165c/verdict_propped_rear_poster.png",
+   "content": "canonical-character"
+  },
+  "menu_board_static": {
+   "id": "menu_board_static",
+   "shotType": "menu-board",
+   "title": "Board straight on",
+   "invariant": "Step back, 2x, phone straight at the board, hold still.",
+   "durationSec": 3,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/d0223caa91fed55c/menu_board_static.png",
+   "sha256": "d0223caa91fed55c0d07c23e29ece0fac41c8a296eb21a38e3acc83e1cdc2ca2",
+   "selector": "overlays/p0/6542f5f1ee19a877/menu_board_static_selector.png",
+   "poster": "overlays/p0/e0dce6e8f4a0911c/menu_board_static_poster.png",
+   "content": "object-only"
+  },
+  "pour_static_45": {
+   "id": "pour_static_45",
+   "shotType": "pour",
+   "title": "Pour from above at 45 degrees",
+   "invariant": "Hold the phone still 45 degrees down into the cup, about 27 cm away, while the barista pours from the top edge.",
+   "durationSec": 5,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/6cf2bbf440e69e5f/pour_static_45.png",
+   "sha256": "6cf2bbf440e69e5f68003923d079b298098ed007482a21aea639622ca87599f4",
+   "selector": "overlays/p0/69f7fd70515921e9/pour_static_45_selector.png",
+   "poster": "overlays/p0/3aa866043e75b3e2/pour_static_45_poster.png",
+   "content": "object-only"
+  },
+  "plate_rise_overhead_v2": {
+   "id": "plate_rise_overhead_v2",
+   "shotType": "plate-reveal",
+   "title": "Overhead rise over the plate",
+   "invariant": "Stand, phone flat above the plate; raise it straight up slowly, keeping it flat and the plate centred.",
+   "durationSec": 4,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/aa7018738ac39196/plate_rise_overhead_v2.png",
+   "sha256": "aa7018738ac3919628c3f81907b3c509fd79d0aadfb42f19060999c60a684c77",
+   "selector": "overlays/p0/0fccd43fa586047b/plate_rise_overhead_v2_selector.png",
+   "poster": "overlays/p0/0bab724142b4134f/plate_rise_overhead_v2_poster.png",
+   "content": "object-only"
+  },
+  "steam_static_low": {
+   "id": "steam_static_low",
+   "shotType": "steam",
+   "title": "Steam, 15 degrees down",
+   "invariant": "Brace the phone on the table about 35 cm from the cup, tilt it 15 degrees down with a dark wall behind the cup, and keep still.",
+   "durationSec": 4,
+   "startTrigger": "still",
+   "capturePreset": {
+    "stabilization": "standard",
+    "continuousFocus": false,
+    "locksFocusExposureWhiteBalance": true,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/0c0f2cc8ccd76b7a/steam_static_low.png",
+   "sha256": "0c0f2cc8ccd76b7a5d06aec391eb9ed5a877d5041c5df1cb34e2fae45a61aa23",
+   "selector": "overlays/p0/7797c75f507940f6/steam_static_low_selector.png",
+   "poster": "overlays/p0/53c97d4a3cc6a7a9/steam_static_low_poster.png",
+   "content": "object-only"
+  },
+  "menu_wall_board_item": {
+   "id": "menu_wall_board_item",
+   "shotType": "menu-card",
+   "title": "The item on the board",
+   "invariant": "Walk slowly up to the board, straight on, to the lit item.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/86c0c4980d6bba27/menu_wall_board_item.png",
+   "sha256": "86c0c4980d6bba27135e24ee92a8fae314074ddef4a29a54b52637d756c3bc52",
+   "selector": "overlays/p0/650eda529d0cddee/menu_wall_board_item_selector.png",
+   "poster": "overlays/p0/b6434ef4e12ae706/menu_wall_board_item_poster.png",
+   "content": "object-only"
+  },
+  "plate_top_orbit": {
+   "id": "plate_top_orbit",
+   "shotType": "plate-reveal",
+   "title": "Turn above the plate",
+   "invariant": "Stand, phone flat above the plate; turn it slowly around the plate, keeping it flat and level.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/8fc1148cfa0b0200/plate_top_orbit.png",
+   "sha256": "8fc1148cfa0b0200b34d41c82d582b1c4ec0e96fab5c558c557d39a8e782e29d",
+   "selector": "overlays/p0/3ca5c52d9a32a16b/plate_top_orbit_selector.png",
+   "poster": "overlays/p0/5825d275cff10974/plate_top_orbit_poster.png",
+   "content": "object-only"
+  },
+  "room_bar_pan": {
+   "id": "room_bar_pan",
+   "shotType": "room-from-table",
+   "title": "Turn to the bar",
+   "invariant": "Turn slowly from the room to the bar.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/f3adac7c72133625/room_bar_pan.png",
+   "sha256": "f3adac7c72133625cabb25416c2e5d4ec0f1bbdff89579a5e7add76b8833f5a0",
+   "selector": "overlays/p0/f143ed588ca46a46/room_bar_pan_selector.png",
+   "poster": "overlays/p0/03e27d419354121d/room_bar_pan_poster.png",
+   "content": "object-only"
+  },
+  "room_window_pan_left": {
+   "id": "room_window_pan_left",
+   "shotType": "room-from-table",
+   "title": "From the window on your left",
+   "invariant": "Start on the window beside you, then turn slowly to the room.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": false,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/e8a3ec1b5e9a30e8/room_window_pan_left.png",
+   "sha256": "e8a3ec1b5e9a30e892c761ab809f7c855812865de62897d083313a437bfca6f6",
+   "selector": "overlays/p0/a13f7cef15c6d5a2/room_window_pan_left_selector.png",
+   "poster": "overlays/p0/12bcf7cf1dae3a43/room_window_pan_left_poster.png",
+   "content": "object-only"
+  },
+  "steam_top_orbit": {
+   "id": "steam_top_orbit",
+   "shotType": "steam",
+   "title": "Turn above the latte",
+   "invariant": "Hold the phone flat about 30 cm above the cup and turn it slowly around the cup, no lift or tilt.",
+   "durationSec": 5,
+   "startTrigger": "motion",
+   "capturePreset": {
+    "stabilization": "cinematicExtendedEnhanced",
+    "continuousFocus": true,
+    "locksFocusExposureWhiteBalance": false,
+    "lensLocked": true,
+    "frameRate": 30
+   },
+   "setupBeatSeconds": 0,
+   "alphaFactor": 1,
+   "camera": "back",
+   "animation": "overlays/p0/739434fff7d3aaa3/steam_top_orbit.png",
+   "sha256": "739434fff7d3aaa35fc70452d8420e813de713b17ffa54b0c6ce37690f076287",
+   "selector": "overlays/p0/64aea1a1dedb60af/steam_top_orbit_selector.png",
+   "poster": "overlays/p0/03329c794716c1ca/steam_top_orbit_poster.png",
+   "content": "object-only"
+  }
+ },
+ "pendingRenders": [],
+ "deferredGuides": {},
+ "stepKeywords": {
+  "version": 1,
+  "about": "Step text -> P0 shot type for library steps, catalog steps without an explicit shotType and /v1/scripts/write output. Rules run in order on the lowercased title, position and direction; the first match wins, no match is shotType none. A rule needs one of its words (if any), one of its moves (if any), a listed shot (if any), the last step (if last), and a food or drink venue kind (if foodOnly).",
+  "foodKinds": [
+   "coffee",
+   "bakery",
+   "dining",
+   "fast-food",
+   "entertainment"
+  ],
+  "staff": {
+   "steps": [
+    "cafe-before-opening.lights",
+    "cafe-before-opening.dial",
+    "cafe-before-opening.shot",
+    "cafe-before-opening.door",
+    "cafe-before-opening.verdict",
+    "bakery-fresh-batch.oven",
+    "bakery-morning-shift.oven",
+    "bakery-morning-shift.dough",
+    "restaurant-chef-pick.hands",
+    "restaurant-chef-pick.cook"
+   ],
+   "positionWords": [
+    "kitchen",
+    "pass",
+    "behind the counter"
+   ]
+  },
+  "counterWords": [
+   "counter",
+   "at the bar",
+   "bar top",
+   "order window",
+   "window ledge",
+   "front desk",
+   "reception",
+   "till"
+  ],
+  "rules": [
+   {
+    "shotType": "first-bite",
+    "shots": [
+     "selfie",
+     "close"
+    ],
+    "words": [
+     "bite",
+     "forkful"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "sip",
+    "shots": [
+     "selfie",
+     "close"
+    ],
+    "words": [
+     "sip"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "verdict",
+    "shots": [
+     "selfie",
+     "close"
+    ],
+    "last": true,
+    "foodOnly": true
+   },
+   {
+    "shotType": "pour",
+    "words": [
+     "pour",
+     "pours",
+     "poured",
+     "pulls a pint",
+     "latte art",
+     "milk goes in"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "steam",
+    "words": [
+     "steam"
+    ],
+    "moves": [
+     "hold still",
+     "keep it still",
+     "circle",
+     "move in",
+     "lean in"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "hand-off",
+    "words": [
+     "passed down",
+     "set down",
+     "sets it down",
+     "handed over",
+     "hand-off"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "plate-reveal",
+    "shots": [
+     "detail",
+     "close"
+    ],
+    "words": [
+     "plate",
+     "dish",
+     "the order fills"
+    ],
+    "moves": [
+     "move in",
+     "moves in",
+     "circle",
+     "slide it"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "menu-card",
+    "words": [
+     "menu on the table",
+     "lunch menu",
+     "menu card",
+     "menu flat"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "menu-board",
+    "words": [
+     "menu board",
+     "the board",
+     "tap board",
+     "happy hour board",
+     "event board"
+    ],
+    "moves": [
+     "sidestep",
+     "slide",
+     "tilt",
+     "tip it",
+     "move in",
+     "lean back"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "counter-order",
+    "words": [
+     "over your shoulder",
+     "over the shoulder",
+     "behind your own shoulder"
+    ],
+    "moves": [
+     "order",
+     "ordering"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "room-from-table",
+    "words": [
+     "room",
+     "the tables"
+    ],
+    "moves": [
+     "slide sideways",
+     "turn slowly",
+     "turn your hips"
+    ],
+    "foodOnly": true
+   },
+   {
+    "shotType": "entrance",
+    "words": [
+     "door",
+     "entrance",
+     "storefront",
+     "shopfront",
+     "truck",
+     "window",
+     "walk in"
+    ],
+    "moves": [
+     "walk slowly",
+     "walk up",
+     "walk straight",
+     "walk in",
+     "walk to"
+    ]
+   }
+  ]
+ }
+}

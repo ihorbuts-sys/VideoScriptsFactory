@@ -1,0 +1,117 @@
+{
+  "version": "v2",
+  "date": "2026-11-16",
+  "what": "catalog version 2 (opinion slots, cards, dishSource, typed dish, handheld variants, US units) before the v3 redesign",
+  "catalogSchemaVersion": 2,
+  "templates": 57,
+  "files": [
+    {
+      "snapshot": "_parts/bakery.json",
+      "restoreTo": "VideoGuides/scripts/_parts/bakery.json",
+      "sha256": "11522b371a6018ad1d67e4de8db5eab634a1c0fbfde9c88ff462d82b6466531b",
+      "bytes": 29446
+    },
+    {
+      "snapshot": "_parts/beauty-salon.json",
+      "restoreTo": "VideoGuides/scripts/_parts/beauty-salon.json",
+      "sha256": "c9d5632dac591bb57156ebea6635baa719448d6cc6a8188a2d6ab738154a54b8",
+      "bytes": 35580
+    },
+    {
+      "snapshot": "_parts/coffee.json",
+      "restoreTo": "VideoGuides/scripts/_parts/coffee.json",
+      "sha256": "2f6837eeaf010b8c816e26abad8d9e4e19bfd1fcec997cd0344e2173d2f12721",
+      "bytes": 39995
+    },
+    {
+      "snapshot": "_parts/dining.json",
+      "restoreTo": "VideoGuides/scripts/_parts/dining.json",
+      "sha256": "473652363afcbb9f12cf0b6473e0d1fd128a165030c32ec9f5ff3465f1f5be7d",
+      "bytes": 41465
+    },
+    {
+      "snapshot": "_parts/entertainment.json",
+      "restoreTo": "VideoGuides/scripts/_parts/entertainment.json",
+      "sha256": "9f28349bc218deb717cab7cf8cdc8a76e49f56da6fdc67755080157287cdec61",
+      "bytes": 39276
+    },
+    {
+      "snapshot": "_parts/fast-food.json",
+      "restoreTo": "VideoGuides/scripts/_parts/fast-food.json",
+      "sha256": "f0e56f820d51531c4b3bb37624fe890cf326182d74db523873021b17d63aa862",
+      "bytes": 35065
+    },
+    {
+      "snapshot": "_parts/food-review.json",
+      "restoreTo": "VideoGuides/scripts/_parts/food-review.json",
+      "sha256": "1438e08fd5631a991f9e7b6ad24990a53a416763a0d102cdbec2d790d2eb7ec9",
+      "bytes": 57195
+    },
+    {
+      "snapshot": "_parts/services.json",
+      "restoreTo": "VideoGuides/scripts/_parts/services.json",
+      "sha256": "7df744b0f73ed09adc1a0a9145d08509e0e94c0caa4decc84d5abd3342e5fda0",
+      "bytes": 33453
+    },
+    {
+      "snapshot": "_parts/shopping.json",
+      "restoreTo": "VideoGuides/scripts/_parts/shopping.json",
+      "sha256": "688e491f1f623d087d8121ca20c60a6f14ce91f842fb9fba2c2f337aafc4020d",
+      "bytes": 42554
+    },
+    {
+      "snapshot": "_parts/sport_health.json",
+      "restoreTo": "VideoGuides/scripts/_parts/sport_health.json",
+      "sha256": "b471f34229a2c715f7d747302024fb53c1e47506cb00c862c95bb534e001ad9f",
+      "bytes": 42671
+    },
+    {
+      "snapshot": "kit/script_templates.json",
+      "restoreTo": "VideoEditorKit/Sources/VideoScripts/Resources/script_templates.json",
+      "sha256": "731ed784a045852f46cf38176f4ed49aa25ec0ee81d462921e3f7263551a36f3",
+      "bytes": 44066
+    },
+    {
+      "snapshot": "opinion_sets.json",
+      "restoreTo": "VideoGuides/scripts/opinion_sets.json",
+      "sha256": "405e51af8225238feba7f30c298620866247119a22f95a68fc8cb424be5e0ca4",
+      "bytes": 3769
+    },
+    {
+      "snapshot": "p0_scope.json",
+      "restoreTo": "VideoGuides/scripts/p0_scope.json",
+      "sha256": "b415c0cc3306e4806726cd4c49379ad3cd625aeb0cdfc7ae072b5d80927bd77e",
+      "bytes": 274
+    },
+    {
+      "snapshot": "script_templates.json",
+      "restoreTo": "VideoGuides/scripts/script_templates.json",
+      "sha256": "3929114ffbc2ada9bffe664e94fea2fd43990922b1e0e47122b1f9665d2790e2",
+      "bytes": 419374
+    },
+    {
+      "snapshot": "scriptwriter_catalog/catalog.json",
+      "restoreTo": "Scriptwriter/catalog/catalog.json",
+      "sha256": "616bcb61fceafbbc3e8661bc4578faf40b82b44403ff8dd66031f2935f561137",
+      "bytes": 1257207
+    },
+    {
+      "snapshot": "scriptwriter_catalog/shot_types.json",
+      "restoreTo": "Scriptwriter/catalog/shot_types.json",
+      "sha256": "a752cfb1f417702ab640366c2739d367f95f64e268582721e534fe420393d2dd",
+      "bytes": 66505
+    },
+    {
+      "snapshot": "shot_plan.json",
+      "restoreTo": "VideoGuides/scripts/shot_plan.json",
+      "sha256": "990d8134b94b91cceb3b132706cf4cf0c4193afb3c01599051ca6760dc3b0049",
+      "bytes": 89565
+    },
+    {
+      "snapshot": "step_shot_types.json",
+      "restoreTo": "VideoGuides/scripts/step_shot_types.json",
+      "sha256": "d68e1d8ca6eda241184aa8c3c1c4f706647099e6f5e72df77be0d57359c34702",
+      "bytes": 2777
+    }
+  ]
+}

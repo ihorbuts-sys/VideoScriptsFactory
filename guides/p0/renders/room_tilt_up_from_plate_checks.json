@@ -1,0 +1,36 @@
+{
+  "id": "room_tilt_up_from_plate",
+  "status": "passed",
+  "frames": 75,
+  "seconds": 5,
+  "durationSec": 4,
+  "setupBeatSeconds": 0,
+  "alphaFactor": 1,
+  "global_opacity_baked": false,
+  "maximum_alpha": 255,
+  "target_first_and_last_identical": true,
+  "poster_equals_frame_zero": true,
+  "encoded_frames_preserved": true,
+  "selector_size": [
+    120,
+    213
+  ],
+  "animation_size": [
+    405,
+    720
+  ],
+  "initial_hold_frames": 8,
+  "final_hold_frames": 7,
+  "visible_motion": true,
+  "hero_pixel_band_checked": true,
+  "maximum_hands": 0,
+  "detailed_people": 0,
+  "silhouettes": 0,
+  "fixed_lens": true,
+  "fixed_lighting": true,
+  "local_yellow_edge_glow": true,
+  "steam_edge_glow": false,
+  "glow_from_native_yellow_contours_only": true,
+  "triangle_markers": [],
+  "sha256": "40638d7a76a865d2e2fc65c42b40f61af3af326e4ceeb7beca6204ec5171c972"
+}

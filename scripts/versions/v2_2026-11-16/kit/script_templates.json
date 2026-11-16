@@ -1,0 +1,1409 @@
+{
+  "version": 1,
+  "venueKinds": [
+    {
+      "id": "coffee",
+      "title": "Cafe",
+      "symbol": "cup.and.saucer.fill"
+    },
+    {
+      "id": "dining",
+      "title": "Restaurant",
+      "symbol": "fork.knife"
+    },
+    {
+      "id": "bakery",
+      "title": "Bakery",
+      "symbol": "birthday.cake.fill"
+    },
+    {
+      "id": "craft-beer",
+      "title": "Bar",
+      "symbol": "wineglass.fill"
+    },
+    {
+      "id": "beauty-salon",
+      "title": "Salon",
+      "symbol": "comb.fill"
+    }
+  ],
+  "templates": [
+    {
+      "id": "cafe-first-visit",
+      "venueKinds": [
+        "coffee"
+      ],
+      "title": "First visit",
+      "summary": "Walk in, order, taste, and tell people why they should come.",
+      "steps": [
+        {
+          "id": "entrance",
+          "title": "Arrive",
+          "shot": "wide",
+          "position": "Outside, at the entrance",
+          "direction": "Film the sign and the door, then walk in.",
+          "seconds": 3,
+          "prompter": "Found a new spot today.",
+          "captions": [
+            {
+              "text": "New spot alert",
+              "script": "New spot alert. I just walked past this place and had to stop. Let's see if it lives up to the sign."
+            },
+            {
+              "text": "Look where I found",
+              "script": "Look where I found myself this morning. Tucked away, easy to miss, and I am so glad I didn't."
+            },
+            {
+              "text": "Coffee stop",
+              "script": "Quick coffee stop before the day starts. If you are nearby, this is the one to know."
+            }
+          ],
+          "imageURL": "cafe-first-visit_entrance.jpg",
+          "overlays": [
+            "cafe_entrance_to_handle",
+            "pov_door_entry"
+          ],
+          "shotType": "entrance",
+          "captureOrder": 1,
+          "editOrder": 2,
+          "required": false,
+          "ambient": "noise",
+          "composition": "center",
+          "camera": "back"
+        },
+        {
+          "id": "counter",
+          "title": "Order",
+          "shot": "medium",
+          "position": "At the counter",
+          "direction": "Show the menu board and the barista at work.",
+          "seconds": 4,
+          "prompter": "Here is what I am ordering and why.",
+          "captions": [
+            {
+              "text": "What I ordered",
+              "script": "Here is what I ordered. A flat white and whatever the barista recommended, because they know best."
+            },
+            {
+              "text": "The menu",
+              "script": "Let's look at the menu. Short, focused, and every drink sounds like it was made with care."
+            },
+            {
+              "text": "Barista at work",
+              "script": "Watch the barista work. This is the part I love, real skill and zero rush."
+            }
+          ],
+          "imageURL": "cafe-first-visit_counter.jpg",
+          "overlays": [
+            "menu_board_item",
+            "counter_barista_side"
+          ],
+          "shotType": "counter-order",
+          "captureOrder": 2,
+          "editOrder": 3,
+          "required": false,
+          "ambient": "content",
+          "composition": "thirds",
+          "camera": "both"
+        },
+        {
+          "id": "pour",
+          "title": "The pour",
+          "shot": "detail",
+          "position": "Close to the cup",
+          "direction": "Get the latte art or the espresso pour up close.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Latte art",
+              "script": "Look at that latte art. Almost too pretty to drink. Almost."
+            },
+            {
+              "text": "Fresh pour",
+              "script": "Fresh pour, straight from the machine. You can smell it from here."
+            },
+            {
+              "text": "Look at this",
+              "script": "Look at this. This is exactly why I keep coming back."
+            }
+          ],
+          "imageURL": "cafe-first-visit_pour.jpg",
+          "overlays": [
+            "latte_art_topdown",
+            "coffee_eye_level_steam"
+          ],
+          "shotType": "pour",
+          "captureOrder": 3,
+          "editOrder": 1,
+          "required": true,
+          "ambient": "content",
+          "composition": "center",
+          "camera": "back"
+        },
+        {
+          "id": "taste",
+          "title": "First sip",
+          "shot": "selfie",
+          "position": "Sitting at the table",
+          "direction": "Front camera, take a sip and react.",
+          "seconds": 4,
+          "prompter": "Okay, first sip. Honestly?",
+          "captions": [
+            {
+              "text": "First sip",
+              "script": "Okay, first sip. Smooth, rich, not bitter at all. Honestly, really good."
+            },
+            {
+              "text": "Worth it",
+              "script": "Is it worth it? Yes. Worth the walk, worth the wait, worth every sip."
+            },
+            {
+              "text": "Verdict",
+              "script": "My verdict: this place is a keeper. I would come back tomorrow."
+            }
+          ],
+          "imageURL": "cafe-first-visit_taste.jpg",
+          "overlays": [
+            "selfie_sip_reaction",
+            "selfie_cup_raise"
+          ],
+          "shotType": "sip",
+          "captureOrder": 4,
+          "editOrder": 4,
+          "required": false,
+          "ambient": "content",
+          "composition": "center",
+          "camera": "front"
+        },
+        {
+          "id": "outro",
+          "title": "Why come",
+          "shot": "close",
+          "position": "Sitting at the table",
+          "direction": "Tell viewers the one reason to visit.",
+          "seconds": 4,
+          "prompter": "Come for the coffee, stay for the vibe.",
+          "captions": [
+            {
+              "text": "Grab a cup",
+              "script": "If you are in the area, grab a cup here. You can thank me later."
+            },
+            {
+              "text": "See you here",
+              "script": "That is my new favorite spot. Maybe I will see you here next time."
+            },
+            {
+              "text": "Go try it",
+              "script": "Go try it yourself and tell me what you ordered. I want to know."
+            }
+          ],
+          "imageURL": "cafe-first-visit_outro.jpg",
+          "overlays": [
+            "talking_head_eye_level",
+            "walk_and_talk_exit"
+          ],
+          "shotType": "verdict",
+          "captureOrder": 5,
+          "editOrder": 5,
+          "required": true,
+          "ambient": "content",
+          "composition": "center",
+          "camera": "front"
+        }
+      ]
+    },
+    {
+      "id": "cafe-morning-ritual",
+      "venueKinds": [
+        "coffee",
+        "bakery"
+      ],
+      "title": "Morning ritual",
+      "summary": "A calm morning: light, coffee, a pastry and a quiet corner.",
+      "steps": [
+        {
+          "id": "light",
+          "title": "Morning light",
+          "shot": "wide",
+          "position": "Inside, by the window",
+          "direction": "Slow pan across the room in morning light.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Slow mornings",
+              "script": "Slow mornings are the best mornings. Soft light, a warm cup, nowhere to be."
+            },
+            {
+              "text": "Good morning",
+              "script": "Good morning from my favorite corner of the city. Coffee first, everything else later."
+            },
+            {
+              "text": "Morning ritual",
+              "script": "This is my morning ritual. Same table, same window, same perfect cup."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-morning-ritual_light.jpg",
+          "overlays": [
+            "interior_pan",
+            "window_light_reveal"
+          ]
+        },
+        {
+          "id": "cup",
+          "title": "The cup",
+          "shot": "detail",
+          "position": "At the table",
+          "direction": "Steam rising from the cup, hold still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Your morning ritual",
+              "script": "This could be your morning ritual too. Fresh coffee, quiet space, a moment for yourself."
+            },
+            {
+              "text": "Fresh cup",
+              "script": "Fresh cup, still steaming. Nothing beats that first moment."
+            },
+            {
+              "text": "Just right",
+              "script": "Not too strong, not too sweet. Just right."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-morning-ritual_cup.jpg",
+          "overlays": [
+            "latte_art_topdown",
+            "coffee_eye_level_steam"
+          ]
+        },
+        {
+          "id": "pastry",
+          "title": "Something sweet",
+          "shot": "detail",
+          "position": "At the table",
+          "direction": "Break a pastry in half toward the camera.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Baked this morning",
+              "script": "Everything here was baked this morning. You can tell from the first bite."
+            },
+            {
+              "text": "Still warm",
+              "script": "Still warm from the oven. Listen to that crunch."
+            },
+            {
+              "text": "Sweet start",
+              "script": "A sweet start to the day. Flaky, buttery, gone in three bites."
+            }
+          ],
+          "pip": false,
+          "imageURL": "cafe-morning-ritual_pastry.jpg",
+          "overlays": [
+            "pastry_tear_open",
+            "pastry_overhead_flatlay"
+          ]
+        },
+        {
+          "id": "corner",
+          "title": "Your corner",
+          "shot": "pov",
+          "position": "Sitting at the table",
+          "direction": "Point of view: hands, laptop or a book.",
+          "seconds": 4,
+          "prompter": "This is my favorite corner in town.",
+          "captions": [
+            {
+              "text": "My corner",
+              "script": "This is my corner. Good light, good coffee, good place to think."
+            },
+            {
+              "text": "Stay a while",
+              "script": "No rush here. Order something good and stay a while."
+            },
+            {
+              "text": "Grab a cup",
+              "script": "If you are in the area, grab a cup here. You can thank me later."
+            }
+          ],
+          "pip": true,
+          "imageURL": "cafe-morning-ritual_corner.jpg",
+          "overlays": [
+            "pov_hands_desk",
+            "table_slide_pov"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restaurant-date-night",
+      "venueKinds": [
+        "dining"
+      ],
+      "title": "Date night",
+      "summary": "Atmosphere, the table, the dishes arriving, and the verdict.",
+      "steps": [
+        {
+          "id": "entrance",
+          "title": "Arrive",
+          "shot": "wide",
+          "position": "Outside, at the entrance",
+          "direction": "The entrance at dusk, then step inside.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Date night",
+              "script": "Date night. We picked somewhere special tonight, come along."
+            },
+            {
+              "text": "Tonight's spot",
+              "script": "Tonight's spot. I have heard great things, let's find out."
+            },
+            {
+              "text": "Booked it",
+              "script": "We booked it weeks ago and finally made it. Let's go."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_entrance.jpg",
+          "overlays": [
+            "pov_door_entry",
+            "sign_tilt_down_reveal"
+          ]
+        },
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "Inside, from the door",
+          "direction": "Slow pan over the room and the lights.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The vibe",
+              "script": "Look at the vibe in here. Warm light, good music, perfect for tonight."
+            },
+            {
+              "text": "Look at this place",
+              "script": "Look at this place. Every corner is beautiful."
+            },
+            {
+              "text": "Ambience",
+              "script": "The ambience is half the experience. Candles, quiet tables, no rush."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_room.jpg",
+          "overlays": [
+            "interior_pan",
+            "table_reveal_frame"
+          ]
+        },
+        {
+          "id": "dish",
+          "title": "The dish",
+          "shot": "detail",
+          "position": "At the table",
+          "direction": "The plate arriving, then a close look.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Good food, good people",
+              "script": "Good food, good people, that is all you need for a great night."
+            },
+            {
+              "text": "Chef's pick",
+              "script": "This is the chef's pick tonight. When the chef recommends it, you order it."
+            },
+            {
+              "text": "Plates arriving",
+              "script": "And here come the plates. Look at the colors on this."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-date-night_dish.jpg",
+          "overlays": [
+            "pasta_pull_out",
+            "plate_orbit_45"
+          ]
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "Sitting at the table",
+          "direction": "Front camera, first bite and honest reaction.",
+          "seconds": 4,
+          "prompter": "First bite. Let me tell you.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite. Wow. Okay, I was not ready for that."
+            },
+            {
+              "text": "Verdict",
+              "script": "My verdict: this place is a keeper. I would come back tomorrow."
+            },
+            {
+              "text": "So good",
+              "script": "So good. I would order this again right now."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-date-night_bite.jpg",
+          "overlays": [
+            "selfie_bite_reaction",
+            "fork_lift_dish_to_face"
+          ]
+        },
+        {
+          "id": "outro",
+          "title": "Book it",
+          "shot": "close",
+          "position": "Sitting at the table",
+          "direction": "Say who this place is perfect for.",
+          "seconds": 4,
+          "prompter": "Perfect for a night out. Book a table.",
+          "captions": [
+            {
+              "text": "Book a table",
+              "script": "If you want a night like this, book a table. Trust me on this one."
+            },
+            {
+              "text": "Reserve now",
+              "script": "Weekends fill up fast here, so reserve now."
+            },
+            {
+              "text": "Visit us",
+              "script": "Come visit us. We would love to have you."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-date-night_outro.jpg",
+          "overlays": [
+            "talking_head_eye_level",
+            "toast_to_camera"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "restaurant-chef-pick",
+      "venueKinds": [
+        "dining",
+        "bakery"
+      ],
+      "title": "Kitchen story",
+      "summary": "Behind the counter: hands at work and the finished plate.",
+      "steps": [
+        {
+          "id": "hands",
+          "title": "Hands at work",
+          "shot": "detail",
+          "position": "At the kitchen pass",
+          "direction": "Close on hands preparing food.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Made by hand",
+              "script": "Everything is made by hand, right here, every single day."
+            },
+            {
+              "text": "Behind the scenes",
+              "script": "A little behind the scenes. This is where the magic happens."
+            },
+            {
+              "text": "Fresh daily",
+              "script": "Fresh daily. Nothing sits around here, it goes out the door warm."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-chef-pick_hands.jpg",
+          "overlays": [
+            "hands_prep_overhead",
+            "knife_cross_section"
+          ]
+        },
+        {
+          "id": "cook",
+          "title": "The cook",
+          "shot": "medium",
+          "position": "In the kitchen",
+          "direction": "The cook working, waist up.",
+          "seconds": 4,
+          "prompter": "Meet the person behind every plate.",
+          "captions": [
+            {
+              "text": "Meet the chef",
+              "script": "Meet the chef, the person behind every plate you will love here."
+            },
+            {
+              "text": "The team",
+              "script": "This is the team. Small kitchen, big heart."
+            },
+            {
+              "text": "Craft",
+              "script": "This is real craft. Years of practice in every move."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-chef-pick_cook.jpg",
+          "overlays": [
+            "cook_waist_up_side",
+            "pass_handoff"
+          ]
+        },
+        {
+          "id": "plate",
+          "title": "The plate",
+          "shot": "detail",
+          "position": "At the pass",
+          "direction": "The finished plate, slow push in.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Chef's pick",
+              "script": "This is the chef's pick tonight. When the chef recommends it, you order it."
+            },
+            {
+              "text": "Ready to serve",
+              "script": "Plated and ready to serve. This is what lands on your table."
+            },
+            {
+              "text": "Fresh from the kitchen",
+              "script": "Fresh from the kitchen, straight to you."
+            }
+          ],
+          "pip": false,
+          "imageURL": "restaurant-chef-pick_plate.jpg",
+          "overlays": [
+            "pasta_pull_out",
+            "plate_push_in_45"
+          ]
+        },
+        {
+          "id": "outro",
+          "title": "Come try it",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Front camera, invite people in.",
+          "seconds": 4,
+          "prompter": "You have to try this. Come by.",
+          "captions": [
+            {
+              "text": "Stop by",
+              "script": "Stop by and say hi. Tell them I sent you."
+            },
+            {
+              "text": "Come hungry",
+              "script": "Come hungry. You will want to try everything."
+            },
+            {
+              "text": "Visit us",
+              "script": "Come visit us. We would love to have you."
+            }
+          ],
+          "pip": true,
+          "imageURL": "restaurant-chef-pick_outro.jpg",
+          "overlays": [
+            "talking_head_eye_level",
+            "walk_and_talk_exit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-review",
+      "venueKinds": [
+        "coffee",
+        "dining",
+        "bakery"
+      ],
+      "title": "Food review",
+      "summary": "One dish from the menu: the hook, ordering it, the first bite and an honest verdict with the price.",
+      "featuresMenuItem": true,
+      "steps": [
+        {
+          "id": "dish",
+          "title": "The dish",
+          "shot": "detail",
+          "position": "At your table",
+          "direction": "Open on the dish at its best: steam, a pour or the first cut, close and slow.",
+          "seconds": 4,
+          "prompter": "You have to see this.",
+          "captions": [
+            {
+              "text": "Worth the hype?",
+              "script": "Everyone keeps talking about this one. Let's find out if it's worth the hype."
+            },
+            {
+              "text": "Ordered the famous one",
+              "script": "I came here for one thing, and this is it."
+            }
+          ],
+          "imageURL": "restaurant-date-night_dish.jpg",
+          "overlays": [
+            "pasta_pull_out",
+            "plate_orbit_45"
+          ],
+          "shotType": "plate-reveal",
+          "captureOrder": 3,
+          "editOrder": 1,
+          "required": true,
+          "ambient": "content",
+          "composition": "triangle",
+          "camera": "back"
+        },
+        {
+          "id": "arrive",
+          "title": "Arrive",
+          "shot": "wide",
+          "position": "Outside, at the door",
+          "direction": "Walk in from the door toward the counter or your table, phone at chest height.",
+          "seconds": 5,
+          "prompter": "Came here for one dish.",
+          "captions": [
+            {
+              "text": "Found it",
+              "script": "Found the place everyone keeps posting about."
+            }
+          ],
+          "imageURL": "cafe-first-visit_entrance.jpg",
+          "overlays": [
+            "pov_door_entry",
+            "cafe_entrance_to_handle"
+          ],
+          "shotType": "entrance",
+          "captureOrder": 1,
+          "editOrder": 2,
+          "required": false,
+          "ambient": "noise",
+          "composition": "center",
+          "camera": "back"
+        },
+        {
+          "id": "order",
+          "title": "Order",
+          "shot": "medium",
+          "position": "At the counter",
+          "direction": "Film the menu or the counter while you order, and say the dish's name.",
+          "seconds": 6,
+          "prompter": "I'm getting the one everyone talks about.",
+          "captions": [
+            {
+              "text": "The order",
+              "script": "I'm ordering the one everyone talks about, let's see."
+            }
+          ],
+          "imageURL": "cafe-first-visit_counter.jpg",
+          "overlays": [
+            "menu_board_item",
+            "counter_order_pov"
+          ],
+          "shotType": "counter-order",
+          "captureOrder": 2,
+          "editOrder": 3,
+          "required": false,
+          "ambient": "content",
+          "composition": "thirds",
+          "camera": "back"
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Back camera on the dish, you on the front camera: take the first bite and react honestly.",
+          "seconds": 10,
+          "prompter": "First bite. Okay.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite, and I'm going to be honest with you."
+            }
+          ],
+          "imageURL": "restaurant-date-night_bite.jpg",
+          "overlays": [
+            "selfie_bite_reaction",
+            "fork_lift_dish_to_face"
+          ],
+          "shotType": "first-bite",
+          "captureOrder": 4,
+          "editOrder": 4,
+          "required": false,
+          "ambient": "content",
+          "composition": "center",
+          "camera": "front"
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Your honest verdict and the price, then tell people where to find it.",
+          "seconds": 10,
+          "prompter": "Worth it. Here's what it costs and where to get it.",
+          "captions": [
+            {
+              "text": "The verdict",
+              "script": "Here's my honest verdict, what it costs, and where you can get it."
+            }
+          ],
+          "imageURL": "restaurant-chef-pick_outro.jpg",
+          "overlays": [
+            "talking_head_eye_level",
+            "price_tag_point"
+          ],
+          "shotType": "verdict",
+          "captureOrder": 5,
+          "editOrder": 5,
+          "required": true,
+          "ambient": "content",
+          "composition": "center",
+          "camera": "front"
+        }
+      ]
+    },
+    {
+      "id": "bakery-fresh-batch",
+      "venueKinds": [
+        "bakery"
+      ],
+      "title": "Fresh batch",
+      "summary": "From the oven to the shelf to your hands.",
+      "steps": [
+        {
+          "id": "oven",
+          "title": "Out of the oven",
+          "shot": "medium",
+          "position": "Behind the counter",
+          "direction": "Trays coming out of the oven.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Fresh from the oven",
+              "script": "Fresh from the oven, right now. This is the best time to be here."
+            },
+            {
+              "text": "Just baked",
+              "script": "Just baked, still crackling. You can hear it."
+            },
+            {
+              "text": "Hot batch",
+              "script": "A hot batch just came out. Get here before it is gone."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-fresh-batch_oven.jpg",
+          "overlays": [
+            "oven_tray_pull",
+            "steam_backlit_tray"
+          ]
+        },
+        {
+          "id": "shelf",
+          "title": "The shelf",
+          "shot": "wide",
+          "position": "In front of the display",
+          "direction": "Slow pan along the display case.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Baked this morning",
+              "script": "Everything here was baked this morning. You can tell from the first bite."
+            },
+            {
+              "text": "Take your pick",
+              "script": "Take your pick. Honestly, you cannot go wrong."
+            },
+            {
+              "text": "So many choices",
+              "script": "So many choices. I want one of everything."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-fresh-batch_shelf.jpg",
+          "overlays": [
+            "shelf_slide_left",
+            "case_push_in_item"
+          ]
+        },
+        {
+          "id": "break",
+          "title": "The break",
+          "shot": "detail",
+          "position": "At the counter",
+          "direction": "Tear bread or a croissant open, show the inside.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Listen to that",
+              "script": "Listen to that crust. That is how you know it is fresh."
+            },
+            {
+              "text": "Look inside",
+              "script": "Look inside. Soft, airy, perfect."
+            },
+            {
+              "text": "Perfect crumb",
+              "script": "That crumb is perfect. This is real baking."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-fresh-batch_break.jpg",
+          "overlays": [
+            "bread_tear_crumb",
+            "sugar_dust_backlit"
+          ]
+        },
+        {
+          "id": "outro",
+          "title": "Your pick",
+          "shot": "selfie",
+          "position": "At the counter",
+          "direction": "Front camera, show what you are taking home.",
+          "seconds": 4,
+          "prompter": "This is what I am taking home today.",
+          "captions": [
+            {
+              "text": "Stop by",
+              "script": "Stop by and say hi. Tell them I sent you."
+            },
+            {
+              "text": "Get yours",
+              "script": "Get yours before they sell out. They always do."
+            },
+            {
+              "text": "My pick",
+              "script": "This is my pick today. Come find your favorite."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-fresh-batch_outro.jpg",
+          "overlays": [
+            "selfie_bag_show",
+            "walk_and_talk_exit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar-night-out",
+      "venueKinds": [
+        "craft-beer"
+      ],
+      "title": "Night out",
+      "summary": "The crowd, the pour, cheers, and an invite.",
+      "steps": [
+        {
+          "id": "crowd",
+          "title": "The crowd",
+          "shot": "wide",
+          "position": "Inside, by the door",
+          "direction": "The room full of people and lights.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Tonight is the night",
+              "script": "Tonight is the night. The place is buzzing and we just got here."
+            },
+            {
+              "text": "Packed",
+              "script": "It is packed in here, and for good reason."
+            },
+            {
+              "text": "The vibe",
+              "script": "Look at the vibe in here. Warm light, good music, perfect for tonight."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-night-out_crowd.jpg",
+          "overlays": [
+            "crowd_high_angle",
+            "whip_pan_transition"
+          ]
+        },
+        {
+          "id": "pour",
+          "title": "The pour",
+          "shot": "detail",
+          "position": "At the bar",
+          "direction": "Tap pour or a cocktail being made, up close.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Brewed in-house",
+              "script": "Everything on tap is brewed in-house, right behind this wall."
+            },
+            {
+              "text": "Fresh pour",
+              "script": "Fresh pour, straight from the machine. You can smell it from here."
+            },
+            {
+              "text": "Cheers",
+              "script": "Cheers to good friends and a good night."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-night-out_pour.jpg",
+          "overlays": [
+            "cocktail_low_angle",
+            "tap_pour_glass"
+          ]
+        },
+        {
+          "id": "cheers",
+          "title": "Cheers",
+          "shot": "medium",
+          "position": "At the table",
+          "direction": "Glasses clinking with friends.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Cheers",
+              "script": "Cheers to good friends and a good night."
+            },
+            {
+              "text": "Your next round",
+              "script": "Your next round is waiting. Pull up a seat."
+            },
+            {
+              "text": "Good company",
+              "script": "Good drinks are better in good company."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-night-out_cheers.jpg",
+          "overlays": [
+            "glasses_clink_center",
+            "cheers_low_angle"
+          ]
+        },
+        {
+          "id": "outro",
+          "title": "Join us",
+          "shot": "selfie",
+          "position": "At the bar",
+          "direction": "Front camera, invite people for tonight.",
+          "seconds": 4,
+          "prompter": "We are here till late. Come join us.",
+          "captions": [
+            {
+              "text": "Join us tonight",
+              "script": "We are here till late. Come join us tonight."
+            },
+            {
+              "text": "Pull up a stool",
+              "script": "There is a stool at the bar with your name on it."
+            },
+            {
+              "text": "See you here",
+              "script": "That is my new favorite spot. Maybe I will see you here next time."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-night-out_outro.jpg",
+          "overlays": [
+            "talking_head_eye_level",
+            "toast_to_camera"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bar-tasting",
+      "venueKinds": [
+        "craft-beer"
+      ],
+      "title": "Tasting flight",
+      "summary": "Rate a flight of drinks on camera.",
+      "steps": [
+        {
+          "id": "flight",
+          "title": "The flight",
+          "shot": "detail",
+          "position": "At the table",
+          "direction": "All the glasses in a row, slow slide.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Tasting flight",
+              "script": "Tasting flight time. Four glasses, four styles, let's rate them."
+            },
+            {
+              "text": "Four to try",
+              "script": "Four to try, one to take home. Let's see which one wins."
+            },
+            {
+              "text": "Let's taste",
+              "script": "Let's taste. Starting light and working our way up."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-tasting_flight.jpg",
+          "overlays": [
+            "bar_counter_slide",
+            "flight_overhead"
+          ]
+        },
+        {
+          "id": "first",
+          "title": "First glass",
+          "shot": "selfie",
+          "position": "Sitting at the table",
+          "direction": "Front camera, taste and rate.",
+          "seconds": 4,
+          "prompter": "Number one. Light, fresh, I like it.",
+          "captions": [
+            {
+              "text": "Number one",
+              "script": "Number one. Light, crisp, very easy to drink."
+            },
+            {
+              "text": "Rating",
+              "script": "Rating this one a solid eight out of ten."
+            },
+            {
+              "text": "Light and fresh",
+              "script": "Light and fresh. Perfect for a warm evening."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-tasting_first.jpg",
+          "overlays": [
+            "selfie_sip_reaction",
+            "glass_raise_light"
+          ]
+        },
+        {
+          "id": "favorite",
+          "title": "The favorite",
+          "shot": "close",
+          "position": "Sitting at the table",
+          "direction": "Hold up your favorite and say why.",
+          "seconds": 4,
+          "prompter": "This one is the winner.",
+          "captions": [
+            {
+              "text": "The winner",
+              "script": "And the winner is this one. Not even close."
+            },
+            {
+              "text": "My favorite",
+              "script": "This is my favorite. I am ordering a full glass."
+            },
+            {
+              "text": "Must try",
+              "script": "If you only try one thing here, make it this."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-tasting_favorite.jpg",
+          "overlays": [
+            "hold_up_product",
+            "hand_over_lens_transition"
+          ]
+        },
+        {
+          "id": "outro",
+          "title": "Come taste",
+          "shot": "medium",
+          "position": "At the bar",
+          "direction": "The bar and the taps behind you.",
+          "seconds": 3,
+          "prompter": "Come try the flight yourself.",
+          "captions": [
+            {
+              "text": "Come taste",
+              "script": "Come taste the flight yourself and tell me your winner."
+            },
+            {
+              "text": "Pull up a stool",
+              "script": "There is a stool at the bar with your name on it."
+            },
+            {
+              "text": "Visit us",
+              "script": "Come visit us. We would love to have you."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-tasting_outro.jpg",
+          "overlays": [
+            "bar_backdrop_medium",
+            "pull_back_bar_reveal"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon-transformation",
+      "venueKinds": [
+        "beauty-salon"
+      ],
+      "title": "Transformation",
+      "summary": "Before, the work, and the reveal.",
+      "steps": [
+        {
+          "id": "before",
+          "title": "Before",
+          "shot": "selfie",
+          "position": "In the chair",
+          "direction": "Front camera, show the before look.",
+          "seconds": 3,
+          "prompter": "Here is the before. Let's change it up.",
+          "captions": [
+            {
+              "text": "Before",
+              "script": "Here is the before. Time for something new."
+            },
+            {
+              "text": "Time for a change",
+              "script": "It is time for a change. Let's see what the team can do."
+            },
+            {
+              "text": "Here we go",
+              "script": "Okay, here we go. A little nervous, mostly excited."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-transformation_before.jpg",
+          "overlays": [
+            "before_front_back",
+            "mirror_before"
+          ]
+        },
+        {
+          "id": "space",
+          "title": "The space",
+          "shot": "wide",
+          "position": "Inside, from the door",
+          "direction": "Slow pan over the salon.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Calm space",
+              "script": "Such a calm space. You relax the moment you walk in."
+            },
+            {
+              "text": "Time for you",
+              "script": "This is time for you. Phone down, breathe, enjoy."
+            },
+            {
+              "text": "Welcome",
+              "script": "Welcome in. Let me show you around."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-transformation_space.jpg",
+          "overlays": [
+            "interior_pan",
+            "chair_reveal_frame"
+          ]
+        },
+        {
+          "id": "work",
+          "title": "The work",
+          "shot": "detail",
+          "position": "Beside the chair",
+          "direction": "Hands at work: scissors, brush or nails.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "In good hands",
+              "script": "You are in good hands here. They really know what they are doing."
+            },
+            {
+              "text": "The process",
+              "script": "Here is the process, step by step. So satisfying to watch."
+            },
+            {
+              "text": "Details",
+              "script": "It is all in the details. Look how precise this is."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-transformation_work.jpg",
+          "overlays": [
+            "tools_closeup_hands",
+            "process_step_cuts"
+          ]
+        },
+        {
+          "id": "reveal",
+          "title": "The reveal",
+          "shot": "close",
+          "position": "In the chair",
+          "direction": "Turn to the camera for the reveal.",
+          "seconds": 4,
+          "prompter": "And the after. I love it.",
+          "captions": [
+            {
+              "text": "After",
+              "script": "And here is the after. I love it."
+            },
+            {
+              "text": "The reveal",
+              "script": "Ready for the reveal? Three, two, one."
+            },
+            {
+              "text": "Book now",
+              "script": "If you want this too, book now. Spots go fast."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-transformation_reveal.jpg",
+          "overlays": [
+            "chair_spin_reveal",
+            "hand_over_lens_transition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "salon-quick-tour",
+      "venueKinds": [
+        "beauty-salon",
+        "coffee"
+      ],
+      "title": "Quick tour",
+      "summary": "A fast walk-through that ends with an invite.",
+      "steps": [
+        {
+          "id": "door",
+          "title": "Come in",
+          "shot": "pov",
+          "position": "At the entrance",
+          "direction": "Point of view: walk through the door.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Come in",
+              "script": "Come in with me. This is the first thing you see."
+            },
+            {
+              "text": "Take a look",
+              "script": "Take a look around. Every corner has something to love."
+            },
+            {
+              "text": "Welcome",
+              "script": "Welcome in. Let me show you around."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-quick-tour_door.jpg",
+          "overlays": [
+            "pov_door_entry",
+            "sign_tilt_down_reveal"
+          ]
+        },
+        {
+          "id": "details",
+          "title": "The details",
+          "shot": "detail",
+          "position": "Around the room",
+          "direction": "Three quick close-ups of things you love.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The details",
+              "script": "The details are what make this place special."
+            },
+            {
+              "text": "Little things",
+              "script": "It is the little things. Fresh flowers, soft music, a warm welcome."
+            },
+            {
+              "text": "Love this",
+              "script": "I love this. Honestly, one of my favorite spots."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-quick-tour_details.jpg",
+          "overlays": [
+            "three_detail_closeups",
+            "flatlay_table"
+          ]
+        },
+        {
+          "id": "host",
+          "title": "Say hi",
+          "shot": "medium",
+          "position": "In the middle of the room",
+          "direction": "Wave and introduce the place in one line.",
+          "seconds": 4,
+          "prompter": "Hi! This is my favorite place in town.",
+          "captions": [
+            {
+              "text": "Say hi",
+              "script": "Say hi! This is one of my favorite places in town."
+            },
+            {
+              "text": "Meet us",
+              "script": "Come meet us. You will feel at home right away."
+            },
+            {
+              "text": "Hello",
+              "script": "Hello from here. Let me show you why I keep coming back."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-quick-tour_host.jpg",
+          "overlays": [
+            "wave_intro_medium",
+            "walk_in_intro"
+          ]
+        },
+        {
+          "id": "outro",
+          "title": "Book",
+          "shot": "selfie",
+          "position": "At the entrance",
+          "direction": "Front camera, tell people how to book.",
+          "seconds": 3,
+          "prompter": "Book through Loca, see you soon.",
+          "captions": [
+            {
+              "text": "Book now",
+              "script": "If you want this too, book now. Spots go fast."
+            },
+            {
+              "text": "See you soon",
+              "script": "That is it from me. See you soon."
+            },
+            {
+              "text": "Visit us",
+              "script": "Come visit us. We would love to have you."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-quick-tour_outro.jpg",
+          "overlays": [
+            "talking_head_eye_level",
+            "price_tag_point"
+          ]
+        }
+      ]
+    }
+  ]
+}

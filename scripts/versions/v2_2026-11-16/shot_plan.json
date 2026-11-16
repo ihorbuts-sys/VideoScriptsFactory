@@ -1,0 +1,2924 @@
+{
+  "bakery-fresh-batch": {
+    "oven": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "match-cut",
+      "reads": "The tray and its steam grow toward the lens; match-cut on the same tray sliding into the case."
+    },
+    "shelf": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-left",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The case slides past at an even pace, front pastries faster than the back; cut to the creator's view."
+    },
+    "pick": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The chosen pastry grows as the hand reaches toward it; cut to the pastry held at lens height."
+    },
+    "break": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The pastry splits toward the lens and the inside opens, nothing else moves; cut to the creator's face."
+    },
+    "outro": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length from slightly above, face and bag held still while the price lands."
+    }
+  },
+  "bakery-morning-shift": {
+    "lights": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The half-dark shop holds still while the baker moves at the bench; cut to the dough from above."
+    },
+    "dough": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Hands fold and shape the dough, filling the frame from above; cut to the oven door at eye level."
+    },
+    "oven": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "push-through",
+      "reads": "The tray grows until the crust fills the frame; push through to a loaf being set in the case."
+    },
+    "case": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The loaf shrinks back into a full case as the camera leans away; cut to the creator's face."
+    },
+    "first": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length from slightly above, face and full case held still while the pick and price land."
+    }
+  },
+  "bakery-sell-out": {
+    "hook": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "The shopfront holds steady, sign above the door, while the line is voiced over; a whip right lands on the queue."
+    },
+    "line": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 4,
+      "transitionOut": "whip",
+      "reads": "The line slides past from behind; a whip to the right lands on the tray in the case."
+    },
+    "tray": {
+      "angle": "high",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "The tray grows until one pastry fills the frame; match-cut on that pastry held up at eye level."
+    },
+    "break": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The pastry splits toward the lens and the filling or layers show; cut to the creator's face."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length from slightly above, face and pastry held still while the price and time land."
+    }
+  },
+  "bakery-box": {
+    "hook": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "A face at arm's length from slightly above with the case behind, held still; cut to the case itself."
+    },
+    "case": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-right",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The case slides past at an even pace, labels and prices readable; cut to the creator's view."
+    },
+    "pick": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "match-cut",
+      "reads": "Each pick drops in and the box grows toward the lens; match-cut on the open box seen from above."
+    },
+    "box": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The pastries from above shrink as the camera lifts and the whole box appears; cut to the creator's face."
+    },
+    "total": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length from slightly above, face and box held still while the total lands."
+    }
+  },
+  "bakery-ask-the-baker": {
+    "hands": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Hands work the dough or the piping bag, filling the frame from above; cut to the baker at eye level."
+    },
+    "ask": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The baker across the counter, held still while the question is asked and answered; cut to the creator's view of the case."
+    },
+    "answer": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "The baker's pick grows toward the lens as it is lifted out; match-cut on the same pastry held level with the camera."
+    },
+    "inside": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The pastry opens toward the lens and the inside shows, nothing else moves; cut to the creator's face."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length from slightly above, face and pastry held still while the verdict lands."
+    }
+  },
+  "salon-transformation": {
+    "before": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face and hair held still in even light; cut to the back camera on the room."
+    },
+    "space": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The salon slides past from the desk to the stations; cut to a tight high shot of the stylist's hands."
+    },
+    "work": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "push-through",
+      "reads": "Hands work in the hair, then the phone eases into the cape until it fills the frame; the next shot opens off the cape."
+    },
+    "reveal": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "reveal-from-behind",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The cape slides off the lens and the finished hair appears at the same size as the before; cut to the desk."
+    },
+    "book": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The desk and price list from above, held still while the price and booking line land."
+    }
+  },
+  "salon-quick-tour": {
+    "door": {
+      "angle": "pov",
+      "start": "wide",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 7,
+      "transitionOut": "push-through",
+      "reads": "The door grows as we walk up until the glass fills the frame; the next shot opens inside."
+    },
+    "room": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "reveal-from-behind",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "A blurred plant slides off and the stations appear; cut to a tight high shot of one detail."
+    },
+    "details": {
+      "angle": "high",
+      "start": "detail",
+      "end": "detail",
+      "move": "whip",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "Detail, flick, detail, flick; the last flick carries into the front desk."
+    },
+    "host": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "whip",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The frame lands out of the flick on the desk and the team, then holds while the hello lands."
+    },
+    "outro": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Arm's length from a little above, at the entrance, held still for the booking line and the end card."
+    }
+  },
+  "salon-fade": {
+    "before": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Arm's length, the overgrown sides held still; cut to the back camera on the station."
+    },
+    "station": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The tools grow until the clipper blade fills the frame; cut to the chair at eye level."
+    },
+    "line": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "match-cut",
+      "reads": "The phone holds still while the clipper climbs the side; match-cut on the same side of the head, now finished."
+    },
+    "blend": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "orbit-right",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The fade turns past from ear to ear, the blend staying centered; cut to the front camera for the after."
+    },
+    "reveal": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Same size and light as the before, held still while the head turns and the price lands."
+    }
+  },
+  "salon-nail-set": {
+    "accent": {
+      "angle": "top-down",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "One glossy nail fills the frame and the light slides across it; cut to the polish wall at eye level."
+    },
+    "colors": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-right",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "Bottles slide past and the picked one stops in the middle; match-cut to the same bottle in the tech's hand."
+    },
+    "tech": {
+      "angle": "pov",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "match-cut",
+      "reads": "From above the hand, the brush lays the color on; match-cut to the same hand, finished, at eye level."
+    },
+    "turns": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The phone stays still while the hand turns through three angles; cut to the front camera."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, the nails beside the face, held still for the price and the end card."
+    }
+  },
+  "salon-brows": {
+    "before": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Eyes and brows fill the frame, held still in even light; cut to the tray from straight above."
+    },
+    "tools": {
+      "angle": "top-down",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The tray from above while a brush stirs the tint; cut to the view from the bed."
+    },
+    "process": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "push-through",
+      "reads": "From the bed the lamp and hands come closer until a palm fills the frame; the next shot opens as a palm slides off."
+    },
+    "reveal": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "reveal-from-behind",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The palm slides off and the brows appear at the same size as the before; cut to the desk."
+    },
+    "book": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The desk and price list from above, held still for the price and the end card."
+    }
+  },
+  "salon-meet-stylist": {
+    "intro": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The stylist at her station waves, held still; cut to behind her shoulder at the chair."
+    },
+    "hands": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "match-cut",
+      "reads": "From behind her shoulder the scissors and hair grow in frame; match-cut on the same hair, now finished."
+    },
+    "signature": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "orbit-right",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The finished hair turns past, its far side coming round; cut to the front camera with the stylist."
+    },
+    "tip": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Arm's length, two faces in frame, held still for the tip; cut to the desk."
+    },
+    "book": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The desk from above, held still for the booking line and the end card."
+    }
+  },
+  "first-visit": {
+    "entrance": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "The door grows as we walk straight at it until it fills the frame; cut to the order."
+    },
+    "counter": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "match-cut",
+      "reads": "From behind the shoulder the menu board and the barista hold still while the cup is handed over; match-cut on the cup in hand."
+    },
+    "menu": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The menu held still from above with the dish's line readable; cut to the first forkful."
+    },
+    "drink": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "The latte art grows until it fills the frame from above; a whip off the cup lands on the door outside."
+    },
+    "plate": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "The plate grows from table height until the dish fills the frame; a whip off it lands on the door outside."
+    },
+    "sip": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The cup rises and the face grows as the creator leans into the sip; cut back to arm's length."
+    },
+    "forkful": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The fork comes up into a still selfie and the face answers; cut to the room behind the cup."
+    },
+    "room": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "wide",
+      "move": "reveal-from-behind",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The cup slides off and the room opens up behind it; cut to the verdict."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face, cup and room held still while the price and the street land."
+    }
+  },
+  "cafe-morning-ritual": {
+    "light": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "The room slides past from the window to the counter in morning light; cut to the cup on the table."
+    },
+    "cup": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "whip",
+      "reads": "The cup holds still with steam curling up; a whip to the right lands on the pastry beside it."
+    },
+    "pastry": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The pastry splits and the layers grow toward the lens until the crumb fills the frame; cut to the creator's view of the table."
+    },
+    "corner": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "The table opens up around the hands and cup as the creator leans back, window light in frame."
+    }
+  },
+  "cafe-before-opening": {
+    "lights": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The dark room fills with light while the barista moves through it; cut to behind the barista at the machine."
+    },
+    "dial": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "match-cut",
+      "reads": "From behind the shoulder the hands grind and tamp; match-cut on the portafilter locking into the machine."
+    },
+    "shot": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "push-through",
+      "reads": "The espresso runs and the cup grows until the dark crema fills the frame; push through into the next cup leaving the counter."
+    },
+    "door": {
+      "angle": "high",
+      "start": "detail",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The cup lifts away from the lens and the counter opens up around it seen from above; cut to the creator holding their own cup."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face and cup held still while the opening time and price land."
+    }
+  },
+  "cafe-seasonal-drink": {
+    "finish": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The topping lands and the foam grows until it fills the frame from above; cut to the side of the cup."
+    },
+    "build": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "match-cut",
+      "reads": "The layers stack in the glass while the camera stays still; match-cut on the glass rising into the creator's hand."
+    },
+    "sip": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The glass rises and the face grows into the sip; cut to the menu board above the counter."
+    },
+    "board": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "tilt-down",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The board with the drink's name and price slides up out of frame as the drink on the counter comes in below."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length from slightly above, face and drink held still while the verdict lands."
+    }
+  },
+  "cafe-work-spot": {
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "A face at arm's length asking the question, held still; cut to the room."
+    },
+    "room": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 6,
+      "transitionOut": "whip",
+      "reads": "The tables and windows slide past; a whip to the right lands on the creator's own table."
+    },
+    "desk": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The table grows toward the cup as the creator leans in; cut to the table edge from above."
+    },
+    "outlets": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "tilt-down",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The table edge slides up and the outlet or wifi card comes into frame below; cut to the creator's face."
+    },
+    "score": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face and laptop held still while the score lands."
+    }
+  },
+  "restaurant-date-night": {
+    "entrance": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "push-through",
+      "reads": "The storefront grows as we walk up until the door fills the screen; we push through it into the room."
+    },
+    "room": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "wide",
+      "move": "reveal-from-behind",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The blocker slides off and the dining room opens up behind it; cut down to a plate on the table."
+    },
+    "dish": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "orbit-left",
+      "seconds": 6,
+      "transitionOut": "match-cut",
+      "reads": "The plate turns past us as its far side comes round; match-cut on the fork lifting off the plate."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The fork comes up into a still selfie and the face answers; cut to a tighter, higher selfie for the bill."
+    },
+    "outro": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "A close, still face from just above while the price and the booking tip land; hold for the end card."
+    }
+  },
+  "restaurant-chef-pick": {
+    "hands": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "Hands plate the dish from above, nothing else moves; match-cut on the same hands seen from behind the cook."
+    },
+    "cook": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "From behind the cook we lean in as the plate is finished; cut low and level with the plate on the pass."
+    },
+    "plate": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "push-through",
+      "reads": "The plate towers and grows until sauce fills the screen; push through it to the fork at the lens."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The fork leaves the lens and the face appears behind it; cut to a higher, still selfie."
+    },
+    "outro": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "Arm's length from just above, face and plate held still while the price lands; hold for the end card."
+    }
+  },
+  "restaurant-family-table": {
+    "kids-plate": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The kids plate lands under the lens from above; cut up to the whole table at eye level."
+    },
+    "table": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The table slides past from left to right; cut down to the crayons and the high chair."
+    },
+    "setup": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "whip",
+      "reads": "The crayons grow until the colors fill the screen, then the frame flicks away and lands on the parent at the table."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The frame settles out of the whip on a still selfie and the bite; cut to a higher selfie with the table behind."
+    },
+    "total": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "A still selfie from just above with the whole table behind while the total lands; hold for the end card."
+    }
+  },
+  "restaurant-weekend-brunch": {
+    "pour": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The pour runs down the plate while nothing else moves; cut straight overhead to the same plate."
+    },
+    "spread": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "One plate from above, then the camera rises and the whole table appears around it; cut to the selfie."
+    },
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "A still selfie at the table with the spread in front; cut to the back camera above one plate."
+    },
+    "yolk": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "pull-back-reveal",
+      "reads": "The fork breaks in and the yolk fills the screen; the next shot starts on a detail and pulls back to the room."
+    },
+    "room": {
+      "angle": "eye-level",
+      "start": "detail",
+      "end": "wide",
+      "move": "reveal-from-behind",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The cup slides off and the busy brunch room is there behind it; cut to the verdict selfie."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "A still selfie from just above, plate in frame, while the pick and the price land; hold for the end card."
+    }
+  },
+  "restaurant-room-tour": {
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "A still selfie in the doorway; cut to the back camera walking at the door."
+    },
+    "door": {
+      "angle": "pov",
+      "start": "wide",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "push-through",
+      "reads": "The door grows until it fills the screen; push through it to a shot that opens inside."
+    },
+    "room": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "wide",
+      "move": "reveal-from-behind",
+      "seconds": 7,
+      "transitionOut": "whip",
+      "reads": "The pillar slides off and the room opens up, then the frame flicks right and lands low on the bar."
+    },
+    "bar": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-right",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The bar top slides past low with the bottles towering; cut high above the best table."
+    },
+    "seat": {
+      "angle": "high",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The table grows as we lean in over the plates and glasses; cut to the verdict selfie."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "A still selfie at the best table while the seat tips land; hold for the end card."
+    }
+  },
+  "restaurant-lunch-deal": {
+    "plate": {
+      "angle": "low",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The plate grows from below until it towers in the frame; cut to the selfie."
+    },
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "A still selfie with the plate in front; cut to the back camera above the menu."
+    },
+    "menu": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 7,
+      "transitionOut": "whip",
+      "reads": "The price grows until it fills the screen, then the frame flicks away and lands overhead on the tray."
+    },
+    "spread": {
+      "angle": "top-down",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The plates land around the lunch plate from above; cut to the bite selfie."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The face grows as the bite comes up to the lens; cut to a higher, still selfie for the offer."
+    },
+    "offer": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "A still selfie from just above while the name and the offer land; hold for the end card."
+    }
+  },
+  "bar-night-out": {
+    "pour": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "match-cut",
+      "reads": "The glass fills and the head settles while nothing else moves; match-cut on the glass as the creator lifts it into the selfie."
+    },
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and glass held still at arm's length; cut to the back camera on the room."
+    },
+    "crowd": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 7,
+      "transitionOut": "whip",
+      "reads": "The room slides past from the bar to the tables, then a whip to the right lands on the glasses at the table."
+    },
+    "cheers": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "From below the rims the glasses meet in the middle of the frame; cut to the front camera for the invite."
+    },
+    "outro": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face and bar in frame, held still while the name and the price land."
+    }
+  },
+  "bar-tasting": {
+    "flight": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "truck-right",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The glasses slide past from light to dark, the front rims faster than the back; cut low to the tap board."
+    },
+    "taps": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "tilt-down",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "The board slides up out of frame and the tap handles come into view below it; cut to the front camera at the table."
+    },
+    "first": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face and glass at arm's length, still while the first rating lands; cut closer for the winner."
+    },
+    "favorite": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "pull-back-reveal",
+      "reads": "The face close to the lens, then the glass rises until it fills the frame; the next shot opens on the same glass on the bar."
+    },
+    "outro": {
+      "angle": "high",
+      "start": "detail",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "From the glass filling the frame, the bar and its taps open up around it; held still for the end card."
+    }
+  },
+  "night-live-music": {
+    "walkin": {
+      "angle": "pov",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The door opens onto the room and the stage grows as we walk in; cut to the front camera."
+    },
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face at arm's length with the stage lights behind, held still; cut to the back camera on the band."
+    },
+    "stage": {
+      "angle": "low",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "whip",
+      "reads": "The stage rises over the room and the band grows as we ease in; a whip right lands on the bar."
+    },
+    "drink": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "From above, a glass lands on the bar and settles under the lights; cut low to the event board."
+    },
+    "board": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The board grows from below until tonight's line fills the frame; cut to the front camera for the verdict."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face and door or stage behind, held still while the night and the cover land."
+    }
+  },
+  "bar-happy-hour": {
+    "pour": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "push-through",
+      "reads": "The glass fills and the camera eases in until the foam fills the frame; the next shot opens filled by the board."
+    },
+    "board": {
+      "angle": "low",
+      "start": "detail",
+      "end": "close",
+      "move": "pull-out",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The hours fill the frame, then the camera eases back until the prices sit under them; cut to the front camera."
+    },
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and glass at arm's length, held still for the deal; cut to the back camera straight above the bar."
+    },
+    "bite": {
+      "angle": "top-down",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "From straight above, a glass and a small plate sit on the bar and a hand reaches in for the glass; cut to eye level on the room."
+    },
+    "room": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-left",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "The room turns past from the bar to the booths; cut to the front camera for the verdict."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face and bar in frame, held still while the hours and the name land."
+    }
+  },
+  "fun-first-try": {
+    "ride": {
+      "angle": "pov",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The drop, the line or the arena door rushes toward us as we move forward; cut to the front camera after the run."
+    },
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face at arm's length, out of breath, held still for the line; cut to the back camera up high."
+    },
+    "park": {
+      "angle": "high",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 4,
+      "transitionOut": "whip",
+      "reads": "The whole park turns past from above, attractions side by side; a whip right lands on the ticket."
+    },
+    "ticket": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The wristband or the price board settles and grows until the price fills the frame; cut to the front camera for the verdict."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, face and entrance in frame, held still while the price and the name land."
+    }
+  },
+  "fun-group-challenge": {
+    "hook": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The group squeezes into the frame from slightly above, held still for the bet; cut to the back camera in the game."
+    },
+    "action": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "medium",
+      "move": "pan-left",
+      "seconds": 6,
+      "transitionOut": "whip",
+      "reads": "The game moves across the frame as we turn with it; a whip left lands on the group's reaction."
+    },
+    "reaction": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The group mid-laugh or mid-argument, held still; cut low and tight to the scoreboard."
+    },
+    "score": {
+      "angle": "low",
+      "start": "detail",
+      "end": "close",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "One name fills the frame, then the board opens up to show every score; cut to the front camera."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, the group in frame, held still while the price and the name land."
+    }
+  },
+  "quick-order-rate": {
+    "hold": {
+      "angle": "low",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The item grows from below until it fills the frame; cut to the selfie."
+    },
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "A still selfie with the item in hand; cut to the back camera above it."
+    },
+    "inside": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "whip",
+      "reads": "The inside grows until it fills the screen, then the frame flicks away and lands on the menu board."
+    },
+    "menu": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-right",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The prices slide past at an even pace; cut to the score selfie."
+    },
+    "score": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "A still selfie from just above while the score and price land; hold for the end card."
+    }
+  },
+  "quick-truck-find": {
+    "truck": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "The truck grows as we walk up until the window and the menu fill the frame; cut to our view at the window."
+    },
+    "window": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Our view of the window held still while we order; cut low under the window ledge."
+    },
+    "handoff": {
+      "angle": "low",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "match-cut",
+      "reads": "The tray comes down out of the window toward the lens; match-cut on the same tray from straight above."
+    },
+    "unwrap": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The open box grows until the filling fills the screen; cut to the bite selfie."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The face grows as the bite comes up; cut to a higher selfie with the truck behind."
+    },
+    "where": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "A still selfie with the truck behind while the spot and hours land; hold for the end card."
+    }
+  },
+  "quick-budget-run": {
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "A still selfie at the counter; cut to the back camera on the menu board."
+    },
+    "board": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-left",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "The board looms above and its prices slide past at an even pace; cut straight overhead to the first item."
+    },
+    "first": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "The first item sits still under the lens while a hand takes it, then the frame flicks to the second item."
+    },
+    "second": {
+      "angle": "low",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Out of the whip the main item grows from below until it towers; cut straight down to the receipt."
+    },
+    "receipt": {
+      "angle": "top-down",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The total holds still in the frame; cut to the verdict selfie."
+    },
+    "best": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "A still selfie from just above while the pick and the total land; hold for the end card."
+    }
+  },
+  "quick-late-night": {
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "A still selfie under the sign; cut low to the sign itself."
+    },
+    "sign": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "tilt-down",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The sign above gives way to the door below as the phone tips down; cut high over the griddle."
+    },
+    "griddle": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "The patty sizzles still in the frame; match-cut on the finished burger in the same spot from below."
+    },
+    "order": {
+      "angle": "low",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The order grows from below until it fills the frame; cut to the bite selfie."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The face grows as the bite comes up; cut to the lit storefront outside."
+    },
+    "outside": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The lit storefront holds still in the dark street; hold for the end card."
+    }
+  },
+  "quick-the-build": {
+    "grill": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The patty or the basket sizzles still in the frame; cut behind the cook's shoulder."
+    },
+    "build": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "From behind the cook we lean in as the layers go on; cut straight overhead to the wrap."
+    },
+    "wrap": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "Hands fold the wrap from above; match-cut on the same order opened and cut in half."
+    },
+    "inside": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "push-through",
+      "reads": "The inside grows until it fills the screen; push through it to the bite at the lens."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The food leaves the lens and the face appears; cut to a higher, still selfie."
+    },
+    "outro": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 7,
+      "transitionOut": "cut",
+      "reads": "A still selfie from just above while the name and price land; hold for the end card."
+    }
+  },
+  "food-review": {
+    "dish": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "The dish grows from a close-up until the sauce or steam fills the frame; a whip off it lands on the door outside."
+    },
+    "arrive": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The door grows as we walk straight at it until it fills the frame; cut to the menu board."
+    },
+    "order": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "truck-right",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The board's columns slide past at one even pace while the dish is named; cut to the first bite."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The fork rises from the plate toward the lens and the face grows as the creator leans in to bite; cut back to arm's length."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, plate and face in frame, held still while the verdict and price land."
+    }
+  },
+  "food-review-drink": {
+    "pour": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "match-cut",
+      "reads": "From above, the cup grows until the pour or the art fills the frame; match-cut on the cup as it is handed over the counter."
+    },
+    "order": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Over the shoulder at the counter, the barista hands the cup across while the creator names it; cut to the cup alone on the table."
+    },
+    "cup": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "orbit-right",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "At cup height, the camera circles so the handle or straw comes around and the far side of the cup appears; cut to the creator."
+    },
+    "sip": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The cup rises to the creator's mouth and the face grows slightly as they lean in for the sip; cut back to arm's length."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, cup and room behind, held still for the price and the verdict."
+    }
+  },
+  "food-review-pour": {
+    "build": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "match-cut",
+      "reads": "From the bar edge the glass grows as it fills and the head settles; match-cut on the full glass lifted against the light."
+    },
+    "glass": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "tilt-down",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "At eye level the glass glows against the bar lights, then the view tilts down with it as it lands on the bar top; cut to the creator."
+    },
+    "sip": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The creator lifts the glass and leans in to sip, the face growing in frame; cut back to arm's length."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length with the taps behind, held still for the price and the happy hour."
+    }
+  },
+  "food-review-sweet": {
+    "case": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "push-through",
+      "reads": "At shelf height the case fills the frame, then the camera moves in on one pastry until it fills the frame; the next shot starts filled with it on the plate."
+    },
+    "break": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The pastry fills the frame as it is torn open and the inside grows toward the lens; cut to the creator taking a bite."
+    },
+    "taste": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The pastry rises to the creator's mouth and the face grows as they lean in; cut back to arm's length."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length with the plate, held still for the price and the tip."
+    }
+  },
+  "food-review-handheld": {
+    "window": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "The counter or truck grows as the creator walks up to the window; a whip down lands on the food in their hands."
+    },
+    "cut": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Low and close, the two halves come apart toward the lens and the filling grows until it fills the frame; cut to the creator lifting it."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Two hands lift it to the creator's mouth and the face grows with the bite; cut back to arm's length."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length with the counter or truck behind, held still for the price."
+    }
+  },
+  "food-review-table": {
+    "spread": {
+      "angle": "top-down",
+      "start": "detail",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 8,
+      "transitionOut": "cut",
+      "reads": "From straight above one dish, the camera rises and the rest of the table appears around it until the whole spread fills the frame; cut low to the grill."
+    },
+    "action": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "pull-back-reveal",
+      "reads": "At grill height the meat hits the heat and grows in frame; the next shot starts on it and pulls back to show the table."
+    },
+    "how": {
+      "angle": "eye-level",
+      "start": "detail",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Starting on the meat on the grill, the camera eases back until the creator, the grill and the whole table are in frame as they explain how it works; cut to the front camera."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The first piece rises from the grill to the creator's mouth and the face grows; cut back to arm's length."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length from slightly above, table and friends in frame, held for the price per person."
+    }
+  },
+  "food-review-typed": {
+    "arrive": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "medium",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "The door grows as we walk straight at it until it fills the frame; a whip off it lands on the first taste."
+    },
+    "dish": {
+      "angle": "low",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "What was ordered grows from a close-up until the steam, sauce or foam fills the frame; a whip off it lands on the door outside."
+    },
+    "bite": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The first bite or sip rises toward the lens and the face grows as the creator leans in; cut back to arm's length."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Arm's length, what was ordered and the face in frame, held still while the verdict lands."
+    }
+  },
+  "pro-before-after": {
+    "problem": {
+      "angle": "high",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The problem grows until it fills the frame; cut to the pro at the counter at eye level."
+    },
+    "quote": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The pro in the back camera, held still while the creator speaks; cut to straight above the bench."
+    },
+    "tool": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "The pro's hands and the tool work in the frame from above; match-cut on the hands to over the shoulder."
+    },
+    "detail": {
+      "angle": "over-shoulder",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The tool grows until it fills the frame over the shoulder; cut to the result from the first shot's angle."
+    },
+    "result": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The result in the problem's framing, held still; cut to the front camera."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and result at arm's length, held still for the outro."
+    }
+  },
+  "pro-meet-the-owner": {
+    "hands": {
+      "angle": "high",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "pull-back-reveal",
+      "reads": "The tool on the work fills the frame; the next shot starts on the same hands and pulls back."
+    },
+    "bench": {
+      "angle": "eye-level",
+      "start": "detail",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "From the hands, the owner and the whole bench appear; cut to the selfie with the owner."
+    },
+    "hello": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Two faces at arm's length, held still; the camera flips to over the owner's shoulder."
+    },
+    "craft": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The work grows over the owner's shoulder; cut to the owner at eye level."
+    },
+    "tip": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The owner in the back camera, still, while the creator speaks; cut to the price list from above."
+    },
+    "prices": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "A finger lands on the starting price from above; hold for the outro."
+    }
+  },
+  "pro-first-lesson": {
+    "room": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "wide",
+      "move": "reveal-from-behind",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The door frame slides off and the lesson room appears; cut to the selfie with the teacher."
+    },
+    "teacher": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Two faces at arm's length, held still; the camera flips to straight above the task."
+    },
+    "hands": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "The creator's hands try from above; match-cut on the hands to over the teacher's shoulder."
+    },
+    "correction": {
+      "angle": "over-shoulder",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The teacher's hands grow over the shoulder; cut to the creator's hands from above at an angle."
+    },
+    "win": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The creator's hands get it right from above, held still; cut to the schedule at the door from below."
+    },
+    "schedule": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "tilt-down",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The name slides up and the prices and times appear below; hold for the outro."
+    }
+  },
+  "pro-quick-tip": {
+    "hook": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The pro and the tool grow in the back camera; cut to straight above the work."
+    },
+    "wrong": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "whip",
+      "reads": "The hands work the wrong way from above, held, then the frame flicks right."
+    },
+    "right": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The flick settles on the same hands doing it the right way; cut to the front camera."
+    },
+    "try": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face and tool at arm's length, held still; the camera flips to the sign outside."
+    },
+    "sign": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "tilt-down",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The sign slides up out of frame and the door appears; hold for the outro."
+    }
+  },
+  "pro-what-it-costs": {
+    "ask": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face and door at arm's length, held still; the camera flips to the first job from above."
+    },
+    "one": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "whip",
+      "reads": "The first job in the frame from above, held, then the frame flicks right."
+    },
+    "two": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The flick settles on the second job from above; cut to over the pro's shoulder."
+    },
+    "three": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The work grows over the pro's shoulder; cut to the pro at eye level."
+    },
+    "quote": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The pro at the counter in the back camera, held still; cut to the front camera at the door."
+    },
+    "book": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face and sign at arm's length, held still for the outro."
+    }
+  },
+  "shop-find-of-the-day": {
+    "find": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The find grows toward the lens until the tag is readable; cut to the rail where it hung."
+    },
+    "rail": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-right",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "Hangers or spines slide past at an even pace and stop on the gap; cut to the label from above."
+    },
+    "label": {
+      "angle": "high",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "whip",
+      "reads": "The label fills the frame, held, then the frame flicks right onto the price tag."
+    },
+    "tag": {
+      "angle": "high",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The flick settles on the tag and holds; cut to the front camera."
+    },
+    "why": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face and find at arm's length, held still; the camera flips to the shopfront."
+    },
+    "shopfront": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "tilt-down",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The sign slides up out of frame and the door appears below it; hold for the outro."
+    }
+  },
+  "shop-try-on": {
+    "pick": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The hand pulls the piece toward the lens; cut to the fabric and tag from above."
+    },
+    "tag": {
+      "angle": "high",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "Fabric then tag fill the frame from above; cut to eye level at the changing room."
+    },
+    "curtain": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "push-through",
+      "reads": "The curtain grows until its fabric fills the frame; the next shot opens on the curtain sliding away."
+    },
+    "reveal": {
+      "angle": "low",
+      "start": "detail",
+      "end": "medium",
+      "move": "reveal-from-behind",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "The curtain slides away and the outfit appears, one turn; match-cut on the creator to the mirror."
+    },
+    "second": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "Same place in frame, a different outfit, one turn; cut to the front camera."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and both pieces at arm's length, held still; the camera flips to the sign outside."
+    },
+    "sign": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "tilt-down",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The sign slides up and the door appears; hold for the outro."
+    }
+  },
+  "shop-budget-challenge": {
+    "budget": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and door at arm's length, held still; the camera flips to the first pick."
+    },
+    "pick-one": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The pick grows toward the lens until the tag reads; cut to eye level along the next shelf."
+    },
+    "pick-two": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-right",
+      "seconds": 4,
+      "transitionOut": "whip",
+      "reads": "Items slide past and stop on pick two, then the frame flicks right."
+    },
+    "pick-three": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The flick settles above the pick and its tag; cut to over the cashier's shoulder."
+    },
+    "till": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "pull-back-reveal",
+      "reads": "The total grows until it fills the frame; the next shot starts on one tag and pulls back."
+    },
+    "haul": {
+      "angle": "top-down",
+      "start": "detail",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "From one tag the frame rises until all three picks lie in it; cut to the front camera."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and bag at arm's length, held still for the outro."
+    }
+  },
+  "shop-owner-pick": {
+    "ask": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The owner grows in the back camera as the creator asks; cut to behind the owner at the rail."
+    },
+    "pull": {
+      "angle": "over-shoulder",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "Over the shoulder, the owner's hand finds the piece and lifts it; cut to the owner holding it up."
+    },
+    "why": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The owner holds the piece up in the back camera, still; cut to the tag from above."
+    },
+    "tag": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "push-through",
+      "reads": "The tag grows until the fabric fills the frame; the next shot opens on the same fabric, worn."
+    },
+    "try": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The fabric fills the frame, then the outfit appears around it; cut to the front camera."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face and outfit at arm's length, held still for the outro."
+    }
+  },
+  "shop-music-demo": {
+    "chord": {
+      "angle": "high",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "pull-back-reveal",
+      "reads": "Fingers on the strings or keys fill the frame; the next shot starts on the same hands and pulls back."
+    },
+    "player": {
+      "angle": "eye-level",
+      "start": "detail",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "From the hands, the player and the instrument appear around them; cut to walking the wall."
+    },
+    "wall": {
+      "angle": "pov",
+      "start": "medium",
+      "end": "medium",
+      "move": "truck-right",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "Headstocks or keys slide past at an even pace; cut to above the creator's hands."
+    },
+    "try": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The creator's hands play from above in the back camera; cut to the staff member at eye level."
+    },
+    "tip": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The staff member in the back camera, held still while the creator speaks; cut to the price tag."
+    },
+    "price": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The tag grows until the price fills the frame; hold for the outro."
+    }
+  },
+  "shop-tour": {
+    "door": {
+      "angle": "pov",
+      "start": "wide",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 5,
+      "transitionOut": "push-through",
+      "reads": "The door grows until it fills the frame; the next shot opens inside."
+    },
+    "inside": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The first rack shrinks as the whole shop appears around it; cut close to the main rail."
+    },
+    "rail": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "truck-right",
+      "seconds": 5,
+      "transitionOut": "whip",
+      "reads": "Hangers slide past the lens and stop on a tag, then the frame flicks right into the corner."
+    },
+    "corner": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "pan-right",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The flick settles and the back corner turns past slowly; cut to one find from above."
+    },
+    "find": {
+      "angle": "high",
+      "start": "detail",
+      "end": "detail",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The find and its tag fill the frame from above; cut to the front camera at the till."
+    },
+    "till": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and counter at arm's length, held still for the outro."
+    }
+  },
+  "fit-first-class": {
+    "door": {
+      "angle": "pov",
+      "start": "wide",
+      "end": "detail",
+      "move": "push-in",
+      "seconds": 7,
+      "transitionOut": "push-through",
+      "reads": "The door grows until it fills the frame; the next shot opens inside on the price board."
+    },
+    "desk": {
+      "angle": "eye-level",
+      "start": "detail",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The prices fill the frame, then the desk and the studio sign appear around them; cut to the selfie with the coach."
+    },
+    "coach": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Two faces at arm's length, held still; the camera flips to the back lens for the class."
+    },
+    "reps": {
+      "angle": "low",
+      "start": "wide",
+      "end": "wide",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "match-cut",
+      "reads": "From the floor, the creator moves through a rep; match-cut on the top of the rep to the hands."
+    },
+    "grip": {
+      "angle": "high",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "Hands fill the frame from above and work through one rep; cut to the front camera after class."
+    },
+    "after": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face at arm's length, still, while the verdict lands; cut to the schedule board."
+    },
+    "book": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The schedule grows until the class name fills the frame; hold still for the outro."
+    }
+  },
+  "fit-gym-tour": {
+    "kit": {
+      "angle": "low",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "whip",
+      "reads": "The kit grows above the lens until it fills the frame; whip right onto the training floor."
+    },
+    "floor": {
+      "angle": "eye-level",
+      "start": "wide",
+      "end": "wide",
+      "move": "pan-right",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The room turns past from left to right after the whip settles; cut close to the racks."
+    },
+    "racks": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "truck-right",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "Handles slide past the lens, front ones faster than the back; cut to walking into the changing room."
+    },
+    "changing": {
+      "angle": "pov",
+      "start": "close",
+      "end": "medium",
+      "move": "reveal-from-behind",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The door frame slides off and the empty changing room appears; cut to the owner at the desk."
+    },
+    "owner": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The owner at the desk, held still in the back camera while the creator speaks; cut to the front camera outside."
+    },
+    "outside": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "Face and sign at arm's length, held still for the outro."
+    }
+  },
+  "fit-sauna-session": {
+    "door": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "push-through",
+      "reads": "The door opens and the wood grows until it fills the frame; the next shot opens on the benches."
+    },
+    "room": {
+      "angle": "high",
+      "start": "close",
+      "end": "wide",
+      "move": "pull-out",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "From the bench boards the room opens around them until the stove and door are in frame; cut to the bag on the bench."
+    },
+    "bag": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "Hands place each item into the frame from above; cut to the floor-level shot of the walk in."
+    },
+    "step-in": {
+      "angle": "low",
+      "start": "wide",
+      "end": "wide",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "From the floor, the creator walks through the door and it closes; cut to the front camera in the rest area."
+    },
+    "after": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face at arm's length, held still for the line; cut to the session prices at the desk."
+    },
+    "price": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The price list grows until the session line fills the frame; hold for the outro."
+    }
+  },
+  "fit-coach-move": {
+    "demo": {
+      "angle": "low",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "match-cut",
+      "reads": "The coach moves through one rep from below; match-cut on the coach to eye level."
+    },
+    "coach": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The coach holds still in the back camera while the creator speaks; cut to straight above the feet."
+    },
+    "stance": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "Feet or hands settle into position from above; cut to the wide floor shot of the creator."
+    },
+    "copy": {
+      "angle": "low",
+      "start": "wide",
+      "end": "wide",
+      "move": "static",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The creator repeats the move in a wide frame from the floor; cut to the front camera."
+    },
+    "verdict": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face at arm's length, still; cut to the schedule on the wall."
+    },
+    "class": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The schedule grows until the class time fills the frame; hold for the outro."
+    }
+  },
+  "fit-treatment": {
+    "room": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "reveal-from-behind",
+      "seconds": 4,
+      "transitionOut": "cut",
+      "reads": "The door frame slides away and the dressed table appears; cut to the menu from straight above."
+    },
+    "menu": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "A finger lands on one line of the menu from above; cut to the practitioner at eye level."
+    },
+    "walkthrough": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 5,
+      "transitionOut": "cut",
+      "reads": "The practitioner talks in the back camera, held still; cut to above the creator's hands."
+    },
+    "during": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "match-cut",
+      "reads": "Hands rest still on the towel from above; match-cut on the creator to the front camera after."
+    },
+    "after": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face at arm's length, still; cut to the name plate at the entrance."
+    },
+    "sign": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "medium",
+      "move": "pull-out",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The name plate shrinks as the entrance appears around it; hold for the outro."
+    }
+  },
+  "fit-first-appointment": {
+    "door": {
+      "angle": "pov",
+      "start": "wide",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "push-through",
+      "reads": "The door grows until it fills the frame; the next shot opens on the waiting room behind a pillar or plant."
+    },
+    "waiting": {
+      "angle": "eye-level",
+      "start": "close",
+      "end": "wide",
+      "move": "reveal-from-behind",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The blocker slides away and the empty waiting room opens up; cut to the selfie with the clinician."
+    },
+    "meet": {
+      "angle": "high",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Two faces at arm's length, held still; the camera flips to the back lens on the room."
+    },
+    "tools": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "close",
+      "move": "push-in",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "The kit grows in the back camera while the creator speaks; cut to the price list from above."
+    },
+    "price": {
+      "angle": "top-down",
+      "start": "close",
+      "end": "close",
+      "move": "static",
+      "seconds": 3,
+      "transitionOut": "cut",
+      "reads": "The price line held still from above; cut to the front camera outside."
+    },
+    "verdict": {
+      "angle": "eye-level",
+      "start": "medium",
+      "end": "medium",
+      "move": "static",
+      "seconds": 6,
+      "transitionOut": "cut",
+      "reads": "Face and entrance at arm's length, held still for the outro."
+    }
+  }
+}

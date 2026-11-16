@@ -1,0 +1,168 @@
+{
+  "note": "Shared opinion sets (HANDOFF_scripts_agent_opinions_faceless_linter.md section 3). A step's {opinion} slot names one set; the creator fills it on the device. P0 uses verdict_answer and bite_reaction; the others are P1 starting points.",
+  "opinionSets": [
+    {
+      "id": "verdict_answer",
+      "version": 2,
+      "kind": "verdict",
+      "maxWords": 4,
+      "allowCustom": true,
+      "multiSelect": false,
+      "preselectAllowed": false,
+      "options": [
+        {
+          "id": "certainly",
+          "text": "Certainly.",
+          "tone": "positive"
+        },
+        {
+          "id": "absolutely",
+          "text": "Absolutely.",
+          "tone": "positive"
+        },
+        {
+          "id": "definitely",
+          "text": "Definitely.",
+          "tone": "positive"
+        },
+        {
+          "id": "maybe",
+          "text": "Maybe, for the price.",
+          "tone": "neutral"
+        },
+        {
+          "id": "maybe_again",
+          "text": "Maybe, to try more.",
+          "tone": "neutral"
+        },
+        {
+          "id": "once",
+          "text": "Once was enough.",
+          "tone": "negative"
+        },
+        {
+          "id": "not_for_me",
+          "text": null,
+          "tone": "negative",
+          "action": "private_feedback",
+          "label": "Not for me"
+        }
+      ]
+    },
+    {
+      "id": "bite_reaction",
+      "version": 1,
+      "kind": "reaction",
+      "maxWords": 4,
+      "allowCustom": true,
+      "multiSelect": false,
+      "preselectAllowed": true,
+      "options": [
+        {
+          "id": "okay",
+          "text": "Okay.",
+          "tone": "neutral"
+        },
+        {
+          "id": "good",
+          "text": "Oh, that's good.",
+          "tone": "positive"
+        },
+        {
+          "id": "not_sure",
+          "text": "Hmm, not sure.",
+          "tone": "negative"
+        }
+      ]
+    },
+    {
+      "id": "taste_descriptors",
+      "version": 1,
+      "kind": "taste",
+      "maxWords": 6,
+      "allowCustom": true,
+      "multiSelect": true,
+      "maxPicks": 3,
+      "preselectAllowed": false,
+      "options": [
+        {
+          "id": "smooth",
+          "text": "smooth",
+          "tone": "positive"
+        },
+        {
+          "id": "strong",
+          "text": "strong",
+          "tone": "neutral"
+        },
+        {
+          "id": "not_sweet",
+          "text": "not too sweet",
+          "tone": "positive"
+        },
+        {
+          "id": "too_sweet",
+          "text": "a bit too sweet",
+          "tone": "negative"
+        }
+      ]
+    },
+    {
+      "id": "place_word",
+      "version": 1,
+      "kind": "place",
+      "maxWords": 3,
+      "allowCustom": true,
+      "multiSelect": false,
+      "preselectAllowed": false,
+      "options": [
+        {
+          "id": "cozy",
+          "text": "cozy",
+          "tone": "positive"
+        },
+        {
+          "id": "quiet",
+          "text": "quiet",
+          "tone": "neutral"
+        },
+        {
+          "id": "busy",
+          "text": "busy",
+          "tone": "neutral"
+        },
+        {
+          "id": "loud",
+          "text": "loud",
+          "tone": "negative"
+        }
+      ]
+    },
+    {
+      "id": "value_word",
+      "version": 1,
+      "kind": "value",
+      "maxWords": 4,
+      "allowCustom": true,
+      "multiSelect": false,
+      "preselectAllowed": false,
+      "options": [
+        {
+          "id": "fair",
+          "text": "Fair for the size.",
+          "tone": "positive"
+        },
+        {
+          "id": "usual",
+          "text": "About what you'd expect.",
+          "tone": "neutral"
+        },
+        {
+          "id": "pricey",
+          "text": "A bit pricey.",
+          "tone": "negative"
+        }
+      ]
+    }
+  ]
+}

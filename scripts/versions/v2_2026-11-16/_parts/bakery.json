@@ -1,0 +1,850 @@
+{
+  "templates": [
+    {
+      "id": "bakery-fresh-batch",
+      "venueKinds": [
+        "bakery"
+      ],
+      "title": "Fresh batch",
+      "summary": "From the oven to the case to your hands: the tray coming out, the pick, the tear and what you take home.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "oven",
+          "title": "Out of the oven",
+          "shot": "medium",
+          "position": "Behind the counter, with the baker's okay",
+          "direction": "Ask the baker first. Phone at chest height facing the oven, move in slowly as the tray comes out and the steam rises.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Fresh from the oven",
+              "script": "Fresh from the oven, right now. Best time to be here."
+            },
+            {
+              "text": "Hot batch",
+              "script": "A hot batch just came out. Listen to the crust crackle."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-fresh-batch_oven.jpg",
+          "overlays": []
+        },
+        {
+          "id": "shelf",
+          "title": "The case",
+          "shot": "medium",
+          "position": "In front of the display case",
+          "direction": "Phone at shelf height, slide sideways along the case at an even pace so the labels and prices pass by.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The case",
+              "script": "Everything in the case today. Take a slow look with me."
+            },
+            {
+              "text": "Take your pick",
+              "script": "Take your pick. Here are the prices as we pass the labels."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-fresh-batch_shelf.jpg",
+          "overlays": []
+        },
+        {
+          "id": "pick",
+          "title": "Your pick",
+          "shot": "pov",
+          "position": "At the case, on the customer side",
+          "direction": "Point at the one you want in the case and move the phone a little toward it as your hand reaches.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "This one",
+              "script": "This one, still warm. Pointed and it was mine."
+            },
+            {
+              "text": "Straight off the tray",
+              "script": "Straight off the tray and into the bag."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-fresh-batch_pick.jpg",
+          "overlays": []
+        },
+        {
+          "id": "break",
+          "title": "The break",
+          "shot": "detail",
+          "position": "At the counter, phone at pastry height",
+          "direction": "Rest your elbows on the counter, phone level with the pastry, and tear it open toward the lens. Hold still.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Listen to that",
+              "script": "Listen to that crust. That's how you know it's fresh."
+            },
+            {
+              "text": "Look inside",
+              "script": "Look inside. Soft, airy, and still warm in the middle."
+            },
+            {
+              "text": "That crumb",
+              "script": "That crumb is the reason I came in this morning."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-fresh-batch_break.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outro",
+          "title": "What I took",
+          "shot": "selfie",
+          "position": "At the counter or outside, arm out",
+          "direction": "Front camera held a little above eye level, the bag or pastry in frame. Say what you got and what it cost.",
+          "seconds": 6,
+          "prompter": "This batch just came out, and here is what I'm taking home.",
+          "captions": [
+            {
+              "text": "My pick",
+              "script": "This batch just came out, and here is what I'm taking home."
+            },
+            {
+              "text": "Get yours",
+              "script": "Get here when the batch comes out, they go fast."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-fresh-batch_outro.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "bakery-morning-shift",
+      "venueKinds": [
+        "bakery"
+      ],
+      "title": "Morning shift",
+      "summary": "The baker's hour before the doors open: the dark shop, the dough, the oven, the full case and your first pick.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "lights",
+          "title": "Before opening",
+          "shot": "wide",
+          "position": "Inside, by the door, before opening",
+          "direction": "Ask the baker first. Hold the phone still from the door while the baker works at the bench in the half-dark shop.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Early start",
+              "script": "Early start, and the baker is already at the bench."
+            },
+            {
+              "text": "Before the doors",
+              "script": "This is what happens before the first customer walks in."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-morning-shift_lights.jpg",
+          "overlays": []
+        },
+        {
+          "id": "dough",
+          "title": "The dough",
+          "shot": "detail",
+          "position": "Beside the bench, phone above it",
+          "direction": "Hold the phone straight above the bench, elbows tucked, and keep it still while the hands shape or fold the dough.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The dough",
+              "script": "Here is how the dough gets shaped, right at the bench."
+            },
+            {
+              "text": "Shaping",
+              "script": "Shaping the loaves for the first bake of the day."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-morning-shift_dough.jpg",
+          "overlays": []
+        },
+        {
+          "id": "oven",
+          "title": "Into the oven",
+          "shot": "medium",
+          "position": "Facing the oven, a step back",
+          "direction": "Phone at chest height facing the oven. Move in slowly as the tray comes out until the bread fills the screen.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First bake",
+              "script": "First bake of the day, straight out of the oven."
+            },
+            {
+              "text": "Steam",
+              "script": "Steam off the tray. This is the smell that hits you at the door."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-morning-shift_oven.jpg",
+          "overlays": []
+        },
+        {
+          "id": "case",
+          "title": "The case fills",
+          "shot": "medium",
+          "position": "In front of the case",
+          "direction": "Start with the phone almost touching a loaf in the case, then lean back slowly so the full case comes into view.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Case is full",
+              "script": "The case is full, and the doors are about to open."
+            },
+            {
+              "text": "Ready for the day",
+              "script": "Here is everything that came out of the back this morning."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-morning-shift_case.jpg",
+          "overlays": []
+        },
+        {
+          "id": "first",
+          "title": "First pick",
+          "shot": "selfie",
+          "position": "At the counter, arm out",
+          "direction": "Front camera held a little above eye level, the case behind you. Say what you would get first and the price.",
+          "seconds": 6,
+          "prompter": "Doors just opened, and this is the one I would get first.",
+          "captions": [
+            {
+              "text": "First pick",
+              "script": "Doors just opened, and this is the one I would get first."
+            },
+            {
+              "text": "When to come",
+              "script": "Come at opening for the first bake. Here's the price."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-morning-shift_first.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "bakery-sell-out",
+      "venueKinds": [
+        "bakery"
+      ],
+      "title": "Before it sells out",
+      "summary": "Arrive early for the item that sells out: the line, the last tray, the inside and whether it was worth the alarm.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "The mission",
+          "shot": "wide",
+          "position": "Across the sidewalk from the bakery",
+          "direction": "Back camera on the shopfront: hold the sign and the door steady, then flick the phone right toward the line. Record the line as a voice-over afterwards.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Came early",
+              "script": "I heard these sell out fast, so I came early today."
+            },
+            {
+              "text": "Before it's gone",
+              "script": "Here is when they usually run out. Let's see if I make it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-sell-out_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "line",
+          "title": "The line",
+          "shot": "wide",
+          "position": "Outside or at the back of the line",
+          "direction": "Film from behind the line so no faces show. Turn slowly along it, then flick the phone fast to the right.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The line",
+              "script": "This is the line at opening, and I'm in it for one pastry."
+            },
+            {
+              "text": "Worth waiting?",
+              "script": "Here is how long I waited. Let's see if it's worth it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-sell-out_line.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tray",
+          "title": "The last tray",
+          "shot": "medium",
+          "position": "At the case, looking down",
+          "direction": "Hold the phone above the case at an angle and move in slowly toward the tray of the item.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The tray",
+              "script": "Here is the tray, and I got one."
+            },
+            {
+              "text": "How many left",
+              "script": "Here is how many are left. That's why you come early."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-sell-out_tray.jpg",
+          "overlays": []
+        },
+        {
+          "id": "break",
+          "title": "Inside",
+          "shot": "detail",
+          "position": "At the counter or outside, phone at pastry height",
+          "direction": "Hold the pastry level with the lens, elbows tucked, and tear or cut it open toward the camera. Hold still.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look inside",
+              "script": "This is what people line up for. Look at the inside."
+            },
+            {
+              "text": "The filling",
+              "script": "Here is the filling. Look how far it goes."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-sell-out_break.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Worth it?",
+          "shot": "selfie",
+          "position": "Outside, arm out",
+          "direction": "Front camera held a little above eye level with the pastry in frame. Give your verdict, the price and when to come.",
+          "seconds": 6,
+          "prompter": "Worth the early alarm? Here's the price and when to get here.",
+          "captions": [
+            {
+              "text": "Worth it?",
+              "script": "Worth the early alarm? Here's the price and when to get here."
+            },
+            {
+              "text": "Set an alarm",
+              "script": "Set an alarm and get here early. It goes fast."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-sell-out_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "bakery-box",
+      "venueKinds": [
+        "bakery"
+      ],
+      "title": "Build a box",
+      "summary": "A mixed box on a budget: the plan, the case, each pick, the open box and the total with a favourite.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "The budget",
+          "shot": "selfie",
+          "position": "Inside, in front of the case",
+          "direction": "Front camera held a little above eye level, the case behind you. Say who the box is for and your budget.",
+          "seconds": 6,
+          "prompter": "Building a box for the office with twenty dollars. Let's see what fits.",
+          "captions": [
+            {
+              "text": "Twenty dollar box",
+              "script": "Building a box for the office with twenty dollars. Let's see what fits."
+            },
+            {
+              "text": "Box challenge",
+              "script": "One box, twenty dollars, as many favourites as I can fit."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-box_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "case",
+          "title": "The case",
+          "shot": "medium",
+          "position": "In front of the display case",
+          "direction": "Phone at shelf height, slide sideways along the case at an even pace so the labels and prices pass by.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The options",
+              "script": "Here is everything in the case, with the prices as we pass."
+            },
+            {
+              "text": "Prices",
+              "script": "Here are the prices, so you can see what fits."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-box_case.jpg",
+          "overlays": []
+        },
+        {
+          "id": "pick",
+          "title": "The picks",
+          "shot": "pov",
+          "position": "At the case, customer side",
+          "direction": "Back camera from your eyes: point at each pastry as it goes into the box, moving in slowly toward the box.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "One of each",
+              "script": "One of each, and here is what goes into the box."
+            },
+            {
+              "text": "Into the box",
+              "script": "Pointing, they pack. Watching the total as the box fills."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-box_pick.jpg",
+          "overlays": []
+        },
+        {
+          "id": "box",
+          "title": "The box",
+          "shot": "detail",
+          "position": "At a table, phone above the box",
+          "direction": "Hold the phone straight above the open box, close, then lift it slowly so the whole box and the table show.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The full box",
+              "script": "Here it is: everything I could fit in one box."
+            },
+            {
+              "text": "Office ready",
+              "script": "Office breakfast, sorted. Nobody will ask who brought it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-box_box.jpg",
+          "overlays": []
+        },
+        {
+          "id": "total",
+          "title": "The total",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Front camera held a little above eye level with the box in frame. Say the total and your favourite.",
+          "seconds": 6,
+          "prompter": "Here's what twenty dollars got me, and the one I'd buy again.",
+          "captions": [
+            {
+              "text": "The total",
+              "script": "Here's what twenty dollars got me, and the one I'd buy again."
+            },
+            {
+              "text": "Under budget",
+              "script": "Under budget, and here is the clear winner of the box."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-box_total.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "bakery-ask-the-baker",
+      "venueKinds": [
+        "bakery"
+      ],
+      "title": "Ask the baker",
+      "summary": "One question to the person who bakes it: their hands at work, the question, their pick, the inside and your verdict.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hands",
+          "title": "At the bench",
+          "shot": "detail",
+          "position": "Beside the bench, phone above it",
+          "direction": "Ask the baker first. Hold the phone straight above the bench and keep it still while they score, pipe or shape.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Meet the baker",
+              "script": "This is the person who makes everything in the case."
+            },
+            {
+              "text": "Watch the hands",
+              "script": "Watch the hands. This is where the case gets filled."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-ask-the-baker_hands.jpg",
+          "overlays": []
+        },
+        {
+          "id": "ask",
+          "title": "The question",
+          "shot": "medium",
+          "position": "Across the counter from the baker",
+          "direction": "Back camera on the baker at chest height, hold still, your face in the small window. Ask your question, then let them answer.",
+          "seconds": 6,
+          "prompter": "Quick question for the baker: what do you eat after your shift?",
+          "captions": [
+            {
+              "text": "One question",
+              "script": "Quick question for the baker: what do you eat after your shift?"
+            },
+            {
+              "text": "Baker's pick",
+              "script": "I asked the baker what I should order, and here is the answer."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-ask-the-baker_ask.jpg",
+          "overlays": []
+        },
+        {
+          "id": "answer",
+          "title": "Their pick",
+          "shot": "pov",
+          "position": "At the case, customer side",
+          "direction": "Back camera from your eyes: follow the baker's hand to their pick and move in slowly as it comes out of the case.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Their answer",
+              "script": "Here is their answer, and I've never ordered it."
+            },
+            {
+              "text": "Baker's favourite",
+              "script": "The baker's own favourite, and here is why they picked it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-ask-the-baker_answer.jpg",
+          "overlays": []
+        },
+        {
+          "id": "inside",
+          "title": "Inside",
+          "shot": "detail",
+          "position": "At the counter, phone at pastry height",
+          "direction": "Rest your elbows on the counter, phone level with the pastry, and tear or cut it open toward the lens. Hold still.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look inside",
+              "script": "Look at the inside. This is what the baker eats."
+            },
+            {
+              "text": "The crumb",
+              "script": "Look at the crumb. This is the baker's own choice."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bakery-ask-the-baker_inside.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the counter or a table, arm out",
+          "direction": "Front camera held a little above eye level with the pastry in frame. Give your verdict and the price.",
+          "seconds": 6,
+          "prompter": "The baker's pick, what it costs, and whether I'd order it again.",
+          "captions": [
+            {
+              "text": "Verdict",
+              "script": "The baker's pick, what it costs, and whether I'd order it again."
+            },
+            {
+              "text": "Ask them yourself",
+              "script": "Next time, ask the baker. Here is how their pick compared to my usual."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bakery-ask-the-baker_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "bakery-fresh-batch": {
+      "oven": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "The tray and its steam grow toward the lens; match-cut on the same tray sliding into the case."
+      },
+      "shelf": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-left",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The case slides past at an even pace, front pastries faster than the back; cut to the creator's view."
+      },
+      "pick": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The chosen pastry grows as the hand reaches toward it; cut to the pastry held at lens height."
+      },
+      "break": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The pastry splits toward the lens and the inside opens, nothing else moves; cut to the creator's face."
+      },
+      "outro": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from slightly above, face and bag held still while the price lands."
+      }
+    },
+    "bakery-morning-shift": {
+      "lights": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The half-dark shop holds still while the baker moves at the bench; cut to the dough from above."
+      },
+      "dough": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Hands fold and shape the dough, filling the frame from above; cut to the oven door at eye level."
+      },
+      "oven": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "push-through",
+        "reads": "The tray grows until the crust fills the frame; push through to a loaf being set in the case."
+      },
+      "case": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The loaf shrinks back into a full case as the camera leans away; cut to the creator's face."
+      },
+      "first": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from slightly above, face and full case held still while the pick and price land."
+      }
+    },
+    "bakery-sell-out": {
+      "hook": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The shopfront holds steady, sign above the door, while the line is voiced over; a whip right lands on the queue."
+      },
+      "line": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "The line slides past from behind; a whip to the right lands on the tray in the case."
+      },
+      "tray": {
+        "angle": "high",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "The tray grows until one pastry fills the frame; match-cut on that pastry held up at eye level."
+      },
+      "break": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The pastry splits toward the lens and the filling or layers show; cut to the creator's face."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from slightly above, face and pastry held still while the price and time land."
+      }
+    },
+    "bakery-box": {
+      "hook": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A face at arm's length from slightly above with the case behind, held still; cut to the case itself."
+      },
+      "case": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The case slides past at an even pace, labels and prices readable; cut to the creator's view."
+      },
+      "pick": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "match-cut",
+        "reads": "Each pick drops in and the box grows toward the lens; match-cut on the open box seen from above."
+      },
+      "box": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The pastries from above shrink as the camera lifts and the whole box appears; cut to the creator's face."
+      },
+      "total": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from slightly above, face and box held still while the total lands."
+      }
+    },
+    "bakery-ask-the-baker": {
+      "hands": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Hands work the dough or the piping bag, filling the frame from above; cut to the baker at eye level."
+      },
+      "ask": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The baker across the counter, held still while the question is asked and answered; cut to the creator's view of the case."
+      },
+      "answer": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "The baker's pick grows toward the lens as it is lifted out; match-cut on the same pastry held level with the camera."
+      },
+      "inside": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The pastry opens toward the lens and the inside shows, nothing else moves; cut to the creator's face."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from slightly above, face and pastry held still while the verdict lands."
+      }
+    }
+  }
+}

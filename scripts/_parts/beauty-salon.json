@@ -1,0 +1,1018 @@
+{
+  "templates": [
+    {
+      "id": "salon-transformation",
+      "venueKinds": [
+        "beauty-salon"
+      ],
+      "title": "Transformation",
+      "summary": "Before in the chair, the space, the work, the reveal in the same light, then the price and how to book.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "before",
+          "title": "Before",
+          "shot": "selfie",
+          "position": "In the chair, facing the mirror light",
+          "direction": "Front camera at eye level, arm's length, your hair in frame. Keep still; you will film the after in this exact spot.",
+          "seconds": 5,
+          "prompter": "Here is the before. Same chair, same light for the after.",
+          "captions": [
+            {
+              "text": "Before",
+              "script": "Here is the before. Same chair, same light for the after."
+            },
+            {
+              "text": "Time for a change",
+              "script": "Here is what I want changed. Time for a change."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-transformation_before.jpg",
+          "overlays": []
+        },
+        {
+          "id": "space",
+          "title": "The space",
+          "shot": "wide",
+          "position": "Inside, by the front desk",
+          "direction": "Back camera at chest height. Turn slowly from the front desk to the stations; keep other clients out of frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Where it happens",
+              "script": "This is where it happens. Here are the stations and the desk."
+            },
+            {
+              "text": "Welcome in",
+              "script": "Welcome in. Let me show you the salon before we start."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-transformation_space.jpg",
+          "overlays": []
+        },
+        {
+          "id": "work",
+          "title": "The work",
+          "shot": "detail",
+          "position": "In the chair, phone held up beside your head",
+          "direction": "Hold the phone above your shoulder, back camera on the stylist's hands at the foils or the brush. At the end move it slowly into the cape until it fills the frame.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The process",
+              "script": "Here is every step, one at a time, as it happens."
+            },
+            {
+              "text": "In good hands",
+              "script": "Watch how the stylist works through each section."
+            },
+            {
+              "text": "The details",
+              "script": "It is all in the details. Look how precise this is."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-transformation_work.jpg",
+          "overlays": []
+        },
+        {
+          "id": "reveal",
+          "title": "The reveal",
+          "shot": "selfie",
+          "position": "In the same chair as the before",
+          "direction": "Front camera in the same spot as the before. Start with the cape or your palm over the lens, slide it away and hold.",
+          "seconds": 6,
+          "prompter": "Same chair, same light. This is the after, and I love it.",
+          "captions": [
+            {
+              "text": "After",
+              "script": "Same chair, same light. This is the after, and I love it."
+            },
+            {
+              "text": "The reveal",
+              "script": "Ready for the reveal? Same light as the before, no filter."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-transformation_reveal.jpg",
+          "overlays": []
+        },
+        {
+          "id": "book",
+          "title": "Book",
+          "shot": "medium",
+          "position": "At the front desk",
+          "direction": "Back camera on the price list or the desk, you in the corner. Say the service, what it cost and how to book.",
+          "seconds": 5,
+          "prompter": "Here is what this cost, and you can book it on Loca.",
+          "captions": [
+            {
+              "text": "Book it",
+              "script": "Here is what this cost, and you can book it on Loca."
+            },
+            {
+              "text": "Price and booking",
+              "script": "Here is the service, the price is on screen. Book through Loca."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-transformation_book.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "salon-quick-tour",
+      "venueKinds": [
+        "beauty-salon"
+      ],
+      "title": "Quick tour",
+      "summary": "Through the door, the room, three details, a hello from the desk and how to book a first visit.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "door",
+          "title": "Come in",
+          "shot": "pov",
+          "position": "Outside, at the salon door",
+          "direction": "Phone at chest height, walk slowly up to the door until the glass or the handle fills the frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Come in",
+              "script": "Come in with me. This is the salon I keep coming back to."
+            },
+            {
+              "text": "Found it",
+              "script": "Found it. Look for the sign beside the door."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-quick-tour_door.jpg",
+          "overlays": []
+        },
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "medium",
+          "position": "Just inside, behind a plant or a shelf",
+          "direction": "Start with the lens right behind the reception plant or a shelf, then slide sideways until the room appears.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Inside",
+              "script": "Inside. Here is where the basins and the stations are."
+            },
+            {
+              "text": "Take a look",
+              "script": "Take a look around before your first appointment."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-quick-tour_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "details",
+          "title": "The details",
+          "shot": "detail",
+          "position": "Around the room",
+          "direction": "Film three details from above, such as the tools, the products or a wash basin. Hold each, then flick the phone right to the next; end with a flick.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The details",
+              "script": "Here are three details I noticed, up close."
+            },
+            {
+              "text": "Little things",
+              "script": "The little things I noticed, one detail at a time."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-quick-tour_details.jpg",
+          "overlays": []
+        },
+        {
+          "id": "host",
+          "title": "Say hi",
+          "shot": "medium",
+          "position": "Facing the front desk",
+          "direction": "Back camera on the front desk and the team, you in the corner. Start with a quick flick right and stop on the desk.",
+          "seconds": 6,
+          "prompter": "Hi from my salon. Clean stations, friendly team, and fair prices.",
+          "captions": [
+            {
+              "text": "Say hi",
+              "script": "Hi from my salon. Clean stations, friendly team, and fair prices."
+            },
+            {
+              "text": "Meet the team",
+              "script": "This is the team. Here is who you will meet on your first visit."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-quick-tour_host.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outro",
+          "title": "Book",
+          "shot": "selfie",
+          "position": "At the entrance",
+          "direction": "Front camera held a little above eye level, the salon sign or door behind you. Tell people how to book.",
+          "seconds": 5,
+          "prompter": "That's the tour. Book your first appointment through Loca, see you soon.",
+          "captions": [
+            {
+              "text": "Book now",
+              "script": "That's the tour. Book your first appointment through Loca, see you soon."
+            },
+            {
+              "text": "See you soon",
+              "script": "That is it from me. Book on Loca and see you here soon."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-quick-tour_outro.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "salon-fade",
+      "venueKinds": [
+        "beauty-salon"
+      ],
+      "title": "Fresh fade",
+      "summary": "A barber cut from overgrown to fresh: the station, the clipper line coming in, the blend and the price.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "before",
+          "title": "Before",
+          "shot": "selfie",
+          "position": "In the barber chair",
+          "direction": "Front camera at eye level, arm's length, the overgrown sides in frame. You will film the after in this spot.",
+          "seconds": 5,
+          "prompter": "Overgrown and due a fade. Let's see how long this takes.",
+          "captions": [
+            {
+              "text": "Before",
+              "script": "Overgrown and due a fade. Let's see how long this takes."
+            },
+            {
+              "text": "Fade day",
+              "script": "Fade day. Same chair for the after, so watch the sides."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-fade_before.jpg",
+          "overlays": []
+        },
+        {
+          "id": "station",
+          "title": "The station",
+          "shot": "detail",
+          "position": "Beside the barber's counter",
+          "direction": "Back camera from above the counter. Move in slowly on the clippers, guards and comb until the blade fills the frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The station",
+              "script": "Clean station: clippers, guards and a comb laid out before the cut."
+            },
+            {
+              "text": "Tools out",
+              "script": "Tools out and cleaned before the barber even starts."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-fade_station.jpg",
+          "overlays": []
+        },
+        {
+          "id": "line",
+          "title": "The line",
+          "shot": "medium",
+          "position": "In the chair, phone propped on the counter in front of you",
+          "direction": "Prop the phone on the mirror shelf, back camera on you, and keep it still while the barber takes the clippers up the side.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Watch the line",
+              "script": "Watch the line come in, from the bottom up."
+            },
+            {
+              "text": "The fade",
+              "script": "The fade, blended up into the top. No rushing here."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-fade_line.jpg",
+          "overlays": []
+        },
+        {
+          "id": "blend",
+          "title": "The blend",
+          "shot": "detail",
+          "position": "Behind the chair; the barber holds the phone",
+          "direction": "Ask the barber to hold the phone close and walk it slowly round the back of your head, from one ear to the other.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The blend",
+              "script": "Look at the blend. No lines, no patches, all the way round."
+            },
+            {
+              "text": "Clean finish",
+              "script": "Clean finish at the neck and around the ears."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-fade_blend.jpg",
+          "overlays": []
+        },
+        {
+          "id": "reveal",
+          "title": "After",
+          "shot": "selfie",
+          "position": "In the same chair as the before",
+          "direction": "Front camera in the same spot as the before. Turn your head side to side, then say the price and how to book.",
+          "seconds": 6,
+          "prompter": "Fresh fade, sharp line. Here is the price and how to book.",
+          "captions": [
+            {
+              "text": "After",
+              "script": "Fresh fade, sharp line. Here is the price and how to book."
+            },
+            {
+              "text": "Worth it",
+              "script": "Here is how long I was in the chair, and I am booking the next one."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-fade_reveal.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "salon-nail-set",
+      "venueKinds": [
+        "beauty-salon"
+      ],
+      "title": "Nail set",
+      "summary": "One accent nail up close, the polish wall, the tech at work, the finished hand turning and the price.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "accent",
+          "title": "Accent nail",
+          "shot": "detail",
+          "position": "At the nail table",
+          "direction": "Phone straight above one finished nail, as close as it focuses. Keep the phone still and tilt the finger slowly so the topcoat catches the light.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "New set",
+              "script": "New set. Look at this topcoat before anything else."
+            },
+            {
+              "text": "The accent nail",
+              "script": "Here is the full set, and this is the accent nail."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-nail-set_accent.jpg",
+          "overlays": []
+        },
+        {
+          "id": "colors",
+          "title": "Pick a color",
+          "shot": "medium",
+          "position": "In front of the polish wall",
+          "direction": "Phone at the height of the shelf. Slide slowly sideways along the colors and stop on the bottle you picked.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Pick a color",
+              "script": "A whole wall of colors, and I went with this one."
+            },
+            {
+              "text": "The polish wall",
+              "script": "The polish wall. Take a look before you pick."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-nail-set_colors.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tech",
+          "title": "At work",
+          "shot": "pov",
+          "position": "In the chair at the nail table",
+          "direction": "Hold the phone in your free hand looking down at the other hand. Start on the bottle, then keep still on the brush. Ask the tech before filming their hands.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Shape and paint",
+              "script": "Here is every step, from the file to the topcoat."
+            },
+            {
+              "text": "How long it takes",
+              "script": "Here is how long the full set takes, start to finish."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-nail-set_tech.jpg",
+          "overlays": []
+        },
+        {
+          "id": "turns",
+          "title": "The set",
+          "shot": "detail",
+          "position": "At the nail table, phone propped",
+          "direction": "Prop the phone against the lamp or a bottle on a white towel. Turn the finished hand slowly: nails, side, back to nails.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The full set",
+              "script": "Here is the full set from every side."
+            },
+            {
+              "text": "Three angles",
+              "script": "Front, side, and back again. Clean edges all the way round."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-nail-set_turns.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Price",
+          "shot": "selfie",
+          "position": "In the chair, hands beside your face",
+          "direction": "Front camera at eye level, hold your nails up beside your face. Say the service, how long it took and the price.",
+          "seconds": 6,
+          "prompter": "Here is the service, how long it took and what it cost.",
+          "captions": [
+            {
+              "text": "The price",
+              "script": "Here is the service, how long it took and what it cost."
+            },
+            {
+              "text": "Book it",
+              "script": "My set, booked on Loca. Here is the price."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-nail-set_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "salon-brows",
+      "venueKinds": [
+        "beauty-salon"
+      ],
+      "title": "Brows and lashes",
+      "summary": "Brow or lash appointment: the before up close, the tray, the work from the bed, the after in the same light and the price.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "before",
+          "title": "Before",
+          "shot": "close",
+          "position": "In the chair by the window or the mirror light",
+          "direction": "Front camera close to your face, eyes and brows filling the frame. Keep still; film the after in this exact spot.",
+          "seconds": 5,
+          "prompter": "Brows before. Here is what I booked, same light for the after.",
+          "captions": [
+            {
+              "text": "Before",
+              "script": "Brows before. Here is what I booked, same light for the after."
+            },
+            {
+              "text": "Lash lift day",
+              "script": "Lashes before. Here is what I booked, same light for the after."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-brows_before.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tools",
+          "title": "The tray",
+          "shot": "detail",
+          "position": "Beside the treatment bed",
+          "direction": "Phone straight above the tray: tint bowls, brushes, spoolies. Keep still while the artist mixes the tint.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The tray",
+              "script": "Here is the tray, mixed and laid out before we start."
+            },
+            {
+              "text": "Ready to start",
+              "script": "Everything laid out and clean before the artist starts."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-brows_tools.jpg",
+          "overlays": []
+        },
+        {
+          "id": "process",
+          "title": "The work",
+          "shot": "pov",
+          "position": "Lying on the treatment bed",
+          "direction": "Hold the phone at your chest pointing up at the lamp and the artist's hands. Ask them first. At the end they cover the lens with their palm.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The process",
+              "script": "Here is every step, one at a time, under the lamp."
+            },
+            {
+              "text": "Lights on",
+              "script": "Under the lamp for a while. Easy to fall asleep."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-brows_process.jpg",
+          "overlays": []
+        },
+        {
+          "id": "reveal",
+          "title": "After",
+          "shot": "close",
+          "position": "In the same chair as the before",
+          "direction": "Front camera close, in the same spot and light as the before. Start with your palm over the lens, slide it away and hold.",
+          "seconds": 6,
+          "prompter": "Same light, same spot. Here is the after, and nothing else changed.",
+          "captions": [
+            {
+              "text": "After",
+              "script": "Same light, same spot. Here is the after, and nothing else changed."
+            },
+            {
+              "text": "The reveal",
+              "script": "The after, same light as the before. No filter, no makeup."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-brows_reveal.jpg",
+          "overlays": []
+        },
+        {
+          "id": "book",
+          "title": "Book",
+          "shot": "medium",
+          "position": "At the front desk",
+          "direction": "Back camera on the price list or the desk, you in the corner. Say the service, how long it took and the price.",
+          "seconds": 5,
+          "prompter": "Here is the service, how long it took, and the price.",
+          "captions": [
+            {
+              "text": "Book it",
+              "script": "Here is the service, how long it took, and the price."
+            },
+            {
+              "text": "How to book",
+              "script": "Booked on Loca. Here is the service and the price."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-brows_book.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "salon-meet-stylist",
+      "venueKinds": [
+        "beauty-salon"
+      ],
+      "title": "Meet the stylist",
+      "summary": "Introduce the person who does the work: a hello, their hands at work, their signature look, their one tip and how to book them.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "intro",
+          "title": "Meet them",
+          "shot": "medium",
+          "position": "Facing the stylist at her station",
+          "direction": "Back camera on the stylist at their station, you in the corner. Ask them to wave as you introduce them.",
+          "seconds": 5,
+          "prompter": "Meet the stylist I send all my friends to, right here.",
+          "captions": [
+            {
+              "text": "Meet the stylist",
+              "script": "Meet the stylist I send all my friends to, right here."
+            },
+            {
+              "text": "My stylist",
+              "script": "This is my stylist, and the only one I let near my color."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-meet-stylist_intro.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hands",
+          "title": "At work",
+          "shot": "medium",
+          "position": "Behind the stylist's shoulder",
+          "direction": "Stand behind the stylist's shoulder and lean in slowly on their hands and the scissors. Ask the client first and keep their face out of frame.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Their craft",
+              "script": "Watch the technique up close, cut by cut."
+            },
+            {
+              "text": "Hands at work",
+              "script": "Watch their hands. You can tell they know this cut."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-meet-stylist_hands.jpg",
+          "overlays": []
+        },
+        {
+          "id": "signature",
+          "title": "Signature look",
+          "shot": "detail",
+          "position": "Behind the chair",
+          "direction": "Phone a little above the head, close to the finished hair. Walk slowly round it from one side to the other. Hair only, no client face.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Their signature",
+              "script": "Their signature look, and here is what makes it theirs."
+            },
+            {
+              "text": "The finished look",
+              "script": "The finished look, all the way round."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-meet-stylist_signature.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tip",
+          "title": "Their tip",
+          "shot": "selfie",
+          "position": "Beside the stylist",
+          "direction": "Front camera at eye level, you and the stylist in frame. Repeat the one tip they give every client.",
+          "seconds": 5,
+          "prompter": "Here is their one tip for keeping it looking fresh.",
+          "captions": [
+            {
+              "text": "Their tip",
+              "script": "Here is their one tip for keeping it looking fresh."
+            },
+            {
+              "text": "Stylist tip",
+              "script": "Their best tip for between visits, straight from the chair."
+            }
+          ],
+          "pip": false,
+          "imageURL": "salon-meet-stylist_tip.jpg",
+          "overlays": []
+        },
+        {
+          "id": "book",
+          "title": "Book them",
+          "shot": "medium",
+          "position": "At the front desk",
+          "direction": "Back camera on the desk or the booking screen, you in the corner. Say how to book them.",
+          "seconds": 5,
+          "prompter": "Here is how to grab a slot with them on Loca.",
+          "captions": [
+            {
+              "text": "Book them",
+              "script": "Here is how to grab a slot with them on Loca."
+            },
+            {
+              "text": "Ask for them by name",
+              "script": "Ask for them by name when you book on Loca."
+            }
+          ],
+          "pip": true,
+          "imageURL": "salon-meet-stylist_book.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "salon-transformation": {
+      "before": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face and hair held still in even light; cut to the back camera on the room."
+      },
+      "space": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The salon slides past from the desk to the stations; cut to a tight high shot of the stylist's hands."
+      },
+      "work": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "push-through",
+        "reads": "Hands work in the hair, then the phone eases into the cape until it fills the frame; the next shot opens off the cape."
+      },
+      "reveal": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "reveal-from-behind",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The cape slides off the lens and the finished hair appears at the same size as the before; cut to the desk."
+      },
+      "book": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The desk and price list from above, held still while the price and booking line land."
+      }
+    },
+    "salon-quick-tour": {
+      "door": {
+        "angle": "pov",
+        "start": "wide",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "push-through",
+        "reads": "The door grows as we walk up until the glass fills the frame; the next shot opens inside."
+      },
+      "room": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "reveal-from-behind",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "A blurred plant slides off and the stations appear; cut to a tight high shot of one detail."
+      },
+      "details": {
+        "angle": "high",
+        "start": "detail",
+        "end": "detail",
+        "move": "whip",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "Detail, flick, detail, flick; the last flick carries into the front desk."
+      },
+      "host": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "whip",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The frame lands out of the flick on the desk and the team, then holds while the hello lands."
+      },
+      "outro": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Arm's length from a little above, at the entrance, held still for the booking line and the end card."
+      }
+    },
+    "salon-fade": {
+      "before": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Arm's length, the overgrown sides held still; cut to the back camera on the station."
+      },
+      "station": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The tools grow until the clipper blade fills the frame; cut to the chair at eye level."
+      },
+      "line": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "match-cut",
+        "reads": "The phone holds still while the clipper climbs the side; match-cut on the same side of the head, now finished."
+      },
+      "blend": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "orbit-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The fade turns past from ear to ear, the blend staying centered; cut to the front camera for the after."
+      },
+      "reveal": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Same size and light as the before, held still while the head turns and the price lands."
+      }
+    },
+    "salon-nail-set": {
+      "accent": {
+        "angle": "top-down",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "One glossy nail fills the frame and the light slides across it; cut to the polish wall at eye level."
+      },
+      "colors": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-right",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "Bottles slide past and the picked one stops in the middle; match-cut to the same bottle in the tech's hand."
+      },
+      "tech": {
+        "angle": "pov",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "match-cut",
+        "reads": "From above the hand, the brush lays the color on; match-cut to the same hand, finished, at eye level."
+      },
+      "turns": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The phone stays still while the hand turns through three angles; cut to the front camera."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, the nails beside the face, held still for the price and the end card."
+      }
+    },
+    "salon-brows": {
+      "before": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Eyes and brows fill the frame, held still in even light; cut to the tray from straight above."
+      },
+      "tools": {
+        "angle": "top-down",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The tray from above while a brush stirs the tint; cut to the view from the bed."
+      },
+      "process": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "push-through",
+        "reads": "From the bed the lamp and hands come closer until a palm fills the frame; the next shot opens as a palm slides off."
+      },
+      "reveal": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "reveal-from-behind",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The palm slides off and the brows appear at the same size as the before; cut to the desk."
+      },
+      "book": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The desk and price list from above, held still for the price and the end card."
+      }
+    },
+    "salon-meet-stylist": {
+      "intro": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The stylist at her station waves, held still; cut to behind her shoulder at the chair."
+      },
+      "hands": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "From behind her shoulder the scissors and hair grow in frame; match-cut on the same hair, now finished."
+      },
+      "signature": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "orbit-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The finished hair turns past, its far side coming round; cut to the front camera with the stylist."
+      },
+      "tip": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Arm's length, two faces in frame, held still for the tip; cut to the desk."
+      },
+      "book": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The desk from above, held still for the booking line and the end card."
+      }
+    }
+  }
+}

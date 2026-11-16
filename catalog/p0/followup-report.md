@@ -1,0 +1,9 @@
+# Current follow-up
+
+[Play the collection](http://127.0.0.1:8766/p0/index.html). Thirteen existing guide IDs were replaced in place and three requested techniques added: `room_reveal_plant`, `counter_through_cup_handle`, `steam_slide_pull_out`. There are 26 active guides and 78 API assets. Five full person/selfie guides remain deferred.
+
+Both outdoor entrances now have a welcome stand and facade baseline; the venue sign is centered over the door. Board highlights follow its rounded rectangle. Menu rows, cup bodies and table/counter surfaces have selected yellow light accents. The counter camera slides left to right with a gentle push-in. The two side-pour camera angles differ clearly, using the existing smooth gooseneck kettle and hollow milk-pitcher assets. Streams remain vertical, connected to the actual outlets, and stop before the final hold. The seated pan includes the whole cup. First bite shows only a cropped grip lifting hanging pasta; the handle-framing shot contains the specifically requested static faint barista. No full person resource was regenerated.
+
+All 26 active guide exports, saved Blender scenes, browser playback, staged API and live API checks passed. Local filenames/IDs for updates remain stable; content-hashed API URLs change to bypass stale cached images. New variants are included in the relevant script-step guide arrays. Sources, metadata and frames are in `animations-light/<id>/`; API masters are in `../../guides/p0/renders/`. See `followup-checks.json` and the other current check reports.
+
+The table compositions from the three supplied references were subsequently completed; see [the next batch report](table-composition-report.md). No new model-generation credits were spent. Blender stayed headless. Physical phone capture and mobile UI are untested.

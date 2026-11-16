@@ -1,0 +1,27 @@
+Create ONE six-keyframe artwork atlas for a LIVE SHOT GUIDE. Function and camera geometry come first; watercolor is only the rendering style.
+
+INPUTS:
+Image 1 is the existing guide's SIX camera-view keyframes, arranged 2 columns by 3 rows. It defines framing, resource placement, progression, and visible objects. Its dark background is only for legibility, not part of the output.
+Image 2 is the guide's 3D camera-reference strip. It defines the viewing height, perspective and path, not the wireframe art style.
+Image 3 is the APPROVED watercolor keyframe style. Copy its loose pencil contours, one pale slate-blue watercolor pigment, uneven granulation and wash spilling beyond the lines. Do not copy its cup unless this guide is about a cup.
+Do not use script-preview/story illustrations. These are views THROUGH the creator's camera that teach how to frame and move the phone.
+
+GUIDE ID: card_tag_high_hold
+EXISTING DESCRIPTION (the specification): card tag: high, detail to detail, static, then cut. The flick settles on the tag and holds; cut to the front camera.
+CAMERA/SCENARIO SPECIFICATION: {"model":"card","camera":[{"t":0.0,"distance_m":0.069,"elevation_deg":45,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.0,"subject_turn_deg":0.0,"label":"start"},{"t":4.0,"distance_m":0.069,"elevation_deg":45,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.0,"subject_turn_deg":0.0,"label":"hold"}],"subject_turns":null,"live_steps":[{"kind":"frame","lock_after":0.6,"tilt":{"target":45,"tolerance":12}},{"kind":"hold","duration":2.8,"tilt":{"target":45,"tolerance":12}}],"keyframe_times":[1.2,1.62,2.04,2.46,2.8800000000000003,3.3000000000000007]}
+MANDATORY ANGLE: Camera from ABOVE at about 45 degrees: clear top surfaces and foreshortening. Do not make it eye-level or straight overhead.
+
+Make six consistent successive viewpoints of the SAME subject/scene. Keep identities, anatomy, proportions, object design and spatial layout coherent. Respect the starting and ending crop in Image 1; do not recompose every frame as a pretty standalone picture. Where the guide changes size, it must clearly grow/shrink across the six frames. Where it changes angle, show actual new visible surfaces.
+Orbit: camera travels around a stationary subject, revealing its far side; keep it centered, upright and at the stated elevation and distance. Never fake orbit by rotating a flat picture.
+Pan right: world moves LEFT through the fixed view; pan left: world moves RIGHT. A truck has foreground/background parallax. Tilt down reveals lower parts as the scene moves UP. A push-in makes the subject grow; pull-out starts on detail and reveals context. A whip visibly travels to the destination, not six unrelated stills. A reveal starts behind the foreground blocker and gradually uncovers the subject. Include both start and destination objects when the description requires them.
+If the camera is static, keep its angle/framing identical. Show only the subject action actually described (pour, sip, wave, turn, hand-off); otherwise hold the same pose. Do not invent a camera move.
+If a push-through fills the ending frame, show its surface/texture filling that cell. For whip-out keep only a faint outgoing edge at the ending cell, so the subject visibly leaves the frame.
+
+OUTPUT: Exactly TWO columns and THREE rows, read left-to-right, top-to-bottom. All cells have the same virtual 9:16 camera frame and equal spacing. Overall portrait atlas about 3:8, with clear transparent gutters and outer margins. No cell borders, labels, timestamps, degree text, arrows, UI or watermark. No solid panel/background rectangles; genuinely transparent background and watercolor fringes.
+Only one pale slate-blue pigment. Keep the approved light color; do not darken or saturate it to imitate opacity. Opacity will be applied PROGRAMMATICALLY after ALL generation.
+NO MOUTHS, lips, smiles or teeth on any person. Minimal schematic facial features; makeup stays schematic. At most TWO visible hands TOTAL within EACH animation frame, including bystanders and partial hands. Hide other hands. No extra fingers or detached limbs.
+Camera must stay in ordinary visitor-accessible space, never inside staff kitchens, behind cash registers or at restricted prep benches. If staff activity is shown, view it from the CUSTOMER side or through a clearly indicated public viewing window. A top-down own-hands task can be at the visitor's own accessible table, with no staff workspace. Do not assume special access. Preserve the described angle; make the public camera position clear.
+Do not show a filming phone or operator inside the camera view unless the original guide explicitly contains a setup diagram. A phone that is the actual repair/product subject may be shown.
+No text, prices, currency symbols, logos or numbers in the artwork. This is one six-pose guide asset, not six different designs.
+The words after "cut to" or "match-cut to" describe the NEXT shot, not another pose inside this guide. Keep all six cells in this ONE continuous take; never insert a selfie, finished result or another subject because it is mentioned as the following shot. End on this guide's prescribed final crop.
+

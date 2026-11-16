@@ -1,0 +1,29 @@
+{
+  "status": "reviewed_before_render",
+  "subject": "Rise over the bowl",
+  "angle": "overhead pedestal rise at 90 degrees, 14 in to 22 in above the bowl",
+  "motion": "overhead pedestal rise at 90 degrees, 14 in to 22 in above the bowl",
+  "focal_point": "Target hero in the protected middle band",
+  "composition": "center",
+  "golden_ratio": "Use the prescribed center, thirds or functional three-point arrangement; no decorative spiral",
+  "lighting": "Fixed light; restrained explicit window/fixture cues only",
+  "contacts": [
+    {
+      "kind": "overhead_pedestal_rise",
+      "lens_above_rim_start_in": 14,
+      "lens_above_rim_end_in": 22,
+      "pitch_deg": 90,
+      "support_surface_z": 0.785,
+      "rise_window_u": [
+        0.2,
+        0.8
+      ]
+    }
+  ],
+  "handover": "None: P0 ends on this shot target",
+  "source_setup": "Overhead 90 deg throughout, standing; lens about 14 in above the bowl rim, held 1 s, rising straight up to about 22 in from 1.0 s to 4.0 s, held to 5 s. Soup variant: the serving_bowl at the place setting, dessert spoon to the right 3/4 in clear; no hands, no people.",
+  "adaptations": [
+    "Pedestal rise with the phone flat (90 degrees) the whole way, standing: lens about 14 in above the bowl rim, held 1 s, rising straight up to about 22 in by 4 s, held to the end.",
+    "Soup variant: dessert spoon to the right, 3/4 in clear of the bowl. Steam strands left out."
+  ]
+}

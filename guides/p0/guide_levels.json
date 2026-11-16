@@ -1,0 +1,1036 @@
+{
+  "rule": "easy: the creator can do it while talking (a hold, or one steady walk, slide or tilt); complex: the camera needs the creator's attention (an orbit, a prop, a rise over a table, hand choreography). Camera comes from plan.json.",
+  "guides": {
+    "entrance_walk_in": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "entrance_door_low": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "entrance_sign_tilt": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "menu_board_truck": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "menu_board_tilt_up": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "menu_card_top": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "menu_card_push": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "counter_over_shoulder": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "counter_edge_to_pass": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "plate_low_push_in": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "plate_high_orbit": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Elbows on the table, plate in the middle of the frame."
+        },
+        {
+          "atSec": 1.0,
+          "text": "Circle the phone around the plate at one even pace."
+        },
+        {
+          "atSec": 3.5,
+          "text": "Keep the plate centred until its far side shows."
+        }
+      ],
+      "archived": true
+    },
+    "plate_tissue_slide": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Rest the phone's bottom edge on a napkin."
+        },
+        {
+          "atSec": 1.0,
+          "text": "Slide it left to right along the near table edge."
+        },
+        {
+          "atSec": 3.0,
+          "text": "Keep the lens on the dish; don't slide into it."
+        }
+      ],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "handoff_counter_cup": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "handoff_plate_lands": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "pour_top_down_latte": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "pour_side_low": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "pour_upside_down": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Turn the phone upside down, lens just above the counter."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Slide it sideways about 7 inches."
+        },
+        {
+          "atSec": 3.5,
+          "text": "Keep the cup and the spout in frame, looking up."
+        }
+      ]
+    },
+    "steam_low_backlit": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "steam_push_in_high": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "steam_orbit_eye": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Phone level with the cup, cup in the middle."
+        },
+        {
+          "atSec": 1.0,
+          "text": "Circle slowly around the cup."
+        },
+        {
+          "atSec": 3.5,
+          "text": "Stop when the handle comes into view."
+        }
+      ],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "bite_selfie_eye": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "archived": true
+    },
+    "bite_pip_dish": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "sip_selfie_eye": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "archived": true
+    },
+    "sip_high_lean": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "archived": true
+    },
+    "room_reveal_cup": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Lens right behind your cup, cup filling the frame."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Slide sideways at one slow pace."
+        },
+        {
+          "atSec": 3.5,
+          "text": "Stop when the room opens up behind the cup."
+        }
+      ],
+      "archived": true
+    },
+    "room_seated_pan": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "verdict_eye_level": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "archived": true
+    },
+    "verdict_high_plate": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "archived": true
+    },
+    "room_reveal_plant": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Stand in the aisle, film through the plant's leaves."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Slide the phone about 16 inches to the right."
+        },
+        {
+          "atSec": 4.0,
+          "text": "Keep clear of the leaves as the tables show."
+        }
+      ],
+      "archived": true
+    },
+    "counter_through_cup_handle": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Keep the cup still, phone outside the counter edge."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Frame the barista through the cup handle."
+        },
+        {
+          "atSec": 3.0,
+          "text": "Tap to focus beyond the handle."
+        },
+        {
+          "atSec": 4.0,
+          "text": "Drift slightly sideways."
+        }
+      ],
+      "archived": true
+    },
+    "steam_slide_pull_out": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Start close to the cup on its saucer."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Slide sideways about a foot."
+        },
+        {
+          "atSec": 3.5,
+          "text": "Pull back until the pastry and window show."
+        }
+      ],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "table_spread_orbit": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Start high, at a three-quarter angle to the table."
+        },
+        {
+          "atSec": 2.5,
+          "text": "Raise the phone slowly over the spread."
+        },
+        {
+          "atSec": 6.0,
+          "text": "Finish straight above with every plate in frame."
+        }
+      ]
+    },
+    "glass_slide_close": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Glass base on the table, phone close and low."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Slide the drink gently toward the lens."
+        },
+        {
+          "atSec": 4.0,
+          "text": "Stop with the glass filling the foreground."
+        }
+      ]
+    },
+    "pancake_clear_path": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Film low toward the pancakes, drinks in front."
+        },
+        {
+          "atSec": 2.0,
+          "text": "Right hand: pull each drink to the right."
+        },
+        {
+          "atSec": 4.5,
+          "text": "Left hand: pull the salad to the left."
+        },
+        {
+          "atSec": 6.5,
+          "text": "Hold on the pancakes, nothing in front."
+        }
+      ]
+    },
+    "bite_friend_three_quarter": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "sip_friend_side": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "verdict_friend_eye": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "archived": true
+    },
+    "entrance_walk_in_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "menu_board_tilt_down": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us",
+      "zoomHint": "2x (closer)"
+    },
+    "pour_side_low_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "plate_high_orbit_v2": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Elbows on the table, plate in the middle of the frame."
+        },
+        {
+          "atSec": 1.0,
+          "text": "Swing the phone around the plate at one even pace."
+        },
+        {
+          "atSec": 3.0,
+          "text": "Keep the same distance until the plate is centred."
+        }
+      ],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "plate_turntable": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "bite_pip_dish_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "sip_cup_only": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "room_seated_pan_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "room_reveal_plant_v2": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Hold the lens a hand-width behind a plant leaf."
+        },
+        {
+          "atSec": 0.5,
+          "text": "Slide the phone slowly to the right, level."
+        },
+        {
+          "atSec": 2.5,
+          "text": "Stop once the room is clear of leaves."
+        }
+      ]
+    },
+    "room_tilt_up_from_plate": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "room_static_wide": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "bite_selfie_eye_v2": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "sip_selfie_eye_v2": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "sip_high_lean_v2": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "verdict_eye_level_v2": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "verdict_high_plate_v2": {
+      "complexity": "easy",
+      "camera": "front",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "bite_friend_three_quarter_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": true,
+      "guideVisibleToCreator": false,
+      "units": "us"
+    },
+    "sip_friend_side_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": true,
+      "guideVisibleToCreator": false,
+      "units": "us"
+    },
+    "verdict_friend_eye_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": true,
+      "guideVisibleToCreator": false,
+      "units": "us"
+    },
+    "verdict_propped_rear": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": true,
+      "needsHelper": false,
+      "guideVisibleToCreator": false,
+      "units": "us"
+    },
+    "menu_board_truck_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "menu_board_static": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us",
+      "zoomHint": "2x (closer)"
+    },
+    "counter_hand_receive": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "handoff_counter_cup_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "entrance_sign_tilt_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "entrance_friend_static": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": true,
+      "guideVisibleToCreator": false,
+      "units": "us"
+    },
+    "menu_board_tilt_up_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us",
+      "zoomHint": "2x (closer)"
+    },
+    "counter_over_shoulder_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": true,
+      "guideVisibleToCreator": false,
+      "units": "us"
+    },
+    "counter_edge_to_pass_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "pour_static_45": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "plate_low_push_in_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "plate_rise_overhead_v2": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Stand, phone flat above the plate, plate filling the width."
+        },
+        {
+          "atSec": 1.0,
+          "text": "Raise the phone straight up slowly; keep it flat."
+        },
+        {
+          "atSec": 3.0,
+          "text": "Stop when the cup and fork are in frame."
+        }
+      ],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "steam_low_backlit_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "steam_static_low": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "handoff_plate_lands_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": []
+    },
+    "menu_card_top_v2": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "menu_wall_board_item": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "inherited": false,
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "room_window_pan_left": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "inherited": false,
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "room_bar_pan": {
+      "complexity": "easy",
+      "camera": "back",
+      "beats": [],
+      "inherited": false,
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "steam_top_orbit": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Hold the phone flat above the cup, the art in the middle."
+        },
+        {
+          "atSec": 1,
+          "text": "Turn the phone slowly clockwise; keep it flat."
+        },
+        {
+          "atSec": 4.5,
+          "text": "Stop when the handle points straight to the right."
+        }
+      ],
+      "inherited": false,
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    },
+    "plate_top_orbit": {
+      "complexity": "complex",
+      "camera": "back",
+      "beats": [
+        {
+          "atSec": 0,
+          "text": "Stand, phone flat above the plate, cup and fork in frame."
+        },
+        {
+          "atSec": 1.0,
+          "text": "Turn the phone slowly around the plate; keep it flat."
+        },
+        {
+          "atSec": 4.0,
+          "text": "Stop after an eighth of a turn, the fork upright on the left."
+        }
+      ],
+      "inherited": false,
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us"
+    }
+  },
+  "pending": [
+    {
+      "id": "tap_pour_low",
+      "shotType": "pour",
+      "complexity": "easy",
+      "camera": "back",
+      "durationSec": 5,
+      "title": "Tap pour at the bar edge",
+      "spec": "Phone low at the bar edge, lens level with a pint glass under a tap (new objects: tap, pint glass). Hold still while the glass fills and the head settles; the stream and the head stay inside the 28%/35% band. 0.5 s holds at both ends.",
+      "why": "food-review-pour/build: the pour guides show coffee; a beer or cocktail needs its own pour.",
+      "steps": [
+        "food-review-pour.build"
+      ]
+    },
+    {
+      "id": "glass_raise_light",
+      "shotType": "plate-reveal",
+      "complexity": "complex",
+      "camera": "back",
+      "durationSec": 5,
+      "title": "Glass against the light",
+      "spec": "A filled cocktail or beer glass held up between the lens and the bar lights (one hand, far side), then lowered over 3 s onto the bar top until it fills the lower frame. Lights faint behind; at most one hand.",
+      "beats": [
+        {
+          "atSec": 0.0,
+          "text": "Hold the glass up between the lens and the lights."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Lower it slowly to the bar top."
+        },
+        {
+          "atSec": 3.5,
+          "text": "Stop with the glass filling the lower frame."
+        }
+      ],
+      "why": "food-review-pour/glass: a second complex glass guide next to glass_slide_close.",
+      "steps": [
+        "food-review-pour.glass"
+      ]
+    },
+    {
+      "id": "case_slide_to_item",
+      "shotType": "display-case (new)",
+      "complexity": "easy",
+      "camera": "back",
+      "durationSec": 4,
+      "title": "Into the display case",
+      "spec": "New shot type display-case. Phone at shelf height in front of the glass of a pastry case (existing pastry_case, pastry); one slow move toward a single pastry until it fills the frame. No reflections of the phone.",
+      "why": "food-review-sweet/case has no guide; needs a shot type and two easy guides.",
+      "steps": [
+        "food-review-sweet.case"
+      ]
+    },
+    {
+      "id": "case_hold_shelf",
+      "shotType": "display-case (new)",
+      "complexity": "easy",
+      "camera": "back",
+      "durationSec": 4,
+      "title": "Hold on the shelf",
+      "spec": "Same case, phone level with one shelf, held still while the pastries fill the frame left to right.",
+      "why": "Second easy guide for food-review-sweet/case.",
+      "steps": [
+        "food-review-sweet.case"
+      ]
+    },
+    {
+      "id": "grill_low_hold",
+      "shotType": "table-action (new)",
+      "complexity": "easy",
+      "camera": "back",
+      "durationSec": 4,
+      "title": "Low by the grill",
+      "spec": "New shot type table-action. Phone low beside a table grill or plate, held still while meat hits the grill (or a yolk breaks, or broth is dipped). Steam glow allowed; hands at most one, far side.",
+      "why": "food-review-table/action has no guide; needs a shot type and two easy guides.",
+      "steps": [
+        "food-review-table.action"
+      ]
+    },
+    {
+      "id": "table_talk_front",
+      "shotType": "room-from-table",
+      "complexity": "easy",
+      "camera": "front",
+      "durationSec": 6,
+      "title": "Talk at the table",
+      "spec": "Front camera at eye height across the table, the spread in the lower third; held still while the creator explains how ordering works. Canonical creator bust, one small gesture.",
+      "why": "food-review-table/how: a second easy guide next to room_seated_pan.",
+      "steps": [
+        "food-review-table.how"
+      ]
+    },
+    {
+      "id": "plate_moment_low_hold",
+      "shotType": "table-action (new)",
+      "complexity": "easy",
+      "camera": "back",
+      "durationSec": 4,
+      "title": "Low by the plate",
+      "spec": "Same shot type. Phone low beside the shared example plate, held still while one action happens on it: a yolk breaks, sauce is poured, or broth is dipped. One hand at most, far side.",
+      "why": "Second easy guide for food-review-table/action.",
+      "steps": [
+        "food-review-table.action"
+      ]
+    },
+    {
+      "id": "verdict_plate_after_push",
+      "shotType": "verdict",
+      "complexity": "easy",
+      "camera": "back",
+      "durationSec": 5,
+      "title": "Your verdict over the finished plate",
+      "spec": "Face-free verdict (handoff 2026-11-13, L13). Seated, back camera at chest height about 2 feet from the finished plate (crumbs, fork resting across it, cup beside), push in slowly and evenly while the creator says the verdict off camera. Ends with the plate filling the lower two thirds. No face, no hands in frame; the same shared example dish after eating.",
+      "why": "Every verdict guide shows the creator's face; a creator who stays off camera needs one at the same (easy) level.",
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us",
+      "steps": [
+        "food-review.verdict",
+        "first-visit.verdict",
+        "food-review-typed.verdict"
+      ]
+    },
+    {
+      "id": "handheld_hold_turn",
+      "shotType": "plate-reveal",
+      "complexity": "complex",
+      "camera": "back",
+      "durationSec": 5,
+      "title": "Handheld item, turned in the hand",
+      "spec": "Handheld dish guide for bakery and quick-bite venues (handoff 2026-11-13, section 5). One hand holds a wrapped burger or a pastry in paper about 1 foot from the lens, turns it slowly a quarter turn to show the cut side, then lowers it to the tray. Objects: burger (approved 2026-11-11) or croissant approved-v2, paper wrap (new). One hand at most, far side.",
+      "beats": [
+        {
+          "atSec": 0.0,
+          "text": "Hold it up about a foot from the lens."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Turn it slowly to show the inside."
+        },
+        {
+          "atSec": 3.5,
+          "text": "Lower it to the tray."
+        }
+      ],
+      "why": "Food review's dish guides all show a plate on a table; bakery and quick-bite venues serve handheld food.",
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us",
+      "steps": [
+        "food-review.dish#handheld"
+      ]
+    },
+    {
+      "id": "handheld_paper_open",
+      "shotType": "plate-reveal",
+      "complexity": "complex",
+      "camera": "back",
+      "durationSec": 5,
+      "title": "Open the paper on the tray",
+      "spec": "Second handheld dish guide. Phone at 45 degrees over a tray, held still; one hand folds the paper wrap open so the item shows, then the phone pushes in slowly until it fills the frame. Objects as handheld_hold_turn plus a tray.",
+      "beats": [
+        {
+          "atSec": 0.0,
+          "text": "Hold still over the tray at an angle."
+        },
+        {
+          "atSec": 1.0,
+          "text": "Fold the paper open with one hand."
+        },
+        {
+          "atSec": 3.0,
+          "text": "Move in slowly until it fills the frame."
+        }
+      ],
+      "why": "A second complex handheld guide, so the step offers two.",
+      "showsFace": false,
+      "needsHelper": false,
+      "guideVisibleToCreator": true,
+      "units": "us",
+      "steps": [
+        "food-review.dish#handheld"
+      ]
+    }
+  ],
+  "exampleDish": "Guides that show a dish use one shared example: a dinner plate with pasta (plate_low_push_in's objects), for every dish kind until per-kind variants are made (owner ruling 2026-11-10).",
+  "orientation": {
+    "default": "portrait",
+    "rule": "portrait = lens at the top edge; portraitUpsideDown = the phone flipped so the lens sits at the bottom edge, for very low lens heights (a lens just above a table or counter, ground-level moves). P0 scripts use portrait guides only (owner 2026-11-10); upside-down guides stay in the library for later.",
+    "portraitUpsideDown": [
+      "pour_upside_down"
+    ],
+    "p0Exclusion": "pour_upside_down is off every P0 step (owner 2026-11-10); pour_side_low is its portrait alternative (low, cup-rim height). It stays in the library and on non-P0 steps."
+  },
+  "fulfilled": [
+    {
+      "id": "plate_rise_overhead",
+      "shotType": "plate-reveal",
+      "complexity": "complex",
+      "camera": "back",
+      "durationSec": 6,
+      "title": "Rise over the plate",
+      "spec": "The table_spread_orbit move over the shared example dish (dinner_plate + pasta, cup and saucer right-behind, fork at the left edge, as in plate_low_push_in). Start at a high three-quarter angle 0.5 m from the plate, raise the phone over 4.5 s into a straight overhead view with the whole plate and the cup rim in frame. Hero inside the 28%/35% band at the target; 0.5 s holds at both ends.",
+      "beats": [
+        {
+          "atSec": 0.0,
+          "text": "Start high, at a three-quarter angle to the plate."
+        },
+        {
+          "atSec": 1.5,
+          "text": "Raise the phone slowly over the plate."
+        },
+        {
+          "atSec": 4.5,
+          "text": "Finish straight above with the whole plate in frame."
+        }
+      ],
+      "why": "A third complex single-dish guide for the dish step; table_spread_orbit shows a shared spread.",
+      "steps": [
+        "food-review.dish",
+        "first-visit.plate",
+        "food-review-sweet.break",
+        "food-review-handheld.cut"
+      ],
+      "fulfilledBy": "plate_rise_overhead_v2",
+      "fulfilledOn": "2026-11-10"
+    }
+  ]
+}

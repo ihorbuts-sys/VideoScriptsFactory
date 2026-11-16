@@ -1,0 +1,4965 @@
+{
+ "bite_friend_three_quarter": {
+  "id": "bite_friend_three_quarter",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.044,
+   -0.062,
+   1.504
+  ],
+  "hero_size": [
+   0.279,
+   0.187,
+   0.232
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 10,
+  "end_frame": 82,
+  "move_duration_s": 4.8,
+  "start_loc": [
+   -0.5,
+   -0.955,
+   1.565
+  ],
+  "end_loc": [
+   -0.57,
+   -0.92,
+   1.54
+  ],
+  "pitch_start": 6.2,
+  "pitch_end": 4.8,
+  "pitch_range": [
+   4.8,
+   6.2
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": -4.2,
+  "height_above_hero_surface_start": 1.565,
+  "height_above_hero_surface_end": 1.54,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.565
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.54
+  },
+  "min_lens_clearance": {
+   "height": 1.54,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 1.004,
+  "dist_hero_end": 1.007,
+  "dist_hero_min": 1.004,
+  "path_length": 0.082,
+  "straight_line": 0.082,
+  "peak_speed": 0.031,
+  "mean_speed": 0.017,
+  "view_rotation_total_deg": 4.3,
+  "peak_angular_speed": 1.7,
+  "mean_angular_speed": 0.9,
+  "orbit_arc_about_hero_deg": -4.5,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.309,
+   "x_max": 0.638,
+   "y_min_from_top": 0.386,
+   "y_max_from_top": 0.55,
+   "fill_width": 0.329,
+   "fill_height": 0.164,
+   "centre_x": 0.473,
+   "centre_from_top": 0.468
+  },
+  "start_projection": {
+   "x_min": 0.304,
+   "x_max": 0.638,
+   "y_min_from_top": 0.388,
+   "y_max_from_top": 0.552,
+   "fill_width": 0.334,
+   "fill_height": 0.164,
+   "centre_x": 0.471,
+   "centre_from_top": 0.47
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.517,
+   "cam_minus_eye_z": 0.023,
+   "dist_cam_eye": 0.947,
+   "eye_y_from_top": 0.46,
+   "eye_x": 0.461
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "bite_pip_dish": {
+  "id": "bite_pip_dish",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Fork stamped body",
+   "Hanging pasta strand",
+   "Hanging pasta strand.001",
+   "Hanging pasta strand.002",
+   "Pasta coil",
+   "Pasta coil.001"
+  ],
+  "hero_count": 13,
+  "hero_centre": [
+   0.076,
+   -0.006,
+   0.909
+  ],
+  "hero_size": [
+   0.31,
+   0.137,
+   0.23
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 9,
+  "move_duration_s": 0.0,
+  "start_loc": [
+   -0.009,
+   -0.701,
+   1.203
+  ],
+  "end_loc": [
+   -0.009,
+   -0.701,
+   1.203
+  ],
+  "pitch_start": 20.5,
+  "pitch_end": 20.5,
+  "pitch_range": [
+   20.5,
+   20.5
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 0.418,
+  "height_above_hero_surface_end": 0.418,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.181,
+   "height": 0.418
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.181,
+   "height": 0.418
+  },
+  "min_lens_clearance": {
+   "height": 0.418,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.181
+  },
+  "dist_hero_start": 0.759,
+  "dist_hero_end": 0.759,
+  "dist_hero_min": 0.759,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.35,
+   "x_max": 0.849,
+   "y_min_from_top": 0.433,
+   "y_max_from_top": 0.64,
+   "fill_width": 0.499,
+   "fill_height": 0.207,
+   "centre_x": 0.599,
+   "centre_from_top": 0.536
+  },
+  "start_projection": {
+   "x_min": 0.35,
+   "x_max": 0.849,
+   "y_min_from_top": 0.433,
+   "y_max_from_top": 0.64,
+   "fill_width": 0.499,
+   "fill_height": 0.207,
+   "centre_x": 0.599,
+   "centre_from_top": 0.536
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Pasta plate",
+   "Fork",
+   "Fork pasta hanging under gravity"
+  ],
+  "group_target_projection": {
+   "x_min": 0.24,
+   "x_max": 1.151,
+   "y_min_from_top": 0.433,
+   "y_max_from_top": 0.681,
+   "fill_width": 0.912,
+   "fill_height": 0.248,
+   "centre_x": 0.696,
+   "centre_from_top": 0.557
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "bite_selfie_eye": {
+  "id": "bite_selfie_eye",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.01,
+   -0.105,
+   1.504
+  ],
+  "hero_size": [
+   0.287,
+   0.157,
+   0.233
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 9,
+  "move_duration_s": 0.0,
+  "start_loc": [
+   -0.111,
+   -0.552,
+   1.548
+  ],
+  "end_loc": [
+   -0.111,
+   -0.552,
+   1.548
+  ],
+  "pitch_start": 8.7,
+  "pitch_end": 8.7,
+  "pitch_range": [
+   8.7,
+   8.7
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.548,
+  "height_above_hero_surface_end": 1.548,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.251,
+   "height": 0.763
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.251,
+   "height": 0.763
+  },
+  "min_lens_clearance": {
+   "height": 0.763,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.251
+  },
+  "dist_hero_start": 0.46,
+  "dist_hero_end": 0.46,
+  "dist_hero_min": 0.46,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 18.0,
+  "lens_animated": false,
+  "hfov": 58.7,
+  "vfov": 90.0,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.229,
+   "x_max": 0.728,
+   "y_min_from_top": 0.333,
+   "y_max_from_top": 0.608,
+   "fill_width": 0.499,
+   "fill_height": 0.274,
+   "centre_x": 0.479,
+   "centre_from_top": 0.471
+  },
+  "start_projection": {
+   "x_min": 0.229,
+   "x_max": 0.728,
+   "y_min_from_top": 0.333,
+   "y_max_from_top": 0.608,
+   "fill_width": 0.499,
+   "fill_height": 0.274,
+   "centre_x": 0.479,
+   "centre_from_top": 0.471
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.517,
+   "cam_minus_eye_z": 0.031,
+   "dist_cam_eye": 0.429,
+   "eye_y_from_top": 0.46,
+   "eye_x": 0.476
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "counter_edge_to_pass": {
+  "id": "counter_edge_to_pass",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle",
+   "Foam heart contour"
+  ],
+  "hero_count": 4,
+  "hero_centre": [
+   0.625,
+   0.02,
+   1.119
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.118
+  ],
+  "hero_surface": {
+   "name": "Customer counter top",
+   "top_z": 1.05
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   -0.7,
+   -0.55,
+   1.2
+  ],
+  "end_loc": [
+   0.25,
+   -0.55,
+   1.2
+  ],
+  "pitch_start": 3.6,
+  "pitch_end": 7.7,
+  "pitch_range": [
+   3.6,
+   7.7
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 34.8,
+  "height_above_hero_surface_start": 0.15,
+  "height_above_hero_surface_end": 0.15,
+  "cam_surface_start": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.4,
+   "height": 0.15
+  },
+  "cam_surface_end": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.4,
+   "height": 0.15
+  },
+  "min_lens_clearance": {
+   "height": 0.15,
+   "frame": 1,
+   "surface": "Customer counter top",
+   "xy_gap": 0.4
+  },
+  "dist_hero_start": 1.445,
+  "dist_hero_end": 0.687,
+  "dist_hero_min": 0.687,
+  "path_length": 0.95,
+  "straight_line": 0.95,
+  "peak_speed": 0.361,
+  "mean_speed": 0.193,
+  "view_rotation_total_deg": 34.8,
+  "peak_angular_speed": 14.9,
+  "mean_angular_speed": 7.1,
+  "orbit_arc_about_hero_deg": 33.4,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.404,
+   "x_max": 0.644,
+   "y_min_from_top": 0.431,
+   "y_max_from_top": 0.556,
+   "fill_width": 0.239,
+   "fill_height": 0.125,
+   "centre_x": 0.524,
+   "centre_from_top": 0.493
+  },
+  "start_projection": {
+   "x_min": 0.455,
+   "x_max": 0.545,
+   "y_min_from_top": 0.468,
+   "y_max_from_top": 0.525,
+   "fill_width": 0.09,
+   "fill_height": 0.057,
+   "centre_x": 0.5,
+   "centre_from_top": 0.496
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.404,
+   "x_max": 0.644,
+   "y_min_from_top": 0.431,
+   "y_max_from_top": 0.556,
+   "fill_width": 0.24,
+   "fill_height": 0.125,
+   "centre_x": 0.524,
+   "centre_from_top": 0.493
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "counter_over_shoulder": {
+  "id": "counter_over_shoulder",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Board column 0 row 0",
+   "Board column 0 row 1",
+   "Board column 0 row 2",
+   "Board column 0 row 3",
+   "Board column 0 row 4",
+   "Board column 0 row 5"
+  ],
+  "hero_count": 18,
+  "hero_centre": [
+   0.0,
+   1.221,
+   1.86
+  ],
+  "hero_size": [
+   1.59,
+   0.009,
+   0.625
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   0.604,
+   -2.607,
+   1.453
+  ],
+  "end_loc": [
+   0.93,
+   -2.274,
+   1.463
+  ],
+  "pitch_start": -1.8,
+  "pitch_end": -1.7,
+  "pitch_range": [
+   -1.8,
+   -1.7
+  ],
+  "roll_start": 0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 5.2,
+  "height_above_hero_surface_start": 1.453,
+  "height_above_hero_surface_end": 1.463,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.453
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.463
+  },
+  "min_lens_clearance": {
+   "height": 1.453,
+   "frame": 9,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 3.897,
+  "dist_hero_end": 3.639,
+  "dist_hero_min": 3.639,
+  "path_length": 0.466,
+  "straight_line": 0.466,
+  "peak_speed": 0.177,
+  "mean_speed": 0.095,
+  "view_rotation_total_deg": 5.2,
+  "peak_angular_speed": 2.0,
+  "mean_angular_speed": 1.1,
+  "orbit_arc_about_hero_deg": 5.9,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.279,
+   "x_max": 0.784,
+   "y_min_from_top": 0.382,
+   "y_max_from_top": 0.505,
+   "fill_width": 0.505,
+   "fill_height": 0.124,
+   "centre_x": 0.532,
+   "centre_from_top": 0.444
+  },
+  "start_projection": {
+   "x_min": 0.3,
+   "x_max": 0.78,
+   "y_min_from_top": 0.393,
+   "y_max_from_top": 0.505,
+   "fill_width": 0.481,
+   "fill_height": 0.112,
+   "centre_x": 0.54,
+   "centre_from_top": 0.449
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Three-column menu"
+  ],
+  "group_target_projection": {
+   "x_min": 0.253,
+   "x_max": 0.823,
+   "y_min_from_top": 0.357,
+   "y_max_from_top": 0.532,
+   "fill_width": 0.57,
+   "fill_height": 0.175,
+   "centre_x": 0.538,
+   "centre_from_top": 0.445
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "counter_through_cup_handle": {
+  "id": "counter_through_cup_handle",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup open handle"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   0.076,
+   0.002,
+   1.126
+  ],
+  "hero_size": [
+   0.058,
+   0.016,
+   0.076
+  ],
+  "hero_surface": {
+   "name": "Customer counter top",
+   "top_z": 1.05
+  },
+  "start_frame": 11,
+  "end_frame": 96,
+  "move_duration_s": 5.67,
+  "start_loc": [
+   0.068,
+   -0.3,
+   1.019
+  ],
+  "end_loc": [
+   0.079,
+   -0.24,
+   1.04
+  ],
+  "pitch_start": -19.5,
+  "pitch_end": -19.5,
+  "pitch_range": [
+   -19.5,
+   -19.5
+  ],
+  "roll_start": -0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.4,
+  "height_above_hero_surface_start": -0.031,
+  "height_above_hero_surface_end": -0.01,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.019
+  },
+  "cam_surface_end": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.09,
+   "height": -0.01
+  },
+  "min_lens_clearance": {
+   "height": -0.02,
+   "frame": 55,
+   "surface": "Customer counter top",
+   "xy_gap": 0.118
+  },
+  "dist_hero_start": 0.321,
+  "dist_hero_end": 0.257,
+  "dist_hero_min": 0.257,
+  "path_length": 0.065,
+  "straight_line": 0.065,
+  "peak_speed": 0.02,
+  "mean_speed": 0.011,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0.0,
+  "orbit_arc_about_hero_deg": 2.2,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.354,
+   "x_max": 0.619,
+   "y_min_from_top": 0.408,
+   "y_max_from_top": 0.596,
+   "fill_width": 0.265,
+   "fill_height": 0.188,
+   "centre_x": 0.486,
+   "centre_from_top": 0.502
+  },
+  "start_projection": {
+   "x_min": 0.416,
+   "x_max": 0.629,
+   "y_min_from_top": 0.426,
+   "y_max_from_top": 0.576,
+   "fill_width": 0.213,
+   "fill_height": 0.151,
+   "centre_x": 0.522,
+   "centre_from_top": 0.501
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": -0.132,
+   "x_max": 0.619,
+   "y_min_from_top": 0.297,
+   "y_max_from_top": 0.683,
+   "fill_width": 0.751,
+   "fill_height": 0.386,
+   "centre_x": 0.243,
+   "centre_from_top": 0.49
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "entrance_door_low": {
+  "id": "entrance_door_low",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Door jamb",
+   "Door jamb.001",
+   "Door lintel",
+   "Door pull handle",
+   "Glazed door rail",
+   "Glazed door rail.001"
+  ],
+  "hero_count": 10,
+  "hero_centre": [
+   0.0,
+   1.577,
+   1.113
+  ],
+  "hero_size": [
+   1.15,
+   3.205,
+   2.225
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   0.0,
+   -1.0,
+   1.0
+  ],
+  "end_loc": [
+   0.0,
+   0.6,
+   1.0
+  ],
+  "pitch_start": 3.3,
+  "pitch_end": 5.8,
+  "pitch_range": [
+   3.3,
+   5.8
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.0,
+  "height_above_hero_surface_end": 1.0,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.0
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.0
+  },
+  "min_lens_clearance": {
+   "height": 1.0,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 2.58,
+  "dist_hero_end": 0.984,
+  "dist_hero_min": 0.984,
+  "path_length": 1.6,
+  "straight_line": 1.6,
+  "peak_speed": 0.608,
+  "mean_speed": 0.324,
+  "view_rotation_total_deg": 2.4,
+  "peak_angular_speed": 1.0,
+  "mean_angular_speed": 0.5,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": null,
+  "start_projection": {
+   "x_min": -0.251,
+   "x_max": 1.251,
+   "y_min_from_top": -0.442,
+   "y_max_from_top": 1.106,
+   "fill_width": 1.503,
+   "fill_height": 1.549,
+   "centre_x": 0.5,
+   "centre_from_top": 0.332
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Public entry door",
+   "Reusable table.003"
+  ],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop.003",
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002",
+   "Quiet tabletop.004"
+  ]
+ },
+ "entrance_sign_tilt": {
+  "id": "entrance_sign_tilt",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Door pull handle"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   0.39,
+   -0.08,
+   1.06
+  ],
+  "hero_size": [
+   0.024,
+   0.073,
+   0.279
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   0.0,
+   -1.4,
+   1.65
+  ],
+  "end_loc": [
+   0.0,
+   -1.4,
+   1.2
+  ],
+  "pitch_start": -37.7,
+  "pitch_end": 3.3,
+  "pitch_range": [
+   -37.7,
+   3.3
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.65,
+  "height_above_hero_surface_end": 1.2,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.65
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.2
+  },
+  "min_lens_clearance": {
+   "height": 1.2,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 1.498,
+  "dist_hero_end": 1.384,
+  "dist_hero_min": 1.384,
+  "path_length": 0.45,
+  "straight_line": 0.45,
+  "peak_speed": 0.171,
+  "mean_speed": 0.091,
+  "view_rotation_total_deg": 41.0,
+  "peak_angular_speed": 16.3,
+  "mean_angular_speed": 8.3,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.829,
+   "x_max": 0.866,
+   "y_min_from_top": 0.462,
+   "y_max_from_top": 0.599,
+   "fill_width": 0.038,
+   "fill_height": 0.137,
+   "centre_x": 0.847,
+   "centre_from_top": 0.531
+  },
+  "start_projection": {
+   "x_min": 1.069,
+   "x_max": 1.278,
+   "y_min_from_top": 1.497,
+   "y_max_from_top": 2.013,
+   "fill_width": 0.208,
+   "fill_height": 0.517,
+   "centre_x": 1.174,
+   "centre_from_top": 1.755
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Public entry door"
+  ],
+  "group_target_projection": {
+   "x_min": -0.016,
+   "x_max": 1.016,
+   "y_min_from_top": -0.057,
+   "y_max_from_top": 1.016,
+   "fill_width": 1.033,
+   "fill_height": 1.074,
+   "centre_x": 0.5,
+   "centre_from_top": 0.48
+  },
+  "surfaces_found": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002"
+  ]
+ },
+ "entrance_walk_in": {
+  "id": "entrance_walk_in",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Door jamb",
+   "Door jamb.001",
+   "Door lintel",
+   "Door pull handle",
+   "Glazed door rail",
+   "Glazed door rail.001"
+  ],
+  "hero_count": 9,
+  "hero_centre": [
+   0.0,
+   -0.046,
+   1.113
+  ],
+  "hero_size": [
+   1.15,
+   0.141,
+   2.225
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   0.0,
+   -7.89,
+   1.4
+  ],
+  "end_loc": [
+   0.0,
+   -5.09,
+   1.4
+  ],
+  "pitch_start": 2.2,
+  "pitch_end": 3.4,
+  "pitch_range": [
+   2.2,
+   3.4
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.4,
+  "height_above_hero_surface_end": 1.4,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.4
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.4
+  },
+  "min_lens_clearance": {
+   "height": 1.4,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 7.849,
+  "dist_hero_end": 5.052,
+  "dist_hero_min": 5.052,
+  "path_length": 2.8,
+  "straight_line": 2.8,
+  "peak_speed": 1.064,
+  "mean_speed": 0.568,
+  "view_rotation_total_deg": 1.0,
+  "peak_angular_speed": 0.5,
+  "mean_angular_speed": 0.2,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.364,
+   "x_max": 0.636,
+   "y_min_from_top": 0.351,
+   "y_max_from_top": 0.642,
+   "fill_width": 0.272,
+   "fill_height": 0.292,
+   "centre_x": 0.5,
+   "centre_from_top": 0.497
+  },
+  "start_projection": {
+   "x_min": 0.413,
+   "x_max": 0.587,
+   "y_min_from_top": 0.404,
+   "y_max_from_top": 0.593,
+   "fill_width": 0.174,
+   "fill_height": 0.188,
+   "centre_x": 0.5,
+   "centre_from_top": 0.498
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Public entry door"
+  ],
+  "group_target_projection": {
+   "x_min": 0.364,
+   "x_max": 0.636,
+   "y_min_from_top": 0.351,
+   "y_max_from_top": 0.642,
+   "fill_width": 0.272,
+   "fill_height": 0.292,
+   "centre_x": 0.5,
+   "centre_from_top": 0.497
+  },
+  "surfaces_found": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002"
+  ]
+ },
+ "glass_slide_close": {
+  "id": "glass_slide_close",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Primary cocktail rim"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.08,
+   -0.05,
+   0.975
+  ],
+  "hero_size": [
+   0.085,
+   0.085,
+   0.001
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 11,
+  "end_frame": 96,
+  "move_duration_s": 5.67,
+  "start_loc": [
+   0.075,
+   -0.4,
+   1.035
+  ],
+  "end_loc": [
+   0.015,
+   -0.4,
+   1.02
+  ],
+  "pitch_start": 13.2,
+  "pitch_end": 11.7,
+  "pitch_range": [
+   11.7,
+   13.2
+  ],
+  "roll_start": -0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": -8.7,
+  "height_above_hero_surface_start": 0.25,
+  "height_above_hero_surface_end": 0.235,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.25
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.235
+  },
+  "min_lens_clearance": {
+   "height": 0.235,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.387,
+  "dist_hero_end": 0.365,
+  "dist_hero_min": 0.365,
+  "path_length": 0.062,
+  "straight_line": 0.062,
+  "peak_speed": 0.02,
+  "mean_speed": 0.011,
+  "view_rotation_total_deg": 8.6,
+  "peak_angular_speed": 2.7,
+  "mean_angular_speed": 1.5,
+  "orbit_arc_about_hero_deg": -8.7,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.361,
+   "x_max": 0.639,
+   "y_min_from_top": 0.436,
+   "y_max_from_top": 0.457,
+   "fill_width": 0.279,
+   "fill_height": 0.021,
+   "centre_x": 0.5,
+   "centre_from_top": 0.447
+  },
+  "start_projection": {
+   "x_min": 0.369,
+   "x_max": 0.631,
+   "y_min_from_top": 0.438,
+   "y_max_from_top": 0.462,
+   "fill_width": 0.263,
+   "fill_height": 0.025,
+   "centre_x": 0.5,
+   "centre_from_top": 0.45
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 98,
+  "lens_over_surface_inset_max": 0.05,
+  "eyes": null,
+  "hero_group": [
+   "Reusable cocktail glass"
+  ],
+  "group_target_projection": {
+   "x_min": -0.152,
+   "x_max": 0.665,
+   "y_min_from_top": 0.303,
+   "y_max_from_top": 0.797,
+   "fill_width": 0.817,
+   "fill_height": 0.495,
+   "centre_x": 0.257,
+   "centre_from_top": 0.55
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "handoff_counter_cup": {
+  "id": "handoff_counter_cup",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle",
+   "Foam heart contour"
+  ],
+  "hero_count": 4,
+  "hero_centre": [
+   -0.975,
+   -0.02,
+   1.119
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.118
+  ],
+  "hero_surface": {
+   "name": "Customer counter top",
+   "top_z": 1.05
+  },
+  "start_frame": 9,
+  "end_frame": 68,
+  "move_duration_s": 3.93,
+  "start_loc": [
+   -1.35,
+   -1.06,
+   1.2
+  ],
+  "end_loc": [
+   -1.13,
+   -1.0,
+   1.25
+  ],
+  "pitch_start": 4.2,
+  "pitch_end": 7.5,
+  "pitch_range": [
+   4.2,
+   7.5
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 11.0,
+  "height_above_hero_surface_start": 0.15,
+  "height_above_hero_surface_end": 0.2,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.2
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.25
+  },
+  "min_lens_clearance": {
+   "height": 1.2,
+   "frame": 9,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 1.109,
+  "dist_hero_end": 1.001,
+  "dist_hero_min": 1.001,
+  "path_length": 0.233,
+  "straight_line": 0.233,
+  "peak_speed": 0.111,
+  "mean_speed": 0.059,
+  "view_rotation_total_deg": 11.5,
+  "peak_angular_speed": 5.5,
+  "mean_angular_speed": 2.9,
+  "orbit_arc_about_hero_deg": 10.8,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.436,
+   "x_max": 0.621,
+   "y_min_from_top": 0.459,
+   "y_max_from_top": 0.544,
+   "fill_width": 0.186,
+   "fill_height": 0.085,
+   "centre_x": 0.528,
+   "centre_from_top": 0.501
+  },
+  "start_projection": {
+   "x_min": 0.442,
+   "x_max": 0.603,
+   "y_min_from_top": 0.464,
+   "y_max_from_top": 0.539,
+   "fill_width": 0.161,
+   "fill_height": 0.075,
+   "centre_x": 0.522,
+   "centre_from_top": 0.502
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.436,
+   "x_max": 0.621,
+   "y_min_from_top": 0.459,
+   "y_max_from_top": 0.544,
+   "fill_width": 0.186,
+   "fill_height": 0.085,
+   "centre_x": 0.528,
+   "centre_from_top": 0.501
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "handoff_plate_lands": {
+  "id": "handoff_plate_lands",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Pasta coil",
+   "Pasta coil.001",
+   "Pasta coil.002",
+   "Pasta coil.003",
+   "Pasta coil.004",
+   "Pasta coil.005"
+  ],
+  "hero_count": 9,
+  "hero_centre": [
+   0.002,
+   -0.006,
+   0.824
+  ],
+  "hero_size": [
+   0.163,
+   0.137,
+   0.06
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 10,
+  "end_frame": 67,
+  "move_duration_s": 3.8,
+  "start_loc": [
+   -0.12,
+   -0.55,
+   1.205
+  ],
+  "end_loc": [
+   0.0,
+   -0.5,
+   1.235
+  ],
+  "pitch_start": 33.7,
+  "pitch_end": 39.0,
+  "pitch_range": [
+   33.7,
+   39.0
+  ],
+  "roll_start": -0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 12.3,
+  "height_above_hero_surface_start": 0.42,
+  "height_above_hero_surface_end": 0.45,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.03,
+   "height": 0.42
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.45
+  },
+  "min_lens_clearance": {
+   "height": 0.42,
+   "frame": 9,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.03
+  },
+  "dist_hero_start": 0.675,
+  "dist_hero_end": 0.642,
+  "dist_hero_min": 0.642,
+  "path_length": 0.133,
+  "straight_line": 0.133,
+  "peak_speed": 0.064,
+  "mean_speed": 0.035,
+  "view_rotation_total_deg": 11.2,
+  "peak_angular_speed": 5.4,
+  "mean_angular_speed": 3.0,
+  "orbit_arc_about_hero_deg": 12.4,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.354,
+   "x_max": 0.655,
+   "y_min_from_top": 0.455,
+   "y_max_from_top": 0.572,
+   "fill_width": 0.301,
+   "fill_height": 0.118,
+   "centre_x": 0.505,
+   "centre_from_top": 0.514
+  },
+  "start_projection": {
+   "x_min": 0.363,
+   "x_max": 0.645,
+   "y_min_from_top": 0.459,
+   "y_max_from_top": 0.564,
+   "fill_width": 0.282,
+   "fill_height": 0.105,
+   "centre_x": 0.504,
+   "centre_from_top": 0.512
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 35,
+  "lens_over_surface_inset_max": 0.02,
+  "eyes": null,
+  "hero_group": [
+   "Pasta plate"
+  ],
+  "group_target_projection": {
+   "x_min": 0.222,
+   "x_max": 0.778,
+   "y_min_from_top": 0.429,
+   "y_max_from_top": 0.638,
+   "fill_width": 0.557,
+   "fill_height": 0.21,
+   "centre_x": 0.5,
+   "centre_from_top": 0.533
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "menu_board_tilt_up": {
+  "id": "menu_board_tilt_up",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Board column 0 row 0",
+   "Board column 0 row 1",
+   "Board column 0 row 2",
+   "Board column 0 row 3",
+   "Board column 0 row 4",
+   "Board column 0 row 5"
+  ],
+  "hero_count": 18,
+  "hero_centre": [
+   0.0,
+   1.221,
+   1.86
+  ],
+  "hero_size": [
+   1.59,
+   0.009,
+   0.625
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 10,
+  "end_frame": 65,
+  "move_duration_s": 3.67,
+  "start_loc": [
+   0.0,
+   -0.95,
+   1.13
+  ],
+  "end_loc": [
+   0.0,
+   -0.95,
+   1.13
+  ],
+  "pitch_start": -0.6,
+  "pitch_end": -18.1,
+  "pitch_range": [
+   -18.1,
+   -0.6
+  ],
+  "roll_start": -0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 22.8,
+  "height_above_hero_surface_start": 1.13,
+  "height_above_hero_surface_end": 1.13,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.13
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.13
+  },
+  "min_lens_clearance": {
+   "height": 1.13,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 2.29,
+  "dist_hero_end": 2.29,
+  "dist_hero_min": 2.29,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0.0,
+  "view_rotation_total_deg": 28.5,
+  "peak_angular_speed": 15.4,
+  "mean_angular_speed": 7.8,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.078,
+   "x_max": 0.922,
+   "y_min_from_top": 0.412,
+   "y_max_from_top": 0.585,
+   "fill_width": 0.844,
+   "fill_height": 0.173,
+   "centre_x": 0.5,
+   "centre_from_top": 0.498
+  },
+  "start_projection": {
+   "x_min": -0.6,
+   "x_max": 0.444,
+   "y_min_from_top": 0.098,
+   "y_max_from_top": 0.386,
+   "fill_width": 1.044,
+   "fill_height": 0.287,
+   "centre_x": -0.078,
+   "centre_from_top": 0.242
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Three-column menu"
+  ],
+  "group_target_projection": {
+   "x_min": 0.01,
+   "x_max": 0.992,
+   "y_min_from_top": 0.382,
+   "y_max_from_top": 0.631,
+   "fill_width": 0.982,
+   "fill_height": 0.249,
+   "centre_x": 0.501,
+   "centre_from_top": 0.506
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "menu_board_truck": {
+  "id": "menu_board_truck",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Board column 2 row 0",
+   "Board column 2 row 1",
+   "Board column 2 row 2",
+   "Board column 2 row 3",
+   "Board column 2 row 4",
+   "Board column 2 row 5"
+  ],
+  "hero_count": 6,
+  "hero_centre": [
+   0.57,
+   1.221,
+   1.86
+  ],
+  "hero_size": [
+   0.45,
+   0.009,
+   0.625
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 68,
+  "move_duration_s": 3.93,
+  "start_loc": [
+   -0.57,
+   -0.4,
+   1.85
+  ],
+  "end_loc": [
+   0.57,
+   -0.4,
+   1.85
+  ],
+  "pitch_start": -0.0,
+  "pitch_end": -0.0,
+  "pitch_range": [
+   -0.0,
+   -0.0
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.85,
+  "height_above_hero_surface_end": 1.85,
+  "cam_surface_start": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.25,
+   "height": 0.8
+  },
+  "cam_surface_end": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.25,
+   "height": 0.8
+  },
+  "min_lens_clearance": {
+   "height": 0.8,
+   "frame": 1,
+   "surface": "Customer counter top",
+   "xy_gap": 0.25
+  },
+  "dist_hero_start": 1.982,
+  "dist_hero_end": 1.621,
+  "dist_hero_min": 1.621,
+  "path_length": 1.14,
+  "straight_line": 1.14,
+  "peak_speed": 0.29,
+  "mean_speed": 0.29,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0.0,
+  "orbit_arc_about_hero_deg": 35.1,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.335,
+   "x_max": 0.665,
+   "y_min_from_top": 0.367,
+   "y_max_from_top": 0.624,
+   "fill_width": 0.329,
+   "fill_height": 0.257,
+   "centre_x": 0.5,
+   "centre_from_top": 0.496
+  },
+  "start_projection": {
+   "x_min": 1.169,
+   "x_max": 1.499,
+   "y_min_from_top": 0.367,
+   "y_max_from_top": 0.624,
+   "fill_width": 0.33,
+   "fill_height": 0.257,
+   "centre_x": 1.334,
+   "centre_from_top": 0.496
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Three-column menu"
+  ],
+  "group_target_projection": {
+   "x_min": -0.567,
+   "x_max": 0.739,
+   "y_min_from_top": 0.317,
+   "y_max_from_top": 0.683,
+   "fill_width": 1.306,
+   "fill_height": 0.367,
+   "centre_x": 0.086,
+   "centre_from_top": 0.5
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "menu_card_push": {
+  "id": "menu_card_push",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Menu price row 02"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.003,
+   0.018,
+   0.794
+  ],
+  "hero_size": [
+   0.179,
+   0.031,
+   0.001
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 68,
+  "move_duration_s": 3.93,
+  "start_loc": [
+   -0.07,
+   -0.545,
+   1.206
+  ],
+  "end_loc": [
+   0.0,
+   -0.25,
+   0.99
+  ],
+  "pitch_start": 35.6,
+  "pitch_end": 36.2,
+  "pitch_range": [
+   35.6,
+   38.0
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 11.5,
+  "height_above_hero_surface_start": 0.421,
+  "height_above_hero_surface_end": 0.205,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.075,
+   "height": 0.421
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.205
+  },
+  "min_lens_clearance": {
+   "height": 0.205,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.7,
+  "dist_hero_end": 0.332,
+  "dist_hero_min": 0.332,
+  "path_length": 0.382,
+  "straight_line": 0.372,
+  "peak_speed": 0.177,
+  "mean_speed": 0.097,
+  "view_rotation_total_deg": 11.1,
+  "peak_angular_speed": 4.8,
+  "mean_angular_speed": 2.8,
+  "orbit_arc_about_hero_deg": 7.4,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.162,
+   "x_max": 0.803,
+   "y_min_from_top": 0.482,
+   "y_max_from_top": 0.52,
+   "fill_width": 0.642,
+   "fill_height": 0.037,
+   "centre_x": 0.482,
+   "centre_from_top": 0.501
+  },
+  "start_projection": {
+   "x_min": 0.268,
+   "x_max": 0.564,
+   "y_min_from_top": 0.487,
+   "y_max_from_top": 0.525,
+   "fill_width": 0.296,
+   "fill_height": 0.037,
+   "centre_x": 0.416,
+   "centre_from_top": 0.506
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 46,
+  "lens_over_surface_inset_max": 0.22,
+  "eyes": null,
+  "hero_group": [
+   "Menu card"
+  ],
+  "group_target_projection": {
+   "x_min": 0.054,
+   "x_max": 0.995,
+   "y_min_from_top": 0.432,
+   "y_max_from_top": 0.675,
+   "fill_width": 0.941,
+   "fill_height": 0.243,
+   "centre_x": 0.525,
+   "centre_from_top": 0.554
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "menu_card_top": {
+  "id": "menu_card_top",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Menu price row 00",
+   "Menu price row 01",
+   "Menu price row 02",
+   "Menu price row 03",
+   "Menu price row 04",
+   "Menu price row 05"
+  ],
+  "hero_count": 8,
+  "hero_centre": [
+   0.0,
+   0.0,
+   0.792
+  ],
+  "hero_size": [
+   0.228,
+   0.175,
+   0.006
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 68,
+  "move_duration_s": 3.93,
+  "start_loc": [
+   -0.12,
+   -0.085,
+   1.24
+  ],
+  "end_loc": [
+   0.0,
+   -0.035,
+   1.24
+  ],
+  "pitch_start": 71.9,
+  "pitch_end": 85.6,
+  "pitch_range": [
+   71.7,
+   85.6
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 54.7,
+  "height_above_hero_surface_start": 0.455,
+  "height_above_hero_surface_end": 0.455,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.455
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.455
+  },
+  "min_lens_clearance": {
+   "height": 0.43,
+   "frame": 38,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.472,
+  "dist_hero_end": 0.45,
+  "dist_hero_min": 0.429,
+  "path_length": 0.153,
+  "straight_line": 0.13,
+  "peak_speed": 0.062,
+  "mean_speed": 0.039,
+  "view_rotation_total_deg": 16.3,
+  "peak_angular_speed": 8.1,
+  "mean_angular_speed": 4.1,
+  "orbit_arc_about_hero_deg": 54.7,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.203,
+   "x_max": 0.803,
+   "y_min_from_top": 0.372,
+   "y_max_from_top": 0.631,
+   "fill_width": 0.6,
+   "fill_height": 0.259,
+   "centre_x": 0.503,
+   "centre_from_top": 0.502
+  },
+  "start_projection": {
+   "x_min": 0.205,
+   "x_max": 0.774,
+   "y_min_from_top": 0.343,
+   "y_max_from_top": 0.685,
+   "fill_width": 0.569,
+   "fill_height": 0.342,
+   "centre_x": 0.489,
+   "centre_from_top": 0.514
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 68,
+  "lens_over_surface_inset_max": 0.43,
+  "eyes": null,
+  "hero_group": [
+   "Menu card"
+  ],
+  "group_target_projection": {
+   "x_min": 0.203,
+   "x_max": 0.803,
+   "y_min_from_top": 0.372,
+   "y_max_from_top": 0.631,
+   "fill_width": 0.6,
+   "fill_height": 0.259,
+   "centre_x": 0.503,
+   "centre_from_top": 0.502
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "pancake_clear_path": {
+  "id": "pancake_clear_path",
+  "frames": 135,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Berry on cream",
+   "Butter on pancakes",
+   "Rounded pancake layer",
+   "Rounded pancake layer.001",
+   "Rounded pancake layer.002",
+   "Rounded pancake layer.003"
+  ],
+  "hero_count": 9,
+  "hero_centre": [
+   0.16,
+   1.15,
+   0.85
+  ],
+  "hero_size": [
+   0.17,
+   0.17,
+   0.115
+  ],
+  "hero_surface": {
+   "name": "Long commercial dining tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 128,
+  "move_duration_s": 7.93,
+  "start_loc": [
+   0.16,
+   -0.9,
+   0.87
+  ],
+  "end_loc": [
+   0.16,
+   0.65,
+   0.87
+  ],
+  "pitch_start": 0.6,
+  "pitch_end": 2.3,
+  "pitch_range": [
+   0.6,
+   2.7
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 0.085,
+  "height_above_hero_surface_end": 0.085,
+  "cam_surface_start": {
+   "name": "Long commercial dining tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.125,
+   "height": 0.085
+  },
+  "cam_surface_end": {
+   "name": "Long commercial dining tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.085
+  },
+  "min_lens_clearance": {
+   "height": 0.085,
+   "frame": 1,
+   "surface": "Long commercial dining tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 2.05,
+  "dist_hero_end": 0.5,
+  "dist_hero_min": 0.5,
+  "path_length": 1.553,
+  "straight_line": 1.55,
+  "peak_speed": 0.366,
+  "mean_speed": 0.196,
+  "view_rotation_total_deg": 2.2,
+  "peak_angular_speed": 0.6,
+  "mean_angular_speed": 0.3,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.296,
+   "x_max": 0.704,
+   "y_min_from_top": 0.425,
+   "y_max_from_top": 0.594,
+   "fill_width": 0.408,
+   "fill_height": 0.169,
+   "centre_x": 0.5,
+   "centre_from_top": 0.509
+  },
+  "start_projection": {
+   "x_min": 0.451,
+   "x_max": 0.549,
+   "y_min_from_top": 0.481,
+   "y_max_from_top": 0.519,
+   "fill_width": 0.098,
+   "fill_height": 0.038,
+   "centre_x": 0.5,
+   "centre_from_top": 0.5
+  },
+  "portrait_feasible": false,
+  "portrait_blocked_frames": 100,
+  "portrait_worst_intrusion_m": 0.047,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 101,
+  "lens_over_surface_inset_max": 0.54,
+  "eyes": null,
+  "hero_group": [
+   "Reusable pancake stack"
+  ],
+  "group_target_projection": {
+   "x_min": 0.296,
+   "x_max": 0.704,
+   "y_min_from_top": 0.425,
+   "y_max_from_top": 0.594,
+   "fill_width": 0.408,
+   "fill_height": 0.169,
+   "centre_x": 0.5,
+   "centre_from_top": 0.509
+  },
+  "surfaces_found": [
+   "Long commercial dining tabletop"
+  ]
+ },
+ "plate_high_orbit": {
+  "id": "plate_high_orbit",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Pasta coil",
+   "Pasta coil.001",
+   "Pasta coil.002",
+   "Pasta coil.003",
+   "Pasta coil.004",
+   "Pasta coil.005"
+  ],
+  "hero_count": 9,
+  "hero_centre": [
+   0.002,
+   -0.006,
+   0.824
+  ],
+  "hero_size": [
+   0.163,
+   0.137,
+   0.06
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   -0.225,
+   -0.39,
+   1.235
+  ],
+  "end_loc": [
+   0.225,
+   -0.39,
+   1.235
+  ],
+  "pitch_start": 42.0,
+  "pitch_end": 42.0,
+  "pitch_range": [
+   42.0,
+   42.0
+  ],
+  "roll_start": 0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 60.0,
+  "height_above_hero_surface_start": 0.45,
+  "height_above_hero_surface_end": 0.45,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.45
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.45
+  },
+  "min_lens_clearance": {
+   "height": 0.45,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.606,
+  "dist_hero_end": 0.605,
+  "dist_hero_min": 0.605,
+  "path_length": 0.471,
+  "straight_line": 0.45,
+  "peak_speed": 0.096,
+  "mean_speed": 0.096,
+  "view_rotation_total_deg": 44.6,
+  "peak_angular_speed": 9.0,
+  "mean_angular_speed": 9.0,
+  "orbit_arc_about_hero_deg": 60.8,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.355,
+   "x_max": 0.669,
+   "y_min_from_top": 0.453,
+   "y_max_from_top": 0.574,
+   "fill_width": 0.315,
+   "fill_height": 0.121,
+   "centre_x": 0.512,
+   "centre_from_top": 0.514
+  },
+  "start_projection": {
+   "x_min": 0.356,
+   "x_max": 0.662,
+   "y_min_from_top": 0.439,
+   "y_max_from_top": 0.574,
+   "fill_width": 0.305,
+   "fill_height": 0.135,
+   "centre_x": 0.509,
+   "centre_from_top": 0.506
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 83,
+  "lens_over_surface_inset_max": 0.13,
+  "eyes": null,
+  "hero_group": [
+   "Pasta plate"
+  ],
+  "group_target_projection": {
+   "x_min": 0.205,
+   "x_max": 0.795,
+   "y_min_from_top": 0.418,
+   "y_max_from_top": 0.654,
+   "fill_width": 0.59,
+   "fill_height": 0.235,
+   "centre_x": 0.5,
+   "centre_from_top": 0.536
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "plate_low_push_in": {
+  "id": "plate_low_push_in",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Pasta coil",
+   "Pasta coil.001",
+   "Pasta coil.002",
+   "Pasta coil.003",
+   "Pasta coil.004",
+   "Pasta coil.005"
+  ],
+  "hero_count": 9,
+  "hero_centre": [
+   0.002,
+   -0.006,
+   0.824
+  ],
+  "hero_size": [
+   0.163,
+   0.137,
+   0.06
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 68,
+  "move_duration_s": 3.93,
+  "start_loc": [
+   0.0,
+   -0.683,
+   0.98
+  ],
+  "end_loc": [
+   0.0,
+   -0.31,
+   0.903
+  ],
+  "pitch_start": 11.6,
+  "pitch_end": 11.6,
+  "pitch_range": [
+   11.6,
+   11.6
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 0.195,
+  "height_above_hero_surface_end": 0.118,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.163,
+   "height": 0.195
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.118
+  },
+  "min_lens_clearance": {
+   "height": 0.118,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.694,
+  "dist_hero_end": 0.314,
+  "dist_hero_min": 0.314,
+  "path_length": 0.38,
+  "straight_line": 0.38,
+  "peak_speed": 0.181,
+  "mean_speed": 0.097,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0.0,
+  "orbit_arc_about_hero_deg": -0.2,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.198,
+   "x_max": 0.815,
+   "y_min_from_top": 0.465,
+   "y_max_from_top": 0.629,
+   "fill_width": 0.618,
+   "fill_height": 0.164,
+   "centre_x": 0.507,
+   "centre_from_top": 0.547
+  },
+  "start_projection": {
+   "x_min": 0.364,
+   "x_max": 0.641,
+   "y_min_from_top": 0.484,
+   "y_max_from_top": 0.552,
+   "fill_width": 0.276,
+   "fill_height": 0.068,
+   "centre_x": 0.502,
+   "centre_from_top": 0.518
+  },
+  "portrait_feasible": false,
+  "portrait_blocked_frames": 25,
+  "portrait_worst_intrusion_m": 0.011,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 40,
+  "lens_over_surface_inset_max": 0.21,
+  "eyes": null,
+  "hero_group": [
+   "Pasta plate"
+  ],
+  "group_target_projection": {
+   "x_min": -0.126,
+   "x_max": 1.126,
+   "y_min_from_top": 0.465,
+   "y_max_from_top": 0.736,
+   "fill_width": 1.251,
+   "fill_height": 0.271,
+   "centre_x": 0.5,
+   "centre_from_top": 0.6
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "plate_tissue_slide": {
+  "id": "plate_tissue_slide",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 15,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Pasta coil",
+   "Pasta coil.001",
+   "Pasta coil.002",
+   "Pasta coil.003",
+   "Pasta coil.004",
+   "Pasta coil.005"
+  ],
+  "hero_count": 9,
+  "hero_centre": [
+   0.002,
+   -0.006,
+   0.824
+  ],
+  "hero_size": [
+   0.163,
+   0.137,
+   0.06
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 25,
+  "end_frame": 82,
+  "move_duration_s": 3.8,
+  "start_loc": [
+   -0.14,
+   -0.3,
+   0.86
+  ],
+  "end_loc": [
+   0.04,
+   -0.3,
+   0.86
+  ],
+  "pitch_start": 5.2,
+  "pitch_end": 5.7,
+  "pitch_range": [
+   5.2,
+   5.7
+  ],
+  "roll_start": -0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 32.6,
+  "height_above_hero_surface_start": 0.075,
+  "height_above_hero_surface_end": 0.075,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.075
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.075
+  },
+  "min_lens_clearance": {
+   "height": 0.075,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.328,
+  "dist_hero_end": 0.298,
+  "dist_hero_min": 0.296,
+  "path_length": 0.18,
+  "straight_line": 0.18,
+  "peak_speed": 0.086,
+  "mean_speed": 0.047,
+  "view_rotation_total_deg": 32.4,
+  "peak_angular_speed": 15.9,
+  "mean_angular_speed": 8.5,
+  "orbit_arc_about_hero_deg": 33.2,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.186,
+   "x_max": 0.832,
+   "y_min_from_top": 0.447,
+   "y_max_from_top": 0.592,
+   "fill_width": 0.646,
+   "fill_height": 0.145,
+   "centre_x": 0.509,
+   "centre_from_top": 0.52
+  },
+  "start_projection": {
+   "x_min": 0.217,
+   "x_max": 0.801,
+   "y_min_from_top": 0.451,
+   "y_max_from_top": 0.579,
+   "fill_width": 0.584,
+   "fill_height": 0.128,
+   "centre_x": 0.509,
+   "centre_from_top": 0.515
+  },
+  "portrait_feasible": false,
+  "portrait_blocked_frames": 83,
+  "portrait_worst_intrusion_m": 0.056,
+  "portrait_worst_frame": 9,
+  "lens_over_surface_frames": 83,
+  "lens_over_surface_inset_max": 0.22,
+  "eyes": null,
+  "hero_group": [
+   "Pasta plate"
+  ],
+  "group_target_projection": {
+   "x_min": -0.171,
+   "x_max": 1.172,
+   "y_min_from_top": 0.445,
+   "y_max_from_top": 0.671,
+   "fill_width": 1.344,
+   "fill_height": 0.226,
+   "centre_x": 0.5,
+   "centre_from_top": 0.558
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "pour_side_low": {
+  "id": "pour_side_low",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle"
+  ],
+  "hero_count": 3,
+  "hero_centre": [
+   0.025,
+   0.0,
+   1.119
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.118
+  ],
+  "hero_surface": {
+   "name": "Customer counter top",
+   "top_z": 1.05
+  },
+  "start_frame": 10,
+  "end_frame": 82,
+  "move_duration_s": 4.8,
+  "start_loc": [
+   -0.28,
+   -0.47,
+   1.215
+  ],
+  "end_loc": [
+   -0.38,
+   -0.42,
+   1.2
+  ],
+  "pitch_start": 9.9,
+  "pitch_end": 8.0,
+  "pitch_range": [
+   8.0,
+   9.9
+  ],
+  "roll_start": 0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": -11.4,
+  "height_above_hero_surface_start": 0.165,
+  "height_above_hero_surface_end": 0.15,
+  "cam_surface_start": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.32,
+   "height": 0.165
+  },
+  "cam_surface_end": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.27,
+   "height": 0.15
+  },
+  "min_lens_clearance": {
+   "height": 0.15,
+   "frame": 1,
+   "surface": "Customer counter top",
+   "xy_gap": 0.27
+  },
+  "dist_hero_start": 0.569,
+  "dist_hero_end": 0.589,
+  "dist_hero_min": 0.569,
+  "path_length": 0.113,
+  "straight_line": 0.113,
+  "peak_speed": 0.043,
+  "mean_speed": 0.024,
+  "view_rotation_total_deg": 11.3,
+  "peak_angular_speed": 4.3,
+  "mean_angular_speed": 2.4,
+  "orbit_arc_about_hero_deg": -11.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.387,
+   "x_max": 0.642,
+   "y_min_from_top": 0.43,
+   "y_max_from_top": 0.579,
+   "fill_width": 0.255,
+   "fill_height": 0.149,
+   "centre_x": 0.515,
+   "centre_from_top": 0.504
+  },
+  "start_projection": {
+   "x_min": 0.383,
+   "x_max": 0.674,
+   "y_min_from_top": 0.426,
+   "y_max_from_top": 0.582,
+   "fill_width": 0.29,
+   "fill_height": 0.156,
+   "centre_x": 0.528,
+   "centre_from_top": 0.504
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.387,
+   "x_max": 0.642,
+   "y_min_from_top": 0.429,
+   "y_max_from_top": 0.579,
+   "fill_width": 0.255,
+   "fill_height": 0.149,
+   "centre_x": 0.515,
+   "centre_from_top": 0.504
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "pour_top_down_latte": {
+  "id": "pour_top_down_latte",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle",
+   "Foam rosetta contour",
+   "Foam rosetta contour.001",
+   "Foam rosetta contour.002"
+  ],
+  "hero_count": 12,
+  "hero_centre": [
+   0.025,
+   0.0,
+   1.119
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.118
+  ],
+  "hero_surface": {
+   "name": "Customer counter top",
+   "top_z": 1.05
+  },
+  "start_frame": 11,
+  "end_frame": 81,
+  "move_duration_s": 4.67,
+  "start_loc": [
+   0.0,
+   -0.029,
+   1.539
+  ],
+  "end_loc": [
+   0.0,
+   -0.025,
+   1.48
+  ],
+  "pitch_start": 85.7,
+  "pitch_end": 85.7,
+  "pitch_range": [
+   85.7,
+   85.7
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 0.489,
+  "height_above_hero_surface_end": 0.43,
+  "cam_surface_start": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.0,
+   "height": 0.489
+  },
+  "cam_surface_end": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.0,
+   "height": 0.43
+  },
+  "min_lens_clearance": {
+   "height": 0.43,
+   "frame": 1,
+   "surface": "Customer counter top",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.422,
+  "dist_hero_end": 0.363,
+  "dist_hero_min": 0.363,
+  "path_length": 0.06,
+  "straight_line": 0.06,
+  "peak_speed": 0.023,
+  "mean_speed": 0.013,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0.0,
+  "orbit_arc_about_hero_deg": -4.7,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.293,
+   "x_max": 0.857,
+   "y_min_from_top": 0.381,
+   "y_max_from_top": 0.613,
+   "fill_width": 0.564,
+   "fill_height": 0.232,
+   "centre_x": 0.575,
+   "centre_from_top": 0.497
+  },
+  "start_projection": {
+   "x_min": 0.327,
+   "x_max": 0.804,
+   "y_min_from_top": 0.4,
+   "y_max_from_top": 0.594,
+   "fill_width": 0.477,
+   "fill_height": 0.194,
+   "centre_x": 0.565,
+   "centre_from_top": 0.497
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 83,
+  "lens_over_surface_inset_max": 0.125,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.293,
+   "x_max": 0.857,
+   "y_min_from_top": 0.379,
+   "y_max_from_top": 0.613,
+   "fill_width": 0.564,
+   "fill_height": 0.234,
+   "centre_x": 0.575,
+   "centre_from_top": 0.496
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "pour_upside_down": {
+  "id": "pour_upside_down",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 15,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle"
+  ],
+  "hero_count": 3,
+  "hero_centre": [
+   0.025,
+   0.0,
+   1.119
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.118
+  ],
+  "hero_surface": {
+   "name": "Customer counter top",
+   "top_z": 1.05
+  },
+  "start_frame": 25,
+  "end_frame": 97,
+  "move_duration_s": 4.8,
+  "start_loc": [
+   -0.02,
+   -0.27,
+   1.068
+  ],
+  "end_loc": [
+   0.16,
+   -0.27,
+   1.068
+  ],
+  "pitch_start": -10.9,
+  "pitch_end": -9.4,
+  "pitch_range": [
+   -10.9,
+   -9.4
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 34.9,
+  "height_above_hero_surface_start": 0.018,
+  "height_above_hero_surface_end": 0.018,
+  "cam_surface_start": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.12,
+   "height": 0.018
+  },
+  "cam_surface_end": {
+   "name": "Customer counter top",
+   "top_z": 1.05,
+   "xy_gap": 0.12,
+   "height": 0.018
+  },
+  "min_lens_clearance": {
+   "height": 0.018,
+   "frame": 1,
+   "surface": "Customer counter top",
+   "xy_gap": 0.12
+  },
+  "dist_hero_start": 0.279,
+  "dist_hero_end": 0.306,
+  "dist_hero_min": 0.275,
+  "path_length": 0.18,
+  "straight_line": 0.18,
+  "peak_speed": 0.068,
+  "mean_speed": 0.038,
+  "view_rotation_total_deg": 34.3,
+  "peak_angular_speed": 13.5,
+  "mean_angular_speed": 7.2,
+  "orbit_arc_about_hero_deg": 36.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.299,
+   "x_max": 0.906,
+   "y_min_from_top": 0.341,
+   "y_max_from_top": 0.63,
+   "fill_width": 0.608,
+   "fill_height": 0.29,
+   "centre_x": 0.602,
+   "centre_from_top": 0.485
+  },
+  "start_projection": {
+   "x_min": 0.268,
+   "x_max": 0.931,
+   "y_min_from_top": 0.31,
+   "y_max_from_top": 0.652,
+   "fill_width": 0.664,
+   "fill_height": 0.342,
+   "centre_x": 0.6,
+   "centre_from_top": 0.481
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.299,
+   "x_max": 0.906,
+   "y_min_from_top": 0.341,
+   "y_max_from_top": 0.63,
+   "fill_width": 0.608,
+   "fill_height": 0.29,
+   "centre_x": 0.602,
+   "centre_from_top": 0.485
+  },
+  "surfaces_found": [
+   "Customer counter top",
+   "Espresso machine drip shelf"
+  ]
+ },
+ "room_reveal_cup": {
+  "id": "room_reveal_cup",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002"
+  ],
+  "hero_count": 3,
+  "hero_centre": [
+   0.1,
+   3.75,
+   0.768
+  ],
+  "hero_size": [
+   2.88,
+   3.58,
+   0.035
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   -0.25,
+   -0.05,
+   0.865
+  ],
+  "end_loc": [
+   0.1,
+   -0.05,
+   0.865
+  ],
+  "pitch_start": -0.0,
+  "pitch_end": -0.0,
+  "pitch_range": [
+   -0.0,
+   -0.0
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 0.865,
+  "height_above_hero_surface_end": 0.865,
+  "cam_surface_start": {
+   "name": "Quiet tabletop.003",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.08
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop.003",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.08
+  },
+  "min_lens_clearance": {
+   "height": 0.08,
+   "frame": 1,
+   "surface": "Quiet tabletop.003",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 3.817,
+  "dist_hero_end": 3.801,
+  "dist_hero_min": 3.801,
+  "path_length": 0.35,
+  "straight_line": 0.35,
+  "peak_speed": 0.071,
+  "mean_speed": 0.071,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0.0,
+  "orbit_arc_about_hero_deg": 5.3,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": -0.211,
+   "x_max": 0.996,
+   "y_min_from_top": 0.51,
+   "y_max_from_top": 0.538,
+   "fill_width": 1.206,
+   "fill_height": 0.029,
+   "centre_x": 0.393,
+   "centre_from_top": 0.524
+  },
+  "start_projection": {
+   "x_min": -0.03,
+   "x_max": 1.121,
+   "y_min_from_top": 0.51,
+   "y_max_from_top": 0.538,
+   "fill_width": 1.151,
+   "fill_height": 0.029,
+   "centre_x": 0.545,
+   "centre_from_top": 0.524
+  },
+  "portrait_feasible": false,
+  "portrait_blocked_frames": 83,
+  "portrait_worst_intrusion_m": 0.052,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 83,
+  "lens_over_surface_inset_max": 0.5,
+  "eyes": null,
+  "hero_group": [
+   "Two-person dining table.002",
+   "Two-person dining table.001",
+   "Two-person dining table"
+  ],
+  "group_target_projection": {
+   "x_min": -0.315,
+   "x_max": 1.009,
+   "y_min_from_top": 0.478,
+   "y_max_from_top": 0.839,
+   "fill_width": 1.324,
+   "fill_height": 0.361,
+   "centre_x": 0.347,
+   "centre_from_top": 0.659
+  },
+  "surfaces_found": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002",
+   "Quiet tabletop.003"
+  ]
+ },
+ "room_reveal_plant": {
+  "id": "room_reveal_plant",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002"
+  ],
+  "hero_count": 3,
+  "hero_centre": [
+   0.1,
+   3.75,
+   0.768
+  ],
+  "hero_size": [
+   2.88,
+   3.58,
+   0.035
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 10,
+  "end_frame": 97,
+  "move_duration_s": 5.8,
+  "start_loc": [
+   -0.13,
+   -0.15,
+   1.18
+  ],
+  "end_loc": [
+   0.27,
+   -0.15,
+   1.18
+  ],
+  "pitch_start": 2.8,
+  "pitch_end": 2.8,
+  "pitch_range": [
+   2.8,
+   2.8
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.18,
+  "height_above_hero_surface_end": 1.18,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.18
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.18
+  },
+  "min_lens_clearance": {
+   "height": 1.18,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 3.928,
+  "dist_hero_end": 3.925,
+  "dist_hero_min": 3.922,
+  "path_length": 0.4,
+  "straight_line": 0.4,
+  "peak_speed": 0.126,
+  "mean_speed": 0.069,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0.0,
+  "orbit_arc_about_hero_deg": 5.9,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": -0.207,
+   "x_max": 0.965,
+   "y_min_from_top": 0.513,
+   "y_max_from_top": 0.6,
+   "fill_width": 1.172,
+   "fill_height": 0.086,
+   "centre_x": 0.379,
+   "centre_from_top": 0.557
+  },
+  "start_projection": {
+   "x_min": -0.016,
+   "x_max": 1.106,
+   "y_min_from_top": 0.513,
+   "y_max_from_top": 0.601,
+   "fill_width": 1.123,
+   "fill_height": 0.087,
+   "centre_x": 0.545,
+   "centre_from_top": 0.557
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Two-person dining table.002",
+   "Two-person dining table",
+   "Two-person dining table.001"
+  ],
+  "group_target_projection": {
+   "x_min": -0.315,
+   "x_max": 0.965,
+   "y_min_from_top": 0.496,
+   "y_max_from_top": 0.887,
+   "fill_width": 1.28,
+   "fill_height": 0.391,
+   "centre_x": 0.325,
+   "centre_from_top": 0.692
+  },
+  "surfaces_found": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002"
+  ]
+ },
+ "room_seated_pan": {
+  "id": "room_seated_pan",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002"
+  ],
+  "hero_count": 3,
+  "hero_centre": [
+   0.1,
+   3.75,
+   0.768
+  ],
+  "hero_size": [
+   2.88,
+   3.58,
+   0.035
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 11,
+  "end_frame": 81,
+  "move_duration_s": 4.67,
+  "start_loc": [
+   0.0,
+   -0.25,
+   0.95
+  ],
+  "end_loc": [
+   0.0,
+   -0.25,
+   0.95
+  ],
+  "pitch_start": 12.0,
+  "pitch_end": 12.0,
+  "pitch_range": [
+   12.0,
+   12.0
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 55.0,
+  "height_above_hero_surface_start": 0.95,
+  "height_above_hero_surface_end": 0.95,
+  "cam_surface_start": {
+   "name": "Quiet tabletop.003",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.165
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop.003",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.165
+  },
+  "min_lens_clearance": {
+   "height": 0.165,
+   "frame": 1,
+   "surface": "Quiet tabletop.003",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 4.005,
+  "dist_hero_end": 4.005,
+  "dist_hero_min": 4.005,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0.0,
+  "view_rotation_total_deg": 53.8,
+  "peak_angular_speed": 20.4,
+  "mean_angular_speed": 11.5,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.244,
+   "x_max": 1.433,
+   "y_min_from_top": 0.378,
+   "y_max_from_top": 0.417,
+   "fill_width": 1.189,
+   "fill_height": 0.039,
+   "centre_x": 0.838,
+   "centre_from_top": 0.398
+  },
+  "start_projection": {
+   "x_min": -2.272,
+   "x_max": 0.132,
+   "y_min_from_top": 0.385,
+   "y_max_from_top": 0.486,
+   "fill_width": 2.404,
+   "fill_height": 0.1,
+   "centre_x": -1.07,
+   "centre_from_top": 0.435
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 83,
+  "lens_over_surface_inset_max": 0.3,
+  "eyes": null,
+  "hero_group": [
+   "Two-person dining table.002",
+   "Two-person dining table",
+   "Two-person dining table.001"
+  ],
+  "group_target_projection": {
+   "x_min": 0.199,
+   "x_max": 1.447,
+   "y_min_from_top": 0.362,
+   "y_max_from_top": 0.659,
+   "fill_width": 1.248,
+   "fill_height": 0.296,
+   "centre_x": 0.823,
+   "centre_from_top": 0.51
+  },
+  "surfaces_found": [
+   "Quiet tabletop",
+   "Quiet tabletop.001",
+   "Quiet tabletop.002",
+   "Customer counter top",
+   "Espresso machine drip shelf",
+   "Quiet tabletop.003"
+  ]
+ },
+ "sip_friend_side": {
+  "id": "sip_friend_side",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.044,
+   -0.062,
+   1.504
+  ],
+  "hero_size": [
+   0.279,
+   0.187,
+   0.232
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 10,
+  "end_frame": 82,
+  "move_duration_s": 4.8,
+  "start_loc": [
+   -0.71,
+   -0.755,
+   1.555
+  ],
+  "end_loc": [
+   -0.78,
+   -0.72,
+   1.53
+  ],
+  "pitch_start": 5.9,
+  "pitch_end": 4.4,
+  "pitch_range": [
+   4.4,
+   5.9
+  ],
+  "roll_start": 0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": -4.1,
+  "height_above_hero_surface_start": 1.555,
+  "height_above_hero_surface_end": 1.53,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 1.1,
+   "xy_gap": 0.375,
+   "height": 0.455
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 1.1,
+   "xy_gap": 0.34,
+   "height": 0.43
+  },
+  "min_lens_clearance": {
+   "height": 0.43,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.34
+  },
+  "dist_hero_start": 0.962,
+  "dist_hero_end": 0.987,
+  "dist_hero_min": 0.962,
+  "path_length": 0.082,
+  "straight_line": 0.082,
+  "peak_speed": 0.031,
+  "mean_speed": 0.017,
+  "view_rotation_total_deg": 4.3,
+  "peak_angular_speed": 1.7,
+  "mean_angular_speed": 0.9,
+  "orbit_arc_about_hero_deg": -4.3,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.333,
+   "x_max": 0.642,
+   "y_min_from_top": 0.382,
+   "y_max_from_top": 0.55,
+   "fill_width": 0.309,
+   "fill_height": 0.168,
+   "centre_x": 0.487,
+   "centre_from_top": 0.466
+  },
+  "start_projection": {
+   "x_min": 0.319,
+   "x_max": 0.643,
+   "y_min_from_top": 0.382,
+   "y_max_from_top": 0.554,
+   "fill_width": 0.324,
+   "fill_height": 0.172,
+   "centre_x": 0.481,
+   "centre_from_top": 0.468
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.517,
+   "cam_minus_eye_z": 0.013,
+   "dist_cam_eye": 0.925,
+   "eye_y_from_top": 0.458,
+   "eye_x": 0.503
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "sip_high_lean": {
+  "id": "sip_high_lean",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.008,
+   -0.071,
+   1.521
+  ],
+  "hero_size": [
+   0.287,
+   0.176,
+   0.246
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 9,
+  "move_duration_s": 0.0,
+  "start_loc": [
+   -0.147,
+   -0.552,
+   1.759
+  ],
+  "end_loc": [
+   -0.147,
+   -0.552,
+   1.759
+  ],
+  "pitch_start": 28.2,
+  "pitch_end": 28.2,
+  "pitch_range": [
+   28.2,
+   28.2
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.759,
+  "height_above_hero_surface_end": 1.759,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.287,
+   "height": 0.974
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.287,
+   "height": 0.974
+  },
+  "min_lens_clearance": {
+   "height": 0.974,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.287
+  },
+  "dist_hero_start": 0.555,
+  "dist_hero_end": 0.555,
+  "dist_hero_min": 0.555,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 18.0,
+  "lens_animated": false,
+  "hfov": 58.7,
+  "vfov": 90.0,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.228,
+   "x_max": 0.652,
+   "y_min_from_top": 0.363,
+   "y_max_from_top": 0.591,
+   "fill_width": 0.423,
+   "fill_height": 0.229,
+   "centre_x": 0.44,
+   "centre_from_top": 0.477
+  },
+  "start_projection": {
+   "x_min": 0.228,
+   "x_max": 0.652,
+   "y_min_from_top": 0.363,
+   "y_max_from_top": 0.591,
+   "fill_width": 0.423,
+   "fill_height": 0.229,
+   "centre_x": 0.44,
+   "centre_from_top": 0.477
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.541,
+   "cam_minus_eye_z": 0.218,
+   "dist_cam_eye": 0.513,
+   "eye_y_from_top": 0.474,
+   "eye_x": 0.448
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "sip_selfie_eye": {
+  "id": "sip_selfie_eye",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.01,
+   -0.105,
+   1.504
+  ],
+  "hero_size": [
+   0.287,
+   0.157,
+   0.233
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 9,
+  "move_duration_s": 0.0,
+  "start_loc": [
+   -0.111,
+   -0.552,
+   1.548
+  ],
+  "end_loc": [
+   -0.111,
+   -0.552,
+   1.548
+  ],
+  "pitch_start": 8.7,
+  "pitch_end": 8.7,
+  "pitch_range": [
+   8.7,
+   8.7
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.548,
+  "height_above_hero_surface_end": 1.548,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.251,
+   "height": 0.763
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.251,
+   "height": 0.763
+  },
+  "min_lens_clearance": {
+   "height": 0.763,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.251
+  },
+  "dist_hero_start": 0.46,
+  "dist_hero_end": 0.46,
+  "dist_hero_min": 0.46,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 18.0,
+  "lens_animated": false,
+  "hfov": 58.7,
+  "vfov": 90.0,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.229,
+   "x_max": 0.728,
+   "y_min_from_top": 0.333,
+   "y_max_from_top": 0.608,
+   "fill_width": 0.499,
+   "fill_height": 0.274,
+   "centre_x": 0.479,
+   "centre_from_top": 0.471
+  },
+  "start_projection": {
+   "x_min": 0.229,
+   "x_max": 0.728,
+   "y_min_from_top": 0.333,
+   "y_max_from_top": 0.608,
+   "fill_width": 0.499,
+   "fill_height": 0.274,
+   "centre_x": 0.479,
+   "centre_from_top": 0.471
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.517,
+   "cam_minus_eye_z": 0.031,
+   "dist_cam_eye": 0.429,
+   "eye_y_from_top": 0.46,
+   "eye_x": 0.476
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "steam_low_backlit": {
+  "id": "steam_low_backlit",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle",
+   "Foam heart contour",
+   "Steam strand",
+   "Steam strand.001"
+  ],
+  "hero_count": 6,
+  "hero_centre": [
+   0.025,
+   0.0,
+   0.919
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.248
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 10,
+  "end_frame": 67,
+  "move_duration_s": 3.8,
+  "start_loc": [
+   0.001,
+   -0.564,
+   0.86
+  ],
+  "end_loc": [
+   0.141,
+   -0.564,
+   0.86
+  ],
+  "pitch_start": -0.0,
+  "pitch_end": -0.0,
+  "pitch_range": [
+   -0.0,
+   0.0
+  ],
+  "roll_start": 0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 13.9,
+  "height_above_hero_surface_start": 0.075,
+  "height_above_hero_surface_end": 0.075,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.094,
+   "height": 0.075
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.094,
+   "height": 0.075
+  },
+  "min_lens_clearance": {
+   "height": 0.075,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.094
+  },
+  "dist_hero_start": 0.568,
+  "dist_hero_end": 0.579,
+  "dist_hero_min": 0.567,
+  "path_length": 0.14,
+  "straight_line": 0.14,
+  "peak_speed": 0.067,
+  "mean_speed": 0.037,
+  "view_rotation_total_deg": 13.9,
+  "peak_angular_speed": 6.7,
+  "mean_angular_speed": 3.7,
+  "orbit_arc_about_hero_deg": 14.1,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.39,
+   "x_max": 0.717,
+   "y_min_from_top": 0.289,
+   "y_max_from_top": 0.579,
+   "fill_width": 0.327,
+   "fill_height": 0.291,
+   "centre_x": 0.553,
+   "centre_from_top": 0.434
+  },
+  "start_projection": {
+   "x_min": 0.386,
+   "x_max": 0.719,
+   "y_min_from_top": 0.283,
+   "y_max_from_top": 0.582,
+   "fill_width": 0.333,
+   "fill_height": 0.299,
+   "centre_x": 0.553,
+   "centre_from_top": 0.433
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.39,
+   "x_max": 0.717,
+   "y_min_from_top": 0.433,
+   "y_max_from_top": 0.579,
+   "fill_width": 0.327,
+   "fill_height": 0.146,
+   "centre_x": 0.553,
+   "centre_from_top": 0.506
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "steam_orbit_eye": {
+  "id": "steam_orbit_eye",
+  "frames": 90,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle",
+   "Foam heart contour",
+   "Steam strand",
+   "Steam strand.001"
+  ],
+  "hero_count": 6,
+  "hero_centre": [
+   0.025,
+   0.0,
+   0.919
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.248
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 83,
+  "move_duration_s": 4.93,
+  "start_loc": [
+   -0.288,
+   -0.499,
+   0.865
+  ],
+  "end_loc": [
+   0.288,
+   -0.499,
+   0.865
+  ],
+  "pitch_start": -0.0,
+  "pitch_end": -0.0,
+  "pitch_range": [
+   -0.0,
+   0.0
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 60.0,
+  "height_above_hero_surface_start": 0.08,
+  "height_above_hero_surface_end": 0.08,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.029,
+   "height": 0.08
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.029,
+   "height": 0.08
+  },
+  "min_lens_clearance": {
+   "height": 0.08,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.029
+  },
+  "dist_hero_start": 0.592,
+  "dist_hero_end": 0.567,
+  "dist_hero_min": 0.567,
+  "path_length": 0.604,
+  "straight_line": 0.577,
+  "peak_speed": 0.122,
+  "mean_speed": 0.122,
+  "view_rotation_total_deg": 60.0,
+  "peak_angular_speed": 12.2,
+  "mean_angular_speed": 12.2,
+  "orbit_arc_about_hero_deg": 59.9,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.389,
+   "x_max": 0.71,
+   "y_min_from_top": 0.291,
+   "y_max_from_top": 0.586,
+   "fill_width": 0.321,
+   "fill_height": 0.295,
+   "centre_x": 0.549,
+   "centre_from_top": 0.439
+  },
+  "start_projection": {
+   "x_min": 0.389,
+   "x_max": 0.669,
+   "y_min_from_top": 0.292,
+   "y_max_from_top": 0.586,
+   "fill_width": 0.28,
+   "fill_height": 0.294,
+   "centre_x": 0.529,
+   "centre_from_top": 0.439
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.389,
+   "x_max": 0.71,
+   "y_min_from_top": 0.439,
+   "y_max_from_top": 0.586,
+   "fill_width": 0.321,
+   "fill_height": 0.147,
+   "centre_x": 0.549,
+   "centre_from_top": 0.513
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "steam_push_in_high": {
+  "id": "steam_push_in_high",
+  "frames": 75,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle",
+   "Foam heart contour",
+   "Steam strand",
+   "Steam strand.001"
+  ],
+  "hero_count": 6,
+  "hero_centre": [
+   0.025,
+   0.0,
+   0.919
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.248
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 9,
+  "end_frame": 68,
+  "move_duration_s": 3.93,
+  "start_loc": [
+   -0.08,
+   -0.708,
+   1.433
+  ],
+  "end_loc": [
+   0.0,
+   -0.405,
+   1.203
+  ],
+  "pitch_start": 37.1,
+  "pitch_end": 37.2,
+  "pitch_range": [
+   37.1,
+   37.2
+  ],
+  "roll_start": -0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 6.4,
+  "height_above_hero_surface_start": 0.648,
+  "height_above_hero_surface_end": 0.418,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.238,
+   "height": 0.648
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.418
+  },
+  "min_lens_clearance": {
+   "height": 0.418,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.881,
+  "dist_hero_end": 0.495,
+  "dist_hero_min": 0.495,
+  "path_length": 0.39,
+  "straight_line": 0.39,
+  "peak_speed": 0.186,
+  "mean_speed": 0.099,
+  "view_rotation_total_deg": 5.1,
+  "peak_angular_speed": 2.6,
+  "mean_angular_speed": 1.3,
+  "orbit_arc_about_hero_deg": 4.9,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.373,
+   "x_max": 0.735,
+   "y_min_from_top": 0.312,
+   "y_max_from_top": 0.624,
+   "fill_width": 0.362,
+   "fill_height": 0.312,
+   "centre_x": 0.554,
+   "centre_from_top": 0.468
+  },
+  "start_projection": {
+   "x_min": 0.429,
+   "x_max": 0.633,
+   "y_min_from_top": 0.401,
+   "y_max_from_top": 0.573,
+   "fill_width": 0.205,
+   "fill_height": 0.172,
+   "centre_x": 0.531,
+   "centre_from_top": 0.487
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 28,
+  "lens_over_surface_inset_max": 0.065,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.373,
+   "x_max": 0.735,
+   "y_min_from_top": 0.442,
+   "y_max_from_top": 0.624,
+   "fill_width": 0.362,
+   "fill_height": 0.183,
+   "centre_x": 0.554,
+   "centre_from_top": 0.533
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "steam_slide_pull_out": {
+  "id": "steam_slide_pull_out",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "Cup coffee surface",
+   "Cup hollow ceramic body",
+   "Cup open handle",
+   "Foam heart contour",
+   "Steam strand",
+   "Steam strand.001"
+  ],
+  "hero_count": 6,
+  "hero_centre": [
+   0.025,
+   0.0,
+   0.919
+  ],
+  "hero_size": [
+   0.159,
+   0.108,
+   0.248
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 10,
+  "end_frame": 97,
+  "move_duration_s": 5.8,
+  "start_loc": [
+   0.024,
+   -0.282,
+   0.95
+  ],
+  "end_loc": [
+   0.313,
+   -0.613,
+   0.98
+  ],
+  "pitch_start": 5.1,
+  "pitch_end": 4.5,
+  "pitch_range": [
+   4.5,
+   5.1
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 22.2,
+  "height_above_hero_surface_start": 0.165,
+  "height_above_hero_surface_end": 0.195,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.165
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.143,
+   "height": 0.195
+  },
+  "min_lens_clearance": {
+   "height": 0.165,
+   "frame": 9,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.284,
+  "dist_hero_end": 0.68,
+  "dist_hero_min": 0.284,
+  "path_length": 0.441,
+  "straight_line": 0.441,
+  "peak_speed": 0.139,
+  "mean_speed": 0.076,
+  "view_rotation_total_deg": 22.0,
+  "peak_angular_speed": 8.0,
+  "mean_angular_speed": 3.8,
+  "orbit_arc_about_hero_deg": 25.4,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.408,
+   "x_max": 0.674,
+   "y_min_from_top": 0.384,
+   "y_max_from_top": 0.632,
+   "fill_width": 0.266,
+   "fill_height": 0.248,
+   "centre_x": 0.541,
+   "centre_from_top": 0.508
+  },
+  "start_projection": {
+   "x_min": 0.274,
+   "x_max": 0.937,
+   "y_min_from_top": 0.212,
+   "y_max_from_top": 0.839,
+   "fill_width": 0.663,
+   "fill_height": 0.627,
+   "centre_x": 0.606,
+   "centre_from_top": 0.525
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 48,
+  "lens_over_surface_inset_max": 0.188,
+  "eyes": null,
+  "hero_group": [
+   "Cup"
+  ],
+  "group_target_projection": {
+   "x_min": 0.408,
+   "x_max": 0.674,
+   "y_min_from_top": 0.506,
+   "y_max_from_top": 0.632,
+   "fill_width": 0.266,
+   "fill_height": 0.126,
+   "centre_x": 0.541,
+   "centre_from_top": 0.569
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "table_spread_orbit": {
+  "id": "table_spread_orbit",
+  "frames": 135,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "composition_role hero",
+  "hero_objects": [
+   "tripo_node_56df358b-a048-4e6c-b6b7-2cdf280521fc"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.13,
+   0.06,
+   0.812
+  ],
+  "hero_size": [
+   0.3,
+   0.299,
+   0.037
+  ],
+  "hero_surface": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785
+  },
+  "start_frame": 10,
+  "end_frame": 127,
+  "move_duration_s": 7.8,
+  "start_loc": [
+   -0.3,
+   -0.45,
+   1.591
+  ],
+  "end_loc": [
+   0.0,
+   0.16,
+   2.021
+  ],
+  "pitch_start": 48.6,
+  "pitch_end": 90.0,
+  "pitch_range": [
+   48.6,
+   90.0
+  ],
+  "roll_start": 33.3,
+  "roll_end": 0.0,
+  "roll_max_abs": 33.3,
+  "yaw_change": -63.8,
+  "height_above_hero_surface_start": 0.806,
+  "height_above_hero_surface_end": 1.236,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 0.806
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.0,
+   "height": 1.236
+  },
+  "min_lens_clearance": {
+   "height": 0.806,
+   "frame": 9,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.946,
+  "dist_hero_end": 1.22,
+  "dist_hero_min": 0.946,
+  "path_length": 0.804,
+  "straight_line": 0.804,
+  "peak_speed": 0.19,
+  "mean_speed": 0.103,
+  "view_rotation_total_deg": 41.4,
+  "peak_angular_speed": 10.3,
+  "mean_angular_speed": 5.3,
+  "orbit_arc_about_hero_deg": 146.0,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.226,
+   "x_max": 0.519,
+   "y_min_from_top": 0.473,
+   "y_max_from_top": 0.638,
+   "fill_width": 0.294,
+   "fill_height": 0.165,
+   "centre_x": 0.373,
+   "centre_from_top": 0.555
+  },
+  "start_projection": {
+   "x_min": 0.147,
+   "x_max": 0.52,
+   "y_min_from_top": 0.454,
+   "y_max_from_top": 0.642,
+   "fill_width": 0.373,
+   "fill_height": 0.188,
+   "centre_x": 0.334,
+   "centre_from_top": 0.548
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 128,
+  "lens_over_surface_inset_max": 0.51,
+  "eyes": null,
+  "hero_group": [
+   "Reusable pizza"
+  ],
+  "group_target_projection": {
+   "x_min": 0.226,
+   "x_max": 0.519,
+   "y_min_from_top": 0.473,
+   "y_max_from_top": 0.638,
+   "fill_width": 0.294,
+   "fill_height": 0.165,
+   "centre_x": 0.373,
+   "centre_from_top": 0.555
+  },
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "verdict_eye_level": {
+  "id": "verdict_eye_level",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.01,
+   -0.105,
+   1.504
+  ],
+  "hero_size": [
+   0.287,
+   0.157,
+   0.233
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 9,
+  "move_duration_s": 0.0,
+  "start_loc": [
+   -0.111,
+   -0.552,
+   1.548
+  ],
+  "end_loc": [
+   -0.111,
+   -0.552,
+   1.548
+  ],
+  "pitch_start": 8.7,
+  "pitch_end": 8.7,
+  "pitch_range": [
+   8.7,
+   8.7
+  ],
+  "roll_start": -0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.548,
+  "height_above_hero_surface_end": 1.548,
+  "cam_surface_start": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.251,
+   "height": 0.763
+  },
+  "cam_surface_end": {
+   "name": "Quiet tabletop",
+   "top_z": 0.785,
+   "xy_gap": 0.251,
+   "height": 0.763
+  },
+  "min_lens_clearance": {
+   "height": 0.763,
+   "frame": 1,
+   "surface": "Quiet tabletop",
+   "xy_gap": 0.251
+  },
+  "dist_hero_start": 0.46,
+  "dist_hero_end": 0.46,
+  "dist_hero_min": 0.46,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 18.0,
+  "lens_animated": false,
+  "hfov": 58.7,
+  "vfov": 90.0,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.229,
+   "x_max": 0.728,
+   "y_min_from_top": 0.333,
+   "y_max_from_top": 0.608,
+   "fill_width": 0.499,
+   "fill_height": 0.274,
+   "centre_x": 0.479,
+   "centre_from_top": 0.471
+  },
+  "start_projection": {
+   "x_min": 0.229,
+   "x_max": 0.728,
+   "y_min_from_top": 0.333,
+   "y_max_from_top": 0.608,
+   "fill_width": 0.499,
+   "fill_height": 0.274,
+   "centre_x": 0.479,
+   "centre_from_top": 0.471
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.517,
+   "cam_minus_eye_z": 0.031,
+   "dist_cam_eye": 0.429,
+   "eye_y_from_top": 0.46,
+   "eye_x": 0.476
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "verdict_friend_eye": {
+  "id": "verdict_friend_eye",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.044,
+   -0.062,
+   1.504
+  ],
+  "hero_size": [
+   0.279,
+   0.187,
+   0.232
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 11,
+  "end_frame": 96,
+  "move_duration_s": 5.67,
+  "start_loc": [
+   -0.5,
+   -0.955,
+   1.565
+  ],
+  "end_loc": [
+   -0.57,
+   -0.92,
+   1.54
+  ],
+  "pitch_start": 6.2,
+  "pitch_end": 4.8,
+  "pitch_range": [
+   4.8,
+   6.2
+  ],
+  "roll_start": 0.0,
+  "roll_end": -0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": -4.2,
+  "height_above_hero_surface_start": 1.565,
+  "height_above_hero_surface_end": 1.54,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.565
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.54
+  },
+  "min_lens_clearance": {
+   "height": 1.54,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 1.004,
+  "dist_hero_end": 1.007,
+  "dist_hero_min": 1.004,
+  "path_length": 0.082,
+  "straight_line": 0.082,
+  "peak_speed": 0.026,
+  "mean_speed": 0.014,
+  "view_rotation_total_deg": 4.3,
+  "peak_angular_speed": 1.4,
+  "mean_angular_speed": 0.8,
+  "orbit_arc_about_hero_deg": -4.5,
+  "lens_mm": 24.0,
+  "lens_animated": false,
+  "hfov": 45.7,
+  "vfov": 73.7,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.309,
+   "x_max": 0.638,
+   "y_min_from_top": 0.386,
+   "y_max_from_top": 0.55,
+   "fill_width": 0.329,
+   "fill_height": 0.164,
+   "centre_x": 0.473,
+   "centre_from_top": 0.468
+  },
+  "start_projection": {
+   "x_min": 0.304,
+   "x_max": 0.638,
+   "y_min_from_top": 0.388,
+   "y_max_from_top": 0.552,
+   "fill_width": 0.334,
+   "fill_height": 0.164,
+   "centre_x": 0.471,
+   "centre_from_top": 0.47
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.517,
+   "cam_minus_eye_z": 0.023,
+   "dist_cam_eye": 0.947,
+   "eye_y_from_top": 0.46,
+   "eye_x": 0.461
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ },
+ "verdict_high_plate": {
+  "id": "verdict_high_plate",
+  "frames": 105,
+  "fps": 15,
+  "hold": 8,
+  "setup_frames": 0,
+  "final_hold": 7,
+  "hero_source": "face safety mask (creator skin contour inside the mask)",
+  "hero_objects": [
+   "Face safety mask / Canonical creator continuous contour skin"
+  ],
+  "hero_count": 1,
+  "hero_centre": [
+   -0.008,
+   -0.071,
+   1.521
+  ],
+  "hero_size": [
+   0.287,
+   0.176,
+   0.246
+  ],
+  "hero_surface": {
+   "name": "floor (z=0)",
+   "top_z": 0.0
+  },
+  "start_frame": 9,
+  "end_frame": 9,
+  "move_duration_s": 0.0,
+  "start_loc": [
+   0.13,
+   -0.8,
+   1.76
+  ],
+  "end_loc": [
+   0.13,
+   -0.8,
+   1.76
+  ],
+  "pitch_start": 27.8,
+  "pitch_end": 27.8,
+  "pitch_range": [
+   27.8,
+   27.8
+  ],
+  "roll_start": 0.0,
+  "roll_end": 0.0,
+  "roll_max_abs": 0.0,
+  "yaw_change": 0.0,
+  "height_above_hero_surface_start": 1.76,
+  "height_above_hero_surface_end": 1.76,
+  "cam_surface_start": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.76
+  },
+  "cam_surface_end": {
+   "name": "floor (z=0)",
+   "top_z": 0.0,
+   "xy_gap": 0.0,
+   "height": 1.76
+  },
+  "min_lens_clearance": {
+   "height": 1.76,
+   "frame": 1,
+   "surface": "floor (z=0)",
+   "xy_gap": 0.0
+  },
+  "dist_hero_start": 0.78,
+  "dist_hero_end": 0.78,
+  "dist_hero_min": 0.78,
+  "path_length": 0.0,
+  "straight_line": 0.0,
+  "peak_speed": 0.0,
+  "mean_speed": 0,
+  "view_rotation_total_deg": 0.0,
+  "peak_angular_speed": 0.0,
+  "mean_angular_speed": 0,
+  "orbit_arc_about_hero_deg": 0.0,
+  "lens_mm": 18.0,
+  "lens_animated": false,
+  "hfov": 58.7,
+  "vfov": 90.0,
+  "shift": [
+   0.0,
+   0.0
+  ],
+  "target_projection": {
+   "x_min": 0.088,
+   "x_max": 0.433,
+   "y_min_from_top": 0.334,
+   "y_max_from_top": 0.502,
+   "fill_width": 0.344,
+   "fill_height": 0.168,
+   "centre_x": 0.261,
+   "centre_from_top": 0.418
+  },
+  "start_projection": {
+   "x_min": 0.088,
+   "x_max": 0.433,
+   "y_min_from_top": 0.334,
+   "y_max_from_top": 0.502,
+   "fill_width": 0.344,
+   "fill_height": 0.168,
+   "centre_x": 0.261,
+   "centre_from_top": 0.418
+  },
+  "portrait_feasible": true,
+  "portrait_blocked_frames": 0,
+  "portrait_worst_intrusion_m": -9.0,
+  "portrait_worst_frame": 1,
+  "lens_over_surface_frames": 0,
+  "lens_over_surface_inset_max": 0,
+  "eyes": {
+   "eye_z": 1.541,
+   "cam_minus_eye_z": 0.219,
+   "dist_cam_eye": 0.75,
+   "eye_y_from_top": 0.411,
+   "eye_x": 0.221
+  },
+  "hero_group": [],
+  "group_target_projection": null,
+  "surfaces_found": [
+   "Quiet tabletop"
+  ]
+ }
+}

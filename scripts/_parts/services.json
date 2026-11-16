@@ -1,0 +1,970 @@
+{
+  "templates": [
+    {
+      "id": "pro-before-after",
+      "venueKinds": [
+        "services"
+      ],
+      "title": "Before and after",
+      "summary": "The problem up close, the quote at the counter, the work in two cuts, the result from the same angle.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "problem",
+          "title": "The problem",
+          "shot": "detail",
+          "position": "At the counter or on site, phone above the problem",
+          "direction": "Hold the phone above the problem [the cracked screen, the stained sofa, the cluttered desk] and move in slowly until it fills the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Before",
+              "script": "This is what I walked in with, and it was bad."
+            },
+            {
+              "text": "Can they fix it",
+              "script": "Can they fix this? Let's find out."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-before-after_problem.jpg",
+          "overlays": []
+        },
+        {
+          "id": "quote",
+          "title": "The quote",
+          "shot": "medium",
+          "position": "Facing the pro at the counter",
+          "direction": "Back camera on the pro as they look at the problem, front camera on you. Say the price and the time they quoted.",
+          "seconds": 6,
+          "prompter": "They told me the price and how long, let's see if they hit both.",
+          "captions": [
+            {
+              "text": "The quote",
+              "script": "They told me the price and how long, let's see if they hit both."
+            },
+            {
+              "text": "Price and time",
+              "script": "Quoted price and time are on screen, now the clock starts."
+            }
+          ],
+          "pip": true,
+          "imageURL": "pro-before-after_quote.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tool",
+          "title": "The work",
+          "shot": "detail",
+          "position": "Over the bench or the work area, phone straight down",
+          "direction": "Hold the phone straight above the pro's hands and the tool on the work [the screwdriver lifting the screen, the brush on the stain]. Keep still.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The work",
+              "script": "Here is the actual work, nothing hidden behind the counter."
+            },
+            {
+              "text": "Careful hands",
+              "script": "Watch the hands, one careful step at a time."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-before-after_tool.jpg",
+          "overlays": []
+        },
+        {
+          "id": "detail",
+          "title": "Up close",
+          "shot": "detail",
+          "position": "Behind the pro's shoulder, with their okay",
+          "direction": "Stand behind the pro's shoulder and move in slowly toward the tool and the work [the new part going in, the last stroke of the clean].",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Almost done",
+              "script": "Almost done, and this is the part I could never do myself."
+            },
+            {
+              "text": "The last step",
+              "script": "The last step, and you can see it coming together."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-before-after_detail.jpg",
+          "overlays": []
+        },
+        {
+          "id": "result",
+          "title": "The result",
+          "shot": "detail",
+          "position": "Same spot and angle as the first shot",
+          "direction": "Hold the phone above the result from the same angle as the first shot [the new screen, the clean sofa]. Keep it still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "After",
+              "script": "And after, from the same angle as the first shot."
+            },
+            {
+              "text": "Same spot, done",
+              "script": "Same spot, same angle, and it is done."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-before-after_result.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the counter, with the result",
+          "direction": "Front camera at arm's length, a little above eye level, the result in your hand or behind you. Say if they hit the quote.",
+          "seconds": 5,
+          "prompter": "Did they hit the time and the quote? Here is how it turned out.",
+          "captions": [
+            {
+              "text": "Verdict",
+              "script": "Did they hit the time and the quote? Here is how it turned out."
+            },
+            {
+              "text": "Would I go back",
+              "script": "Would I go back? Yes, and I would book it on Loca."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-before-after_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "pro-meet-the-owner",
+      "venueKinds": [
+        "services"
+      ],
+      "title": "Meet the owner",
+      "summary": "Hands at work, the owner at the bench, who they are, the craft up close, their tip and the price list.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hands",
+          "title": "Hands at work",
+          "shot": "detail",
+          "position": "Beside the owner, phone above their hands",
+          "direction": "Hold the phone above the owner's hands and the tool on the work [a soldering tip, a camera dial, a pen on a worksheet]. Keep still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Meet the owner",
+              "script": "Meet the owner, and the hands behind the work here."
+            },
+            {
+              "text": "Who does the work",
+              "script": "Ever wonder who actually does the work? This is them."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-meet-the-owner_hands.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bench",
+          "title": "At the bench",
+          "shot": "wide",
+          "position": "A few steps from the owner's bench or desk",
+          "direction": "Start close on the owner's hands at eye level, then lean back slowly so the owner and the workplace appear.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "At the bench",
+              "script": "This is where the work happens, right at the bench."
+            },
+            {
+              "text": "The workplace",
+              "script": "The workplace, and here is how it is set up."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-meet-the-owner_bench.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hello",
+          "title": "Meet them",
+          "shot": "selfie",
+          "position": "Next to the owner",
+          "direction": "Front camera at arm's length, a little above eye level, with the owner beside you, both in frame.",
+          "seconds": 5,
+          "prompter": "Meet the owner, the person who will actually do your job.",
+          "captions": [
+            {
+              "text": "Meet them",
+              "script": "Meet the owner, the person who will actually do your job."
+            },
+            {
+              "text": "The owner",
+              "script": "This is the owner, and I came with a lot of questions."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-meet-the-owner_hello.jpg",
+          "overlays": []
+        },
+        {
+          "id": "craft",
+          "title": "The craft",
+          "shot": "medium",
+          "position": "Behind the owner's shoulder at the bench",
+          "direction": "Stand behind the owner's shoulder and move in slowly toward the work in their hands [the part, the print, the lesson plan].",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The craft",
+              "script": "This is the part that takes real skill, up close."
+            },
+            {
+              "text": "Up close",
+              "script": "Up close, here is each step as it happens."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-meet-the-owner_craft.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tip",
+          "title": "Their tip",
+          "shot": "medium",
+          "position": "Facing the owner",
+          "direction": "Back camera on the owner, front camera on you. Say the one tip they gave you.",
+          "seconds": 6,
+          "prompter": "Here is their one tip for new customers, before you book.",
+          "captions": [
+            {
+              "text": "Their tip",
+              "script": "Here is their one tip for new customers, before you book."
+            },
+            {
+              "text": "Good to know",
+              "script": "Good to know: here is how they explain the price."
+            }
+          ],
+          "pip": true,
+          "imageURL": "pro-meet-the-owner_tip.jpg",
+          "overlays": []
+        },
+        {
+          "id": "prices",
+          "title": "How to book",
+          "shot": "detail",
+          "position": "At the counter, by the price list or card",
+          "direction": "Hold the phone straight above the price list or booking card and point to the starting price.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Book on Loca",
+              "script": "Starting price is on screen, book them through Loca."
+            },
+            {
+              "text": "Prices",
+              "script": "Here is the price list, and the starting price is right here."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-meet-the-owner_prices.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "pro-first-lesson",
+      "venueKinds": [
+        "services"
+      ],
+      "title": "First lesson",
+      "summary": "The empty lesson room, meet the teacher, your hands on the task, their correction and your first win.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "At the door of the lesson room, before the lesson",
+          "direction": "Start with the lens behind the door frame, then step past it slowly so the empty room appears [the piano, the desk, the easel].",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First lesson",
+              "script": "Sitting in on a first lesson, and I have never done this."
+            },
+            {
+              "text": "Back to school",
+              "script": "Back to being a student, at least for one lesson."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-first-lesson_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "teacher",
+          "title": "Meet the teacher",
+          "shot": "selfie",
+          "position": "Seated next to the teacher",
+          "direction": "Front camera at arm's length, a little above eye level, the teacher beside you, both in frame.",
+          "seconds": 6,
+          "prompter": "Sitting in on my first lesson, and here is my teacher for today.",
+          "captions": [
+            {
+              "text": "Meet the teacher",
+              "script": "Sitting in on my first lesson, and here is my teacher for today."
+            },
+            {
+              "text": "How it starts",
+              "script": "Here is how my teacher starts a first lesson."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-first-lesson_teacher.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hands",
+          "title": "My hands",
+          "shot": "detail",
+          "position": "At the task, phone propped above",
+          "direction": "Prop or hold the phone straight above your own hands on the task [keys, a worksheet, a camera] while you try.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "My first try",
+              "script": "My first try, and my hands have no idea what they are doing."
+            },
+            {
+              "text": "Trying it",
+              "script": "Trying it slowly, one step at a time."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-first-lesson_hands.jpg",
+          "overlays": []
+        },
+        {
+          "id": "correction",
+          "title": "The correction",
+          "shot": "detail",
+          "position": "Behind the teacher's shoulder",
+          "direction": "Ask the teacher to show the step again and film over their shoulder, moving in slowly to their hands on the task.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Like this",
+              "script": "Then the teacher showed me once, slowly."
+            },
+            {
+              "text": "One correction",
+              "script": "One small correction, and here is what changed."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-first-lesson_correction.jpg",
+          "overlays": []
+        },
+        {
+          "id": "win",
+          "title": "First win",
+          "shot": "detail",
+          "position": "At the task, phone held above your hands",
+          "direction": "Back camera on your hands as you get it right [the first melody, the solved problem, the first sharp shot], front camera on you.",
+          "seconds": 6,
+          "prompter": "Here is how long it took to get my first one right.",
+          "captions": [
+            {
+              "text": "First win",
+              "script": "Here is how long it took to get my first one right."
+            },
+            {
+              "text": "Got it",
+              "script": "Got it right, and here is the moment it worked."
+            }
+          ],
+          "pip": true,
+          "imageURL": "pro-first-lesson_win.jpg",
+          "overlays": []
+        },
+        {
+          "id": "schedule",
+          "title": "Book a lesson",
+          "shot": "medium",
+          "position": "At the door or reception, by the lesson board",
+          "direction": "Phone low, start on the name or the lesson board and tilt down slowly to the price and times.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Lesson price",
+              "script": "Here is what a first lesson costs, and when they run."
+            },
+            {
+              "text": "Book a lesson",
+              "script": "Book a first lesson through Loca, times are on the board."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-first-lesson_schedule.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "pro-quick-tip",
+      "venueKinds": [
+        "services"
+      ],
+      "title": "Quick tip",
+      "summary": "One thing people get wrong, the wrong way and the right way with hands, and you trying it.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "The tip",
+          "shot": "medium",
+          "position": "Facing the pro, the tool in their hands",
+          "direction": "Back camera on the pro holding the tool [a screen protector, a cleaning cloth, a camera], front camera on you. Move in slowly.",
+          "seconds": 6,
+          "prompter": "One thing most people get wrong, and the pro here showed me.",
+          "captions": [
+            {
+              "text": "Quick tip",
+              "script": "One thing most people get wrong, and the pro here showed me."
+            },
+            {
+              "text": "Stop doing this",
+              "script": "Stop doing this one thing, the pro here explained why."
+            }
+          ],
+          "pip": true,
+          "imageURL": "pro-quick-tip_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "wrong",
+          "title": "The wrong way",
+          "shot": "detail",
+          "position": "Over the work, phone straight down",
+          "direction": "Hold the phone above the pro's hands doing it the usual way [wiping in circles, pressing the screen down]. Hold, then flick the phone right.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The usual way",
+              "script": "This is how most people do it, and it is wrong."
+            },
+            {
+              "text": "Don't do this",
+              "script": "Do not do this. The pro explains what it does."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-quick-tip_wrong.jpg",
+          "overlays": []
+        },
+        {
+          "id": "right",
+          "title": "The right way",
+          "shot": "detail",
+          "position": "Same spot, phone straight down",
+          "direction": "Start mid-flick, stop above the pro's hands and hold still as they do it the right way.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The right way",
+              "script": "And this is the right way, a little slower."
+            },
+            {
+              "text": "Do this instead",
+              "script": "Do this instead, same tool, one small change."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-quick-tip_right.jpg",
+          "overlays": []
+        },
+        {
+          "id": "try",
+          "title": "My try",
+          "shot": "selfie",
+          "position": "At the counter, the tool in your hand",
+          "direction": "Front camera at arm's length, a little above eye level, the tool in frame. Say how it went when you tried it.",
+          "seconds": 6,
+          "prompter": "Tried it myself, and here is how it went once they showed me.",
+          "captions": [
+            {
+              "text": "My try",
+              "script": "Tried it myself, and here is how it went once they showed me."
+            },
+            {
+              "text": "Easy fix",
+              "script": "Easy fix, and I had been doing it wrong."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-quick-tip_try.jpg",
+          "overlays": []
+        },
+        {
+          "id": "sign",
+          "title": "Where to go",
+          "shot": "medium",
+          "position": "Outside, across from the sign",
+          "direction": "Phone low, start on the sign and tilt down slowly to the door.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Find them here",
+              "script": "Find them here, and ask at the counter for more."
+            },
+            {
+              "text": "Book on Loca",
+              "script": "Find them on Loca, the service and the city are on screen."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-quick-tip_sign.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "pro-what-it-costs",
+      "venueKinds": [
+        "services"
+      ],
+      "title": "What it costs",
+      "summary": "The three most asked services with their prices, the work behind each, and how the pro quotes.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "ask",
+          "title": "The question",
+          "shot": "selfie",
+          "position": "Outside the door",
+          "direction": "Front camera at arm's length, a little above eye level, the door behind you. Ask the question.",
+          "seconds": 6,
+          "prompter": "Everyone asks what this costs, so I asked for the three most common.",
+          "captions": [
+            {
+              "text": "What it costs",
+              "script": "Everyone asks what this costs, so I asked for the three most common."
+            },
+            {
+              "text": "Price check",
+              "script": "Price check: the three jobs they do most, and what each costs."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-what-it-costs_ask.jpg",
+          "overlays": []
+        },
+        {
+          "id": "one",
+          "title": "Service one",
+          "shot": "detail",
+          "position": "Above the work for the first service",
+          "direction": "Hold the phone above the work of the first service [a screen swap, a one hour lesson, an oven clean]. Hold, then flick the phone right.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Service one",
+              "script": "Number one, the most common job, and its price."
+            },
+            {
+              "text": "Most asked",
+              "script": "The most asked job, and here is the price."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-what-it-costs_one.jpg",
+          "overlays": []
+        },
+        {
+          "id": "two",
+          "title": "Service two",
+          "shot": "detail",
+          "position": "Above the work for the second service",
+          "direction": "Start mid-flick, stop above the work of the second service and hold still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Service two",
+              "script": "Number two, a bit more work, and here is the price."
+            },
+            {
+              "text": "Second most asked",
+              "script": "Second most asked, and here is the price."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-what-it-costs_two.jpg",
+          "overlays": []
+        },
+        {
+          "id": "three",
+          "title": "Service three",
+          "shot": "medium",
+          "position": "Behind the pro's shoulder, with their okay",
+          "direction": "Stand behind the pro's shoulder and move in slowly toward the third job in their hands [the full repair, the package, the deep clean].",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Service three",
+              "script": "Number three, the big job, and the price is on screen."
+            },
+            {
+              "text": "The big one",
+              "script": "The big one, and here is what it costs."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-what-it-costs_three.jpg",
+          "overlays": []
+        },
+        {
+          "id": "quote",
+          "title": "How they quote",
+          "shot": "medium",
+          "position": "Facing the pro at the counter",
+          "direction": "Back camera on the pro at the counter, front camera on you. Say how they quote a job.",
+          "seconds": 5,
+          "prompter": "Here is how the owner quotes a job before any work starts.",
+          "captions": [
+            {
+              "text": "How they quote",
+              "script": "Here is how the owner quotes a job before any work starts."
+            },
+            {
+              "text": "No surprises",
+              "script": "Here is how the quote works, so there are no surprises later."
+            }
+          ],
+          "pip": true,
+          "imageURL": "pro-what-it-costs_quote.jpg",
+          "overlays": []
+        },
+        {
+          "id": "book",
+          "title": "Book it",
+          "shot": "selfie",
+          "position": "Outside the door, after",
+          "direction": "Front camera at arm's length, a little above eye level, the sign behind you. Say how to book.",
+          "seconds": 6,
+          "prompter": "All three prices are on screen, and you can book it on Loca.",
+          "captions": [
+            {
+              "text": "Book on Loca",
+              "script": "All three prices are on screen, and you can book it on Loca."
+            },
+            {
+              "text": "Save this",
+              "script": "Save this for the next time you need it, prices on screen."
+            }
+          ],
+          "pip": false,
+          "imageURL": "pro-what-it-costs_book.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "pro-before-after": {
+      "problem": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The problem grows until it fills the frame; cut to the pro at the counter at eye level."
+      },
+      "quote": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The pro in the back camera, held still while the creator speaks; cut to straight above the bench."
+      },
+      "tool": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "The pro's hands and the tool work in the frame from above; match-cut on the hands to over the shoulder."
+      },
+      "detail": {
+        "angle": "over-shoulder",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The tool grows until it fills the frame over the shoulder; cut to the result from the first shot's angle."
+      },
+      "result": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The result in the problem's framing, held still; cut to the front camera."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and result at arm's length, held still for the outro."
+      }
+    },
+    "pro-meet-the-owner": {
+      "hands": {
+        "angle": "high",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "pull-back-reveal",
+        "reads": "The tool on the work fills the frame; the next shot starts on the same hands and pulls back."
+      },
+      "bench": {
+        "angle": "eye-level",
+        "start": "detail",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "From the hands, the owner and the whole bench appear; cut to the selfie with the owner."
+      },
+      "hello": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Two faces at arm's length, held still; the camera flips to over the owner's shoulder."
+      },
+      "craft": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The work grows over the owner's shoulder; cut to the owner at eye level."
+      },
+      "tip": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The owner in the back camera, still, while the creator speaks; cut to the price list from above."
+      },
+      "prices": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "A finger lands on the starting price from above; hold for the outro."
+      }
+    },
+    "pro-first-lesson": {
+      "room": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "wide",
+        "move": "reveal-from-behind",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The door frame slides off and the lesson room appears; cut to the selfie with the teacher."
+      },
+      "teacher": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Two faces at arm's length, held still; the camera flips to straight above the task."
+      },
+      "hands": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "The creator's hands try from above; match-cut on the hands to over the teacher's shoulder."
+      },
+      "correction": {
+        "angle": "over-shoulder",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The teacher's hands grow over the shoulder; cut to the creator's hands from above at an angle."
+      },
+      "win": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The creator's hands get it right from above, held still; cut to the schedule at the door from below."
+      },
+      "schedule": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "tilt-down",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The name slides up and the prices and times appear below; hold for the outro."
+      }
+    },
+    "pro-quick-tip": {
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The pro and the tool grow in the back camera; cut to straight above the work."
+      },
+      "wrong": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "The hands work the wrong way from above, held, then the frame flicks right."
+      },
+      "right": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The flick settles on the same hands doing it the right way; cut to the front camera."
+      },
+      "try": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face and tool at arm's length, held still; the camera flips to the sign outside."
+      },
+      "sign": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "tilt-down",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The sign slides up out of frame and the door appears; hold for the outro."
+      }
+    },
+    "pro-what-it-costs": {
+      "ask": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face and door at arm's length, held still; the camera flips to the first job from above."
+      },
+      "one": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "whip",
+        "reads": "The first job in the frame from above, held, then the frame flicks right."
+      },
+      "two": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The flick settles on the second job from above; cut to over the pro's shoulder."
+      },
+      "three": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The work grows over the pro's shoulder; cut to the pro at eye level."
+      },
+      "quote": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The pro at the counter in the back camera, held still; cut to the front camera at the door."
+      },
+      "book": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face and sign at arm's length, held still for the outro."
+      }
+    }
+  }
+}

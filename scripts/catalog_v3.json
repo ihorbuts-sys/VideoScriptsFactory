@@ -1,0 +1,3252 @@
+{
+ "version": 3,
+ "kinds": [
+  {
+   "kind": "dish-review",
+   "title": "Review a dish",
+   "entry": "Food review: Food",
+   "reviewType": "food",
+   "subjects": "dishKinds",
+   "dishSource": {
+    "from": "typed",
+    "maxLength": 40,
+    "hint": "The dish you are reviewing",
+    "kindChip": "dishKinds"
+   },
+   "steps": [
+    {
+     "key": "arrive",
+     "role": "arrive",
+     "required": true,
+     "title": "Arrive",
+     "camera": "back",
+     "where": "Outside, across from the entrance",
+     "direction": "Start across from the door with the sign in frame, then walk toward it at an even pace.",
+     "guides": [
+      "entrance_sign_tilt_v2",
+      "entrance_walk_in_v2",
+      "entrance_friend_static"
+     ],
+     "versions": [
+      {
+       "line": "{venue.name}. I came here for {menuItem.name}.",
+       "card": "{venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Stopping by {venue.name} for {menuItem.name}.",
+       "card": "At {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "First time at {venue.name}.",
+       "card": "First time here",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Starting the day at {venue.name}.",
+       "card": "Morning at {venue.name}",
+       "caption": "{venue.name}",
+       "tags": {
+        "daypart": "morning"
+       }
+      },
+      {
+       "line": "Evening stop at {venue.name}.",
+       "card": "Evening at {venue.name}",
+       "caption": "{venue.name}",
+       "tags": {
+        "daypart": "evening"
+       }
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "where": "Across the street from the truck",
+       "direction": "Start across the street with the whole truck in frame, then walk toward the window.",
+       "guides": [
+        "truck_across_street"
+       ]
+      }
+     ],
+     "seconds": 7
+    },
+    {
+     "key": "place",
+     "role": "place",
+     "required": true,
+     "title": "The place",
+     "camera": "back",
+     "where": "Inside, from your seat or the doorway",
+     "direction": "Hold the phone at chest height and pan slowly across the room from left to right.",
+     "guides": [
+      "room_seated_pan_v2",
+      "room_reveal_plant_v2",
+      "room_static_wide",
+      "room_window_pan_left",
+      "room_bar_pan"
+     ],
+     "choice": {
+      "set": "place_word",
+      "preselect": null
+     },
+     "versions": [
+      {
+       "line": "This is the room at {venue.name}.",
+       "card": "Inside {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Grabbed a table. This is the view from my seat.",
+       "card": "My seat",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Inside {venue.name}. {opinion}",
+       "card": "Inside: {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is where I am sitting today.",
+       "card": "Today's table",
+       "caption": "{venue.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "counter"
+       },
+       "title": "The counter",
+       "where": "At the counter, the display in frame",
+       "direction": "Stand a step back from the counter and move slowly along the display.",
+       "guides": [
+        "counter_display_truck",
+        "counter_over_shoulder_v2",
+        "counter_edge_to_pass_v2",
+        "menu_board_tilt_up_v2"
+       ],
+       "versions": [
+        {
+         "line": "This is the counter at {venue.name}.",
+         "card": "The counter",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Everything they make is right here.",
+         "card": "The counter",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "The counter at {venue.name}. {opinion}",
+         "card": "Counter: {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "title": "The truck",
+       "where": "In front of the truck, the window and the line",
+       "direction": "Stand back far enough to fit the window and the people waiting, then move slowly toward the menu.",
+       "guides": [],
+       "versions": [
+        {
+         "line": "This is the {venue.name} truck.",
+         "card": "The truck",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Found the truck. This is the window.",
+         "card": "The window",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Here is where you order at {venue.name}.",
+         "card": "Order here",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "The truck at {venue.name}. {opinion}",
+         "card": "The truck: {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "order",
+     "role": "before",
+     "required": false,
+     "title": "Ordering",
+     "camera": "back",
+     "where": "At the table, the menu in front of you",
+     "direction": "Hold the phone flat above the menu and keep it still on the item you are ordering.",
+     "guides": [
+      "menu_card_top_v2",
+      "menu_card_push",
+      "menu_wall_board_item"
+     ],
+     "versions": [
+      {
+       "line": "Picking from the menu. I'm ordering {menuItem.name}.",
+       "card": "Ordering {menuItem.name}",
+       "caption": "The menu"
+      },
+      {
+       "line": "Reading the menu. I'm getting {menuItem.name}.",
+       "card": "Getting {menuItem.name}",
+       "caption": "What to order"
+      },
+      {
+       "line": "Today I'm trying {menuItem.name}.",
+       "card": "Trying {menuItem.name}",
+       "caption": "The menu"
+      },
+      {
+       "line": "Breakfast menu. I'm going with {menuItem.name}.",
+       "card": "Going with {menuItem.name}",
+       "caption": "The menu",
+       "tags": {
+        "menuSection": "breakfast"
+       }
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "counter"
+       },
+       "where": "At the counter, the menu board in frame",
+       "direction": "Start on the menu board, then tilt down to the counter as you order.",
+       "guides": [
+        "menu_board_tilt_up_v2",
+        "menu_board_truck_v2",
+        "menu_board_static",
+        "counter_over_shoulder_v2"
+       ]
+      },
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "where": "At the truck window",
+       "direction": "Film the menu on the truck, then the window as you order.",
+       "guides": []
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "main",
+     "role": "main",
+     "required": true,
+     "title": "The dish",
+     "camera": "back",
+     "silent": true,
+     "where": "At the table, the plate in front of you",
+     "direction": "Follow the guide around the plate; keep the whole dish in frame.",
+     "guides": [
+      "plate_rise_overhead_v2",
+      "plate_high_orbit_v2",
+      "plate_top_orbit",
+      "plate_low_push_in_v2",
+      "plate_turntable"
+     ],
+     "versions": [
+      {
+       "line": null,
+       "card": "{menuItem.name}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": null,
+       "card": "Here it is: {menuItem.name}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": null,
+       "card": "{menuItem.name} at {venue.name}",
+       "caption": "{menuItem.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "dishKind": "soups"
+       },
+       "where": "At the table, the bowl in front of you",
+       "direction": "Hold the phone above the bowl and move it slowly so the steam shows.",
+       "guides": [
+        "bowl_steam_overhead"
+       ]
+      },
+      {
+       "when": {
+        "dishKind": "bowls-sushi"
+       },
+       "where": "At the table, the bowl or board in front of you",
+       "direction": "Hold the phone above the bowl or board and move it slowly around it.",
+       "guides": [
+        "bowl_steam_overhead"
+       ]
+      },
+      {
+       "when": {
+        "dishKind": "handhelds"
+       },
+       "where": "Standing or seated, the food in your hand",
+       "direction": "Hold it up at eye level and turn it slowly toward the lens.",
+       "guides": []
+      }
+     ],
+     "seconds": 4
+    },
+    {
+     "key": "after",
+     "role": "after",
+     "required": false,
+     "title": "First bite",
+     "camera": "back",
+     "where": "At the table",
+     "direction": "Lift a forkful toward the lens, then take the bite.",
+     "guides": [
+      "bite_pip_dish_v2",
+      "bite_selfie_eye_v2",
+      "bite_friend_three_quarter_v2"
+     ],
+     "choice": {
+      "set": "bite_savory",
+      "preselect": 3
+     },
+     "versions": [
+      {
+       "line": "First bite of {menuItem.name}. {opinion}",
+       "card": "First bite: {opinion}",
+       "caption": "First bite"
+      },
+      {
+       "line": "Trying {menuItem.name}. {opinion}",
+       "card": "Verdict so far: {opinion}",
+       "caption": "First bite"
+      },
+      {
+       "line": "Okay, first bite. {opinion}",
+       "card": "First bite: {opinion}",
+       "caption": "First bite"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "dishKind": "soups"
+       },
+       "title": "First spoonful",
+       "direction": "Lift a spoonful toward the lens, then taste it.",
+       "guides": [
+        "spoon_lift_toward_lens"
+       ],
+       "versions": [
+        {
+         "line": "First spoonful of {menuItem.name}. {opinion}",
+         "card": "First spoonful: {opinion}",
+         "caption": "First spoonful"
+        },
+        {
+         "line": "Trying {menuItem.name}. {opinion}",
+         "card": "First taste: {opinion}",
+         "caption": "First spoonful"
+        },
+        {
+         "line": "Okay, first spoonful. {opinion}",
+         "card": "First spoonful: {opinion}",
+         "caption": "First spoonful"
+        }
+       ]
+      },
+      {
+       "when": {
+        "dishKind": "handhelds"
+       },
+       "direction": "Hold it with both hands and take the bite toward the lens.",
+       "guides": []
+      },
+      {
+       "when": {
+        "dishKind": "pizza"
+       },
+       "direction": "Pick up the pulled slice and take the bite toward the lens.",
+       "guides": []
+      },
+      {
+       "when": {
+        "dishKind": "pastry-bakery"
+       },
+       "direction": "Break it open toward the lens, then take a bite.",
+       "guides": [],
+       "choice": {
+        "set": "bite_sweet",
+        "preselect": 3
+       }
+      },
+      {
+       "when": {
+        "dishKind": "desserts"
+       },
+       "choice": {
+        "set": "bite_sweet",
+        "preselect": 3
+       },
+       "direction": "Take the first spoonful or forkful toward the lens, then taste it."
+      },
+      {
+       "when": {
+        "dishKind": "breakfast"
+       },
+       "choice": {
+        "set": "bite_sweet",
+        "preselect": 3
+       }
+      }
+     ],
+     "seconds": 7
+    },
+    {
+     "key": "amenities",
+     "role": "amenities",
+     "required": false,
+     "title": "Amenities",
+     "camera": "back",
+     "where": "Where the amenity is: the sign, the bowl, the high chair, the lot",
+     "direction": "Point the phone at the thing you picked and hold it still for a moment.",
+     "guides": [
+      "amenity_point_hold"
+     ],
+     "choice": {
+      "set": "amenities",
+      "preselect": "business"
+     },
+     "versions": [
+      {
+       "line": "Also here: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      },
+      {
+       "line": "Good to know at {venue.name}: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      },
+      {
+       "line": "Noticed this here: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "verdict",
+     "role": "verdict",
+     "required": true,
+     "title": "Verdict",
+     "camera": "front",
+     "where": "At your seat",
+     "direction": "Hold the phone at eye level, look into the lens and answer the question.",
+     "guides": [
+      "verdict_high_plate_v2",
+      "verdict_plate_after_push",
+      "verdict_eye_level_v2",
+      "verdict_friend_eye_v2",
+      "verdict_propped_rear"
+     ],
+     "choice": {
+      "set": "verdict_dish",
+      "preselect": null
+     },
+     "question": "Would I come back for it?",
+     "versions": [
+      {
+       "line": "{venue.name}. Would I come back for it? {opinion}",
+       "card": "Would I come back? {opinion}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": "So, would I come back for {menuItem.name}? {opinion}",
+       "card": "Back for it? {opinion}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": "Would I come back for it? {opinion}",
+       "card": "Coming back? {opinion}",
+       "caption": "{menuItem.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "price": true
+       },
+       "versions": [
+        {
+         "line": "{menuItem.price} at {venue.name}. Would I come back? {opinion}",
+         "card": "Would I come back? {opinion}",
+         "caption": "{menuItem.name} · {menuItem.price}"
+        },
+        {
+         "line": "{menuItem.name}, {menuItem.price}. Would I come back? {opinion}",
+         "card": "Back for it? {opinion}",
+         "caption": "{menuItem.name} · {menuItem.price}"
+        },
+        {
+         "line": "It was {menuItem.price}. Would I come back for it? {opinion}",
+         "card": "Coming back? {opinion}",
+         "caption": "{menuItem.name} · {menuItem.price}"
+        }
+       ]
+      }
+     ],
+     "seconds": 8
+    }
+   ]
+  },
+  {
+   "kind": "drink-review",
+   "title": "Review a drink",
+   "entry": "Food review: Drinks",
+   "reviewType": "food",
+   "subjects": "drinkKinds",
+   "dishSource": {
+    "from": "typed",
+    "maxLength": 40,
+    "hint": "The drink you are reviewing",
+    "kindChip": "drinkKinds"
+   },
+   "steps": [
+    {
+     "key": "arrive",
+     "role": "arrive",
+     "required": true,
+     "title": "Arrive",
+     "camera": "back",
+     "where": "Outside, across from the entrance",
+     "direction": "Start across from the door with the sign in frame, then walk toward it at an even pace.",
+     "guides": [
+      "entrance_sign_tilt_v2",
+      "entrance_walk_in_v2",
+      "entrance_friend_static"
+     ],
+     "versions": [
+      {
+       "line": "{venue.name}. I came here for {menuItem.name}.",
+       "card": "{venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Stopping by {venue.name} for {menuItem.name}.",
+       "card": "At {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "First time at {venue.name}.",
+       "card": "First time here",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Starting the day at {venue.name}.",
+       "card": "Morning at {venue.name}",
+       "caption": "{venue.name}",
+       "tags": {
+        "daypart": "morning"
+       }
+      },
+      {
+       "line": "Evening stop at {venue.name}.",
+       "card": "Evening at {venue.name}",
+       "caption": "{venue.name}",
+       "tags": {
+        "daypart": "evening"
+       }
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "where": "Across the street from the truck",
+       "direction": "Start across the street with the whole truck in frame, then walk toward the window.",
+       "guides": [
+        "truck_across_street"
+       ]
+      }
+     ],
+     "seconds": 7
+    },
+    {
+     "key": "place",
+     "role": "place",
+     "required": true,
+     "title": "The place",
+     "camera": "back",
+     "where": "Inside, from your seat or the doorway",
+     "direction": "Hold the phone at chest height and pan slowly across the room from left to right.",
+     "guides": [
+      "room_seated_pan_v2",
+      "room_reveal_plant_v2",
+      "room_static_wide",
+      "room_window_pan_left",
+      "room_bar_pan"
+     ],
+     "choice": {
+      "set": "place_word",
+      "preselect": null
+     },
+     "versions": [
+      {
+       "line": "This is the room at {venue.name}.",
+       "card": "Inside {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Grabbed a table. This is the view from my seat.",
+       "card": "My seat",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Inside {venue.name}. {opinion}",
+       "card": "Inside: {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is where I am sitting today.",
+       "card": "Today's table",
+       "caption": "{venue.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "counter"
+       },
+       "title": "The counter",
+       "where": "At the counter, the display in frame",
+       "direction": "Stand a step back from the counter and move slowly along the display.",
+       "guides": [
+        "counter_display_truck",
+        "counter_over_shoulder_v2",
+        "counter_edge_to_pass_v2",
+        "menu_board_tilt_up_v2"
+       ],
+       "versions": [
+        {
+         "line": "This is the counter at {venue.name}.",
+         "card": "The counter",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Everything they make is right here.",
+         "card": "The counter",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "The counter at {venue.name}. {opinion}",
+         "card": "Counter: {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "title": "The truck",
+       "where": "In front of the truck, the window and the line",
+       "direction": "Stand back far enough to fit the window and the people waiting, then move slowly toward the menu.",
+       "guides": [],
+       "versions": [
+        {
+         "line": "This is the {venue.name} truck.",
+         "card": "The truck",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Found the truck. This is the window.",
+         "card": "The window",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Here is where you order at {venue.name}.",
+         "card": "Order here",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "The truck at {venue.name}. {opinion}",
+         "card": "The truck: {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "order",
+     "role": "before",
+     "required": false,
+     "title": "Ordering",
+     "camera": "back",
+     "where": "At the table, the menu in front of you",
+     "direction": "Hold the phone flat above the menu and keep it still on the item you are ordering.",
+     "guides": [
+      "menu_card_top_v2",
+      "menu_card_push",
+      "menu_wall_board_item"
+     ],
+     "versions": [
+      {
+       "line": "Picking from the menu. I'm ordering {menuItem.name}.",
+       "card": "Ordering {menuItem.name}",
+       "caption": "The menu"
+      },
+      {
+       "line": "Reading the menu. I'm getting {menuItem.name}.",
+       "card": "Getting {menuItem.name}",
+       "caption": "What to order"
+      },
+      {
+       "line": "Today I'm trying {menuItem.name}.",
+       "card": "Trying {menuItem.name}",
+       "caption": "The menu"
+      },
+      {
+       "line": "Breakfast menu. I'm going with {menuItem.name}.",
+       "card": "Going with {menuItem.name}",
+       "caption": "The menu",
+       "tags": {
+        "menuSection": "breakfast"
+       }
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "counter"
+       },
+       "where": "At the counter, the menu board in frame",
+       "direction": "Start on the menu board, then tilt down to the counter as you order.",
+       "guides": [
+        "menu_board_tilt_up_v2",
+        "menu_board_truck_v2",
+        "menu_board_static",
+        "counter_over_shoulder_v2"
+       ]
+      },
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "where": "At the truck window",
+       "direction": "Film the menu on the truck, then the window as you order.",
+       "guides": []
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "main",
+     "role": "main",
+     "required": true,
+     "title": "The drink",
+     "camera": "back",
+     "silent": true,
+     "where": "At the table or the counter, the cup in front of you",
+     "direction": "Follow the guide around the cup; keep the whole drink in frame.",
+     "guides": [
+      "steam_top_orbit",
+      "steam_low_backlit_v2",
+      "steam_static_low",
+      "pour_static_45",
+      "pour_side_low_v2"
+     ],
+     "versions": [
+      {
+       "line": null,
+       "card": "{menuItem.name}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": null,
+       "card": "Here it is: {menuItem.name}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": null,
+       "card": "{menuItem.name} at {venue.name}",
+       "caption": "{menuItem.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "drinkKind": "iced-coffee"
+       },
+       "where": "At the table, the glass in front of you",
+       "direction": "Slide the phone slowly toward the glass at table height.",
+       "guides": [
+        "glass_slide_close"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "juices-smoothies"
+       },
+       "where": "At the table, the glass in front of you",
+       "direction": "Slide the phone slowly toward the glass at table height.",
+       "guides": [
+        "glass_slide_close"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "soft-drinks"
+       },
+       "where": "At the table, the glass in front of you",
+       "direction": "Slide the phone slowly toward the glass at table height.",
+       "guides": [
+        "glass_slide_close"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "beer-wine"
+       },
+       "where": "At the table or the bar, the glass in front of you",
+       "direction": "Slide the phone slowly toward the glass at table height.",
+       "guides": [
+        "glass_slide_close"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "cocktails"
+       },
+       "where": "At the table or the bar, the glass in front of you",
+       "direction": "Slide the phone slowly toward the glass at table height.",
+       "guides": [
+        "glass_slide_close"
+       ]
+      }
+     ],
+     "seconds": 5
+    },
+    {
+     "key": "after",
+     "role": "after",
+     "required": false,
+     "title": "First sip",
+     "camera": "back",
+     "where": "At the table",
+     "direction": "Lift the cup toward the lens, then take the sip.",
+     "guides": [
+      "sip_cup_only",
+      "sip_selfie_eye_v2",
+      "sip_friend_side_v2",
+      "sip_high_lean_v2"
+     ],
+     "choice": {
+      "set": "sip_coffee",
+      "preselect": 3
+     },
+     "versions": [
+      {
+       "line": "First sip of {menuItem.name}. {opinion}",
+       "card": "First sip: {opinion}",
+       "caption": "First sip"
+      },
+      {
+       "line": "Trying {menuItem.name}. {opinion}",
+       "card": "First sip: {opinion}",
+       "caption": "First sip"
+      },
+      {
+       "line": "Okay, first sip. {opinion}",
+       "card": "First sip: {opinion}",
+       "caption": "First sip"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "drinkKind": "tea-matcha"
+       },
+       "choice": {
+        "set": "sip_tea",
+        "preselect": 3
+       }
+      },
+      {
+       "when": {
+        "drinkKind": "iced-coffee"
+       },
+       "choice": {
+        "set": "sip_iced",
+        "preselect": 3
+       },
+       "direction": "Lift the glass toward the lens, then take the sip.",
+       "guides": [
+        "glass_sip_lift"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "juices-smoothies"
+       },
+       "choice": {
+        "set": "sip_juice",
+        "preselect": 3
+       },
+       "direction": "Lift the glass toward the lens, then take the sip.",
+       "guides": [
+        "glass_sip_lift"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "soft-drinks"
+       },
+       "choice": {
+        "set": "sip_soft",
+        "preselect": 3
+       },
+       "direction": "Lift the glass toward the lens, then take the sip.",
+       "guides": [
+        "glass_sip_lift"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "beer-wine"
+       },
+       "choice": {
+        "set": "sip_beer_wine",
+        "preselect": 3
+       },
+       "direction": "Lift the glass toward the lens, then take the sip.",
+       "guides": [
+        "glass_sip_lift"
+       ]
+      },
+      {
+       "when": {
+        "drinkKind": "cocktails"
+       },
+       "choice": {
+        "set": "sip_cocktail",
+        "preselect": 3
+       },
+       "direction": "Lift the glass toward the lens, then take the sip.",
+       "guides": [
+        "glass_sip_lift"
+       ]
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "amenities",
+     "role": "amenities",
+     "required": false,
+     "title": "Amenities",
+     "camera": "back",
+     "where": "Where the amenity is: the sign, the bowl, the high chair, the lot",
+     "direction": "Point the phone at the thing you picked and hold it still for a moment.",
+     "guides": [
+      "amenity_point_hold"
+     ],
+     "choice": {
+      "set": "amenities",
+      "preselect": "business"
+     },
+     "versions": [
+      {
+       "line": "Also here: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      },
+      {
+       "line": "Good to know at {venue.name}: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      },
+      {
+       "line": "Noticed this here: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "verdict",
+     "role": "verdict",
+     "required": true,
+     "title": "Verdict",
+     "camera": "front",
+     "where": "At your seat",
+     "direction": "Hold the phone at eye level, look into the lens and answer the question.",
+     "guides": [
+      "verdict_eye_level_v2",
+      "verdict_friend_eye_v2",
+      "verdict_propped_rear"
+     ],
+     "choice": {
+      "set": "verdict_drink",
+      "preselect": null
+     },
+     "question": "Would I order it again?",
+     "versions": [
+      {
+       "line": "{venue.name}. Would I order it again? {opinion}",
+       "card": "Again? {opinion}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": "So, would I get {menuItem.name} again? {opinion}",
+       "card": "Ordering again? {opinion}",
+       "caption": "{menuItem.name}"
+      },
+      {
+       "line": "Would I order it again? {opinion}",
+       "card": "Again? {opinion}",
+       "caption": "{menuItem.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "price": true
+       },
+       "versions": [
+        {
+         "line": "{menuItem.price} at {venue.name}. Would I order it again? {opinion}",
+         "card": "Again? {opinion}",
+         "caption": "{menuItem.name} · {menuItem.price}"
+        },
+        {
+         "line": "{menuItem.name}, {menuItem.price}. Would I get it again? {opinion}",
+         "card": "Ordering again? {opinion}",
+         "caption": "{menuItem.name} · {menuItem.price}"
+        },
+        {
+         "line": "It was {menuItem.price}. Would I order it again? {opinion}",
+         "card": "Again? {opinion}",
+         "caption": "{menuItem.name} · {menuItem.price}"
+        }
+       ]
+      }
+     ],
+     "seconds": 8
+    }
+   ]
+  },
+  {
+   "kind": "menu-item-review",
+   "title": "Review from the menu",
+   "entry": "Food review: From menu",
+   "reviewType": "food",
+   "subjects": "fromMenuSection",
+   "dishSource": {
+    "from": "menu",
+    "kindFrom": "menuSection",
+    "derive": {
+     "dish": "dish-review",
+     "drink": "drink-review"
+    },
+    "fallback": {
+     "kind": "dish-review",
+     "kindChip": "dishKinds"
+    }
+   },
+   "stepsFrom": "derived",
+   "note": "The menu item's section sets dish or drink and its kind (tables.json menuSectionMapping); the steps are those of the derived kind, with price set from the item."
+  },
+  {
+   "kind": "venue-review",
+   "title": "Review the venue",
+   "entry": "Venue review",
+   "reviewType": "venue",
+   "subjects": "venueSubjects",
+   "consent": [
+    {
+     "when": {
+      "subject": "visit"
+     },
+     "required": true,
+     "text": "Only staff who agreed and the space. No patients, clients or children."
+    }
+   ],
+   "steps": [
+    {
+     "key": "arrive",
+     "role": "arrive",
+     "required": true,
+     "title": "Arrive",
+     "camera": "back",
+     "where": "Outside, across from the entrance",
+     "direction": "Start across from the door with the sign in frame, then walk toward it at an even pace.",
+     "guides": [
+      "entrance_sign_tilt_v2",
+      "entrance_walk_in_v2",
+      "entrance_friend_static"
+     ],
+     "versions": [
+      {
+       "line": "{venue.name}. First time here.",
+       "card": "{venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Stopping by {venue.name} today.",
+       "card": "At {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is {venue.name}.",
+       "card": "{venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Starting the day at {venue.name}.",
+       "card": "Morning at {venue.name}",
+       "caption": "{venue.name}",
+       "tags": {
+        "daypart": "morning"
+       }
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "where": "Across the street from the truck",
+       "direction": "Start across the street with the whole truck in frame, then walk toward the window.",
+       "guides": [
+        "truck_across_street"
+       ]
+      }
+     ],
+     "seconds": 5
+    },
+    {
+     "key": "place",
+     "role": "place",
+     "required": true,
+     "title": "The place",
+     "camera": "back",
+     "where": "Inside, from your seat or the doorway",
+     "direction": "Hold the phone at chest height and pan slowly across the room from left to right.",
+     "guides": [
+      "room_seated_pan_v2",
+      "room_reveal_plant_v2",
+      "room_static_wide",
+      "room_window_pan_left",
+      "room_bar_pan"
+     ],
+     "choice": {
+      "set": "place_word",
+      "preselect": null
+     },
+     "versions": [
+      {
+       "line": "This is the room at {venue.name}.",
+       "card": "Inside {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Grabbed a table. This is the view from my seat.",
+       "card": "My seat",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Inside {venue.name}. {opinion}",
+       "card": "Inside: {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is where I am sitting today.",
+       "card": "Today's table",
+       "caption": "{venue.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "serviceKind": "counter"
+       },
+       "title": "The counter",
+       "where": "At the counter, the display in frame",
+       "direction": "Stand a step back from the counter and move slowly along the display.",
+       "guides": [
+        "counter_display_truck",
+        "counter_over_shoulder_v2",
+        "counter_edge_to_pass_v2",
+        "menu_board_tilt_up_v2"
+       ],
+       "versions": [
+        {
+         "line": "This is the counter at {venue.name}.",
+         "card": "The counter",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Everything they make is right here.",
+         "card": "The counter",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "The counter at {venue.name}. {opinion}",
+         "card": "Counter: {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "serviceKind": "truck"
+       },
+       "title": "The truck",
+       "where": "In front of the truck, the window and the line",
+       "direction": "Stand back far enough to fit the window and the people waiting, then move slowly toward the menu.",
+       "guides": [],
+       "versions": [
+        {
+         "line": "This is the {venue.name} truck.",
+         "card": "The truck",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Found the truck. This is the window.",
+         "card": "The window",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Here is where you order at {venue.name}.",
+         "card": "Order here",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "The truck at {venue.name}. {opinion}",
+         "card": "The truck: {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "subject": "result"
+       },
+       "title": "The salon",
+       "where": "Inside, by the chairs",
+       "direction": "Pan slowly across the chairs and mirrors at chest height.",
+       "guides": [],
+       "versions": [
+        {
+         "line": "This is {venue.name}.",
+         "card": "Inside {venue.name}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Inside {venue.name}. {opinion}",
+         "card": "Inside: {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Here is where it happens.",
+         "card": "Inside",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "subject": "shopping"
+       },
+       "title": "The shop",
+       "where": "Inside, by the door",
+       "direction": "Pan slowly across the shop at chest height.",
+       "guides": [],
+       "versions": [
+        {
+         "line": "This is {venue.name}.",
+         "card": "Inside {venue.name}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Inside {venue.name}. {opinion}",
+         "card": "Inside: {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Walking into the shop.",
+         "card": "Inside",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "subject": "experience"
+       },
+       "title": "The space",
+       "where": "Where it happens",
+       "direction": "Film the whole space wide, then hold still.",
+       "guides": [],
+       "versions": [
+        {
+         "line": "This is {venue.name}.",
+         "card": "Inside {venue.name}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Inside {venue.name}. {opinion}",
+         "card": "Inside: {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Here is where it happens.",
+         "card": "The space",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "subject": "visit"
+       },
+       "title": "The space",
+       "where": "The reception or the room",
+       "direction": "Film the room, the staff who agreed and the tools; keep other visitors out of frame.",
+       "guides": [],
+       "versions": [
+        {
+         "line": "This is {venue.name}.",
+         "card": "Inside {venue.name}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Inside {venue.name}. {opinion}",
+         "card": "Inside: {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "This is the reception.",
+         "card": "Reception",
+         "caption": "{venue.name}"
+        }
+       ]
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "before",
+     "role": "before",
+     "required": false,
+     "title": "Getting started",
+     "camera": "back",
+     "where": "",
+     "direction": "Film the order being placed, from the menu to the person taking it.",
+     "guides": [
+      "venue_order_placed"
+     ],
+     "versions": [
+      {
+       "line": "Ordering here works like this.",
+       "card": "How you order",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "First, the order.",
+       "card": "Ordering",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "This is how you order at {venue.name}.",
+       "card": "How you order",
+       "caption": "{venue.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "subject": "dineIn"
+       },
+       "title": "Ordering",
+       "where": "At the table",
+       "guides": [
+        "menu_card_top_v2",
+        "menu_card_push",
+        "menu_wall_board_item"
+       ]
+      },
+      {
+       "when": {
+        "subject": "counter"
+       },
+       "title": "Ordering",
+       "where": "At the counter",
+       "guides": [
+        "menu_board_tilt_up_v2",
+        "menu_board_truck_v2",
+        "menu_board_static",
+        "counter_over_shoulder_v2"
+       ]
+      },
+      {
+       "when": {
+        "subject": "truck"
+       },
+       "title": "Ordering",
+       "where": "At the truck window",
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "result"
+       },
+       "title": "Before",
+       "where": "In the chair, before it starts",
+       "direction": "Film the before: a slow pass at eye level, then hold still.",
+       "versions": [
+        {
+         "line": "This is the before.",
+         "card": "Before",
+         "caption": "Before"
+        },
+        {
+         "line": "Before we start.",
+         "card": "Before",
+         "caption": "Before"
+        },
+        {
+         "line": "Here is where we start.",
+         "card": "Before",
+         "caption": "Before"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "shopping"
+       },
+       "title": "Browsing",
+       "where": "Between the shelves",
+       "direction": "Walk slowly along one shelf with the phone at chest height.",
+       "versions": [
+        {
+         "line": "Having a look around {venue.name}.",
+         "card": "Looking around",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Browsing the shelves first.",
+         "card": "Browsing",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "So much to look at in here.",
+         "card": "Browsing",
+         "caption": "{venue.name}"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "experience"
+       },
+       "title": "Getting ready",
+       "where": "Where you get ready",
+       "direction": "Film the gear or the briefing, then yourself ready to go.",
+       "versions": [
+        {
+         "line": "Getting ready.",
+         "card": "Getting ready",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "First, the gear.",
+         "card": "Gearing up",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Getting set before we start.",
+         "card": "Getting ready",
+         "caption": "{venue.name}"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "visit"
+       },
+       "title": "Meet the team",
+       "where": "At the front desk",
+       "direction": "Film the room, the staff who agreed and the tools; keep other visitors out of frame. Ask a staff member who agreed to say hello.",
+       "guides": [
+        "visit_front_desk_hello"
+       ],
+       "versions": [
+        {
+         "line": "Meeting the team at {venue.name}.",
+         "card": "The team",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "This is the front desk.",
+         "card": "Front desk",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Saying hello to the team first.",
+         "card": "The team",
+         "caption": "{venue.name}"
+        }
+       ]
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "main",
+     "role": "main",
+     "required": true,
+     "title": "How it works",
+     "camera": "back",
+     "where": "",
+     "direction": "Film the moment you get your order, from their hands to yours.",
+     "guides": [],
+     "versions": [
+      {
+       "line": "And this is how it arrives.",
+       "card": "Here it comes",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here it comes.",
+       "card": "Here it comes",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "This is how they serve it here.",
+       "card": "Served",
+       "caption": "{venue.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "subject": "dineIn"
+       },
+       "title": "Served at the table",
+       "where": "At the table",
+       "guides": [
+        "handoff_plate_lands_v2",
+        "handoff_plate_lands"
+       ]
+      },
+      {
+       "when": {
+        "subject": "counter"
+       },
+       "title": "Pick-up",
+       "where": "At the counter",
+       "guides": [
+        "handoff_counter_cup_v2",
+        "counter_hand_receive",
+        "counter_edge_to_pass_v2"
+       ]
+      },
+      {
+       "when": {
+        "subject": "truck"
+       },
+       "title": "At the window",
+       "where": "At the truck window",
+       "direction": "Film the hand-off through the window.",
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "result"
+       },
+       "title": "The process",
+       "required": false,
+       "where": "Next to the chair",
+       "direction": "Film the hands at work from the side, close and steady.",
+       "versions": [
+        {
+         "line": "Here is how it is done.",
+         "card": "The process",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "In the chair now.",
+         "card": "In progress",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Halfway there.",
+         "card": "In progress",
+         "caption": "{venue.name}"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "shopping"
+       },
+       "title": "The find",
+       "where": "Where you found it",
+       "direction": "Hold up what you found, turn it slowly toward the lens.",
+       "versions": [
+        {
+         "line": "This is what I found.",
+         "card": "The find",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Found this at {venue.name}.",
+         "card": "The find",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Look what I found.",
+         "card": "The find",
+         "caption": "{venue.name}"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "experience"
+       },
+       "title": "In action",
+       "where": "In the middle of it",
+       "direction": "Film the action wide first, then from your point of view.",
+       "versions": [
+        {
+         "line": "And we are off.",
+         "card": "In action",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "This is it.",
+         "card": "In action",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Here we go.",
+         "card": "Here we go",
+         "caption": "{venue.name}"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "visit"
+       },
+       "title": "What they do",
+       "where": "In the space they work in",
+       "direction": "Film the room, the staff who agreed and the tools; keep other visitors out of frame.",
+       "guides": [
+        "visit_tools_no_clients"
+       ],
+       "versions": [
+        {
+         "line": "This is what they do at {venue.name}.",
+         "card": "What they do",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Here is where they work.",
+         "card": "The space",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "A look at how it works here.",
+         "card": "How it works",
+         "caption": "{venue.name}"
+        }
+       ]
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "after",
+     "role": "after",
+     "required": false,
+     "title": "The moment after",
+     "camera": "back",
+     "where": "",
+     "direction": "Film yourself settling in with what you got.",
+     "guides": [
+      "venue_settle_in"
+     ],
+     "versions": [
+      {
+       "line": "All set.",
+       "card": "All set",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "And that is it.",
+       "card": "Done",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Done and settled in.",
+       "card": "All set",
+       "caption": "{venue.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "subject": "dineIn"
+       },
+       "guides": [
+        "room_tilt_up_from_plate"
+       ]
+      },
+      {
+       "when": {
+        "subject": "result"
+       },
+       "title": "The result",
+       "required": true,
+       "where": "In front of the mirror",
+       "direction": "Hold still at eye level, then turn slowly to show the result.",
+       "versions": [
+        {
+         "line": "And this is the result.",
+         "card": "After",
+         "caption": "After"
+        },
+        {
+         "line": "Here is the after.",
+         "card": "After",
+         "caption": "After"
+        },
+        {
+         "line": "All done. This is it.",
+         "card": "After",
+         "caption": "After"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "shopping"
+       },
+       "title": "At the checkout",
+       "where": "At the checkout",
+       "direction": "Film the bag or the receipt at the counter.",
+       "versions": [
+        {
+         "line": "Taking this one home.",
+         "card": "Taking it home",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "All bagged up.",
+         "card": "Bagged",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "And that is my haul.",
+         "card": "My haul",
+         "caption": "{venue.name}"
+        }
+       ],
+       "guides": []
+      },
+      {
+       "when": {
+        "subject": "experience"
+       },
+       "title": "Right after",
+       "where": "Right after it ends",
+       "direction": "Turn the phone to yourself and catch your breath on camera.",
+       "guides": [
+        "experience_selfie_after"
+       ],
+       "versions": [
+        {
+         "line": "Just finished.",
+         "card": "Done",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "That was it.",
+         "card": "Done",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Catching my breath.",
+         "card": "After",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "subject": "visit"
+       },
+       "title": "The takeaway",
+       "where": "On your way out",
+       "direction": "Turn the phone to yourself; name what you got from the visit, not a result.",
+       "guides": [
+        "visit_selfie_takeaway"
+       ],
+       "versions": [
+        {
+         "line": "What I take away from this visit.",
+         "card": "Takeaway",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Leaving with a plan.",
+         "card": "Takeaway",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "This is what I learned here.",
+         "card": "Takeaway",
+         "caption": "{venue.name}"
+        }
+       ]
+      }
+     ],
+     "seconds": 4
+    },
+    {
+     "key": "amenities",
+     "role": "amenities",
+     "required": false,
+     "title": "Amenities",
+     "camera": "back",
+     "where": "Where the amenity is: the sign, the bowl, the high chair, the lot",
+     "direction": "Point the phone at the thing you picked and hold it still for a moment.",
+     "guides": [
+      "amenity_point_hold"
+     ],
+     "choice": {
+      "set": "amenities",
+      "preselect": "business"
+     },
+     "versions": [
+      {
+       "line": "Also here: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      },
+      {
+       "line": "Good to know at {venue.name}: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      },
+      {
+       "line": "Noticed this here: {amenity}.",
+       "card": "{amenity}",
+       "caption": "{amenity}"
+      }
+     ],
+     "seconds": 6
+    },
+    {
+     "key": "verdict",
+     "role": "verdict",
+     "required": true,
+     "title": "Verdict",
+     "camera": "front",
+     "where": "At your seat",
+     "direction": "Hold the phone at eye level, look into the lens and answer the question.",
+     "guides": [
+      "verdict_eye_level_v2",
+      "verdict_friend_eye_v2",
+      "verdict_propped_rear"
+     ],
+     "choice": {
+      "set": "verdict_place",
+      "preselect": null
+     },
+     "question": "Would I come back here?",
+     "versions": [
+      {
+       "line": "{venue.name}. Would I come back here? {opinion}",
+       "card": "Coming back? {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "So, would I come back to {venue.name}? {opinion}",
+       "card": "Back here? {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Would I come back? {opinion}",
+       "card": "Coming back? {opinion}",
+       "caption": "{venue.name}"
+      }
+     ],
+     "variants": [
+      {
+       "when": {
+        "subject": "result"
+       },
+       "choice": {
+        "set": "verdict_result",
+        "preselect": null
+       },
+       "question": "Would I come back for this?"
+      },
+      {
+       "when": {
+        "subject": "experience"
+       },
+       "choice": {
+        "set": "verdict_experience",
+        "preselect": null
+       },
+       "question": "Would I do it again?",
+       "versions": [
+        {
+         "line": "{venue.name}. Would I do it again? {opinion}",
+         "card": "Again? {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "So, would I do this again? {opinion}",
+         "card": "Again? {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Would I do it again? {opinion}",
+         "card": "Again? {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "subject": "shopping"
+       },
+       "choice": {
+        "set": "verdict_shopping",
+        "preselect": null
+       },
+       "question": "Would I shop here again?",
+       "versions": [
+        {
+         "line": "{venue.name}. Would I shop here again? {opinion}",
+         "card": "Back here? {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "So, would I shop here again? {opinion}",
+         "card": "Again? {opinion}",
+         "caption": "{venue.name}"
+        },
+        {
+         "line": "Would I come back to shop? {opinion}",
+         "card": "Back here? {opinion}",
+         "caption": "{venue.name}"
+        }
+       ]
+      },
+      {
+       "when": {
+        "subject": "visit"
+       },
+       "choice": {
+        "set": "verdict_visit",
+        "preselect": null
+       },
+       "question": "Would I come back?"
+      }
+     ],
+     "seconds": 7
+    }
+   ]
+  }
+ ],
+ "choiceSets": [
+  {
+   "id": "verdict_dish",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Once was enough."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, to try more."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Definitely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back for it?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_drink",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Once was enough."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, another time."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Every time."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I order it again?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_place",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Definitely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back here?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_result",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, for touch-ups."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Already booked again."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back for this?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_experience",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Once was enough."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, with friends."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Already planning it."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I do it again?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_shopping",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Already a regular."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I shop here again?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_visit",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Definitely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "bite_savory",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not my thing."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Hmm, not sure."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Okay."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "That's good."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So good."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "bite_sweet",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too sweet for me."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Hmm, not sure."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Okay."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "That's nice."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So good."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_coffee",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too bitter."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Not my cup."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Decent."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Smooth."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Perfect brew."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_tea",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too weak."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Nice."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Fragrant."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So soothing."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_iced",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too sweet."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Watery."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Fine."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Refreshing."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So good."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_juice",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too sour."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Fresh."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Fruity."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Just right."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_soft",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Flat."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Too sweet."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Okay."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Refreshing."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Perfect."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_beer_wine",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not my style."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Decent."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Crisp."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Great pour."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_cocktail",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too strong."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Balanced."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Great mix."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Perfect."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "place_word",
+   "kind": "place",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too cramped."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "A bit loud."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Calm enough."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Cozy."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Really lovely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null
+  },
+  {
+   "id": "amenities",
+   "kind": "amenity",
+   "source": "business.amenityList",
+   "options": [
+    {
+     "slug": "parking_available",
+     "text": "Parking",
+     "tone": "neutral"
+    },
+    {
+     "slug": "free_wifi",
+     "text": "Free Wi-Fi",
+     "tone": "neutral"
+    },
+    {
+     "slug": "pet_friendly",
+     "text": "Pet friendly",
+     "tone": "neutral"
+    },
+    {
+     "slug": "baby_friendly",
+     "text": "Baby friendly",
+     "tone": "neutral"
+    }
+   ],
+   "exclude": [
+    "non_smoking"
+   ],
+   "preselect": "business",
+   "allowCustom": true,
+   "maxWords": 4,
+   "multiSelect": false
+  }
+ ],
+ "tables": {
+  "version": 3,
+  "forms": {
+   "plated": "plate",
+   "bowl": "bowl",
+   "handheld": "held in hand or paper",
+   "cup": "cup",
+   "glass": "glass",
+   "glass-straw": "glass with straw"
+  },
+  "dishKinds": [
+   {
+    "id": "starters-sides",
+    "title": "Starters and sides",
+    "form": "plated",
+    "placeSetting": "dinner plate, fork and knife",
+    "phase": "P0",
+    "menuKeywords": [
+     "starter",
+     "starters",
+     "appetizer",
+     "appetizers",
+     "side",
+     "sides",
+     "snack",
+     "snacks",
+     "small plates",
+     "закуск",
+     "снек"
+    ],
+    "labels": {
+     "en": "Starters and sides",
+     "uk": "Закуски та гарніри"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "soups",
+    "title": "Soups",
+    "form": "bowl",
+    "placeSetting": "bowl, spoon",
+    "phase": "P0",
+    "menuKeywords": [
+     "soup",
+     "soups",
+     "broth",
+     "ramen",
+     "pho",
+     "суп",
+     "бульйон"
+    ],
+    "labels": {
+     "en": "Soups",
+     "uk": "Супи"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "bowls-sushi",
+    "title": "Bowls and sushi",
+    "form": "bowl",
+    "placeSetting": "bowl or plate, chopsticks or fork",
+    "phase": "P0",
+    "menuKeywords": [
+     "bowl",
+     "bowls",
+     "poke",
+     "sushi",
+     "rolls",
+     "roll",
+     "asian",
+     "wok",
+     "noodles",
+     "rice",
+     "боул",
+     "суші",
+     "рол",
+     "локшин"
+    ],
+    "labels": {
+     "en": "Bowls and sushi",
+     "uk": "Боули та суші"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "mains",
+    "title": "Mains",
+    "form": "plated",
+    "placeSetting": "dinner plate, fork and knife",
+    "phase": "P0",
+    "menuKeywords": [
+     "main",
+     "mains",
+     "entree",
+     "entrees",
+     "plates",
+     "grill",
+     "pasta",
+     "steak",
+     "seafood",
+     "основн",
+     "гаряч",
+     "паст",
+     "гриль"
+    ],
+    "labels": {
+     "en": "Mains",
+     "uk": "Основні страви"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "salads",
+    "title": "Salads",
+    "form": "plated",
+    "placeSetting": "dinner plate, fork and knife",
+    "phase": "P0",
+    "menuKeywords": [
+     "salad",
+     "salads",
+     "салат"
+    ],
+    "labels": {
+     "en": "Salads",
+     "uk": "Салати"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "pizza",
+    "title": "Pizza",
+    "form": "plated",
+    "placeSetting": "dinner plate, no cutlery",
+    "phase": "P0",
+    "menuKeywords": [
+     "pizza",
+     "pizzas",
+     "піц"
+    ],
+    "labels": {
+     "en": "Pizza",
+     "uk": "Піца"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "handhelds",
+    "title": "Handhelds",
+    "form": "handheld",
+    "placeSetting": "paper wrap or tray, no cutlery",
+    "phase": "P0",
+    "menuKeywords": [
+     "burger",
+     "burgers",
+     "sandwich",
+     "sandwiches",
+     "taco",
+     "tacos",
+     "burrito",
+     "burritos",
+     "wrap",
+     "wraps",
+     "hot dog",
+     "бургер",
+     "сендвіч",
+     "тако",
+     "бурито",
+     "врап",
+     "шаурм"
+    ],
+    "labels": {
+     "en": "Handhelds",
+     "uk": "Бургери, тако, сендвічі"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "pastry-bakery",
+    "title": "Pastry and bakery",
+    "form": "plated",
+    "placeSetting": "dessert plate, no cutlery",
+    "phase": "P0",
+    "menuKeywords": [
+     "pastry",
+     "pastries",
+     "bakery",
+     "bread",
+     "croissant",
+     "croissants",
+     "donut",
+     "donuts",
+     "bagel",
+     "випічк",
+     "круасан",
+     "хліб",
+     "пончик"
+    ],
+    "labels": {
+     "en": "Pastry and bakery",
+     "uk": "Випічка"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "desserts",
+    "title": "Desserts",
+    "form": "plated",
+    "placeSetting": "dessert plate",
+    "phase": "P0",
+    "menuKeywords": [
+     "dessert",
+     "desserts",
+     "cake",
+     "cakes",
+     "sweets",
+     "ice cream",
+     "gelato",
+     "cookies",
+     "десерт",
+     "торт",
+     "солодк",
+     "морозив"
+    ],
+    "labels": {
+     "en": "Desserts",
+     "uk": "Десерти"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "breakfast",
+    "title": "Breakfast",
+    "form": "plated",
+    "placeSetting": "dessert plate for pancakes, fork and knife",
+    "phase": "P0",
+    "menuKeywords": [
+     "breakfast",
+     "brunch",
+     "pancakes",
+     "eggs",
+     "waffles",
+     "сніданк",
+     "бранч",
+     "млинц",
+     "сирник"
+    ],
+    "labels": {
+     "en": "Breakfast",
+     "uk": "Сніданки"
+    },
+    "deprecated": false
+   }
+  ],
+  "drinkKinds": [
+   {
+    "id": "coffee",
+    "title": "Coffee",
+    "form": "cup",
+    "phase": "P0",
+    "menuKeywords": [
+     "coffee",
+     "espresso",
+     "latte",
+     "cappuccino",
+     "flat white",
+     "americano",
+     "кава",
+     "еспресо",
+     "лате",
+     "капучино",
+     "hot drinks",
+     "гарячі напої"
+    ],
+    "labels": {
+     "en": "Coffee",
+     "uk": "Кава"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "tea-matcha",
+    "title": "Tea and matcha",
+    "form": "cup",
+    "phase": "P0",
+    "menuKeywords": [
+     "tea",
+     "teas",
+     "chai",
+     "matcha",
+     "чай",
+     "матча"
+    ],
+    "labels": {
+     "en": "Tea and matcha",
+     "uk": "Чай і матча"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "iced-coffee",
+    "title": "Iced and cold coffee",
+    "form": "glass-straw",
+    "phase": "P0",
+    "menuKeywords": [
+     "iced coffee",
+     "iced latte",
+     "cold brew",
+     "frappe",
+     "frappuccino",
+     "bubble tea",
+     "boba",
+     "айс",
+     "колд брю",
+     "фрапе",
+     "бабл"
+    ],
+    "labels": {
+     "en": "Iced and cold coffee",
+     "uk": "Холодна кава"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "juices-smoothies",
+    "title": "Juices and smoothies",
+    "form": "glass-straw",
+    "phase": "P0",
+    "menuKeywords": [
+     "juice",
+     "juices",
+     "smoothie",
+     "smoothies",
+     "fresh",
+     "сік",
+     "соки",
+     "смузі",
+     "фреш"
+    ],
+    "labels": {
+     "en": "Juices and smoothies",
+     "uk": "Соки та смузі"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "soft-drinks",
+    "title": "Soft drinks and lemonades",
+    "form": "glass",
+    "phase": "P0",
+    "menuKeywords": [
+     "lemonade",
+     "lemonades",
+     "soda",
+     "sodas",
+     "soft drinks",
+     "kombucha",
+     "iced tea",
+     "mocktail",
+     "mocktails",
+     "non-alcoholic",
+     "лимонад",
+     "комбуч",
+     "безалкогольн",
+     "моктейл"
+    ],
+    "labels": {
+     "en": "Soft drinks and lemonades",
+     "uk": "Безалкогольні напої та лимонади"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "beer-wine",
+    "title": "Beer and wine",
+    "form": "glass",
+    "phase": "P1",
+    "menuKeywords": [
+     "beer",
+     "beers",
+     "draft",
+     "wine",
+     "wines",
+     "cider",
+     "пиво",
+     "вино",
+     "сидр"
+    ],
+    "labels": {
+     "en": "Beer and wine",
+     "uk": "Пиво та вино"
+    },
+    "deprecated": false
+   },
+   {
+    "id": "cocktails",
+    "title": "Cocktails",
+    "form": "glass",
+    "phase": "P1",
+    "menuKeywords": [
+     "cocktail",
+     "cocktails",
+     "spirits",
+     "shots",
+     "bar",
+     "коктейл",
+     "бар"
+    ],
+    "labels": {
+     "en": "Cocktails",
+     "uk": "Коктейлі"
+    },
+    "deprecated": false
+   }
+  ],
+  "menuSectionMapping": {
+   "match": "case-insensitive; a keyword matches a whole word, or a word start for Ukrainian stems; dish and drink keywords both tried, longest keyword wins",
+   "fallback": {
+    "kind": "dish-review",
+    "dishKind": null,
+    "kindChip": "dishKinds",
+    "note": "unknown section: plain dish plus a one-tap kind chip (owner 2026-11-16)"
+   },
+   "dayparts": {
+    "morning": [
+     "breakfast",
+     "brunch",
+     "сніданк",
+     "бранч"
+    ],
+    "midday": [
+     "lunch",
+     "обід"
+    ],
+    "evening": [
+     "dinner",
+     "happy hour",
+     "вечер"
+    ]
+   }
+  },
+  "serviceKinds": [
+   "dineIn",
+   "counter",
+   "truck"
+  ],
+  "venueSubjects": [
+   {
+    "id": "dineIn",
+    "group": "food",
+    "pattern": "product",
+    "serviceKind": "dineIn",
+    "categories": [
+     "dining",
+     "food-and-drinks",
+     "food-and-drinks-family",
+     "craft-beer"
+    ]
+   },
+   {
+    "id": "counter",
+    "group": "food",
+    "pattern": "product",
+    "serviceKind": "counter",
+    "categories": [
+     "coffee",
+     "bakery",
+     "fast-food"
+    ]
+   },
+   {
+    "id": "truck",
+    "group": "food",
+    "pattern": "product",
+    "serviceKind": "truck",
+    "categories": [
+     "food-truck"
+    ]
+   },
+   {
+    "id": "result",
+    "group": "nonFood",
+    "pattern": "result",
+    "serviceKind": null,
+    "categories": [
+     "beauty",
+     "beauty-salon",
+     "beauty-barbershop",
+     "beauty-nails",
+     "services-cleaning",
+     "cars",
+     "shopping-auto",
+     "garden-n-landscaping",
+     "services-pet",
+     "services-photography"
+    ]
+   },
+   {
+    "id": "shopping",
+    "group": "nonFood",
+    "pattern": "shopping",
+    "serviceKind": null,
+    "categories": [
+     "shopping",
+     "clothing-shops",
+     "shopping-music",
+     "shopping-pet-store",
+     "book-stores",
+     "thrift-shops",
+     "vintage-shop",
+     "knick-knacks",
+     "grocery",
+     "farmers-market",
+     "beauty-products",
+     "shopping-recreational",
+     "shopping-other",
+     "arts-and-crafts"
+    ]
+   },
+   {
+    "id": "experience",
+    "group": "nonFood",
+    "pattern": "experience",
+    "serviceKind": null,
+    "categories": [
+     "sport_health",
+     "entertainment",
+     "recreational",
+     "recreational-other",
+     "events",
+     "events-art-n-culture",
+     "events-community",
+     "events-music-n-film",
+     "events-social",
+     "events-sports",
+     "parks",
+     "site-seeing",
+     "places",
+     "services-education"
+    ]
+   },
+   {
+    "id": "visit",
+    "group": "nonFood",
+    "pattern": "visit",
+    "serviceKind": null,
+    "categories": [
+     "services-health",
+     "services-legal",
+     "business-services",
+     "real-estate",
+     "career-n-business",
+     "services",
+     "services-other"
+    ]
+   }
+  ],
+  "venueSubjectRules": {
+   "order": "a venue with food and non-food categories gets its food subject first (owner 2026-11-16); first matching category in this table order",
+   "excluded": {
+    "categories": [
+     "child-care"
+    ],
+    "reason": "children make consent too risky (owner 2026-11-16)"
+   },
+   "default": "dineIn"
+  },
+  "amenities": {
+   "source": "business amenityList (id, title, iconUrl, slug, sort)",
+   "chips": [
+    {
+     "slug": "parking_available",
+     "text": "Parking"
+    },
+    {
+     "slug": "free_wifi",
+     "text": "Free Wi-Fi"
+    },
+    {
+     "slug": "pet_friendly",
+     "text": "Pet friendly"
+    },
+    {
+     "slug": "baby_friendly",
+     "text": "Baby friendly"
+    }
+   ],
+   "factOnly": [
+    {
+     "slug": "non_smoking",
+     "text": "Non-smoking",
+     "reason": "cannot be filmed; passed to the AI writer as a fact (owner 2026-11-16)"
+    }
+   ]
+  },
+  "samples": {
+   "venue.name": "The Corner Bakery and Cafe",
+   "menuItem.name": "Iced Brown Sugar Oat Latte",
+   "menuItem.price": "6.50 USD",
+   "typed": "Spicy chicken curry with rice and garlic naan bread",
+   "amenity": "Baby friendly"
+  },
+  "kindsVersion": 1
+ }
+}

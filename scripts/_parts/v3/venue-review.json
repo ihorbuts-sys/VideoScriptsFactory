@@ -1,0 +1,926 @@
+{
+ "kind": "venue-review",
+ "title": "Review the venue",
+ "entry": "Venue review",
+ "reviewType": "venue",
+ "subjects": "venueSubjects",
+ "consent": [
+  {
+   "when": {
+    "subject": "visit"
+   },
+   "required": true,
+   "text": "Only staff who agreed and the space. No patients, clients or children."
+  }
+ ],
+ "steps": [
+  {
+   "key": "arrive",
+   "role": "arrive",
+   "required": true,
+   "title": "Arrive",
+   "camera": "back",
+   "where": "Outside, across from the entrance",
+   "direction": "Start across from the door with the sign in frame, then walk toward it at an even pace.",
+   "guides": [
+    "entrance_sign_tilt_v2",
+    "entrance_walk_in_v2",
+    "entrance_friend_static"
+   ],
+   "versions": [
+    {
+     "line": "{venue.name}. First time here.",
+     "card": "{venue.name}",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Stopping by {venue.name} today.",
+     "card": "At {venue.name}",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Here is {venue.name}.",
+     "card": "{venue.name}",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Starting the day at {venue.name}.",
+     "card": "Morning at {venue.name}",
+     "caption": "{venue.name}",
+     "tags": {
+      "daypart": "morning"
+     }
+    }
+   ],
+   "variants": [
+    {
+     "when": {
+      "serviceKind": "truck"
+     },
+     "where": "Across the street from the truck",
+     "direction": "Start across the street with the whole truck in frame, then walk toward the window.",
+     "guides": [
+      "truck_across_street"
+     ]
+    }
+   ]
+  },
+  {
+   "key": "place",
+   "role": "place",
+   "required": true,
+   "title": "The place",
+   "camera": "back",
+   "where": "Inside, from your seat or the doorway",
+   "direction": "Hold the phone at chest height and pan slowly across the room from left to right.",
+   "guides": [
+    "room_seated_pan_v2",
+    "room_reveal_plant_v2",
+    "room_static_wide",
+    "room_window_pan_left",
+    "room_bar_pan"
+   ],
+   "choice": {
+    "set": "place_word",
+    "preselect": null
+   },
+   "versions": [
+    {
+     "line": "This is the room at {venue.name}.",
+     "card": "Inside {venue.name}",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Grabbed a table. This is the view from my seat.",
+     "card": "My seat",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Inside {venue.name}. {opinion}",
+     "card": "Inside: {opinion}",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Here is where I am sitting today.",
+     "card": "Today's table",
+     "caption": "{venue.name}"
+    }
+   ],
+   "variants": [
+    {
+     "when": {
+      "serviceKind": "counter"
+     },
+     "title": "The counter",
+     "where": "At the counter, the display in frame",
+     "direction": "Stand a step back from the counter and move slowly along the display.",
+     "guides": [
+      "counter_display_truck",
+      "counter_over_shoulder_v2",
+      "counter_edge_to_pass_v2",
+      "menu_board_tilt_up_v2"
+     ],
+     "versions": [
+      {
+       "line": "This is the counter at {venue.name}.",
+       "card": "The counter",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Everything they make is right here.",
+       "card": "The counter",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "The counter at {venue.name}. {opinion}",
+       "card": "Counter: {opinion}",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "serviceKind": "truck"
+     },
+     "title": "The truck",
+     "where": "In front of the truck, the window and the line",
+     "direction": "Stand back far enough to fit the window and the people waiting, then move slowly toward the menu.",
+     "guides": [],
+     "gap": "truck-place",
+     "versions": [
+      {
+       "line": "This is the {venue.name} truck.",
+       "card": "The truck",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Found the truck. This is the window.",
+       "card": "The window",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is where you order at {venue.name}.",
+       "card": "Order here",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "The truck at {venue.name}. {opinion}",
+       "card": "The truck: {opinion}",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "subject": "result"
+     },
+     "title": "The salon",
+     "where": "Inside, by the chairs",
+     "direction": "Pan slowly across the chairs and mirrors at chest height.",
+     "guides": [],
+     "gap": "result-place",
+     "versions": [
+      {
+       "line": "This is {venue.name}.",
+       "card": "Inside {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Inside {venue.name}. {opinion}",
+       "card": "Inside: {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is where it happens.",
+       "card": "Inside",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "subject": "shopping"
+     },
+     "title": "The shop",
+     "where": "Inside, by the door",
+     "direction": "Pan slowly across the shop at chest height.",
+     "guides": [],
+     "gap": "shopping-place",
+     "versions": [
+      {
+       "line": "This is {venue.name}.",
+       "card": "Inside {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Inside {venue.name}. {opinion}",
+       "card": "Inside: {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Walking into the shop.",
+       "card": "Inside",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "subject": "experience"
+     },
+     "title": "The space",
+     "where": "Where it happens",
+     "direction": "Film the whole space wide, then hold still.",
+     "guides": [],
+     "gap": "experience-place",
+     "versions": [
+      {
+       "line": "This is {venue.name}.",
+       "card": "Inside {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Inside {venue.name}. {opinion}",
+       "card": "Inside: {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is where it happens.",
+       "card": "The space",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "subject": "visit"
+     },
+     "title": "The space",
+     "where": "The reception or the room",
+     "direction": "Film the room, the staff who agreed and the tools; keep other visitors out of frame.",
+     "guides": [],
+     "gap": "visit-place",
+     "versions": [
+      {
+       "line": "This is {venue.name}.",
+       "card": "Inside {venue.name}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Inside {venue.name}. {opinion}",
+       "card": "Inside: {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "This is the reception.",
+       "card": "Reception",
+       "caption": "{venue.name}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "before",
+   "role": "before",
+   "required": false,
+   "title": "Getting started",
+   "camera": "back",
+   "where": "",
+   "direction": "Film the order being placed, from the menu to the person taking it.",
+   "guides": [
+    "venue_order_placed"
+   ],
+   "versions": [
+    {
+     "line": "Ordering here works like this.",
+     "card": "How you order",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "First, the order.",
+     "card": "Ordering",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "This is how you order at {venue.name}.",
+     "card": "How you order",
+     "caption": "{venue.name}"
+    }
+   ],
+   "variants": [
+    {
+     "when": {
+      "subject": "dineIn"
+     },
+     "title": "Ordering",
+     "where": "At the table",
+     "guides": [
+      "menu_card_top_v2",
+      "menu_card_push",
+      "menu_wall_board_item"
+     ]
+    },
+    {
+     "when": {
+      "subject": "counter"
+     },
+     "title": "Ordering",
+     "where": "At the counter",
+     "guides": [
+      "menu_board_tilt_up_v2",
+      "menu_board_truck_v2",
+      "menu_board_static",
+      "counter_over_shoulder_v2"
+     ]
+    },
+    {
+     "when": {
+      "subject": "truck"
+     },
+     "title": "Ordering",
+     "where": "At the truck window",
+     "gap": "truck-order",
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "result"
+     },
+     "title": "Before",
+     "where": "In the chair, before it starts",
+     "direction": "Film the before: a slow pass at eye level, then hold still.",
+     "gap": "result-before",
+     "versions": [
+      {
+       "line": "This is the before.",
+       "card": "Before",
+       "caption": "Before"
+      },
+      {
+       "line": "Before we start.",
+       "card": "Before",
+       "caption": "Before"
+      },
+      {
+       "line": "Here is where we start.",
+       "card": "Before",
+       "caption": "Before"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "shopping"
+     },
+     "title": "Browsing",
+     "where": "Between the shelves",
+     "direction": "Walk slowly along one shelf with the phone at chest height.",
+     "gap": "shopping-before",
+     "versions": [
+      {
+       "line": "Having a look around {venue.name}.",
+       "card": "Looking around",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Browsing the shelves first.",
+       "card": "Browsing",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "So much to look at in here.",
+       "card": "Browsing",
+       "caption": "{venue.name}"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "experience"
+     },
+     "title": "Getting ready",
+     "where": "Where you get ready",
+     "direction": "Film the gear or the briefing, then yourself ready to go.",
+     "gap": "experience-before",
+     "versions": [
+      {
+       "line": "Getting ready.",
+       "card": "Getting ready",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "First, the gear.",
+       "card": "Gearing up",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Getting set before we start.",
+       "card": "Getting ready",
+       "caption": "{venue.name}"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "visit"
+     },
+     "title": "Meet the team",
+     "where": "At the front desk",
+     "direction": "Film the room, the staff who agreed and the tools; keep other visitors out of frame. Ask a staff member who agreed to say hello.",
+     "guides": [
+      "visit_front_desk_hello"
+     ],
+     "versions": [
+      {
+       "line": "Meeting the team at {venue.name}.",
+       "card": "The team",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "This is the front desk.",
+       "card": "Front desk",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Saying hello to the team first.",
+       "card": "The team",
+       "caption": "{venue.name}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "main",
+   "role": "main",
+   "required": true,
+   "title": "How it works",
+   "camera": "back",
+   "where": "",
+   "direction": "Film the moment you get your order, from their hands to yours.",
+   "guides": [],
+   "versions": [
+    {
+     "line": "And this is how it arrives.",
+     "card": "Here it comes",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Here it comes.",
+     "card": "Here it comes",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "This is how they serve it here.",
+     "card": "Served",
+     "caption": "{venue.name}"
+    }
+   ],
+   "gap": "venue-main",
+   "variants": [
+    {
+     "when": {
+      "subject": "dineIn"
+     },
+     "title": "Served at the table",
+     "where": "At the table",
+     "guides": [
+      "handoff_plate_lands_v2",
+      "handoff_plate_lands"
+     ]
+    },
+    {
+     "when": {
+      "subject": "counter"
+     },
+     "title": "Pick-up",
+     "where": "At the counter",
+     "guides": [
+      "handoff_counter_cup_v2",
+      "counter_hand_receive",
+      "counter_edge_to_pass_v2"
+     ]
+    },
+    {
+     "when": {
+      "subject": "truck"
+     },
+     "title": "At the window",
+     "where": "At the truck window",
+     "direction": "Film the hand-off through the window.",
+     "gap": "truck-handoff",
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "result"
+     },
+     "title": "The process",
+     "required": false,
+     "where": "Next to the chair",
+     "direction": "Film the hands at work from the side, close and steady.",
+     "gap": "result-main",
+     "versions": [
+      {
+       "line": "Here is how it is done.",
+       "card": "The process",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "In the chair now.",
+       "card": "In progress",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Halfway there.",
+       "card": "In progress",
+       "caption": "{venue.name}"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "shopping"
+     },
+     "title": "The find",
+     "where": "Where you found it",
+     "direction": "Hold up what you found, turn it slowly toward the lens.",
+     "gap": "shopping-main",
+     "versions": [
+      {
+       "line": "This is what I found.",
+       "card": "The find",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Found this at {venue.name}.",
+       "card": "The find",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Look what I found.",
+       "card": "The find",
+       "caption": "{venue.name}"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "experience"
+     },
+     "title": "In action",
+     "where": "In the middle of it",
+     "direction": "Film the action wide first, then from your point of view.",
+     "gap": "experience-main",
+     "versions": [
+      {
+       "line": "And we are off.",
+       "card": "In action",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "This is it.",
+       "card": "In action",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here we go.",
+       "card": "Here we go",
+       "caption": "{venue.name}"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "visit"
+     },
+     "title": "What they do",
+     "where": "In the space they work in",
+     "direction": "Film the room, the staff who agreed and the tools; keep other visitors out of frame.",
+     "guides": [
+      "visit_tools_no_clients"
+     ],
+     "versions": [
+      {
+       "line": "This is what they do at {venue.name}.",
+       "card": "What they do",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Here is where they work.",
+       "card": "The space",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "A look at how it works here.",
+       "card": "How it works",
+       "caption": "{venue.name}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "after",
+   "role": "after",
+   "required": false,
+   "title": "The moment after",
+   "camera": "back",
+   "where": "",
+   "direction": "Film yourself settling in with what you got.",
+   "guides": [
+    "venue_settle_in"
+   ],
+   "versions": [
+    {
+     "line": "All set.",
+     "card": "All set",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "And that is it.",
+     "card": "Done",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Done and settled in.",
+     "card": "All set",
+     "caption": "{venue.name}"
+    }
+   ],
+   "variants": [
+    {
+     "when": {
+      "subject": "dineIn"
+     },
+     "guides": [
+      "room_tilt_up_from_plate"
+     ]
+    },
+    {
+     "when": {
+      "subject": "result"
+     },
+     "title": "The result",
+     "required": true,
+     "where": "In front of the mirror",
+     "direction": "Hold still at eye level, then turn slowly to show the result.",
+     "gap": "result-after",
+     "versions": [
+      {
+       "line": "And this is the result.",
+       "card": "After",
+       "caption": "After"
+      },
+      {
+       "line": "Here is the after.",
+       "card": "After",
+       "caption": "After"
+      },
+      {
+       "line": "All done. This is it.",
+       "card": "After",
+       "caption": "After"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "shopping"
+     },
+     "title": "At the checkout",
+     "where": "At the checkout",
+     "direction": "Film the bag or the receipt at the counter.",
+     "gap": "shopping-after",
+     "versions": [
+      {
+       "line": "Taking this one home.",
+       "card": "Taking it home",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "All bagged up.",
+       "card": "Bagged",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "And that is my haul.",
+       "card": "My haul",
+       "caption": "{venue.name}"
+      }
+     ],
+     "guides": []
+    },
+    {
+     "when": {
+      "subject": "experience"
+     },
+     "title": "Right after",
+     "where": "Right after it ends",
+     "direction": "Turn the phone to yourself and catch your breath on camera.",
+     "guides": [
+      "experience_selfie_after"
+     ],
+     "versions": [
+      {
+       "line": "Just finished.",
+       "card": "Done",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "That was it.",
+       "card": "Done",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Catching my breath.",
+       "card": "After",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "subject": "visit"
+     },
+     "title": "The takeaway",
+     "where": "On your way out",
+     "direction": "Turn the phone to yourself; name what you got from the visit, not a result.",
+     "guides": [
+      "visit_selfie_takeaway"
+     ],
+     "versions": [
+      {
+       "line": "What I take away from this visit.",
+       "card": "Takeaway",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Leaving with a plan.",
+       "card": "Takeaway",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "This is what I learned here.",
+       "card": "Takeaway",
+       "caption": "{venue.name}"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "amenities",
+   "role": "amenities",
+   "required": false,
+   "title": "Amenities",
+   "camera": "back",
+   "where": "Where the amenity is: the sign, the bowl, the high chair, the lot",
+   "direction": "Point the phone at the thing you picked and hold it still for a moment.",
+   "guides": [
+    "amenity_point_hold"
+   ],
+   "choice": {
+    "set": "amenities",
+    "preselect": "business"
+   },
+   "versions": [
+    {
+     "line": "Also here: {amenity}.",
+     "card": "{amenity}",
+     "caption": "{amenity}"
+    },
+    {
+     "line": "Good to know at {venue.name}: {amenity}.",
+     "card": "{amenity}",
+     "caption": "{amenity}"
+    },
+    {
+     "line": "Noticed this here: {amenity}.",
+     "card": "{amenity}",
+     "caption": "{amenity}"
+    }
+   ]
+  },
+  {
+   "key": "verdict",
+   "role": "verdict",
+   "required": true,
+   "title": "Verdict",
+   "camera": "front",
+   "where": "At your seat",
+   "direction": "Hold the phone at eye level, look into the lens and answer the question.",
+   "guides": [
+    "verdict_eye_level_v2",
+    "verdict_friend_eye_v2",
+    "verdict_propped_rear"
+   ],
+   "choice": {
+    "set": "verdict_place",
+    "preselect": null
+   },
+   "question": "Would I come back here?",
+   "versions": [
+    {
+     "line": "{venue.name}. Would I come back here? {opinion}",
+     "card": "Coming back? {opinion}",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "So, would I come back to {venue.name}? {opinion}",
+     "card": "Back here? {opinion}",
+     "caption": "{venue.name}"
+    },
+    {
+     "line": "Would I come back? {opinion}",
+     "card": "Coming back? {opinion}",
+     "caption": "{venue.name}"
+    }
+   ],
+   "variants": [
+    {
+     "when": {
+      "subject": "result"
+     },
+     "choice": {
+      "set": "verdict_result",
+      "preselect": null
+     },
+     "question": "Would I come back for this?"
+    },
+    {
+     "when": {
+      "subject": "experience"
+     },
+     "choice": {
+      "set": "verdict_experience",
+      "preselect": null
+     },
+     "question": "Would I do it again?",
+     "versions": [
+      {
+       "line": "{venue.name}. Would I do it again? {opinion}",
+       "card": "Again? {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "So, would I do this again? {opinion}",
+       "card": "Again? {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Would I do it again? {opinion}",
+       "card": "Again? {opinion}",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "subject": "shopping"
+     },
+     "choice": {
+      "set": "verdict_shopping",
+      "preselect": null
+     },
+     "question": "Would I shop here again?",
+     "versions": [
+      {
+       "line": "{venue.name}. Would I shop here again? {opinion}",
+       "card": "Back here? {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "So, would I shop here again? {opinion}",
+       "card": "Again? {opinion}",
+       "caption": "{venue.name}"
+      },
+      {
+       "line": "Would I come back to shop? {opinion}",
+       "card": "Back here? {opinion}",
+       "caption": "{venue.name}"
+      }
+     ]
+    },
+    {
+     "when": {
+      "subject": "visit"
+     },
+     "choice": {
+      "set": "verdict_visit",
+      "preselect": null
+     },
+     "question": "Would I come back?"
+    }
+   ]
+  }
+ ]
+}

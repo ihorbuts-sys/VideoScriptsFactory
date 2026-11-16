@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "about": "Step text -> P0 shot type for library steps, catalog steps without an explicit shotType and /v1/scripts/write output. Rules run in order on the lowercased title, position and direction; the first match wins, no match is shotType none. A rule needs one of its words (if any), one of its moves (if any), a listed shot (if any), the last step (if last), and a food or drink venue kind (if foodOnly).",
+  "foodKinds": ["coffee", "bakery", "dining", "fast-food", "entertainment"],
+  "staff": {
+    "steps": [
+      "cafe-before-opening.lights", "cafe-before-opening.dial", "cafe-before-opening.shot",
+      "cafe-before-opening.door", "cafe-before-opening.verdict", "bakery-fresh-batch.oven",
+      "bakery-morning-shift.oven", "bakery-morning-shift.dough", "restaurant-chef-pick.hands",
+      "restaurant-chef-pick.cook"
+    ],
+    "positionWords": ["kitchen", "pass", "behind the counter"]
+  },
+  "counterWords": ["counter", "at the bar", "bar top", "order window", "window ledge", "front desk", "reception", "till"],
+  "rules": [
+    {"shotType": "first-bite", "shots": ["selfie", "close"], "words": ["bite", "forkful"], "foodOnly": true},
+    {"shotType": "sip", "shots": ["selfie", "close"], "words": ["sip"], "foodOnly": true},
+    {"shotType": "verdict", "shots": ["selfie", "close"], "last": true, "foodOnly": true},
+    {"shotType": "pour", "words": ["pour", "pours", "poured", "pulls a pint", "latte art", "milk goes in"], "foodOnly": true},
+    {"shotType": "steam", "words": ["steam"], "moves": ["hold still", "keep it still", "circle", "move in", "lean in"], "foodOnly": true},
+    {"shotType": "hand-off", "words": ["passed down", "set down", "sets it down", "handed over", "hand-off"], "foodOnly": true},
+    {"shotType": "plate-reveal", "shots": ["detail", "close"], "words": ["plate", "dish", "the order fills"], "moves": ["move in", "moves in", "circle", "slide it"], "foodOnly": true},
+    {"shotType": "menu-card", "words": ["menu on the table", "lunch menu", "menu card", "menu flat"], "foodOnly": true},
+    {"shotType": "menu-board", "words": ["menu board", "the board", "tap board", "happy hour board", "event board"], "moves": ["sidestep", "slide", "tilt", "tip it", "move in", "lean back"], "foodOnly": true},
+    {"shotType": "counter-order", "words": ["over your shoulder", "over the shoulder", "behind your own shoulder"], "moves": ["order", "ordering"], "foodOnly": true},
+    {"shotType": "room-from-table", "words": ["room", "the tables"], "moves": ["slide sideways", "turn slowly", "turn your hips"], "foodOnly": true},
+    {"shotType": "entrance", "words": ["door", "entrance", "storefront", "shopfront", "truck", "window", "walk in"], "moves": ["walk slowly", "walk up", "walk straight", "walk in", "walk to"]}
+  ]
+}

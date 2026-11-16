@@ -1,0 +1,96 @@
+{
+  "type": "object",
+  "properties": {
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "direction": {
+            "type": "string"
+          },
+          "onScreenText": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "card": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "prompter": {
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "const": "say"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "text"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "const": "pause"
+                    },
+                    "seconds": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "seconds"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "const": "cue"
+                    },
+                    "text": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "text"
+                  ]
+                }
+              ]
+            }
+          },
+          "seconds": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "direction",
+          "onScreenText",
+          "prompter",
+          "seconds"
+        ]
+      }
+    }
+  },
+  "required": [
+    "steps"
+  ]
+}

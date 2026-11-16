@@ -1,0 +1,1659 @@
+{
+  "templates": [
+    {
+      "id": "food-review",
+      "venueKinds": [
+        "coffee",
+        "dining",
+        "bakery",
+        "fast-food"
+      ],
+      "title": "Food review",
+      "summary": "One dish from the menu: arrive, order it, show it, take the first bite, give a verdict with the price.",
+      "featuresMenuItem": true,
+      "steps": [
+        {
+          "id": "arrive",
+          "key": "arrive",
+          "title": "Arrive",
+          "shot": "wide",
+          "position": "Outside, across from the entrance",
+          "direction": "Start across from the door with it centered in the frame, then walk straight at it at an even pace until it fills the screen.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Found it",
+              "script": "Found it. Look for the sign by the door."
+            },
+            {
+              "text": "This is the spot",
+              "script": "This is the spot. I came here for the {menuItem.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_arrive.jpg",
+          "overlays": [],
+          "shotType": "entrance",
+          "editOrder": 2,
+          "complexity": "easy",
+          "line": "{venue.name}. I came here for one thing: the {menuItem.name}.",
+          "caption": "{venue.name}",
+          "idea": "The front of the place, so people can find it.",
+          "guides": [
+            "entrance_sign_tilt_v2",
+            "entrance_sign_tilt",
+            "entrance_friend_static",
+            "entrance_walk_in_v2",
+            "entrance_door_low"
+          ],
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "camera": "back",
+          "required": true,
+          "captureOrder": 1,
+          "card": "{venue.name}"
+        },
+        {
+          "id": "order",
+          "key": "order",
+          "title": "Order",
+          "shot": "medium",
+          "position": "In front of the menu board",
+          "direction": "Phone level at the board, slide sideways past it at one even pace and say the dish's name as you go.",
+          "seconds": 5,
+          "prompter": "Picking from the menu. Getting the {menuItem.name}.",
+          "captions": [
+            {
+              "text": "The order",
+              "script": "Picking from the menu. Getting the {menuItem.name}."
+            },
+            {
+              "text": "On the menu",
+              "script": "Found it on the menu. Getting the {menuItem.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_order.jpg",
+          "overlays": [],
+          "shotType": "menu-board",
+          "editOrder": 3,
+          "complexity": "easy",
+          "line": "Picking from the menu. Getting the {menuItem.name}.",
+          "caption": "Ordered: {menuItem.name}",
+          "idea": "What you are ordering, with the menu in view.",
+          "guides": [
+            "menu_board_static",
+            "menu_board_tilt_down",
+            "menu_board_truck_v2",
+            "menu_board_tilt_up_v2",
+            "menu_board_tilt_up"
+          ],
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "camera": "back",
+          "required": true,
+          "captureOrder": 2,
+          "card": "Ordered: {menuItem.name}"
+        },
+        {
+          "id": "dish",
+          "key": "dish",
+          "title": "The dish",
+          "shot": "detail",
+          "position": "At your table, phone low beside the plate",
+          "direction": "Phone at plate height, move in slowly until the dish fills the frame. Steam or sauce if it has it.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "{menuItem.name}",
+              "script": "The {menuItem.name}, the dish I came here for."
+            },
+            {
+              "text": "The dish",
+              "script": "Here is the {menuItem.name} at {venue.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_dish.jpg",
+          "overlays": [],
+          "shotType": "plate-reveal",
+          "editOrder": 1,
+          "required": true,
+          "complexity": "complex",
+          "line": null,
+          "caption": null,
+          "idea": "The dish on the table, close enough to see what it is.",
+          "guides": [
+            "plate_rise_overhead_v2",
+            "plate_high_orbit_v2",
+            "plate_tissue_slide"
+          ],
+          "titleFacts": [
+            "{menuItem.name} · {menuItem.price}"
+          ],
+          "camera": "back",
+          "captureOrder": 3,
+          "card": "{menuItem.name}",
+          "servingVariants": {
+            "handheld": {
+              "venueKinds": [
+                "bakery",
+                "fast-food"
+              ],
+              "position": "Where you got it, the food in your hand or on its paper",
+              "direction": "Hold the food about a foot from the lens and turn it slowly to show the inside, or open its paper on the tray.",
+              "idea": "The food in your hand or on its paper, close enough to see what it is.",
+              "guides": []
+            }
+          }
+        },
+        {
+          "id": "bite",
+          "key": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Back camera on the dish, you on the front camera: lift the first bite toward the lens and react in your own words.",
+          "seconds": 5,
+          "prompter": "First bite of the {menuItem.name}. {opinion}",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite of the {menuItem.name}. {opinion}"
+            },
+            {
+              "text": "{menuItem.name}",
+              "script": "Trying the {menuItem.name} first. {opinion}"
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_bite.jpg",
+          "overlays": [],
+          "shotType": "first-bite",
+          "editOrder": 4,
+          "complexity": "easy",
+          "line": "First bite of the {menuItem.name}. {opinion}",
+          "caption": "First bite",
+          "idea": "You taking the first bite, your face and the food in frame.",
+          "guides": [
+            "bite_pip_dish_v2",
+            "bite_friend_three_quarter_v2",
+            "bite_selfie_eye_v2"
+          ],
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "camera": "front",
+          "required": true,
+          "captureOrder": 4,
+          "card": "First bite: {opinion}",
+          "opinion": {
+            "set": "bite_reaction",
+            "preselect": "okay",
+            "order": [
+              "okay",
+              "good",
+              "not_sure"
+            ]
+          },
+          "servingVariants": {
+            "handheld": {
+              "venueKinds": [
+                "bakery",
+                "fast-food"
+              ],
+              "position": "Where you are eating, standing or seated",
+              "direction": "Front camera at eye level: hold it in both hands, take the first bite and react in your own words."
+            }
+          }
+        },
+        {
+          "id": "verdict",
+          "key": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Hold the phone at arm's length with the plate in frame. Say the price, where you are, and whether you would come back.",
+          "seconds": 6,
+          "prompter": "{menuItem.price} at {venue.name}. Would I come back? {opinion}",
+          "captions": [
+            {
+              "text": "{menuItem.name} · {menuItem.price}",
+              "script": "{menuItem.price} at {venue.name}. Would I come back? {opinion}"
+            },
+            {
+              "text": "{venue.name}",
+              "script": "{menuItem.price} at {venue.name}. Coming back? {opinion}"
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_verdict.jpg",
+          "overlays": [],
+          "shotType": "verdict",
+          "editOrder": 5,
+          "required": true,
+          "complexity": "easy",
+          "line": "{menuItem.price} at {venue.name}. Would I come back? {opinion}",
+          "caption": "{menuItem.name} · {menuItem.price}",
+          "idea": "You, looking at the lens, saying if it is worth the price.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "titleFacts": [
+            "{venue.name} · {menuItem.price}"
+          ],
+          "camera": "front",
+          "captureOrder": 5,
+          "card": "Would I come back? {opinion}",
+          "opinion": {
+            "set": "verdict_answer",
+            "preselect": null,
+            "order": [
+              "certainly",
+              "maybe",
+              "not_for_me"
+            ]
+          },
+          "noPrice": {
+            "line": "{venue.name}. Would I come back? {opinion}",
+            "card": "Would I come back? {opinion}",
+            "caption": "{menuItem.name}"
+          },
+          "servingVariants": {
+            "handheld": {
+              "venueKinds": [
+                "bakery",
+                "fast-food"
+              ],
+              "position": "Where you ate, arm out",
+              "direction": "Hold the phone at arm's length with the food or its wrapper in frame. Say the price, where you are, and whether you would come back."
+            }
+          }
+        }
+      ],
+      "dishSource": {
+        "kind": "menu",
+        "whenNoMenu": "food-review-typed"
+      }
+    },
+    {
+      "id": "food-review-typed",
+      "venueKinds": [
+        "coffee",
+        "dining",
+        "bakery",
+        "fast-food"
+      ],
+      "title": "Review a dish",
+      "summary": "One dish or drink you name yourself: arrive, show it, take the first taste, say if you would come back.",
+      "featuresMenuItem": true,
+      "dishSource": {
+        "kind": "typed",
+        "maxLength": 40,
+        "hint": "The dish or drink you are reviewing"
+      },
+      "steps": [
+        {
+          "id": "arrive",
+          "key": "arrive",
+          "title": "Arrive",
+          "shot": "wide",
+          "position": "Outside, across from the entrance",
+          "direction": "Start across from the door with it centered in the frame, then walk straight at it at an even pace until it fills the screen.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Found it",
+              "script": "Found it. Look for the sign by the door."
+            },
+            {
+              "text": "This is the spot",
+              "script": "This is the spot. I came for {menuItem.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_arrive.jpg",
+          "overlays": [],
+          "shotType": "entrance",
+          "editOrder": 2,
+          "complexity": "easy",
+          "line": "{venue.name}. I came here for {menuItem.name}.",
+          "caption": "{venue.name}",
+          "idea": "The front of the place, so people can find it.",
+          "guides": [
+            "entrance_sign_tilt_v2",
+            "entrance_sign_tilt",
+            "entrance_friend_static",
+            "entrance_walk_in_v2",
+            "entrance_door_low"
+          ],
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "camera": "back",
+          "required": true,
+          "captureOrder": 1,
+          "card": "{venue.name}"
+        },
+        {
+          "id": "dish",
+          "key": "dish",
+          "title": "What I got",
+          "shot": "detail",
+          "position": "Where you got it, phone low and close",
+          "direction": "Hold the phone low, about a foot away, and move in slowly until it fills the frame. Steam, sauce or foam if it has it.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "{menuItem.name}",
+              "script": "This is {menuItem.name}, what I came here for."
+            },
+            {
+              "text": "What I got",
+              "script": "Here is {menuItem.name} at {venue.name}."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_dish.jpg",
+          "overlays": [],
+          "shotType": "plate-reveal",
+          "editOrder": 1,
+          "required": true,
+          "complexity": "complex",
+          "line": null,
+          "caption": null,
+          "idea": "What you ordered, close enough to see what it is.",
+          "guides": [
+            "plate_rise_overhead_v2",
+            "plate_high_orbit_v2",
+            "plate_tissue_slide"
+          ],
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "camera": "back",
+          "captureOrder": 2,
+          "card": "{menuItem.name}"
+        },
+        {
+          "id": "bite",
+          "key": "bite",
+          "title": "First taste",
+          "shot": "selfie",
+          "position": "Where you are eating or drinking",
+          "direction": "Back camera on it, you on the front camera: take the first bite or sip toward the lens and react in your own words.",
+          "seconds": 5,
+          "prompter": "First taste of {menuItem.name}. {opinion}",
+          "captions": [
+            {
+              "text": "First taste",
+              "script": "First taste of {menuItem.name}. {opinion}"
+            },
+            {
+              "text": "{menuItem.name}",
+              "script": "Trying {menuItem.name} first. {opinion}"
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_bite.jpg",
+          "overlays": [],
+          "shotType": "first-bite",
+          "editOrder": 3,
+          "complexity": "easy",
+          "line": "First taste of {menuItem.name}. {opinion}",
+          "caption": "First taste",
+          "idea": "You taking the first bite or sip, your face and the food or drink in frame.",
+          "guides": [
+            "bite_pip_dish_v2",
+            "bite_friend_three_quarter_v2",
+            "bite_selfie_eye_v2"
+          ],
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "camera": "front",
+          "required": true,
+          "captureOrder": 3,
+          "card": "First taste: {opinion}",
+          "opinion": {
+            "set": "bite_reaction",
+            "preselect": "okay",
+            "order": [
+              "okay",
+              "good",
+              "not_sure"
+            ]
+          }
+        },
+        {
+          "id": "verdict",
+          "key": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "Where you ate or drank, arm out",
+          "direction": "Hold the phone at arm's length with what you ordered in frame. Say where you are and whether you would come back.",
+          "seconds": 6,
+          "prompter": "{venue.name}. Would I come back? {opinion}",
+          "captions": [
+            {
+              "text": "{menuItem.name}",
+              "script": "{venue.name}. Would I come back? {opinion}"
+            },
+            {
+              "text": "{venue.name}",
+              "script": "{venue.name}. Coming back? {opinion}"
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review_verdict.jpg",
+          "overlays": [],
+          "shotType": "verdict",
+          "editOrder": 4,
+          "required": true,
+          "complexity": "easy",
+          "line": "{venue.name}. Would I come back? {opinion}",
+          "caption": "{menuItem.name}",
+          "idea": "You, looking at the lens, saying if you would come back.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "camera": "front",
+          "captureOrder": 4,
+          "card": "Would I come back? {opinion}",
+          "opinion": {
+            "set": "verdict_answer",
+            "preselect": null,
+            "order": [
+              "definitely",
+              "maybe_again",
+              "once",
+              "not_for_me"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "food-review-drink",
+      "venueKinds": [
+        "coffee",
+        "bakery",
+        "dining",
+        "fast-food"
+      ],
+      "title": "Review a drink",
+      "summary": "One coffee, tea or cold drink from the menu: the pour, the order, the first sip and whether it is worth the price.",
+      "featuresMenuItem": true,
+      "steps": [
+        {
+          "id": "order",
+          "title": "Order",
+          "shot": "medium",
+          "position": "At the counter, beside the barista",
+          "direction": "Film over your shoulder toward the barista or the menu board as you order, and say the drink's name.",
+          "seconds": 5,
+          "prompter": "Asked the barista what to get, and this is the one.",
+          "captions": [
+            {
+              "text": "Barista's pick",
+              "script": "Asked the barista what to get, and this is the one."
+            },
+            {
+              "text": "My order",
+              "script": "My order today, the drink people keep posting from here."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-drink_order.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "Getting the {menuItem.name}. The barista says it's their best.",
+          "caption": "Ordered: {menuItem.name}",
+          "idea": "Where you order, with the menu or the barista in view.",
+          "guides": [
+            "counter_hand_receive",
+            "counter_over_shoulder_v2",
+            "counter_over_shoulder",
+            "counter_edge_to_pass_v2",
+            "counter_edge_to_pass"
+          ],
+          "camera": "back",
+          "shotType": "counter-order",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "pour",
+          "title": "The pour",
+          "shot": "detail",
+          "position": "Above the cup on the counter",
+          "direction": "Phone straight above the cup. Film the pour, the latte art, or the ice and colour as it is stirred, and move in a little.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Watch this pour",
+              "script": "Watch this pour. This is the drink I came for."
+            },
+            {
+              "text": "Is it worth it?",
+              "script": "Is this drink worth the price? Let's find out together."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-drink_pour.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "Watching them make the {menuItem.name}. Look at that pour.",
+          "caption": "{menuItem.name}",
+          "idea": "Your drink being made, the pour or the ice close up.",
+          "guides": [
+            "pour_static_45",
+            "pour_top_down_latte",
+            "pour_side_low_v2"
+          ],
+          "camera": "back",
+          "shotType": "pour",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "cup",
+          "title": "The cup",
+          "shot": "detail",
+          "position": "At your table, phone at cup height",
+          "direction": "Phone level with the cup, circle slowly around it so the side and the handle or straw come into view.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look at it",
+              "script": "Look at it, up close from every side."
+            },
+            {
+              "text": "The colour",
+              "script": "Look at that colour, up close in the cup."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-drink_cup.jpg",
+          "overlays": [],
+          "complexity": "complex",
+          "shotType": "steam",
+          "idea": "Your drink on the table, close enough to see it.",
+          "guides": [
+            "steam_orbit_eye",
+            "steam_slide_pull_out"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{menuItem.name} · {menuItem.price}"
+          ],
+          "required": true,
+          "line": null,
+          "caption": null
+        },
+        {
+          "id": "sip",
+          "title": "First sip",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Front camera at eye level, cup in frame. Take the first sip and say how it tastes.",
+          "seconds": 5,
+          "prompter": "First sip. Strong, a little sweet, and really smooth.",
+          "captions": [
+            {
+              "text": "First sip",
+              "script": "First sip. Strong, a little sweet, and really smooth."
+            },
+            {
+              "text": "Honest take",
+              "script": "Honest take: not too sweet, and I can taste the coffee."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-drink_sip.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "First sip of the {menuItem.name}. Here's how it tastes.",
+          "caption": "First sip",
+          "idea": "You taking the first sip, your face and the cup in frame.",
+          "guides": [
+            "sip_cup_only",
+            "sip_friend_side_v2",
+            "sip_selfie_eye_v2",
+            "sip_high_lean_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Arm's length, the cup and the room behind you. Say the price and whether you would order it again.",
+          "seconds": 6,
+          "prompter": "Here is the price, and whether I would order it again.",
+          "captions": [
+            {
+              "text": "Worth the price",
+              "script": "Here is the price, and whether I would order it again."
+            },
+            {
+              "text": "Order this one",
+              "script": "If you come here, order this one and thank me later."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-drink_verdict.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "{menuItem.price} at {venue.name}. Would I order it again? Definitely.",
+          "caption": "{menuItem.name} · {menuItem.price}",
+          "idea": "You, looking at the lens, saying if it is worth the price.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name} · {menuItem.price}"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "food-review-pour",
+      "venueKinds": [
+        "entertainment",
+        "dining"
+      ],
+      "title": "Review a beer or cocktail",
+      "summary": "One beer or cocktail from the menu: the pour or the build, the glass, the first sip and the price.",
+      "featuresMenuItem": true,
+      "steps": [
+        {
+          "id": "build",
+          "title": "The pour",
+          "shot": "detail",
+          "position": "At the bar, phone low at glass height",
+          "direction": "Phone low at the bar edge. Film the tap pour and the head settling, or the shake, strain and garnish.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Fresh off the tap",
+              "script": "Fresh off the tap. Watch that head settle."
+            },
+            {
+              "text": "The build",
+              "script": "Watch them build it. Shaken, strained, and garnished right there."
+            },
+            {
+              "text": "Happy hour pick",
+              "script": "My happy hour pick, and here is why."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-pour_build.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "Here comes the {menuItem.name}. Watch them pour it.",
+          "caption": "{menuItem.name}",
+          "idea": "Your drink being poured or mixed, close at glass height.",
+          "guides": [
+            "pour_static_45",
+            "pour_side_low_v2"
+          ],
+          "camera": "back",
+          "shotType": "pour",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "glass",
+          "title": "The glass",
+          "shot": "detail",
+          "position": "At the bar, glass against the light",
+          "direction": "Hold the glass up between the lens and the bar lights, then lower it slowly to the bar top.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look at that colour",
+              "script": "Look at that colour against the light."
+            },
+            {
+              "text": "Where it's from",
+              "script": "I asked where it comes from, and here is the answer."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-pour_glass.jpg",
+          "overlays": [],
+          "complexity": "complex",
+          "shotType": "plate-reveal",
+          "idea": "The full glass close up, with the bar lights behind it.",
+          "guides": [
+            "glass_slide_close"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{menuItem.name} · {menuItem.price}"
+          ],
+          "required": true,
+          "line": null,
+          "caption": null
+        },
+        {
+          "id": "sip",
+          "title": "First sip",
+          "shot": "selfie",
+          "position": "At the bar",
+          "direction": "Front camera at eye level, the bar behind you. Take a sip and say what it tastes like in a few words.",
+          "seconds": 6,
+          "prompter": "First sip. Crisp, a little bitter, and easy to drink.",
+          "captions": [
+            {
+              "text": "First sip",
+              "script": "First sip. Crisp, a little bitter, and easy to drink."
+            },
+            {
+              "text": "Strong one",
+              "script": "Okay, that one is strong. Here is what I taste first."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-pour_sip.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "First sip of the {menuItem.name}. Here's what it tastes like.",
+          "caption": "First sip",
+          "idea": "You taking the first sip, your face and the glass in frame.",
+          "guides": [
+            "sip_cup_only",
+            "sip_friend_side_v2",
+            "sip_selfie_eye_v2",
+            "sip_high_lean_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the bar, arm out",
+          "direction": "Arm's length with the bar and the taps behind you. Give the price and the happy hour if there is one.",
+          "seconds": 6,
+          "prompter": "Here is what it costs, and when happy hour starts.",
+          "captions": [
+            {
+              "text": "Price check",
+              "script": "Here is what it costs, and when happy hour starts."
+            },
+            {
+              "text": "Get this one",
+              "script": "Get this one first, then work your way down the list."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-pour_verdict.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "{menuItem.price} at {venue.name}. Here's when happy hour starts.",
+          "caption": "{menuItem.name} · {menuItem.price}",
+          "idea": "You, looking at the lens, saying the price and when to come.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name} · {menuItem.price}"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "food-review-sweet",
+      "venueKinds": [
+        "bakery",
+        "coffee",
+        "dining"
+      ],
+      "title": "Review a pastry or dessert",
+      "summary": "One pastry, donut or dessert: break it open, show the inside, taste it and say if it is worth it.",
+      "featuresMenuItem": true,
+      "steps": [
+        {
+          "id": "case",
+          "title": "The case",
+          "shot": "medium",
+          "position": "In front of the display case",
+          "direction": "Phone at shelf height in front of the glass. Move slowly toward the one you are getting until it fills the frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Which one?",
+              "script": "Everything in this case looks good, but I came for one."
+            },
+            {
+              "text": "Fresh case",
+              "script": "Here is the case today, and it goes fast."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-sweet_case.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "Picking the {menuItem.name} from the case.",
+          "caption": "{menuItem.name}",
+          "idea": "The display case, ending on the one you are getting.",
+          "guides": [],
+          "camera": "back",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "break",
+          "title": "Break it open",
+          "shot": "detail",
+          "position": "At your table, plate close to the lens",
+          "direction": "Pastry on its plate, film it close: circle it with your elbows on the table, or slide the phone along a napkin.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look inside",
+              "script": "Look inside. That is the part you came for."
+            },
+            {
+              "text": "The layers",
+              "script": "Count the layers. Flaky outside, soft in the middle."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-sweet_break.jpg",
+          "overlays": [],
+          "complexity": "complex",
+          "shotType": "plate-reveal",
+          "idea": "The pastry on the plate, close enough to see the inside.",
+          "guides": [
+            "plate_rise_overhead_v2",
+            "plate_high_orbit_v2",
+            "plate_tissue_slide"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{menuItem.name} · {menuItem.price}"
+          ],
+          "required": true,
+          "line": null,
+          "caption": null
+        },
+        {
+          "id": "taste",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Front camera at eye level. Take a bite and say the texture and whether it is too sweet.",
+          "seconds": 5,
+          "prompter": "First bite. Soft, buttery, and not too sweet at all.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite. Soft, buttery, and not too sweet at all."
+            },
+            {
+              "text": "Honest",
+              "script": "Honestly, the filling is the best part, and there is plenty."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-sweet_taste.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "First bite of the {menuItem.name}. Here's the texture.",
+          "caption": "First bite",
+          "idea": "You taking the first bite, your face and the pastry in frame.",
+          "guides": [
+            "bite_pip_dish_v2",
+            "bite_friend_three_quarter_v2",
+            "bite_selfie_eye_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Arm's length, the plate in front of you. Give the price and a tip on when to come before it sells out.",
+          "seconds": 6,
+          "prompter": "Here is the price, and come early, they sell out.",
+          "captions": [
+            {
+              "text": "Come early",
+              "script": "Here is the price, and come early, they sell out."
+            },
+            {
+              "text": "Get two",
+              "script": "Get two, because you will want another one on the way home."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-sweet_verdict.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "{menuItem.price} at {venue.name}. Come early, they sell out.",
+          "caption": "{menuItem.name} · {menuItem.price}",
+          "idea": "You, looking at the lens, saying the price and when to come.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name} · {menuItem.price}"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "food-review-handheld",
+      "venueKinds": [
+        "fast-food",
+        "dining",
+        "entertainment"
+      ],
+      "title": "Review a burger or taco",
+      "summary": "One burger, taco, burrito, sandwich or slice: the cross-section, the two-hand bite and the price.",
+      "featuresMenuItem": true,
+      "steps": [
+        {
+          "id": "window",
+          "title": "The window",
+          "shot": "wide",
+          "position": "In front of the counter or the truck window",
+          "direction": "Start wide on the counter or the truck and the menu board, then walk up to the window.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Lunch stop",
+              "script": "Lunch stop. People told me this is the one to try."
+            },
+            {
+              "text": "Found the truck",
+              "script": "Found the truck. The line tells you everything."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-handheld_window.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "Lunch at {venue.name}. I'm here for the {menuItem.name}.",
+          "caption": "{venue.name}",
+          "idea": "The counter or the truck window, so people can find it.",
+          "guides": [
+            "entrance_sign_tilt_v2",
+            "entrance_sign_tilt",
+            "entrance_friend_static",
+            "entrance_walk_in_v2",
+            "entrance_door_low"
+          ],
+          "camera": "back",
+          "shotType": "entrance",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "cut",
+          "title": "Cross-section",
+          "shot": "detail",
+          "position": "At the table or on the car hood, phone low",
+          "direction": "Food on its plate or wrapper, film it close: circle it with your elbows down, or slide the phone along a napkin.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look at the inside",
+              "script": "Look at the inside. Nobody is skimping on the filling."
+            },
+            {
+              "text": "Cheese pull",
+              "script": "That cheese pull says it all."
+            },
+            {
+              "text": "How big is this",
+              "script": "How big is this? Two hands, no shame."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-handheld_cut.jpg",
+          "overlays": [],
+          "complexity": "complex",
+          "shotType": "plate-reveal",
+          "idea": "The food close up, so people see what is inside.",
+          "guides": [
+            "plate_rise_overhead_v2",
+            "plate_high_orbit_v2",
+            "plate_tissue_slide"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{menuItem.name} · {menuItem.price}"
+          ],
+          "required": true,
+          "line": null,
+          "caption": null
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the table or standing at the truck",
+          "direction": "Front camera at eye level. Two hands, a big bite, and react before you finish chewing.",
+          "seconds": 5,
+          "prompter": "First bite. Messy, hot, and the sauce is the best part.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite. Messy, hot, and the sauce is the best part."
+            },
+            {
+              "text": "No napkins left",
+              "script": "I already need more napkins, and that is a good sign."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-handheld_bite.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "Two hands for the {menuItem.name}. First bite.",
+          "caption": "First bite",
+          "idea": "You taking a big first bite, your face and the food in frame.",
+          "guides": [
+            "bite_pip_dish_v2",
+            "bite_friend_three_quarter_v2",
+            "bite_selfie_eye_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Arm's length with the counter or truck behind you. Say the price and whether it fills you up.",
+          "seconds": 6,
+          "prompter": "Here is the price, and whether one is enough for lunch.",
+          "captions": [
+            {
+              "text": "Price check",
+              "script": "Here is the price, and whether one is enough for lunch."
+            },
+            {
+              "text": "Get it loaded",
+              "script": "Get it with everything on it, and grab extra sauce."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-handheld_verdict.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "{menuItem.price} at {venue.name}. Here's whether one is enough.",
+          "caption": "{menuItem.name} · {menuItem.price}",
+          "idea": "You, looking at the lens, saying the price and if it fills you up.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name} · {menuItem.price}"
+          ],
+          "required": true
+        }
+      ]
+    },
+    {
+      "id": "food-review-table",
+      "venueKinds": [
+        "dining",
+        "fast-food"
+      ],
+      "title": "Review a spread",
+      "summary": "A shared table or a breakfast plate: the whole spread from above, the sizzle or the pour, the first bite and the price per person.",
+      "featuresMenuItem": true,
+      "steps": [
+        {
+          "id": "spread",
+          "title": "The spread",
+          "shot": "detail",
+          "position": "Standing over the table",
+          "direction": "Phone flat above the table. Start on one dish and rise slowly until the whole table is in frame.",
+          "seconds": 8,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "All of this",
+              "script": "All of this, for our table."
+            },
+            {
+              "text": "Too much food?",
+              "script": "Here is everything we ordered, and maybe too much."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-table_spread.jpg",
+          "overlays": [],
+          "complexity": "complex",
+          "shotType": "plate-reveal",
+          "idea": "The whole table from above, every plate in frame.",
+          "guides": [
+            "table_spread_orbit",
+            "pancake_clear_path"
+          ],
+          "camera": "back",
+          "titleFacts": [
+            "{menuItem.name} · {menuItem.price}"
+          ],
+          "required": true,
+          "line": null,
+          "caption": null
+        },
+        {
+          "id": "action",
+          "title": "The sizzle",
+          "shot": "detail",
+          "position": "At the grill, the pot or the plate",
+          "direction": "Phone low beside the grill or the plate. Film the meat hitting the grill, the dip in the broth, the yolk or the syrup.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Listen to that",
+              "script": "Listen to that, right at the table."
+            },
+            {
+              "text": "The yolk",
+              "script": "The yolk break, the best two seconds of breakfast."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-table_action.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "The {menuItem.name} just hit the grill. Listen to that.",
+          "caption": "{menuItem.name}",
+          "idea": "The food cooking or being served, close and low.",
+          "guides": [],
+          "camera": "back",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "how",
+          "title": "How it works",
+          "shot": "medium",
+          "position": "At the table, the spread in front of you",
+          "direction": "Film the table at eye level, both cameras on. Explain how ordering works: all you can eat, a set for two, or a plate.",
+          "seconds": 5,
+          "prompter": "Here is how ordering works, and what comes to the table.",
+          "captions": [
+            {
+              "text": "How it works",
+              "script": "Here is how ordering works, and what comes to the table."
+            },
+            {
+              "text": "What we got",
+              "script": "Here is what we got, and everything that came with it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-table_how.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "Here's how ordering works and what comes to the table.",
+          "caption": "How it works",
+          "idea": "The table and the room, while you explain how ordering works.",
+          "guides": [
+            "room_static_wide",
+            "room_tilt_up_from_plate",
+            "room_seated_pan_v2"
+          ],
+          "camera": "back",
+          "shotType": "room-from-table",
+          "titleFacts": [
+            "{venue.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the table",
+          "direction": "Front camera at eye level. Take the first bite from the grill or the plate and react.",
+          "seconds": 5,
+          "prompter": "First bite of the spread. Okay, that is good.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite of the spread. Okay, that is good."
+            },
+            {
+              "text": "Best bite",
+              "script": "Best bite of the table, and it is not even close."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-table_bite.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "First bite of the {menuItem.name}. Okay, that is good.",
+          "caption": "First bite",
+          "idea": "You taking the first bite, your face and the food in frame.",
+          "guides": [
+            "bite_pip_dish_v2",
+            "bite_friend_three_quarter_v2",
+            "bite_selfie_eye_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{menuItem.name}"
+          ],
+          "required": true
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Arm's length with the table and your friends in frame, if they agree. Say the price per person.",
+          "seconds": 6,
+          "prompter": "Here is what it cost per person, and if it's worth it.",
+          "captions": [
+            {
+              "text": "Per person",
+              "script": "Here is what it cost per person, and if it's worth it."
+            },
+            {
+              "text": "Bring friends",
+              "script": "Bring friends and come hungry. You will need both."
+            }
+          ],
+          "pip": false,
+          "imageURL": "food-review-table_verdict.jpg",
+          "overlays": [],
+          "complexity": "easy",
+          "line": "{menuItem.price} per person at {venue.name}. Worth it with friends.",
+          "caption": "{menuItem.price} per person",
+          "idea": "You, looking at the lens, saying the price per person.",
+          "guides": [
+            "verdict_eye_level_v2",
+            "verdict_propped_rear",
+            "verdict_friend_eye_v2",
+            "verdict_high_plate_v2"
+          ],
+          "camera": "front",
+          "titleFacts": [
+            "{venue.name} · {menuItem.price}"
+          ],
+          "required": true
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "food-review": {
+      "dish": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The dish grows from a close-up until the sauce or steam fills the frame; a whip off it lands on the door outside."
+      },
+      "arrive": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The door grows as we walk straight at it until it fills the frame; cut to the menu board."
+      },
+      "order": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "truck-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The board's columns slide past at one even pace while the dish is named; cut to the first bite."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The fork rises from the plate toward the lens and the face grows as the creator leans in to bite; cut back to arm's length."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 8,
+        "transitionOut": "cut",
+        "reads": "Arm's length, plate and face in frame, held still while the verdict and price land."
+      }
+    },
+    "food-review-drink": {
+      "pour": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "From above, the cup grows until the pour or the art fills the frame; match-cut on the cup as it is handed over the counter."
+      },
+      "order": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Over the shoulder at the counter, the barista hands the cup across while the creator names it; cut to the cup alone on the table."
+      },
+      "cup": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "orbit-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "At cup height, the camera circles so the handle or straw comes around and the far side of the cup appears; cut to the creator."
+      },
+      "sip": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The cup rises to the creator's mouth and the face grows slightly as they lean in for the sip; cut back to arm's length."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, cup and room behind, held still for the price and the verdict."
+      }
+    },
+    "food-review-pour": {
+      "build": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "From the bar edge the glass grows as it fills and the head settles; match-cut on the full glass lifted against the light."
+      },
+      "glass": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "tilt-down",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "At eye level the glass glows against the bar lights, then the view tilts down with it as it lands on the bar top; cut to the creator."
+      },
+      "sip": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The creator lifts the glass and leans in to sip, the face growing in frame; cut back to arm's length."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length with the taps behind, held still for the price and the happy hour."
+      }
+    },
+    "food-review-sweet": {
+      "case": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "push-through",
+        "reads": "At shelf height the case fills the frame, then the camera moves in on one pastry until it fills the frame; the next shot starts filled with it on the plate."
+      },
+      "break": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The pastry fills the frame as it is torn open and the inside grows toward the lens; cut to the creator taking a bite."
+      },
+      "taste": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The pastry rises to the creator's mouth and the face grows as they lean in; cut back to arm's length."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length with the plate, held still for the price and the tip."
+      }
+    },
+    "food-review-handheld": {
+      "window": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The counter or truck grows as the creator walks up to the window; a whip down lands on the food in their hands."
+      },
+      "cut": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Low and close, the two halves come apart toward the lens and the filling grows until it fills the frame; cut to the creator lifting it."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Two hands lift it to the creator's mouth and the face grows with the bite; cut back to arm's length."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length with the counter or truck behind, held still for the price."
+      }
+    },
+    "food-review-table": {
+      "spread": {
+        "angle": "top-down",
+        "start": "detail",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 8,
+        "transitionOut": "cut",
+        "reads": "From straight above one dish, the camera rises and the rest of the table appears around it until the whole spread fills the frame; cut low to the grill."
+      },
+      "action": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "pull-back-reveal",
+        "reads": "At grill height the meat hits the heat and grows in frame; the next shot starts on it and pulls back to show the table."
+      },
+      "how": {
+        "angle": "eye-level",
+        "start": "detail",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Starting on the meat on the grill, the camera eases back until the creator, the grill and the whole table are in frame as they explain how it works; cut to the front camera."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The first piece rises from the grill to the creator's mouth and the face grows; cut back to arm's length."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length from slightly above, table and friends in frame, held for the price per person."
+      }
+    },
+    "food-review-typed": {
+      "arrive": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The door grows as we walk straight at it until it fills the frame; a whip off it lands on the first taste."
+      },
+      "dish": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "What was ordered grows from a close-up until the steam, sauce or foam fills the frame; a whip off it lands on the door outside."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The first bite or sip rises toward the lens and the face grows as the creator leans in; cut back to arm's length."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, what was ordered and the face in frame, held still while the verdict lands."
+      }
+    }
+  }
+}

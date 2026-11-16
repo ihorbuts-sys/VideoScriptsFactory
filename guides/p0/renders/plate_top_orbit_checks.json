@@ -1,0 +1,49 @@
+{
+  "id": "plate_top_orbit",
+  "status": "passed",
+  "frames": 90,
+  "seconds": 6,
+  "durationSec": 5,
+  "setupBeatSeconds": 0,
+  "alphaFactor": 1,
+  "global_opacity_baked": false,
+  "maximum_alpha": 255,
+  "target_first_and_last_identical": true,
+  "poster_equals_frame_zero": true,
+  "encoded_frames_preserved": true,
+  "selector_size": [
+    120,
+    213
+  ],
+  "animation_size": [
+    405,
+    720
+  ],
+  "initial_hold_frames": 8,
+  "final_hold_frames": 7,
+  "visible_motion": true,
+  "hero_pixel_band_checked": true,
+  "maximum_hands": 0,
+  "detailed_people": 0,
+  "silhouettes": 0,
+  "fixed_lens": true,
+  "fixed_lighting": true,
+  "local_yellow_edge_glow": true,
+  "steam_edge_glow": false,
+  "glow_from_native_yellow_contours_only": true,
+  "triangle_markers": [
+    [
+      202.5,
+      328.9117383956909
+    ],
+    [
+      313.7835967540741,
+      104.04773712158203
+    ],
+    [
+      46.649925000965595,
+      329.0620279312134
+    ]
+  ],
+  "sha256": "8fc1148cfa0b0200b34d41c82d582b1c4ec0e96fab5c558c557d39a8e782e29d"
+}

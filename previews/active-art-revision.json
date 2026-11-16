@@ -1,0 +1,20 @@
+{
+  "art_direction": "hand-moulded-plasticine-v2",
+  "revisionSHA256": "cb9bdcf1a919aaec1400f246eaa4804dcb12eae3c2a16e39fbd7b792c6217aab",
+  "assetDirectory": "previews/clay-3d/assets",
+  "manifest": "previews/clay-3d/manifest.json",
+  "step_files": 304,
+  "unique_illustrations": 276,
+  "approved": true,
+  "date": "2026-10-28",
+  "profiles": {
+    "p0": {
+      "manifest": "previews/clay-3d/p0/manifest.json",
+      "revisionSHA256": "bd999281d09a2fc809dfbf80eda337b1564f094bf1845dfee43f7b8fe24205e6",
+      "approved": true,
+      "slots": 18,
+      "newIllustrations": 8,
+      "reuseCorrections": 1
+    }
+  }
+}

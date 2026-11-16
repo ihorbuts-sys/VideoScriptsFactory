@@ -1,0 +1,1232 @@
+{
+  "templates": [
+    {
+      "id": "fit-first-class",
+      "venueKinds": [
+        "sport_health"
+      ],
+      "title": "First class",
+      "summary": "Walk in, see the drop-in price, meet the coach, film your own reps and say how the class felt.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "door",
+          "title": "Walk in",
+          "shot": "pov",
+          "position": "Outside, a few steps from the studio door",
+          "direction": "Phone at chest height, walk slowly up to the door until it fills the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First class ever",
+              "script": "My first class here, and I have no idea what I signed up for."
+            },
+            {
+              "text": "Trying something new",
+              "script": "Trying a class I have never done before, come with me."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-class_door.jpg",
+          "overlays": []
+        },
+        {
+          "id": "desk",
+          "title": "Drop-in price",
+          "shot": "medium",
+          "position": "Inside, at the front desk",
+          "direction": "Start close on the price board or the class menu, then lean back slowly so the desk comes into view.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Drop-in price",
+              "script": "Here is what one drop-in class costs, right on the board."
+            },
+            {
+              "text": "First class price?",
+              "script": "Ask about a first class price, and check the board before you pay."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-class_desk.jpg",
+          "overlays": []
+        },
+        {
+          "id": "coach",
+          "title": "Meet the coach",
+          "shot": "selfie",
+          "position": "Next to the instructor, before class",
+          "direction": "Front camera at arm's length, a little above eye level with the instructor beside you, both in frame. Say who is teaching today.",
+          "seconds": 5,
+          "prompter": "Meet my coach for today, they promised to go easy on me.",
+          "captions": [
+            {
+              "text": "Meet my coach",
+              "script": "Meet my coach for today, they promised to go easy on me."
+            },
+            {
+              "text": "Today's coach",
+              "script": "This is who is teaching today, and I already feel nervous."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-class_coach.jpg",
+          "overlays": []
+        },
+        {
+          "id": "reps",
+          "title": "In the class",
+          "shot": "wide",
+          "position": "On your mat or station, phone propped on the floor",
+          "direction": "Prop the phone low against a bottle so only you are in frame, then do a few reps. Keep other members out of the shot.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Halfway through",
+              "script": "Halfway through and this is already harder than it looks."
+            },
+            {
+              "text": "Mid class",
+              "script": "Mid class, trying to keep up with everyone else in the room."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-class_reps.jpg",
+          "overlays": []
+        },
+        {
+          "id": "grip",
+          "title": "Hands on",
+          "shot": "detail",
+          "position": "Same spot, phone held above your hands",
+          "direction": "Hold the phone above your hands on the kit (the bar, the kettlebell handle, the mat) and keep it still for one rep.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Grip it right",
+              "script": "Here is how the coach set my grip for every rep."
+            },
+            {
+              "text": "Every rep counts",
+              "script": "Every rep counts. Here is one of them, up close."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-class_grip.jpg",
+          "overlays": []
+        },
+        {
+          "id": "after",
+          "title": "After class",
+          "shot": "selfie",
+          "position": "In the lobby or outside, after class",
+          "direction": "Front camera at arm's length, a little above eye level, still in your gear. Say honestly how the class felt.",
+          "seconds": 6,
+          "prompter": "Class done, legs shaking, and I am booking the next one.",
+          "captions": [
+            {
+              "text": "How it went",
+              "script": "Class done, legs shaking, and I am booking the next one."
+            },
+            {
+              "text": "Honest verdict",
+              "script": "Honest verdict: hard, friendly coach, and I would go back."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-class_after.jpg",
+          "overlays": []
+        },
+        {
+          "id": "book",
+          "title": "Book it",
+          "shot": "medium",
+          "position": "At the class schedule or the desk",
+          "direction": "Film the class schedule on the wall and move in slowly toward the class you took.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Book on Loca",
+              "script": "Find the schedule and book your first class through Loca."
+            },
+            {
+              "text": "Class times",
+              "script": "Class times are on the board, pick one and come try it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-class_book.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "fit-gym-tour",
+      "venueKinds": [
+        "sport_health"
+      ],
+      "title": "Gym tour",
+      "summary": "The standout kit, the floor, the racks, the changing room and who the gym is for, in under thirty seconds.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "kit",
+          "title": "Standout kit",
+          "shot": "medium",
+          "position": "In front of the one machine or room nobody else has",
+          "direction": "Phone low, pointed up at the standout kit (the rig, the sled track, the cold plunge), move in slowly.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Never seen this",
+              "script": "I have never seen this in a gym before, so here is the tour."
+            },
+            {
+              "text": "Gym tour",
+              "script": "Quick tour of this gym, starting with the best thing in it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-gym-tour_kit.jpg",
+          "overlays": []
+        },
+        {
+          "id": "floor",
+          "title": "The floor",
+          "shot": "wide",
+          "position": "At one end of the main floor, in a quiet hour",
+          "direction": "Start mid-turn as if you just whipped in, then turn your hips slowly to show the whole floor. Film when it is empty.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The main floor",
+              "script": "This is the main floor, and here is how busy it gets."
+            },
+            {
+              "text": "Room to train",
+              "script": "Here is how much room there is to train."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-gym-tour_floor.jpg",
+          "overlays": []
+        },
+        {
+          "id": "racks",
+          "title": "The racks",
+          "shot": "detail",
+          "position": "Beside the dumbbell rack or the cardio row",
+          "direction": "Hold the phone close to the rack and slide sideways along it at an even pace.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Every weight here",
+              "script": "Here are the weights, from the light ones to the heavy ones."
+            },
+            {
+              "text": "Full rack",
+              "script": "Full rack and it is all in order, which says a lot."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-gym-tour_racks.jpg",
+          "overlays": []
+        },
+        {
+          "id": "changing",
+          "title": "Changing room",
+          "shot": "medium",
+          "position": "At the changing room door, when it is empty",
+          "direction": "Check the room is empty first. Start with the lens behind the door frame, then step in past it.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Changing rooms",
+              "script": "Here are the changing rooms, and what is in them."
+            },
+            {
+              "text": "What is inside",
+              "script": "Here is what is in there, so you know what to bring."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-gym-tour_changing.jpg",
+          "overlays": []
+        },
+        {
+          "id": "owner",
+          "title": "Who it is for",
+          "shot": "medium",
+          "position": "Facing the owner or a coach at the front desk",
+          "direction": "Back camera on the owner at the desk, front camera on you. Say who this gym is for.",
+          "seconds": 5,
+          "prompter": "I asked the owner who this place is for. Here is the answer.",
+          "captions": [
+            {
+              "text": "Who it is for",
+              "script": "I asked the owner who this place is for. Here is the answer."
+            },
+            {
+              "text": "Owner's take",
+              "script": "Asked the owner who trains here, and here is what they said."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fit-gym-tour_owner.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outside",
+          "title": "Find it",
+          "shot": "selfie",
+          "position": "Outside, with the sign behind you",
+          "direction": "Front camera at arm's length, a little above eye level with the gym sign over your shoulder. Say where it is.",
+          "seconds": 5,
+          "prompter": "That was the whole gym in thirty seconds, find it on Loca.",
+          "captions": [
+            {
+              "text": "Find it on Loca",
+              "script": "That was the whole gym in thirty seconds, find it on Loca."
+            },
+            {
+              "text": "The price",
+              "script": "The price is on screen, go see the floor for yourself."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-gym-tour_outside.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "fit-sauna-session",
+      "venueKinds": [
+        "sport_health"
+      ],
+      "title": "First sauna session",
+      "summary": "A first visit to a sauna or cold plunge studio: the door, the room, what to bring, and how it felt.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "door",
+          "title": "The door",
+          "shot": "medium",
+          "position": "Outside the sauna, hand on the door",
+          "direction": "Phone at eye level, open the door and move in slowly toward the wood and the steam until they fill the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First sauna ever",
+              "script": "First time in a sauna studio, and I had no idea what to bring."
+            },
+            {
+              "text": "Sauna day",
+              "script": "Sauna day, and this is the door I was nervous about."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-sauna-session_door.jpg",
+          "overlays": []
+        },
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "Inside the empty sauna room",
+          "direction": "Before anyone is in, hold the phone high and close to the bench, then lean back slowly to show the whole room.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Inside the sauna",
+              "script": "Here are the benches, the stove, and how many people fit."
+            },
+            {
+              "text": "The hot room",
+              "script": "This is the hot room, and yes, it is as warm as it looks."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-sauna-session_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bag",
+          "title": "What to bring",
+          "shot": "detail",
+          "position": "In the changing area, at a bench",
+          "direction": "Phone straight above the bench. Lay out what you brought one item at a time (towel, flip-flops, water bottle).",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "What to bring",
+              "script": "Here is what I brought, one thing at a time."
+            },
+            {
+              "text": "Pack this",
+              "script": "Pack these and you are ready for your first session."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-sauna-session_bag.jpg",
+          "overlays": []
+        },
+        {
+          "id": "step-in",
+          "title": "Step in",
+          "shot": "wide",
+          "position": "Outside the sauna door, phone propped low",
+          "direction": "Prop the phone low on a bench outside the door and walk through it. Film only yourself, and only when the room is free.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Here we go",
+              "script": "Okay, here we go, into the heat."
+            },
+            {
+              "text": "Round one",
+              "script": "Round one. Here is how long I stay in the heat."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-sauna-session_step-in.jpg",
+          "overlays": []
+        },
+        {
+          "id": "after",
+          "title": "How it felt",
+          "shot": "selfie",
+          "position": "In the rest area, after the session",
+          "direction": "Front camera at arm's length, a little above eye level in the rest area. Say how the session felt, nothing more.",
+          "seconds": 6,
+          "prompter": "Here is how many rounds I did, and I feel so calm.",
+          "captions": [
+            {
+              "text": "How it felt",
+              "script": "Here is how many rounds I did, and I feel so calm."
+            },
+            {
+              "text": "First time verdict",
+              "script": "First time verdict: hot, quiet, and I would come back again."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-sauna-session_after.jpg",
+          "overlays": []
+        },
+        {
+          "id": "price",
+          "title": "Session price",
+          "shot": "medium",
+          "position": "At the reception, by the price list",
+          "direction": "Film the price list and move in slowly to the session you had.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "One session price",
+              "script": "Here is what one session costs, and what it includes."
+            },
+            {
+              "text": "Book a session",
+              "script": "Here is the price list, book your first session on Loca."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-sauna-session_price.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "fit-coach-move",
+      "venueKinds": [
+        "sport_health"
+      ],
+      "title": "One move from the coach",
+      "summary": "The coach shows one beginner move, the stance up close, you copy it, and the class it comes from.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "demo",
+          "title": "The move",
+          "shot": "medium",
+          "position": "A few metres from the coach, in an empty corner",
+          "direction": "Phone low and still, film the coach doing the move once at full speed (a swing, a squat, a flow).",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "One move to learn",
+              "script": "One move every beginner should learn, straight from the coach."
+            },
+            {
+              "text": "Coach's move",
+              "script": "This is the move the coach picked for beginners."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-coach-move_demo.jpg",
+          "overlays": []
+        },
+        {
+          "id": "coach",
+          "title": "Meet the coach",
+          "shot": "medium",
+          "position": "Facing the coach, at eye level",
+          "direction": "Back camera on the coach's head and shoulders, front camera on you. Say what you are about to learn.",
+          "seconds": 6,
+          "prompter": "This is my coach, and they have one move every beginner should learn.",
+          "captions": [
+            {
+              "text": "Meet the coach",
+              "script": "This is my coach, and they have one move every beginner should learn."
+            },
+            {
+              "text": "Lesson one",
+              "script": "Lesson one from the coach, and here is why it matters."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fit-coach-move_coach.jpg",
+          "overlays": []
+        },
+        {
+          "id": "stance",
+          "title": "The setup",
+          "shot": "detail",
+          "position": "Standing over the coach's feet or hands",
+          "direction": "Hold the phone straight down over the coach's feet or grip while they set up. Keep it still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The setup",
+              "script": "Here is the setup, step by step, before the move."
+            },
+            {
+              "text": "Set up right",
+              "script": "Watch the setup closely. Here is how the coach does it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-coach-move_stance.jpg",
+          "overlays": []
+        },
+        {
+          "id": "copy",
+          "title": "My turn",
+          "shot": "wide",
+          "position": "On the same spot, phone propped on the floor",
+          "direction": "Prop the phone low so only you are in frame, then do the move three times.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "My turn",
+              "script": "My turn, and it looks a lot easier when the coach does it."
+            },
+            {
+              "text": "Trying it",
+              "script": "Trying it myself, slower, with the coach watching my feet."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-coach-move_copy.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "How it felt",
+          "shot": "selfie",
+          "position": "Same spot, after the reps",
+          "direction": "Front camera at arm's length, a little above eye level. Say how it felt and what you will remember.",
+          "seconds": 6,
+          "prompter": "A few reps of that and I finally get why people love this class.",
+          "captions": [
+            {
+              "text": "How it felt",
+              "script": "A few reps of that and I finally get why people love this class."
+            },
+            {
+              "text": "Worth learning",
+              "script": "Worth learning properly, I would sign up for the full class."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-coach-move_verdict.jpg",
+          "overlays": []
+        },
+        {
+          "id": "class",
+          "title": "The class",
+          "shot": "medium",
+          "position": "At the class schedule",
+          "direction": "Film the schedule and move in slowly to the coach's class and its time.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Their class",
+              "script": "This move is from their class, here is when it runs."
+            },
+            {
+              "text": "Book the class",
+              "script": "Book the full class on Loca, times are on the board."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-coach-move_class.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "fit-treatment",
+      "venueKinds": [
+        "sport_health",
+        "beauty-salon"
+      ],
+      "title": "Treatment booking",
+      "summary": "A massage, facial or IV bar visit: the empty room, the menu with prices, the walkthrough and how it felt.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "medium",
+          "position": "At the treatment room door, before the session",
+          "direction": "Start with the lens behind the door frame or curtain, then step past it so the empty room appears.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "My treatment room",
+              "script": "This is the room for my first treatment here, and it is spotless."
+            },
+            {
+              "text": "Booked a session",
+              "script": "Booked a session, and this is where it happens."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-treatment_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "menu",
+          "title": "The menu",
+          "shot": "detail",
+          "position": "At the reception, by the treatment menu",
+          "direction": "Hold the phone straight above the menu and point to the treatment you booked and its price.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Treatment and price",
+              "script": "Here is what I booked and what it costs."
+            },
+            {
+              "text": "The menu",
+              "script": "The full menu with prices, and here is the one I picked."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-treatment_menu.jpg",
+          "overlays": []
+        },
+        {
+          "id": "walkthrough",
+          "title": "The walkthrough",
+          "shot": "medium",
+          "position": "Facing the practitioner, before the session",
+          "direction": "Back camera on the practitioner as they explain, front camera on you. Say what they told you.",
+          "seconds": 5,
+          "prompter": "They walked me through the whole session before we even started.",
+          "captions": [
+            {
+              "text": "The walkthrough",
+              "script": "They walked me through the whole session before we even started."
+            },
+            {
+              "text": "What happens",
+              "script": "They told me exactly what happens before we started."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fit-treatment_walkthrough.jpg",
+          "overlays": []
+        },
+        {
+          "id": "during",
+          "title": "During",
+          "shot": "detail",
+          "position": "On the table, phone propped on a shelf above",
+          "direction": "Prop the phone looking straight down at your hands or feet on the towel. Film only yourself.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Phone down",
+              "script": "Phone down, eyes closed, and this time is mine."
+            },
+            {
+              "text": "Quiet time",
+              "script": "Quiet time, and nobody asking me anything."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-treatment_during.jpg",
+          "overlays": []
+        },
+        {
+          "id": "after",
+          "title": "How it felt",
+          "shot": "selfie",
+          "position": "In the lounge or at the door, after",
+          "direction": "Front camera at arm's length. Say how you felt walking out, nothing more.",
+          "seconds": 6,
+          "prompter": "Walked out slow and quiet, I did not want to talk to anyone.",
+          "captions": [
+            {
+              "text": "How it felt",
+              "script": "Walked out slow and quiet, I did not want to talk to anyone."
+            },
+            {
+              "text": "After",
+              "script": "After the session I feel calm, and I am booking the next one."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-treatment_after.jpg",
+          "overlays": []
+        },
+        {
+          "id": "sign",
+          "title": "Find it",
+          "shot": "medium",
+          "position": "At the entrance, by the name plate",
+          "direction": "Start close on the name plate or sign, then lean back slowly so the entrance appears.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Book on Loca",
+              "script": "Book this treatment through Loca, the price is on screen."
+            },
+            {
+              "text": "Find it here",
+              "script": "This is the entrance, so look for the sign."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-treatment_sign.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "fit-first-appointment",
+      "venueKinds": [
+        "sport_health"
+      ],
+      "title": "First appointment",
+      "summary": "A first visit to a clinic: the door, the empty waiting room, the person who treats you and the first-visit price.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "door",
+          "title": "Arrive",
+          "shot": "pov",
+          "position": "Outside, a few steps from the clinic door",
+          "direction": "Phone at chest height, walk slowly up to the door until it fills the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First appointment",
+              "script": "My first appointment here, and I will be honest, I was nervous."
+            },
+            {
+              "text": "New clinic",
+              "script": "Trying a new clinic, and this is the door."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-appointment_door.jpg",
+          "overlays": []
+        },
+        {
+          "id": "waiting",
+          "title": "Waiting room",
+          "shot": "wide",
+          "position": "Inside, by the waiting area, when it is empty",
+          "direction": "Only when nobody is waiting: start behind a plant or the door frame, then step past it to show the room.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Waiting room",
+              "script": "Here is the waiting room, and how long I waited."
+            },
+            {
+              "text": "Inside",
+              "script": "This is the waiting room, clean and calm."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-appointment_waiting.jpg",
+          "overlays": []
+        },
+        {
+          "id": "meet",
+          "title": "Meet them",
+          "shot": "selfie",
+          "position": "Next to the clinician, before the appointment",
+          "direction": "Front camera at arm's length, a little above eye level with the clinician beside you, both in frame. Keep screens and files out of shot.",
+          "seconds": 6,
+          "prompter": "Meeting the person doing my first appointment, I came with a lot of questions.",
+          "captions": [
+            {
+              "text": "Meet the team",
+              "script": "Meeting the person doing my first appointment, I came with a lot of questions."
+            },
+            {
+              "text": "Who treats me",
+              "script": "This is who will see me today, and I have my questions ready."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-appointment_meet.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tools",
+          "title": "The room",
+          "shot": "medium",
+          "position": "In the treatment room, before you sit down",
+          "direction": "Back camera on the clinician pointing to the chair or one piece of kit, front camera on you. Move in slowly.",
+          "seconds": 6,
+          "prompter": "They showed me each tool before using it, which helped a lot.",
+          "captions": [
+            {
+              "text": "The room",
+              "script": "They showed me each tool before using it, which helped a lot."
+            },
+            {
+              "text": "Explained first",
+              "script": "Everything was explained first, which matters when you are nervous."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fit-first-appointment_tools.jpg",
+          "overlays": []
+        },
+        {
+          "id": "price",
+          "title": "First visit price",
+          "shot": "detail",
+          "position": "At the reception, by the price list",
+          "direction": "Hold the phone straight above the first-visit price on the list or leaflet. Keep the screen and any names out.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First visit price",
+              "script": "Here is what a first visit costs, and what it includes."
+            },
+            {
+              "text": "What it costs",
+              "script": "The first appointment price, right here on the list."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-appointment_price.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "Outside the clinic, after",
+          "direction": "Front camera at arm's length with the entrance behind you. Say how the visit went.",
+          "seconds": 6,
+          "prompter": "Clean, calm and nobody rushed me, I would book the next one here.",
+          "captions": [
+            {
+              "text": "My verdict",
+              "script": "Clean, calm and nobody rushed me, I would book the next one here."
+            },
+            {
+              "text": "Would I go back",
+              "script": "Would I go back? Yes, and I would book it on Loca."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fit-first-appointment_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "fit-first-class": {
+      "door": {
+        "angle": "pov",
+        "start": "wide",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "push-through",
+        "reads": "The door grows until it fills the frame; the next shot opens inside on the price board."
+      },
+      "desk": {
+        "angle": "eye-level",
+        "start": "detail",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The prices fill the frame, then the desk and the studio sign appear around them; cut to the selfie with the coach."
+      },
+      "coach": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Two faces at arm's length, held still; the camera flips to the back lens for the class."
+      },
+      "reps": {
+        "angle": "low",
+        "start": "wide",
+        "end": "wide",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "From the floor, the creator moves through a rep; match-cut on the top of the rep to the hands."
+      },
+      "grip": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "Hands fill the frame from above and work through one rep; cut to the front camera after class."
+      },
+      "after": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face at arm's length, still, while the verdict lands; cut to the schedule board."
+      },
+      "book": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The schedule grows until the class name fills the frame; hold still for the outro."
+      }
+    },
+    "fit-gym-tour": {
+      "kit": {
+        "angle": "low",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "whip",
+        "reads": "The kit grows above the lens until it fills the frame; whip right onto the training floor."
+      },
+      "floor": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The room turns past from left to right after the whip settles; cut close to the racks."
+      },
+      "racks": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "truck-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "Handles slide past the lens, front ones faster than the back; cut to walking into the changing room."
+      },
+      "changing": {
+        "angle": "pov",
+        "start": "close",
+        "end": "medium",
+        "move": "reveal-from-behind",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The door frame slides off and the empty changing room appears; cut to the owner at the desk."
+      },
+      "owner": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The owner at the desk, held still in the back camera while the creator speaks; cut to the front camera outside."
+      },
+      "outside": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and sign at arm's length, held still for the outro."
+      }
+    },
+    "fit-sauna-session": {
+      "door": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "push-through",
+        "reads": "The door opens and the wood grows until it fills the frame; the next shot opens on the benches."
+      },
+      "room": {
+        "angle": "high",
+        "start": "close",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "From the bench boards the room opens around them until the stove and door are in frame; cut to the bag on the bench."
+      },
+      "bag": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "Hands place each item into the frame from above; cut to the floor-level shot of the walk in."
+      },
+      "step-in": {
+        "angle": "low",
+        "start": "wide",
+        "end": "wide",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "From the floor, the creator walks through the door and it closes; cut to the front camera in the rest area."
+      },
+      "after": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face at arm's length, held still for the line; cut to the session prices at the desk."
+      },
+      "price": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The price list grows until the session line fills the frame; hold for the outro."
+      }
+    },
+    "fit-coach-move": {
+      "demo": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "match-cut",
+        "reads": "The coach moves through one rep from below; match-cut on the coach to eye level."
+      },
+      "coach": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The coach holds still in the back camera while the creator speaks; cut to straight above the feet."
+      },
+      "stance": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "Feet or hands settle into position from above; cut to the wide floor shot of the creator."
+      },
+      "copy": {
+        "angle": "low",
+        "start": "wide",
+        "end": "wide",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The creator repeats the move in a wide frame from the floor; cut to the front camera."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face at arm's length, still; cut to the schedule on the wall."
+      },
+      "class": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The schedule grows until the class time fills the frame; hold for the outro."
+      }
+    },
+    "fit-treatment": {
+      "room": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "reveal-from-behind",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The door frame slides away and the dressed table appears; cut to the menu from straight above."
+      },
+      "menu": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "A finger lands on one line of the menu from above; cut to the practitioner at eye level."
+      },
+      "walkthrough": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The practitioner talks in the back camera, held still; cut to above the creator's hands."
+      },
+      "during": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "match-cut",
+        "reads": "Hands rest still on the towel from above; match-cut on the creator to the front camera after."
+      },
+      "after": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face at arm's length, still; cut to the name plate at the entrance."
+      },
+      "sign": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The name plate shrinks as the entrance appears around it; hold for the outro."
+      }
+    },
+    "fit-first-appointment": {
+      "door": {
+        "angle": "pov",
+        "start": "wide",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "push-through",
+        "reads": "The door grows until it fills the frame; the next shot opens on the waiting room behind a pillar or plant."
+      },
+      "waiting": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "wide",
+        "move": "reveal-from-behind",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The blocker slides away and the empty waiting room opens up; cut to the selfie with the clinician."
+      },
+      "meet": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Two faces at arm's length, held still; the camera flips to the back lens on the room."
+      },
+      "tools": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The kit grows in the back camera while the creator speaks; cut to the price list from above."
+      },
+      "price": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The price line held still from above; cut to the front camera outside."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face and entrance at arm's length, held still for the outro."
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+ "hiddenUntil": {
+  "P1": ["food-review-drink", "food-review-pour", "food-review-sweet", "food-review-handheld", "food-review-table"]
+ },
+ "reason": "owner 2026-11-12: P0 ships only first-visit and food-review; the variants stay in scripts/_parts and keep their guides"
+}

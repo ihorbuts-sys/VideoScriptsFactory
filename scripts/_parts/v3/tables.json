@@ -1,0 +1,604 @@
+{
+ "version": 3,
+ "forms": {
+  "plated": "plate",
+  "bowl": "bowl",
+  "handheld": "held in hand or paper",
+  "cup": "cup",
+  "glass": "glass",
+  "glass-straw": "glass with straw"
+ },
+ "dishKinds": [
+  {
+   "id": "starters-sides",
+   "title": "Starters and sides",
+   "form": "plated",
+   "placeSetting": "dinner plate, fork and knife",
+   "phase": "P0",
+   "menuKeywords": [
+    "starter",
+    "starters",
+    "appetizer",
+    "appetizers",
+    "side",
+    "sides",
+    "snack",
+    "snacks",
+    "small plates",
+    "закуск",
+    "снек"
+   ],
+   "labels": {
+    "en": "Starters and sides",
+    "uk": "Закуски та гарніри"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "soups",
+   "title": "Soups",
+   "form": "bowl",
+   "placeSetting": "bowl, spoon",
+   "phase": "P0",
+   "menuKeywords": [
+    "soup",
+    "soups",
+    "broth",
+    "ramen",
+    "pho",
+    "суп",
+    "бульйон"
+   ],
+   "labels": {
+    "en": "Soups",
+    "uk": "Супи"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "bowls-sushi",
+   "title": "Bowls and sushi",
+   "form": "bowl",
+   "placeSetting": "bowl or plate, chopsticks or fork",
+   "phase": "P0",
+   "menuKeywords": [
+    "bowl",
+    "bowls",
+    "poke",
+    "sushi",
+    "rolls",
+    "roll",
+    "asian",
+    "wok",
+    "noodles",
+    "rice",
+    "боул",
+    "суші",
+    "рол",
+    "локшин"
+   ],
+   "labels": {
+    "en": "Bowls and sushi",
+    "uk": "Боули та суші"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "mains",
+   "title": "Mains",
+   "form": "plated",
+   "placeSetting": "dinner plate, fork and knife",
+   "phase": "P0",
+   "menuKeywords": [
+    "main",
+    "mains",
+    "entree",
+    "entrees",
+    "plates",
+    "grill",
+    "pasta",
+    "steak",
+    "seafood",
+    "основн",
+    "гаряч",
+    "паст",
+    "гриль"
+   ],
+   "labels": {
+    "en": "Mains",
+    "uk": "Основні страви"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "salads",
+   "title": "Salads",
+   "form": "plated",
+   "placeSetting": "dinner plate, fork and knife",
+   "phase": "P0",
+   "menuKeywords": [
+    "salad",
+    "salads",
+    "салат"
+   ],
+   "labels": {
+    "en": "Salads",
+    "uk": "Салати"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "pizza",
+   "title": "Pizza",
+   "form": "plated",
+   "placeSetting": "dinner plate, no cutlery",
+   "phase": "P0",
+   "menuKeywords": [
+    "pizza",
+    "pizzas",
+    "піц"
+   ],
+   "labels": {
+    "en": "Pizza",
+    "uk": "Піца"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "handhelds",
+   "title": "Handhelds",
+   "form": "handheld",
+   "placeSetting": "paper wrap or tray, no cutlery",
+   "phase": "P0",
+   "menuKeywords": [
+    "burger",
+    "burgers",
+    "sandwich",
+    "sandwiches",
+    "taco",
+    "tacos",
+    "burrito",
+    "burritos",
+    "wrap",
+    "wraps",
+    "hot dog",
+    "бургер",
+    "сендвіч",
+    "тако",
+    "бурито",
+    "врап",
+    "шаурм"
+   ],
+   "labels": {
+    "en": "Handhelds",
+    "uk": "Бургери, тако, сендвічі"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "pastry-bakery",
+   "title": "Pastry and bakery",
+   "form": "plated",
+   "placeSetting": "dessert plate, no cutlery",
+   "phase": "P0",
+   "menuKeywords": [
+    "pastry",
+    "pastries",
+    "bakery",
+    "bread",
+    "croissant",
+    "croissants",
+    "donut",
+    "donuts",
+    "bagel",
+    "випічк",
+    "круасан",
+    "хліб",
+    "пончик"
+   ],
+   "labels": {
+    "en": "Pastry and bakery",
+    "uk": "Випічка"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "desserts",
+   "title": "Desserts",
+   "form": "plated",
+   "placeSetting": "dessert plate",
+   "phase": "P0",
+   "menuKeywords": [
+    "dessert",
+    "desserts",
+    "cake",
+    "cakes",
+    "sweets",
+    "ice cream",
+    "gelato",
+    "cookies",
+    "десерт",
+    "торт",
+    "солодк",
+    "морозив"
+   ],
+   "labels": {
+    "en": "Desserts",
+    "uk": "Десерти"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "breakfast",
+   "title": "Breakfast",
+   "form": "plated",
+   "placeSetting": "dessert plate for pancakes, fork and knife",
+   "phase": "P0",
+   "menuKeywords": [
+    "breakfast",
+    "brunch",
+    "pancakes",
+    "eggs",
+    "waffles",
+    "сніданк",
+    "бранч",
+    "млинц",
+    "сирник"
+   ],
+   "labels": {
+    "en": "Breakfast",
+    "uk": "Сніданки"
+   },
+   "deprecated": false
+  }
+ ],
+ "drinkKinds": [
+  {
+   "id": "coffee",
+   "title": "Coffee",
+   "form": "cup",
+   "phase": "P0",
+   "menuKeywords": [
+    "coffee",
+    "espresso",
+    "latte",
+    "cappuccino",
+    "flat white",
+    "americano",
+    "кава",
+    "еспресо",
+    "лате",
+    "капучино",
+    "hot drinks",
+    "гарячі напої"
+   ],
+   "labels": {
+    "en": "Coffee",
+    "uk": "Кава"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "tea-matcha",
+   "title": "Tea and matcha",
+   "form": "cup",
+   "phase": "P0",
+   "menuKeywords": [
+    "tea",
+    "teas",
+    "chai",
+    "matcha",
+    "чай",
+    "матча"
+   ],
+   "labels": {
+    "en": "Tea and matcha",
+    "uk": "Чай і матча"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "iced-coffee",
+   "title": "Iced and cold coffee",
+   "form": "glass-straw",
+   "phase": "P0",
+   "menuKeywords": [
+    "iced coffee",
+    "iced latte",
+    "cold brew",
+    "frappe",
+    "frappuccino",
+    "bubble tea",
+    "boba",
+    "айс",
+    "колд брю",
+    "фрапе",
+    "бабл"
+   ],
+   "labels": {
+    "en": "Iced and cold coffee",
+    "uk": "Холодна кава"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "juices-smoothies",
+   "title": "Juices and smoothies",
+   "form": "glass-straw",
+   "phase": "P0",
+   "menuKeywords": [
+    "juice",
+    "juices",
+    "smoothie",
+    "smoothies",
+    "fresh",
+    "сік",
+    "соки",
+    "смузі",
+    "фреш"
+   ],
+   "labels": {
+    "en": "Juices and smoothies",
+    "uk": "Соки та смузі"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "soft-drinks",
+   "title": "Soft drinks and lemonades",
+   "form": "glass",
+   "phase": "P0",
+   "menuKeywords": [
+    "lemonade",
+    "lemonades",
+    "soda",
+    "sodas",
+    "soft drinks",
+    "kombucha",
+    "iced tea",
+    "mocktail",
+    "mocktails",
+    "non-alcoholic",
+    "лимонад",
+    "комбуч",
+    "безалкогольн",
+    "моктейл"
+   ],
+   "labels": {
+    "en": "Soft drinks and lemonades",
+    "uk": "Безалкогольні напої та лимонади"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "beer-wine",
+   "title": "Beer and wine",
+   "form": "glass",
+   "phase": "P1",
+   "menuKeywords": [
+    "beer",
+    "beers",
+    "draft",
+    "wine",
+    "wines",
+    "cider",
+    "пиво",
+    "вино",
+    "сидр"
+   ],
+   "labels": {
+    "en": "Beer and wine",
+    "uk": "Пиво та вино"
+   },
+   "deprecated": false
+  },
+  {
+   "id": "cocktails",
+   "title": "Cocktails",
+   "form": "glass",
+   "phase": "P1",
+   "menuKeywords": [
+    "cocktail",
+    "cocktails",
+    "spirits",
+    "shots",
+    "bar",
+    "коктейл",
+    "бар"
+   ],
+   "labels": {
+    "en": "Cocktails",
+    "uk": "Коктейлі"
+   },
+   "deprecated": false
+  }
+ ],
+ "menuSectionMapping": {
+  "match": "case-insensitive; a keyword matches a whole word, or a word start for Ukrainian stems; dish and drink keywords both tried, longest keyword wins",
+  "fallback": {
+   "kind": "dish-review",
+   "dishKind": null,
+   "kindChip": "dishKinds",
+   "note": "unknown section: plain dish plus a one-tap kind chip (owner 2026-11-16)"
+  },
+  "dayparts": {
+   "morning": [
+    "breakfast",
+    "brunch",
+    "сніданк",
+    "бранч"
+   ],
+   "midday": [
+    "lunch",
+    "обід"
+   ],
+   "evening": [
+    "dinner",
+    "happy hour",
+    "вечер"
+   ]
+  }
+ },
+ "serviceKinds": [
+  "dineIn",
+  "counter",
+  "truck"
+ ],
+ "venueSubjects": [
+  {
+   "id": "dineIn",
+   "group": "food",
+   "pattern": "product",
+   "serviceKind": "dineIn",
+   "categories": [
+    "dining",
+    "food-and-drinks",
+    "food-and-drinks-family",
+    "craft-beer"
+   ]
+  },
+  {
+   "id": "counter",
+   "group": "food",
+   "pattern": "product",
+   "serviceKind": "counter",
+   "categories": [
+    "coffee",
+    "bakery",
+    "fast-food"
+   ]
+  },
+  {
+   "id": "truck",
+   "group": "food",
+   "pattern": "product",
+   "serviceKind": "truck",
+   "categories": [
+    "food-truck"
+   ]
+  },
+  {
+   "id": "result",
+   "group": "nonFood",
+   "pattern": "result",
+   "serviceKind": null,
+   "categories": [
+    "beauty",
+    "beauty-salon",
+    "beauty-barbershop",
+    "beauty-nails",
+    "services-cleaning",
+    "cars",
+    "shopping-auto",
+    "garden-n-landscaping",
+    "services-pet",
+    "services-photography"
+   ]
+  },
+  {
+   "id": "shopping",
+   "group": "nonFood",
+   "pattern": "shopping",
+   "serviceKind": null,
+   "categories": [
+    "shopping",
+    "clothing-shops",
+    "shopping-music",
+    "shopping-pet-store",
+    "book-stores",
+    "thrift-shops",
+    "vintage-shop",
+    "knick-knacks",
+    "grocery",
+    "farmers-market",
+    "beauty-products",
+    "shopping-recreational",
+    "shopping-other",
+    "arts-and-crafts"
+   ]
+  },
+  {
+   "id": "experience",
+   "group": "nonFood",
+   "pattern": "experience",
+   "serviceKind": null,
+   "categories": [
+    "sport_health",
+    "entertainment",
+    "recreational",
+    "recreational-other",
+    "events",
+    "events-art-n-culture",
+    "events-community",
+    "events-music-n-film",
+    "events-social",
+    "events-sports",
+    "parks",
+    "site-seeing",
+    "places",
+    "services-education"
+   ]
+  },
+  {
+   "id": "visit",
+   "group": "nonFood",
+   "pattern": "visit",
+   "serviceKind": null,
+   "categories": [
+    "services-health",
+    "services-legal",
+    "business-services",
+    "real-estate",
+    "career-n-business",
+    "services",
+    "services-other"
+   ]
+  }
+ ],
+ "venueSubjectRules": {
+  "order": "a venue with food and non-food categories gets its food subject first (owner 2026-11-16); first matching category in this table order",
+  "excluded": {
+   "categories": [
+    "child-care"
+   ],
+   "reason": "children make consent too risky (owner 2026-11-16)"
+  },
+  "default": "dineIn"
+ },
+ "amenities": {
+  "source": "business amenityList (id, title, iconUrl, slug, sort)",
+  "chips": [
+   {
+    "slug": "parking_available",
+    "text": "Parking"
+   },
+   {
+    "slug": "free_wifi",
+    "text": "Free Wi-Fi"
+   },
+   {
+    "slug": "pet_friendly",
+    "text": "Pet friendly"
+   },
+   {
+    "slug": "baby_friendly",
+    "text": "Baby friendly"
+   }
+  ],
+  "factOnly": [
+   {
+    "slug": "non_smoking",
+    "text": "Non-smoking",
+    "reason": "cannot be filmed; passed to the AI writer as a fact (owner 2026-11-16)"
+   }
+  ]
+ },
+ "samples": {
+  "venue.name": "The Corner Bakery and Cafe",
+  "menuItem.name": "Iced Brown Sugar Oat Latte",
+  "menuItem.price": "6.50 USD",
+  "typed": "Spicy chicken curry with rice and garlic naan bread",
+  "amenity": "Baby friendly"
+ },
+ "kindsVersion": 1
+}

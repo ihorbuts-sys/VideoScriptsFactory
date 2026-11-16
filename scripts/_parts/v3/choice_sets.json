@@ -1,0 +1,652 @@
+{
+ "version": 3,
+ "choiceSets": [
+  {
+   "id": "verdict_dish",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Once was enough."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, to try more."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Definitely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back for it?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_drink",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Once was enough."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, another time."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Every time."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I order it again?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_place",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Definitely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back here?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_result",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, for touch-ups."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Already booked again."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back for this?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_experience",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Once was enough."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe, with friends."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Already planning it."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I do it again?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_shopping",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Already a regular."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I shop here again?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "verdict_visit",
+   "kind": "verdict",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not again."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Probably not."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Maybe."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "I would."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Definitely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null,
+   "answers": "Would I come back?",
+   "privateFeedback": {
+    "label": "Not for me",
+    "action": "private_feedback"
+   }
+  },
+  {
+   "id": "bite_savory",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not my thing."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Hmm, not sure."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Okay."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "That's good."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So good."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "bite_sweet",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too sweet for me."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Hmm, not sure."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Okay."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "That's nice."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So good."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_coffee",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too bitter."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Not my cup."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Decent."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Smooth."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Perfect brew."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_tea",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too weak."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Nice."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Fragrant."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So soothing."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_iced",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too sweet."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Watery."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Fine."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Refreshing."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "So good."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_juice",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too sour."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Fresh."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Fruity."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Just right."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_soft",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Flat."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Too sweet."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Okay."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Refreshing."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Perfect."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_beer_wine",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Not my style."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Decent."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Crisp."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Great pour."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "sip_cocktail",
+   "kind": "reaction",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too strong."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "Plain."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Balanced."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Great mix."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Perfect."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": 3
+  },
+  {
+   "id": "place_word",
+   "kind": "place",
+   "levels": [
+    {
+     "level": 1,
+     "tone": "negative",
+     "text": "Too cramped."
+    },
+    {
+     "level": 2,
+     "tone": "negative",
+     "text": "A bit loud."
+    },
+    {
+     "level": 3,
+     "tone": "neutral",
+     "text": "Calm enough."
+    },
+    {
+     "level": 4,
+     "tone": "positive",
+     "text": "Cozy."
+    },
+    {
+     "level": 5,
+     "tone": "positive",
+     "text": "Really lovely."
+    }
+   ],
+   "allowCustom": true,
+   "maxWords": 4,
+   "preselect": null
+  },
+  {
+   "id": "amenities",
+   "kind": "amenity",
+   "source": "business.amenityList",
+   "options": [
+    {
+     "slug": "parking_available",
+     "text": "Parking",
+     "tone": "neutral"
+    },
+    {
+     "slug": "free_wifi",
+     "text": "Free Wi-Fi",
+     "tone": "neutral"
+    },
+    {
+     "slug": "pet_friendly",
+     "text": "Pet friendly",
+     "tone": "neutral"
+    },
+    {
+     "slug": "baby_friendly",
+     "text": "Baby friendly",
+     "tone": "neutral"
+    }
+   ],
+   "exclude": [
+    "non_smoking"
+   ],
+   "preselect": "business",
+   "allowCustom": true,
+   "maxWords": 4,
+   "multiSelect": false
+  }
+ ]
+}

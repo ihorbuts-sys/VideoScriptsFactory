@@ -1,0 +1,194 @@
+{
+  "cafe-first-visit": {
+    "entrance": [
+      "cafe_entrance_to_handle",
+      "pov_door_entry"
+    ],
+    "counter": [
+      "menu_board_item",
+      "counter_barista_side"
+    ],
+    "pour": [
+      "latte_art_topdown",
+      "coffee_eye_level_steam"
+    ],
+    "taste": [
+      "selfie_sip_reaction",
+      "selfie_cup_raise"
+    ],
+    "outro": [
+      "talking_head_eye_level",
+      "walk_and_talk_exit"
+    ]
+  },
+  "cafe-morning-ritual": {
+    "light": [
+      "interior_pan",
+      "window_light_reveal"
+    ],
+    "cup": [
+      "latte_art_topdown",
+      "coffee_eye_level_steam"
+    ],
+    "pastry": [
+      "pastry_tear_open",
+      "pastry_overhead_flatlay"
+    ],
+    "corner": [
+      "pov_hands_desk",
+      "table_slide_pov"
+    ]
+  },
+  "restaurant-date-night": {
+    "entrance": [
+      "pov_door_entry",
+      "sign_tilt_down_reveal"
+    ],
+    "room": [
+      "interior_pan",
+      "table_reveal_frame"
+    ],
+    "dish": [
+      "pasta_pull_out",
+      "plate_orbit_45"
+    ],
+    "bite": [
+      "selfie_bite_reaction",
+      "fork_lift_dish_to_face"
+    ],
+    "outro": [
+      "talking_head_eye_level",
+      "toast_to_camera"
+    ]
+  },
+  "restaurant-chef-pick": {
+    "hands": [
+      "hands_prep_overhead",
+      "knife_cross_section"
+    ],
+    "cook": [
+      "cook_waist_up_side",
+      "pass_handoff"
+    ],
+    "plate": [
+      "pasta_pull_out",
+      "plate_push_in_45"
+    ],
+    "outro": [
+      "talking_head_eye_level",
+      "walk_and_talk_exit"
+    ]
+  },
+  "food-review": {
+    "dish": [
+      "pasta_pull_out",
+      "plate_orbit_45"
+    ],
+    "arrive": [
+      "pov_door_entry",
+      "cafe_entrance_to_handle"
+    ],
+    "order": [
+      "menu_board_item",
+      "counter_order_pov"
+    ],
+    "bite": [
+      "selfie_bite_reaction",
+      "fork_lift_dish_to_face"
+    ],
+    "verdict": [
+      "talking_head_eye_level",
+      "price_tag_point"
+    ]
+  },
+  "bakery-fresh-batch": {
+    "oven": [
+      "oven_tray_pull",
+      "steam_backlit_tray"
+    ],
+    "shelf": [
+      "shelf_slide_left",
+      "case_push_in_item"
+    ],
+    "break": [
+      "bread_tear_crumb",
+      "sugar_dust_backlit"
+    ],
+    "outro": [
+      "selfie_bag_show",
+      "walk_and_talk_exit"
+    ]
+  },
+  "bar-night-out": {
+    "crowd": [
+      "crowd_high_angle",
+      "whip_pan_transition"
+    ],
+    "pour": [
+      "cocktail_low_angle",
+      "tap_pour_glass"
+    ],
+    "cheers": [
+      "glasses_clink_center",
+      "cheers_low_angle"
+    ],
+    "outro": [
+      "talking_head_eye_level",
+      "toast_to_camera"
+    ]
+  },
+  "bar-tasting": {
+    "flight": [
+      "bar_counter_slide",
+      "flight_overhead"
+    ],
+    "first": [
+      "selfie_sip_reaction",
+      "glass_raise_light"
+    ],
+    "favorite": [
+      "hold_up_product",
+      "hand_over_lens_transition"
+    ],
+    "outro": [
+      "bar_backdrop_medium",
+      "pull_back_bar_reveal"
+    ]
+  },
+  "salon-transformation": {
+    "before": [
+      "before_front_back",
+      "mirror_before"
+    ],
+    "space": [
+      "interior_pan",
+      "chair_reveal_frame"
+    ],
+    "work": [
+      "tools_closeup_hands",
+      "process_step_cuts"
+    ],
+    "reveal": [
+      "chair_spin_reveal",
+      "hand_over_lens_transition"
+    ]
+  },
+  "salon-quick-tour": {
+    "door": [
+      "pov_door_entry",
+      "sign_tilt_down_reveal"
+    ],
+    "details": [
+      "three_detail_closeups",
+      "flatlay_table"
+    ],
+    "host": [
+      "wave_intro_medium",
+      "walk_in_intro"
+    ],
+    "outro": [
+      "talking_head_eye_level",
+      "price_tag_point"
+    ]
+  }
+}

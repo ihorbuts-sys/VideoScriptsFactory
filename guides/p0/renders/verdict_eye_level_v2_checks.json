@@ -1,0 +1,40 @@
+{
+  "id": "verdict_eye_level_v2",
+  "status": "passed",
+  "frames": 105,
+  "seconds": 7,
+  "durationSec": 6,
+  "setupBeatSeconds": 0,
+  "alphaFactor": 1,
+  "global_opacity_baked": false,
+  "maximum_alpha": 255,
+  "target_first_and_last_identical": true,
+  "poster_equals_frame_zero": true,
+  "encoded_frames_preserved": true,
+  "selector_size": [
+    120,
+    213
+  ],
+  "animation_size": [
+    405,
+    720
+  ],
+  "initial_hold_frames": 8,
+  "final_hold_frames": 7,
+  "visible_motion": true,
+  "hero_pixel_band_checked": true,
+  "maximum_hands": 2,
+  "detailed_people": 1,
+  "silhouettes": 0,
+  "fixed_lens": true,
+  "fixed_lighting": true,
+  "local_yellow_edge_glow": true,
+  "steam_edge_glow": false,
+  "glow_from_native_yellow_contours_only": true,
+  "triangle_markers": [],
+  "sha256": "e7c6b7f620d5e6d389b375fc6e3ce0f06a6e9592dae0a0211bcadb8630ec66a1",
+  "character": "creator",
+  "preview_mirrored": true,
+  "facial_animation": false,
+  "hero_region": "Actual face triangles; hair and shoulders are supporting context"
+}

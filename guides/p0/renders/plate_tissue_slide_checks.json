@@ -1,0 +1,49 @@
+{
+  "id": "plate_tissue_slide",
+  "status": "passed",
+  "frames": 90,
+  "seconds": 6,
+  "durationSec": 4,
+  "setupBeatSeconds": 1,
+  "alphaFactor": 1,
+  "global_opacity_baked": false,
+  "maximum_alpha": 255,
+  "target_first_and_last_identical": true,
+  "poster_equals_frame_zero": true,
+  "encoded_frames_preserved": true,
+  "selector_size": [
+    120,
+    213
+  ],
+  "animation_size": [
+    405,
+    720
+  ],
+  "initial_hold_frames": 8,
+  "final_hold_frames": 7,
+  "visible_motion": true,
+  "hero_pixel_band_checked": true,
+  "maximum_hands": 0,
+  "detailed_people": 0,
+  "silhouettes": 0,
+  "fixed_lens": true,
+  "fixed_lighting": true,
+  "local_yellow_edge_glow": true,
+  "steam_edge_glow": false,
+  "glow_from_native_yellow_contours_only": true,
+  "triangle_markers": [
+    [
+      235.43210864067078,
+      309.2910575866699
+    ],
+    [
+      35.672793835401535,
+      440.98151206970215
+    ],
+    [
+      400.01837342977524,
+      374.4009304046631
+    ]
+  ],
+  "sha256": "6ae5f03ca39e74b6e619271fad79ab5b585bd5b333870df9cc4cb7a5ddc01c18"
+}

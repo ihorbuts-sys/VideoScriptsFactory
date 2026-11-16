@@ -1,0 +1,16 @@
+{
+  "status": "reviewed_before_render",
+  "subject": "Hold on the amenity sign",
+  "angle": "chest-height 2 in push-in, then hold, 1x",
+  "motion": "chest-height 2 in push-in, then hold, 1x",
+  "focal_point": "Target hero in the protected middle band",
+  "composition": "center",
+  "golden_ratio": "Use the prescribed center, thirds or functional three-point arrangement; no decorative spiral",
+  "lighting": "Fixed light; restrained explicit window/fixture cues only",
+  "contacts": [],
+  "handover": "None: P0 ends on this shot target",
+  "source_setup": "Seated chest height (lens about 3 ft 3 in above the floor, 5 in above the sign centre), 1x; 20 in to 18 in from the sign in about 3 s at an even pace, then a 1 s hold. Hero: the blank card holder standing 3 in in from the near table edge, turned 15 deg.",
+  "adaptations": [
+    "Seated chest height (lens 1.0 m), 1x, 20 in to 18 in from the card in 2.8 s at an even pace, then a still hold; no hands."
+  ]
+}

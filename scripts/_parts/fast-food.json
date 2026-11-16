@@ -1,0 +1,1034 @@
+{
+  "templates": [
+    {
+      "id": "quick-order-rate",
+      "venueKinds": [
+        "fast-food"
+      ],
+      "title": "Order and rate",
+      "summary": "The most ordered item held up, the hook, the cross-section, the menu board with prices and a score out of ten.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hold",
+          "title": "Hold it up",
+          "shot": "detail",
+          "position": "At the counter or the curb",
+          "direction": "Hold the item in one hand, phone low in the other, and move the phone in slowly until the item fills the frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Worth it?",
+              "script": "Their most ordered item. Is it worth the money?"
+            },
+            {
+              "text": "The number one",
+              "script": "The number one on the menu, fresh out of the bag."
+            },
+            {
+              "text": "What people order",
+              "script": "I asked what people order most, so I got it too."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-order-rate_hold.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hook",
+          "title": "The hook",
+          "shot": "selfie",
+          "position": "At the counter or the curb",
+          "direction": "Front camera at eye level, the item in your hand.",
+          "seconds": 5,
+          "prompter": "Their most ordered item. I am rating it honestly, out of ten.",
+          "captions": [
+            {
+              "text": "Rate it",
+              "script": "Their most ordered item. I am rating it honestly, out of ten."
+            },
+            {
+              "text": "Honest score",
+              "script": "Honest score coming. Here is what I really think of it."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-order-rate_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "inside",
+          "title": "Cross-section",
+          "shot": "detail",
+          "position": "Hands over the wrapper",
+          "direction": "Pull it apart or cut it in half, hold the phone above it at an angle and move in slowly on the inside, then flick the phone to the side.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The inside",
+              "script": "Look at the inside. Here is everything in there."
+            },
+            {
+              "text": "Cheese pull",
+              "script": "Cheese pull check. Let's see if it passes."
+            },
+            {
+              "text": "Messy or not",
+              "script": "Messy, yes. Grab extra napkins at the counter."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-order-rate_inside.jpg",
+          "overlays": []
+        },
+        {
+          "id": "menu",
+          "title": "Menu board",
+          "shot": "medium",
+          "position": "In front of the menu board",
+          "direction": "Stand square to the menu board, phone at chest height, and sidestep slowly along it so the prices pass.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Prices here",
+              "script": "Here are the prices, with the combo and without."
+            },
+            {
+              "text": "Combo or not",
+              "script": "Combo or not? Here is what the fries and drink add."
+            },
+            {
+              "text": "Read the board",
+              "script": "Here is the board, so you can see what fits your budget."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-order-rate_menu.jpg",
+          "overlays": []
+        },
+        {
+          "id": "score",
+          "title": "The score",
+          "shot": "selfie",
+          "position": "At the counter or the curb, arm out",
+          "direction": "Hold the phone a little above eye level with the item in frame. Give your score, the price and where it is.",
+          "seconds": 6,
+          "prompter": "Here is my score out of ten, the price and where it is.",
+          "captions": [
+            {
+              "text": "My score",
+              "script": "Here is my score out of ten, the price and where it is."
+            },
+            {
+              "text": "Out of ten",
+              "script": "Here is my score, and whether I would order it again."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-order-rate_score.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "quick-truck-find",
+      "venueKinds": [
+        "fast-food"
+      ],
+      "title": "Find the truck",
+      "summary": "Where the truck parks today: the walk-up, the order at the window, the hand-off, the bite and the hours.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "truck",
+          "title": "The truck",
+          "shot": "wide",
+          "position": "Across from the truck",
+          "direction": "Start across from the truck with the whole truck in frame and walk slowly toward the window. Keep faces in the line out of frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Found the truck",
+              "script": "Found the truck. It is parked here today, and there is a line."
+            },
+            {
+              "text": "The line",
+              "script": "This truck has a line. Let's find out why."
+            },
+            {
+              "text": "Lunch on wheels",
+              "script": "Lunch on wheels, right by the office."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-truck-find_truck.jpg",
+          "overlays": []
+        },
+        {
+          "id": "window",
+          "title": "Order",
+          "shot": "medium",
+          "position": "At the order window",
+          "direction": "Back camera from your eyes on the menu and the window while you order. You talk on the front camera.",
+          "seconds": 5,
+          "prompter": "Ordering what the person in front of me got. Smelled too good.",
+          "captions": [
+            {
+              "text": "Ordering",
+              "script": "Ordering what the person in front of me got. Smelled too good."
+            },
+            {
+              "text": "Asked for their best",
+              "script": "Asked what they sell the most. This is it."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-truck-find_window.jpg",
+          "overlays": []
+        },
+        {
+          "id": "handoff",
+          "title": "Hand-off",
+          "shot": "detail",
+          "position": "Under the window ledge",
+          "direction": "Hold the phone low at the window ledge, still, as the order is passed down to you.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Order up",
+              "script": "Order up. Here is how long it took, start to finish."
+            },
+            {
+              "text": "Hot from the window",
+              "script": "Hot from the window, straight into my hands."
+            },
+            {
+              "text": "How fast",
+              "script": "Here is how fast the line moved to the window."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-truck-find_handoff.jpg",
+          "overlays": []
+        },
+        {
+          "id": "unwrap",
+          "title": "Unwrap",
+          "shot": "detail",
+          "position": "At the curb, a bench or in the car",
+          "direction": "Hold the phone straight above the order and move in slowly as you open the box or the foil.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look inside",
+              "script": "Look inside. Here is everything in the box."
+            },
+            {
+              "text": "Curb dinner",
+              "script": "Best seat in the house: the curb."
+            },
+            {
+              "text": "Car picnic",
+              "script": "Eating in the car, because it would not survive the drive."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-truck-find_unwrap.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the curb, a bench or in the car",
+          "direction": "Front camera at eye level. Lift the first bite toward the lens and react.",
+          "seconds": 5,
+          "prompter": "First bite on the curb. Okay, this is why there's a line.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "First bite on the curb. Okay, this is why there's a line."
+            },
+            {
+              "text": "Worth the line",
+              "script": "Worth the line. I would wait for this again."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-truck-find_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "where",
+          "title": "Where it parks",
+          "shot": "selfie",
+          "position": "With the truck behind you",
+          "direction": "Hold the phone a little above eye level with the truck behind you. Say where it parks, the hours and the total.",
+          "seconds": 6,
+          "prompter": "Here is where it parks. Check Loca for today's spot and hours.",
+          "captions": [
+            {
+              "text": "Where it parks",
+              "script": "Here is where it parks. Check Loca for today's spot and hours."
+            },
+            {
+              "text": "Find it today",
+              "script": "It moves around, so check Loca before you go."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-truck-find_where.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "quick-budget-run",
+      "venueKinds": [
+        "fast-food"
+      ],
+      "title": "Ten dollar run",
+      "summary": "How much food ten dollars buys: the hook, the menu board, two items scored, the receipt and the one to get.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "The budget",
+          "shot": "selfie",
+          "position": "At the counter, before ordering",
+          "direction": "Front camera at eye level with the counter or the menu board behind you.",
+          "seconds": 5,
+          "prompter": "Ten dollars at this counter. Let's see how much food it buys.",
+          "captions": [
+            {
+              "text": "Ten dollar challenge",
+              "script": "Ten dollars at this counter. Let's see how much food it buys."
+            },
+            {
+              "text": "Budget lunch",
+              "script": "Budget lunch. Ten dollars, two items, and I want to be full."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-budget-run_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "board",
+          "title": "Menu board",
+          "shot": "medium",
+          "position": "In front of the menu board",
+          "direction": "Stand below the menu board, phone at chest height tipped up at it, and sidestep slowly along it so the prices pass.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The prices",
+              "script": "Here are the prices. Let's see what ten dollars covers."
+            },
+            {
+              "text": "Picking two",
+              "script": "Picking two items, and the drink stays at home."
+            },
+            {
+              "text": "Where to start",
+              "script": "Here is the cheapest part of the board. That is where we start."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-budget-run_board.jpg",
+          "overlays": []
+        },
+        {
+          "id": "first",
+          "title": "Item one",
+          "shot": "detail",
+          "position": "At a table or counter, phone above the item",
+          "direction": "Hold the phone straight above the first item, still, while you pick it up. You talk on the front camera, then flick the phone to the side.",
+          "seconds": 5,
+          "prompter": "First item down. Crispy, salty, and here is my score.",
+          "captions": [
+            {
+              "text": "Item one",
+              "script": "First item down. Crispy, salty, and here is my score."
+            },
+            {
+              "text": "Side done right",
+              "script": "The side is better than it needs to be for the price."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-budget-run_first.jpg",
+          "overlays": []
+        },
+        {
+          "id": "second",
+          "title": "Item two",
+          "shot": "detail",
+          "position": "At a table or counter, phone low",
+          "direction": "Rest the phone low at the table edge and move in slowly on the second item. You talk on the front camera.",
+          "seconds": 5,
+          "prompter": "Item two is the main event. Here is my score for it.",
+          "captions": [
+            {
+              "text": "Item two",
+              "script": "Item two is the main event. Here is my score for it."
+            },
+            {
+              "text": "Most of the budget",
+              "script": "Here is how much of the budget this one took, and if it was worth it."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-budget-run_second.jpg",
+          "overlays": []
+        },
+        {
+          "id": "receipt",
+          "title": "Receipt",
+          "shot": "detail",
+          "position": "At the table",
+          "direction": "Lay the receipt flat and hold the phone straight above the total, still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Total with tax",
+              "script": "The total with tax. Still under ten dollars."
+            },
+            {
+              "text": "Change left?",
+              "script": "And here is what is left over from the ten."
+            },
+            {
+              "text": "The receipt",
+              "script": "The receipt, so you know I am not making this up."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-budget-run_receipt.jpg",
+          "overlays": []
+        },
+        {
+          "id": "best",
+          "title": "The pick",
+          "shot": "selfie",
+          "position": "At the table, arm out",
+          "direction": "Hold the phone a little above eye level, both wrappers in frame. Say the item to get and the venue name.",
+          "seconds": 6,
+          "prompter": "Under ten bucks and full. Here is the one item to order.",
+          "captions": [
+            {
+              "text": "The one to order",
+              "script": "Under ten bucks and full. Here is the one item to order."
+            },
+            {
+              "text": "Full for under ten",
+              "script": "Full for under ten. Here is what to get and what to skip."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-budget-run_best.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "quick-late-night",
+      "venueKinds": [
+        "fast-food"
+      ],
+      "title": "Late night stop",
+      "summary": "The counter that is still open: the hook under the sign, the griddle, the order, the bite and the hours.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "Still open",
+          "shot": "selfie",
+          "position": "Outside, under the sign",
+          "direction": "Front camera at eye level under the lit sign.",
+          "seconds": 5,
+          "prompter": "Late at night, and this counter is still open. Here's what I got.",
+          "captions": [
+            {
+              "text": "Still open",
+              "script": "Late at night, and this counter is still open. Here's what I got."
+            },
+            {
+              "text": "Late night run",
+              "script": "Late night run, and this counter still has the lights on."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-late-night_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "sign",
+          "title": "The sign",
+          "shot": "medium",
+          "position": "On the sidewalk, below the sign",
+          "direction": "Hold the phone low and point it up at the lit sign, then tip it down slowly to the door.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Open late",
+              "script": "Open late, and the sign means it."
+            },
+            {
+              "text": "The late spot",
+              "script": "The late night spot people tell you about after the bar."
+            },
+            {
+              "text": "Lights still on",
+              "script": "Lights still on, grill still hot."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-late-night_sign.jpg",
+          "overlays": []
+        },
+        {
+          "id": "griddle",
+          "title": "On the griddle",
+          "shot": "detail",
+          "position": "At the counter, with the cook's OK",
+          "direction": "Ask first, then hold the phone above the griddle at an angle and keep it still while the order cooks.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "On the griddle",
+              "script": "Here is my order on the griddle, cooking right now."
+            },
+            {
+              "text": "Made fresh",
+              "script": "Made fresh, even this late. Watch it cook."
+            },
+            {
+              "text": "That sound",
+              "script": "Turn the sound up for this."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-late-night_griddle.jpg",
+          "overlays": []
+        },
+        {
+          "id": "order",
+          "title": "The order",
+          "shot": "detail",
+          "position": "At the counter, phone low",
+          "direction": "Rest the phone low on the counter and move in slowly until the order fills the frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The late order",
+              "script": "My late night order. Here is everything in it."
+            },
+            {
+              "text": "The late night order",
+              "script": "This is the late night order, according to the cook."
+            },
+            {
+              "text": "The sides",
+              "script": "Here is what came with it, still hot."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-late-night_order.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At the counter or a stool",
+          "direction": "Front camera at eye level. Lift the first bite toward the lens and react.",
+          "seconds": 5,
+          "prompter": "Late night bite at the counter. Exactly what I needed tonight.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "Late night bite at the counter. Exactly what I needed tonight."
+            },
+            {
+              "text": "Hits different",
+              "script": "This late, it hits harder than any dinner I had today."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-late-night_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outside",
+          "title": "The hours",
+          "shot": "wide",
+          "position": "Across the sidewalk",
+          "direction": "Step out and film the lit storefront from across the sidewalk, holding still.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Open late",
+              "script": "Open late. Check the hours on Loca before you go."
+            },
+            {
+              "text": "After the bar",
+              "script": "Remember this one for after the bar."
+            },
+            {
+              "text": "Late night offer",
+              "script": "If there is a late night offer on Loca, use it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-late-night_outside.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "quick-the-build",
+      "venueKinds": [
+        "fast-food"
+      ],
+      "title": "The build",
+      "summary": "Behind the counter: the griddle, the cook stacking the order, the wrap, the cross-section and the bite.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "grill",
+          "title": "On the grill",
+          "shot": "detail",
+          "position": "At the counter, with the cook's OK",
+          "direction": "Ask first, then hold the phone above the grill or fryer at an angle and keep it still while it cooks.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Watch them build it",
+              "script": "Watch them build my order, start to finish."
+            },
+            {
+              "text": "Fresh off the grill",
+              "script": "Fresh off the grill. Turn the sound up."
+            },
+            {
+              "text": "Fryer basket up",
+              "script": "Fryer basket up, fries out, salt on."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-the-build_grill.jpg",
+          "overlays": []
+        },
+        {
+          "id": "build",
+          "title": "The build",
+          "shot": "medium",
+          "position": "Behind the cook's shoulder, with their OK",
+          "direction": "Stand just behind the cook's shoulder and lean in slowly as they stack the order.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Stacked to order",
+              "script": "Stacked to order. Here is every layer as it goes on."
+            },
+            {
+              "text": "Layer by layer",
+              "script": "Layer by layer, watch the order they go on."
+            },
+            {
+              "text": "How fast",
+              "script": "Here is how long it took to build. These cooks are quick."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-the-build_build.jpg",
+          "overlays": []
+        },
+        {
+          "id": "wrap",
+          "title": "Wrap it",
+          "shot": "detail",
+          "position": "At the counter, phone above",
+          "direction": "Hold the phone straight above the counter, still, while the cook wraps or boxes the order.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Wrapped up",
+              "script": "Wrapped and ready. Now the part that matters."
+            },
+            {
+              "text": "Foil on",
+              "script": "Foil on to keep it hot."
+            },
+            {
+              "text": "Boxed",
+              "script": "Into the box and over the counter."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-the-build_wrap.jpg",
+          "overlays": []
+        },
+        {
+          "id": "inside",
+          "title": "The inside",
+          "shot": "detail",
+          "position": "At a table, phone above",
+          "direction": "Cut it in half, hold the phone above it at an angle and move in slowly until the inside fills the screen.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look inside",
+              "script": "Look inside. You can see every layer they built."
+            },
+            {
+              "text": "Cross-section",
+              "script": "The cross-section. Juicy, melted, nothing missing."
+            },
+            {
+              "text": "Sauce check",
+              "script": "Sauce on every bite, all the way to the edge."
+            }
+          ],
+          "pip": false,
+          "imageURL": "quick-the-build_inside.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "First bite",
+          "shot": "selfie",
+          "position": "At a table",
+          "direction": "Front camera. Start with the food right at the lens, then pull it away to your mouth and react.",
+          "seconds": 5,
+          "prompter": "Watched them build it start to finish. Now the first bite.",
+          "captions": [
+            {
+              "text": "First bite",
+              "script": "Watched them build it start to finish. Now the first bite."
+            },
+            {
+              "text": "Built right",
+              "script": "Built right. You can taste every layer they put on."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-the-build_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outro",
+          "title": "Order it",
+          "shot": "selfie",
+          "position": "At a table, arm out",
+          "direction": "Hold the phone a little above eye level with the food in frame. Say the item name, the price and the venue.",
+          "seconds": 6,
+          "prompter": "Ask for it the way the cooks make it. Here is the price.",
+          "captions": [
+            {
+              "text": "Order this",
+              "script": "Ask for it the way the cooks make it. Here is the price."
+            },
+            {
+              "text": "Cook's way",
+              "script": "Order it the cook's way. Ask them how they make theirs."
+            }
+          ],
+          "pip": true,
+          "imageURL": "quick-the-build_outro.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "quick-order-rate": {
+      "hold": {
+        "angle": "low",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The item grows from below until it fills the frame; cut to the selfie."
+      },
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "A still selfie with the item in hand; cut to the back camera above it."
+      },
+      "inside": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "The inside grows until it fills the screen, then the frame flicks away and lands on the menu board."
+      },
+      "menu": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The prices slide past at an even pace; cut to the score selfie."
+      },
+      "score": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie from just above while the score and price land; hold for the end card."
+      }
+    },
+    "quick-truck-find": {
+      "truck": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The truck grows as we walk up until the window and the menu fill the frame; cut to our view at the window."
+      },
+      "window": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Our view of the window held still while we order; cut low under the window ledge."
+      },
+      "handoff": {
+        "angle": "low",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "The tray comes down out of the window toward the lens; match-cut on the same tray from straight above."
+      },
+      "unwrap": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The open box grows until the filling fills the screen; cut to the bite selfie."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The face grows as the bite comes up; cut to a higher selfie with the truck behind."
+      },
+      "where": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie with the truck behind while the spot and hours land; hold for the end card."
+      }
+    },
+    "quick-budget-run": {
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "A still selfie at the counter; cut to the back camera on the menu board."
+      },
+      "board": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-left",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The board looms above and its prices slide past at an even pace; cut straight overhead to the first item."
+      },
+      "first": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The first item sits still under the lens while a hand takes it, then the frame flicks to the second item."
+      },
+      "second": {
+        "angle": "low",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Out of the whip the main item grows from below until it towers; cut straight down to the receipt."
+      },
+      "receipt": {
+        "angle": "top-down",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The total holds still in the frame; cut to the verdict selfie."
+      },
+      "best": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie from just above while the pick and the total land; hold for the end card."
+      }
+    },
+    "quick-late-night": {
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "A still selfie under the sign; cut low to the sign itself."
+      },
+      "sign": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "tilt-down",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The sign above gives way to the door below as the phone tips down; cut high over the griddle."
+      },
+      "griddle": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "The patty sizzles still in the frame; match-cut on the finished burger in the same spot from below."
+      },
+      "order": {
+        "angle": "low",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The order grows from below until it fills the frame; cut to the bite selfie."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The face grows as the bite comes up; cut to the lit storefront outside."
+      },
+      "outside": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The lit storefront holds still in the dark street; hold for the end card."
+      }
+    },
+    "quick-the-build": {
+      "grill": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The patty or the basket sizzles still in the frame; cut behind the cook's shoulder."
+      },
+      "build": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "From behind the cook we lean in as the layers go on; cut straight overhead to the wrap."
+      },
+      "wrap": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "Hands fold the wrap from above; match-cut on the same order opened and cut in half."
+      },
+      "inside": {
+        "angle": "high",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "push-through",
+        "reads": "The inside grows until it fills the screen; push through it to the bite at the lens."
+      },
+      "bite": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The food leaves the lens and the face appears; cut to a higher, still selfie."
+      },
+      "outro": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "A still selfie from just above while the name and price land; hold for the end card."
+      }
+    }
+  }
+}

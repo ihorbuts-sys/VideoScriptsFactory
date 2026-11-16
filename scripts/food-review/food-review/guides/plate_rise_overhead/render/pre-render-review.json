@@ -1,0 +1,16 @@
+{
+  "status": "reviewed_before_render",
+  "subject": "Rise over the plate",
+  "angle": "flat-lay reveal: crane up with a tilt from 45 degrees to overhead",
+  "motion": "flat-lay reveal: crane up with a tilt from 45 degrees to overhead",
+  "focal_point": "Target hero in the protected middle band",
+  "composition": "triangle",
+  "golden_ratio": "Use the prescribed center, thirds or functional three-point arrangement; no decorative spiral",
+  "lighting": "Fixed light; restrained explicit window/fixture cues only",
+  "contacts": [],
+  "handover": "None: P0 ends on this shot target",
+  "source_setup": "- **Composition**: plate at the place setting, centred left-right; fork straight, parallel to the plate's left side, 4 cm from the rim; cup on its saucer at one o'clock, handle right. Triangle markers on the plate centre, the cup centre and the fork's middle.\n- **Start**: seat side, straight in front of the plate, phone pitched 45 degrees down, lens 0.45 m from the plate centre.\n- **Move**: one crane up with a tilt over the full 6 s, eased in and out; the plate stays at the same place in the frame.\n- **End**: phone flat above the plate, no roll; plate rim 0.55 of the frame width, plate centre at 55% of the frame height; whole cup, saucer and fork in frame with at least 4% margin; lens at most 0.70 m above the plate.\n- **Objects**: the shared example dish as in plate_low_push_in, rearranged for this guide only. No hands, no people.",
+  "adaptations": [
+    "Crane up with tilt in the seat-side vertical plane: pitch 45 to 90 degrees, the plate held at 55% of the frame height; a fixed tabletop up reference keeps the overhead end free of roll."
+  ]
+}

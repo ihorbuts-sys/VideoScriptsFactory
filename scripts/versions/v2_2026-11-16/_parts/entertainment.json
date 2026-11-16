@@ -1,0 +1,1110 @@
+{
+  "templates": [
+    {
+      "id": "bar-night-out",
+      "venueKinds": [
+        "entertainment"
+      ],
+      "title": "Night out",
+      "summary": "The first pour, the room, cheers with friends, and an invite with the name and the happy hour.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "pour",
+          "title": "The pour",
+          "shot": "detail",
+          "position": "At the bar, elbows on the bar top",
+          "direction": "Rest your elbows on the bar and hold the phone still beside the glass while the bartender pulls a pint or strains a cocktail.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First round",
+              "script": "First round of the night, poured right in front of us."
+            },
+            {
+              "text": "Fresh off the tap",
+              "script": "Fresh off the tap, poured right in front of me."
+            },
+            {
+              "text": "Watch this pour",
+              "script": "Watch this pour. The bartender makes it look easy."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-night-out_pour.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hook",
+          "title": "Where we are",
+          "shot": "selfie",
+          "position": "At the bar, glass in hand",
+          "direction": "Switch to the front camera, hold the glass up beside your face and say where you are tonight.",
+          "seconds": 5,
+          "prompter": "Night out, first drink, and this is where we started.",
+          "captions": [
+            {
+              "text": "Night starts here",
+              "script": "Night out, first drink, and this is where we started."
+            },
+            {
+              "text": "Where we started",
+              "script": "Best way to start a night out, and here is where it is."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-night-out_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "crowd",
+          "title": "The room",
+          "shot": "wide",
+          "position": "Inside, a few steps from the bar, back to a wall",
+          "direction": "Turn slowly from the bar to the room in one smooth move, hips and phone together, then whip to the right. Keep it wide; no close-ups of other guests.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Tonight is the night",
+              "script": "Tonight is the night. The place is buzzing and we just got here."
+            },
+            {
+              "text": "How busy it is",
+              "script": "Here is how busy it is, and the night has only started."
+            },
+            {
+              "text": "The room",
+              "script": "The room. Grab a stool at the bar if you are quick."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-night-out_crowd.jpg",
+          "overlays": []
+        },
+        {
+          "id": "cheers",
+          "title": "Cheers",
+          "shot": "medium",
+          "position": "At the table with your friends, phone low on the table edge",
+          "direction": "Start with a quick swing into the glasses, then hold the phone still just below the rims while your friends clink. Film only friends who are happy to be in it.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Cheers",
+              "script": "Cheers to good friends and a good night."
+            },
+            {
+              "text": "Good company",
+              "script": "Good drinks are better in good company."
+            },
+            {
+              "text": "Your next round",
+              "script": "Your next round is waiting. Pull up a seat."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-night-out_cheers.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outro",
+          "title": "Join us",
+          "shot": "selfie",
+          "position": "At the bar, the taps behind you",
+          "direction": "Front camera at arm's length with the bar behind you. Say the name, the happy hour or the price of a pint, and the neighborhood.",
+          "seconds": 6,
+          "prompter": "We are staying a while. Here is the name and the drink prices.",
+          "captions": [
+            {
+              "text": "Join us tonight",
+              "script": "We are staying a while. Here is the name and the drink prices."
+            },
+            {
+              "text": "Pull up a stool",
+              "script": "There is a stool at the bar with your name on it."
+            },
+            {
+              "text": "See you here",
+              "script": "That is my new favorite spot. Maybe I will see you here next time."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-night-out_outro.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "bar-tasting",
+      "venueKinds": [
+        "entertainment",
+        "dining"
+      ],
+      "title": "Tasting flight",
+      "summary": "A flight of beers or tasters: the row of glasses, the tap board, a rating, the winner and where to order it.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "flight",
+          "title": "The flight",
+          "shot": "detail",
+          "position": "At the table, standing over the flight",
+          "direction": "Hold the phone just above the rims, tilted down, and slide it slowly along the row from the lightest glass to the darkest.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Tasting flight",
+              "script": "Tasting flight time. Every glass gets a rating from me."
+            },
+            {
+              "text": "Which one wins",
+              "script": "A few to try, one to order again. Let's see which one wins."
+            },
+            {
+              "text": "Let's taste",
+              "script": "Let's taste. Starting light and working our way up."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-tasting_flight.jpg",
+          "overlays": []
+        },
+        {
+          "id": "taps",
+          "title": "The tap board",
+          "shot": "medium",
+          "position": "At the bar, a step back from the taps",
+          "direction": "Start on the tap board or the brewhouse tanks above the bar, then tilt down slowly to the row of tap handles.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The board",
+              "script": "Here is everything on the board, and where it comes from."
+            },
+            {
+              "text": "The tap list",
+              "script": "The whole tap list is up here. Here is how the flight works."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-tasting_taps.jpg",
+          "overlays": []
+        },
+        {
+          "id": "first",
+          "title": "First glass",
+          "shot": "selfie",
+          "position": "Sitting at the table",
+          "direction": "Front camera at arm's length, the first glass in hand. Take a small sip and rate it.",
+          "seconds": 5,
+          "prompter": "Number one is the lightest. Crisp, a little bitter, easy to drink.",
+          "captions": [
+            {
+              "text": "Number one",
+              "script": "Number one is the lightest. Crisp, a little bitter, easy to drink."
+            },
+            {
+              "text": "Rating",
+              "script": "Here is my score for this one, and it is the lightest."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-tasting_first.jpg",
+          "overlays": []
+        },
+        {
+          "id": "favorite",
+          "title": "The favorite",
+          "shot": "close",
+          "position": "Sitting at the table",
+          "direction": "Front camera close to your face. Name your winner, then raise the glass toward the lens until it fills the frame.",
+          "seconds": 6,
+          "prompter": "This one is the winner. Not even close, I'm ordering a full glass.",
+          "captions": [
+            {
+              "text": "The winner",
+              "script": "This one is the winner. Not even close, I'm ordering a full glass."
+            },
+            {
+              "text": "My favorite",
+              "script": "If you only try one thing here, make it this one."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-tasting_favorite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "outro",
+          "title": "Come taste",
+          "shot": "medium",
+          "position": "At the bar, phone close to your glass",
+          "direction": "Start with the lens almost touching your glass on the bar, tilted down, then lean back slowly so the bar and the taps come into view.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Come taste",
+              "script": "Come taste the flight yourself and tell me your winner."
+            },
+            {
+              "text": "Pull up a stool",
+              "script": "There is a stool at the bar with your name on it."
+            },
+            {
+              "text": "Ask for the flight",
+              "script": "Ask for the flight at the bar, the price is on the board."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-tasting_outro.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "night-live-music",
+      "venueKinds": [
+        "entertainment"
+      ],
+      "title": "Live music night",
+      "summary": "Walk in to the music, the band, a drink between sets, the event board, and which night to come.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "walkin",
+          "title": "Walk in",
+          "shot": "pov",
+          "position": "At the door, phone at chest height",
+          "direction": "Walk in slowly toward the stage with the phone at your chest, short steps, the music playing.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Follow the music",
+              "script": "Heard the band from the street, so we followed it inside."
+            },
+            {
+              "text": "Live music tonight",
+              "script": "Live music tonight, and we got here just before the first song."
+            }
+          ],
+          "pip": false,
+          "imageURL": "night-live-music_walkin.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hook",
+          "title": "Our table",
+          "shot": "selfie",
+          "position": "At your table or a spot by the wall",
+          "direction": "Front camera at arm's length with the stage lights behind you. Say what tonight is.",
+          "seconds": 5,
+          "prompter": "Live band, a cold drink, and here is our table tonight.",
+          "captions": [
+            {
+              "text": "Live band tonight",
+              "script": "Live band, a cold drink, and here is our table tonight."
+            },
+            {
+              "text": "Our view",
+              "script": "Here is our seat tonight, and this is the view of the stage."
+            }
+          ],
+          "pip": true,
+          "imageURL": "night-live-music_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "stage",
+          "title": "The band",
+          "shot": "wide",
+          "position": "At your table or the side of the room",
+          "direction": "Hold the phone low and steady and move in slowly toward the stage, then whip to the right at the end. Film the band and the lights; keep other guests' faces out of close-up.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Turn the sound on",
+              "script": "Turn the sound on for this one. Listen to the room."
+            },
+            {
+              "text": "Who is playing",
+              "script": "Here is who is playing tonight, straight from our table."
+            },
+            {
+              "text": "The crowd",
+              "script": "Here is the room once the band gets going."
+            }
+          ],
+          "pip": false,
+          "imageURL": "night-live-music_stage.jpg",
+          "overlays": []
+        },
+        {
+          "id": "drink",
+          "title": "Between sets",
+          "shot": "detail",
+          "position": "At the bar, standing over your glass",
+          "direction": "Start mid-swing, then hold the phone still above your glass on the bar while the bartender sets it down.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First round",
+              "script": "First round between songs, made while the band played."
+            },
+            {
+              "text": "Between sets",
+              "script": "Grabbed a drink between sets, right at the bar."
+            }
+          ],
+          "pip": false,
+          "imageURL": "night-live-music_drink.jpg",
+          "overlays": []
+        },
+        {
+          "id": "board",
+          "title": "Who plays when",
+          "shot": "detail",
+          "position": "Under the event board, by the door or the bar",
+          "direction": "Stand under the board with the dates or the band list and move in slowly to tonight's line.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Who plays when",
+              "script": "Here is the board with who plays when, so take a photo."
+            },
+            {
+              "text": "Next show",
+              "script": "Next show is on the board. Pick a night and bring someone."
+            }
+          ],
+          "pip": false,
+          "imageURL": "night-live-music_board.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Which night",
+          "shot": "selfie",
+          "position": "Outside the door or at your table",
+          "direction": "Front camera at arm's length. Say which night to come, the cover charge and where it is.",
+          "seconds": 7,
+          "prompter": "Here is which night to come, the cover, and where it is.",
+          "captions": [
+            {
+              "text": "Which night to come",
+              "script": "Here is which night to come, the cover, and where it is."
+            },
+            {
+              "text": "Bring someone",
+              "script": "Bring someone next time, this band is better with a crowd."
+            }
+          ],
+          "pip": true,
+          "imageURL": "night-live-music_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "bar-happy-hour",
+      "venueKinds": [
+        "entertainment",
+        "dining"
+      ],
+      "title": "Happy hour",
+      "summary": "What happy hour buys: the pour, the hours and prices on the board, one drink and one bite, the room, and when to come.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "pour",
+          "title": "The pour",
+          "shot": "detail",
+          "position": "At the bar, elbows on the bar top",
+          "direction": "Hold the phone beside the glass while it is poured, then lean in slowly until the foam or the ice fills the frame.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Happy hour pour",
+              "script": "Happy hour is on, and the first pour is already up."
+            },
+            {
+              "text": "Right on time",
+              "script": "Right on time for happy hour. This is the first one."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-happy-hour_pour.jpg",
+          "overlays": []
+        },
+        {
+          "id": "board",
+          "title": "The hours",
+          "shot": "detail",
+          "position": "In front of the happy hour board or menu",
+          "direction": "Start with the phone close on the happy hour times, low and tilted up, then lean back slowly until the prices show.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The hours",
+              "script": "Here are the hours, so you know when to get here."
+            },
+            {
+              "text": "What it costs",
+              "script": "Here are the happy hour prices, drinks and bites."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-happy-hour_board.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hook",
+          "title": "The deal",
+          "shot": "selfie",
+          "position": "At the bar",
+          "direction": "Front camera at arm's length, your drink in hand. Say what happy hour gets you.",
+          "seconds": 5,
+          "prompter": "Happy hour is on right now. Here is what it gets you.",
+          "captions": [
+            {
+              "text": "What it gets you",
+              "script": "Happy hour is on right now. Here is what it gets you."
+            },
+            {
+              "text": "One drink, one bite",
+              "script": "One drink and one bite, that is the whole plan tonight."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-happy-hour_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "bite",
+          "title": "Drink and a bite",
+          "shot": "medium",
+          "position": "Standing at the bar or your table",
+          "direction": "Stand and hold the phone straight above your drink and one bite from the happy hour menu, then reach in and pick up the glass.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "One drink, one bite",
+              "script": "One drink and one bite from the happy hour menu, that is the order."
+            },
+            {
+              "text": "The order",
+              "script": "Here is the order: a happy hour drink and the snack that goes with it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-happy-hour_bite.jpg",
+          "overlays": []
+        },
+        {
+          "id": "room",
+          "title": "The room",
+          "shot": "wide",
+          "position": "Back to a wall, the room in front of you",
+          "direction": "Turn slowly from one side of the room to the other, hips and phone together. Keep it wide; no close-ups of other guests.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The crowd",
+              "script": "Here is how busy it gets, so you know when to grab a seat."
+            },
+            {
+              "text": "Grab a seat",
+              "script": "Here is where to sit. Grab a seat before they go."
+            }
+          ],
+          "pip": false,
+          "imageURL": "bar-happy-hour_room.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "When to come",
+          "shot": "selfie",
+          "position": "At the bar or outside the door",
+          "direction": "Front camera at arm's length. Say the happy hour times, what you paid and the name.",
+          "seconds": 6,
+          "prompter": "That is the drink, the bite, the hours, and the name.",
+          "captions": [
+            {
+              "text": "Happy hour verdict",
+              "script": "That is the drink, the bite, the hours, and the name."
+            },
+            {
+              "text": "Worth leaving work early",
+              "script": "Worth leaving work on time for. Here is where it is."
+            }
+          ],
+          "pip": true,
+          "imageURL": "bar-happy-hour_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "fun-first-try",
+      "venueKinds": [
+        "entertainment"
+      ],
+      "title": "First try",
+      "summary": "An activity venue on a first visit: POV of the main attraction, the reaction, how big the place is, the ticket and the price.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "ride",
+          "title": "The ride",
+          "shot": "pov",
+          "position": "On the ride, the slide or the course, phone in a strap or pouch",
+          "direction": "Only where phones are allowed: hold the phone at your chest in a strap or a waterproof pouch and film straight ahead as the ride or the run starts.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "First try",
+              "script": "First time on this, and here is the very first second."
+            },
+            {
+              "text": "Here we go",
+              "script": "Here we go. No turning back once you start."
+            },
+            {
+              "text": "Biggest one here",
+              "script": "We went straight for the biggest one here."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fun-first-try_ride.jpg",
+          "overlays": []
+        },
+        {
+          "id": "hook",
+          "title": "Reaction",
+          "shot": "selfie",
+          "position": "Right after the ride, at the exit",
+          "direction": "Front camera at arm's length straight after the run, still out of breath or soaked. Say how it was.",
+          "seconds": 5,
+          "prompter": "First time trying this, and I was not ready for that.",
+          "captions": [
+            {
+              "text": "Not ready",
+              "script": "First time trying this, and I was not ready for that."
+            },
+            {
+              "text": "Again?",
+              "script": "Straight off the ride and already asking to go again."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fun-first-try_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "park",
+          "title": "The whole place",
+          "shot": "wide",
+          "position": "Somewhere high: a platform, the top of the stairs, a viewing deck",
+          "direction": "From up high, turn slowly across the whole park or arena to show how big it is, then whip the phone to the right at the end.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "How big it is",
+              "script": "This is the whole place. Here is how big it is."
+            },
+            {
+              "text": "So much to do",
+              "script": "Here is everything you can do here, all in one place."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fun-first-try_park.jpg",
+          "overlays": []
+        },
+        {
+          "id": "ticket",
+          "title": "The ticket",
+          "shot": "detail",
+          "position": "At the entrance or the ticket desk",
+          "direction": "Start mid-swing, then hold the phone level with your wristband, ticket or the price board and move in slowly to the price.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The ticket",
+              "script": "Here is what the ticket costs and what it covers."
+            },
+            {
+              "text": "Price check",
+              "script": "Price check: this is what one person pays at the door."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fun-first-try_ticket.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Worth it",
+          "shot": "selfie",
+          "position": "Outside, the entrance behind you",
+          "direction": "Front camera at arm's length with the entrance behind you. Say the ticket price, how long you stayed and where it is.",
+          "seconds": 6,
+          "prompter": "Here is the ticket price, how long we stayed, and where.",
+          "captions": [
+            {
+              "text": "Worth it?",
+              "script": "Here is the ticket price, how long we stayed, and where."
+            },
+            {
+              "text": "Who to bring",
+              "script": "Tag the friend who would scream the loudest on this."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fun-first-try_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "fun-group-challenge",
+      "venueKinds": [
+        "entertainment"
+      ],
+      "title": "Group challenge",
+      "summary": "A group of friends takes on the game: the bet, POV in the action, the reaction, the scoreboard and the price per player.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "hook",
+          "title": "The bet",
+          "shot": "selfie",
+          "position": "At the start line or the arena entrance, your group behind you",
+          "direction": "Front camera held up a little higher than your face so the whole group fits. Film only friends who agreed to be in it.",
+          "seconds": 5,
+          "prompter": "All of us, one round, and the loser buys the snacks.",
+          "captions": [
+            {
+              "text": "Loser buys snacks",
+              "script": "All of us, one round, and the loser buys the snacks."
+            },
+            {
+              "text": "The whole crew",
+              "script": "All of us, one game, and nobody is going easy."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fun-group-challenge_hook.jpg",
+          "overlays": []
+        },
+        {
+          "id": "action",
+          "title": "In the game",
+          "shot": "pov",
+          "position": "In the game: the arena, the lane, the track or the course",
+          "direction": "Where phones are allowed, hold the phone at your chest and turn slowly with the action, then whip to the left at the end.",
+          "seconds": 6,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Game on",
+              "script": "Game on. Seconds in and it is already chaos."
+            },
+            {
+              "text": "Nobody is safe",
+              "script": "Nobody is safe in here, not even the person filming."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fun-group-challenge_action.jpg",
+          "overlays": []
+        },
+        {
+          "id": "reaction",
+          "title": "The reaction",
+          "shot": "medium",
+          "position": "Facing your group after the round",
+          "direction": "Start mid-swing, then hold the phone still at eye level on your friends as they react to the round.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The reaction",
+              "script": "That was the moment we found out who was really winning."
+            },
+            {
+              "text": "Rematch?",
+              "script": "Somebody is already asking for a rematch, and it is not me."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fun-group-challenge_reaction.jpg",
+          "overlays": []
+        },
+        {
+          "id": "score",
+          "title": "The score",
+          "shot": "detail",
+          "position": "Under the scoreboard or holding the score card",
+          "direction": "Start with the phone close on the winner's name or score, then lean back slowly until every name shows.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "And the winner is",
+              "script": "And the winner is right here. Look at the score."
+            },
+            {
+              "text": "Final score",
+              "script": "Final score. Somebody owes the whole group snacks now."
+            }
+          ],
+          "pip": false,
+          "imageURL": "fun-group-challenge_score.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Tag your team",
+          "shot": "selfie",
+          "position": "Outside or in the lobby, your group around you",
+          "direction": "Front camera at arm's length with the group around you. Say who won, the price per player and where to book.",
+          "seconds": 6,
+          "prompter": "Here is who won, the price per player, and where to book.",
+          "captions": [
+            {
+              "text": "Tag your team",
+              "script": "Here is who won, the price per player, and where to book."
+            },
+            {
+              "text": "Tag who you'd bring",
+              "script": "Tag the friends you would bring, and pick your teams now."
+            }
+          ],
+          "pip": true,
+          "imageURL": "fun-group-challenge_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "bar-night-out": {
+      "pour": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "match-cut",
+        "reads": "The glass fills and the head settles while nothing else moves; match-cut on the glass as the creator lifts it into the selfie."
+      },
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and glass held still at arm's length; cut to the back camera on the room."
+      },
+      "crowd": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "The room slides past from the bar to the tables, then a whip to the right lands on the glasses at the table."
+      },
+      "cheers": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "From below the rims the glasses meet in the middle of the frame; cut to the front camera for the invite."
+      },
+      "outro": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face and bar in frame, held still while the name and the price land."
+      }
+    },
+    "bar-tasting": {
+      "flight": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "truck-right",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The glasses slide past from light to dark, the front rims faster than the back; cut low to the tap board."
+      },
+      "taps": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "tilt-down",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The board slides up out of frame and the tap handles come into view below it; cut to the front camera at the table."
+      },
+      "first": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and glass at arm's length, still while the first rating lands; cut closer for the winner."
+      },
+      "favorite": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "pull-back-reveal",
+        "reads": "The face close to the lens, then the glass rises until it fills the frame; the next shot opens on the same glass on the bar."
+      },
+      "outro": {
+        "angle": "high",
+        "start": "detail",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "From the glass filling the frame, the bar and its taps open up around it; held still for the end card."
+      }
+    },
+    "night-live-music": {
+      "walkin": {
+        "angle": "pov",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The door opens onto the room and the stage grows as we walk in; cut to the front camera."
+      },
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face at arm's length with the stage lights behind, held still; cut to the back camera on the band."
+      },
+      "stage": {
+        "angle": "low",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "whip",
+        "reads": "The stage rises over the room and the band grows as we ease in; a whip right lands on the bar."
+      },
+      "drink": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "From above, a glass lands on the bar and settles under the lights; cut low to the event board."
+      },
+      "board": {
+        "angle": "low",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The board grows from below until tonight's line fills the frame; cut to the front camera for the verdict."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 7,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face and door or stage behind, held still while the night and the cover land."
+      }
+    },
+    "bar-happy-hour": {
+      "pour": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "push-through",
+        "reads": "The glass fills and the camera eases in until the foam fills the frame; the next shot opens filled by the board."
+      },
+      "board": {
+        "angle": "low",
+        "start": "detail",
+        "end": "close",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The hours fill the frame, then the camera eases back until the prices sit under them; cut to the front camera."
+      },
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and glass at arm's length, held still for the deal; cut to the back camera straight above the bar."
+      },
+      "bite": {
+        "angle": "top-down",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "From straight above, a glass and a small plate sit on the bar and a hand reaches in for the glass; cut to eye level on the room."
+      },
+      "room": {
+        "angle": "eye-level",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-left",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The room turns past from the bar to the booths; cut to the front camera for the verdict."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face and bar in frame, held still while the hours and the name land."
+      }
+    },
+    "fun-first-try": {
+      "ride": {
+        "angle": "pov",
+        "start": "wide",
+        "end": "medium",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The drop, the line or the arena door rushes toward us as we move forward; cut to the front camera after the run."
+      },
+      "hook": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face at arm's length, out of breath, held still for the line; cut to the back camera up high."
+      },
+      "park": {
+        "angle": "high",
+        "start": "wide",
+        "end": "wide",
+        "move": "pan-right",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "The whole park turns past from above, attractions side by side; a whip right lands on the ticket."
+      },
+      "ticket": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The wristband or the price board settles and grows until the price fills the frame; cut to the front camera for the verdict."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, face and entrance in frame, held still while the price and the name land."
+      }
+    },
+    "fun-group-challenge": {
+      "hook": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The group squeezes into the frame from slightly above, held still for the bet; cut to the back camera in the game."
+      },
+      "action": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "medium",
+        "move": "pan-left",
+        "seconds": 6,
+        "transitionOut": "whip",
+        "reads": "The game moves across the frame as we turn with it; a whip left lands on the group's reaction."
+      },
+      "reaction": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The group mid-laugh or mid-argument, held still; cut low and tight to the scoreboard."
+      },
+      "score": {
+        "angle": "low",
+        "start": "detail",
+        "end": "close",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "One name fills the frame, then the board opens up to show every score; cut to the front camera."
+      },
+      "verdict": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Arm's length, the group in frame, held still while the price and the name land."
+      }
+    }
+  }
+}

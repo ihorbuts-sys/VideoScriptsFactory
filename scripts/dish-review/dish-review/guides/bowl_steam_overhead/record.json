@@ -1,0 +1,65 @@
+{
+ "id": "bowl_steam_overhead",
+ "title": "Rise over the bowl",
+ "shotType": "plate",
+ "technique": "overhead pedestal rise at 90 degrees, 14 in to 22 in above the bowl",
+ "durationSec": 5,
+ "startTrigger": "motion",
+ "capturePreset": {
+  "stabilization": "cinematicExtendedEnhanced",
+  "continuousFocus": true,
+  "locksFocusExposureWhiteBalance": false,
+  "lensLocked": true,
+  "frameRate": 30
+ },
+ "setupBeatSeconds": 0,
+ "invariant": "Stand, phone flat about 14 in above the bowl; raise it straight up slowly to about 22 in, keeping it flat and the bowl centred.",
+ "sourceScene": "plate_rise_overhead_v2",
+ "newObjects": "serving_bowl (owner-approved 2026-11-16) and dessert spoon (assets.spoon, owner-approved 2026-11-16) right of the bowl",
+ "composition": "center",
+ "camera": "back",
+ "sourceSetup": "Overhead 90 deg throughout, standing; lens about 14 in above the bowl rim, held 1 s, rising straight up to about 22 in from 1.0 s to 4.0 s, held to 5 s. Soup variant: the serving_bowl at the place setting, dessert spoon to the right 3/4 in clear; no hands, no people.",
+ "alphaFactor": 1,
+ "fps": 15,
+ "resolution": [
+  405,
+  720
+ ],
+ "selectorResolution": [
+  120,
+  213
+ ],
+ "targetHoldFrames": 8,
+ "finalHoldFrames": 7,
+ "availability": "draft",
+ "phoneOrientation": "portrait",
+ "showsFace": false,
+ "needsHelper": false,
+ "guideVisibleToCreator": true,
+ "units": "us",
+ "zoomHint": "1x",
+ "allowedHands": 0,
+ "allowedPeople": 0,
+ "dishVariant": "soup",
+ "scanPrep": {
+  "voxel": 0.0015,
+  "smooth": 0.5,
+  "iterations": 3
+ },
+ "steam": false,
+ "beats": [
+  {
+   "atSec": 0,
+   "text": "Phone flat above the bowl, bowl in the middle."
+  },
+  {
+   "atSec": 1.0,
+   "text": "Raise the phone straight up slowly; keep it flat."
+  },
+  {
+   "atSec": 3.5,
+   "text": "Stop when the spoon is in frame."
+  }
+ ],
+ "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73"
+}

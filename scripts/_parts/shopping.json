@@ -1,0 +1,1266 @@
+{
+  "templates": [
+    {
+      "id": "shop-find-of-the-day",
+      "venueKinds": [
+        "shopping"
+      ],
+      "title": "Find of the day",
+      "summary": "One find held up to the lens, where it hung, the label, the price tag and why it is coming home.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "find",
+          "title": "The find",
+          "shot": "pov",
+          "position": "In the aisle, the find in your hand",
+          "direction": "Hold the find at arm's length, then bring it slowly toward the lens with the tag showing.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The find",
+              "script": "Found this today, and wait until you see the price on the tag."
+            },
+            {
+              "text": "Find of the day",
+              "script": "Find of the day, and I almost walked right past it."
+            },
+            {
+              "text": "Look at this",
+              "script": "Look at this piece before I tell you what it costs."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-find-of-the-day_find.jpg",
+          "overlays": []
+        },
+        {
+          "id": "rail",
+          "title": "Where it was",
+          "shot": "medium",
+          "position": "At the rail or shelf it came from",
+          "direction": "Phone at chest height, slide slowly along the rail or shelf and stop where the find was.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Where it was",
+              "script": "It was hiding on this rail between all the other pieces."
+            },
+            {
+              "text": "Dig through here",
+              "script": "This is the rail, so dig all the way to the back."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-find-of-the-day_rail.jpg",
+          "overlays": []
+        },
+        {
+          "id": "label",
+          "title": "The label",
+          "shot": "detail",
+          "position": "Same spot, the find in your hands",
+          "direction": "Phone above your hands, show the label, the stitching or the maker's mark. Hold still, then flick the phone right.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Check the label",
+              "script": "Check the label first, that is how you know it is a good one."
+            },
+            {
+              "text": "The details",
+              "script": "Look at the stitching on this, up close."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-find-of-the-day_label.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tag",
+          "title": "The price",
+          "shot": "detail",
+          "position": "Same spot, the tag in your fingers",
+          "direction": "Start mid-flick, stop on the price tag and hold it still so the price reads.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The price",
+              "script": "And the price, right here on the tag, is the best part."
+            },
+            {
+              "text": "Price on the tag",
+              "script": "This is the whole price, right here on the tag."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-find-of-the-day_tag.jpg",
+          "overlays": []
+        },
+        {
+          "id": "why",
+          "title": "Why it is a find",
+          "shot": "selfie",
+          "position": "In the aisle, holding the find",
+          "direction": "Front camera at arm's length, a little above eye level, with the find in frame. Say why it is a find.",
+          "seconds": 6,
+          "prompter": "Good label, no damage, my size, so this one is coming home.",
+          "captions": [
+            {
+              "text": "Why it's a find",
+              "script": "Good label, no damage, my size, so this one is coming home."
+            },
+            {
+              "text": "Verdict",
+              "script": "For this price I would buy two if they had my size."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-find-of-the-day_why.jpg",
+          "overlays": []
+        },
+        {
+          "id": "shopfront",
+          "title": "Find the shop",
+          "shot": "medium",
+          "position": "Outside, across from the shop sign",
+          "direction": "Phone low, start on the sign and tilt down slowly to the door.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Where to find it",
+              "script": "This is the shop, and here is where to find it."
+            },
+            {
+              "text": "Go dig",
+              "script": "Go dig through it yourself, and see what is new."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-find-of-the-day_shopfront.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "shop-try-on",
+      "venueKinds": [
+        "shopping"
+      ],
+      "title": "Try-on",
+      "summary": "Pick a piece off the rail, show the tag, pull the curtain on the fit, try a second piece and pick one.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "pick",
+          "title": "The pick",
+          "shot": "pov",
+          "position": "At the rail, reaching in",
+          "direction": "Phone at chest height, reach in with your free hand and pull one piece off the rail toward the lens.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Trying this on",
+              "script": "Pulled this off the rail, let's see how it actually fits."
+            },
+            {
+              "text": "Try-on time",
+              "script": "Two pieces, one changing room, let's go."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-try-on_pick.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tag",
+          "title": "Fabric and tag",
+          "shot": "detail",
+          "position": "Same spot, the piece in your hand",
+          "direction": "Phone above the piece, show the fabric, then the tag with the price. Hold still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Price on the tag",
+              "script": "Here is the fabric, and here is the price on the tag."
+            },
+            {
+              "text": "What it's made of",
+              "script": "Here is what it's made of, and the price is right there."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-try-on_tag.jpg",
+          "overlays": []
+        },
+        {
+          "id": "curtain",
+          "title": "Changing room",
+          "shot": "medium",
+          "position": "Outside your changing room",
+          "direction": "Walk slowly up to your changing room curtain until it fills the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Changing room",
+              "script": "Okay, into the changing room, wish me luck."
+            },
+            {
+              "text": "Moment of truth",
+              "script": "Moment of truth, does it fit or not."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-try-on_curtain.jpg",
+          "overlays": []
+        },
+        {
+          "id": "reveal",
+          "title": "The fit",
+          "shot": "medium",
+          "position": "Inside, phone propped low facing the curtain",
+          "direction": "Prop the phone low on the bench facing the curtain, then pull it open in the outfit and turn once.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The fit",
+              "script": "And here is the fit, and the colour is better than on the hanger."
+            },
+            {
+              "text": "Look one",
+              "script": "Look one, and I did not expect this to work."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-try-on_reveal.jpg",
+          "overlays": []
+        },
+        {
+          "id": "second",
+          "title": "Second piece",
+          "shot": "medium",
+          "position": "In front of the changing room mirror",
+          "direction": "Phone at chest height in the mirror, in the second piece, turn once slowly. Keep the phone out of the reflection if you can.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Look two",
+              "script": "Look two, with the price on screen, and this one surprised me."
+            },
+            {
+              "text": "Second pick",
+              "script": "Second pick from the same rail, with the price on screen."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-try-on_second.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "My pick",
+          "shot": "selfie",
+          "position": "Outside the changing room",
+          "direction": "Front camera at arm's length, a little above eye level, holding both pieces. Say which one you are taking.",
+          "seconds": 5,
+          "prompter": "Here is the one I'm taking, and why I will actually wear it.",
+          "captions": [
+            {
+              "text": "My pick",
+              "script": "Here is the one I'm taking, and why I will actually wear it."
+            },
+            {
+              "text": "Taking both",
+              "script": "Honestly I want both, but here is the one I am taking."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-try-on_verdict.jpg",
+          "overlays": []
+        },
+        {
+          "id": "sign",
+          "title": "The shop",
+          "shot": "medium",
+          "position": "Outside, across from the shop sign",
+          "direction": "Phone low, start on the sign and tilt down slowly to the door.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Find the shop",
+              "script": "Find it right here, the shop name is on screen."
+            },
+            {
+              "text": "Where to shop",
+              "script": "This is where I got both, go try them on."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-try-on_sign.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "shop-budget-challenge",
+      "venueKinds": [
+        "shopping"
+      ],
+      "title": "Budget challenge",
+      "summary": "A set budget, three picks with their prices, the total at the till and everything laid out together.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "budget",
+          "title": "The budget",
+          "shot": "selfie",
+          "position": "At the shop door",
+          "direction": "Front camera at arm's length, a little above eye level, the door behind you. Say the budget.",
+          "seconds": 5,
+          "prompter": "I have fifty dollars and one shop, let's see what I find.",
+          "captions": [
+            {
+              "text": "Fifty dollar challenge",
+              "script": "I have fifty dollars and one shop, let's see what I find."
+            },
+            {
+              "text": "Budget run",
+              "script": "Fifty dollars, one shop, let's see how far it goes."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-budget-challenge_budget.jpg",
+          "overlays": []
+        },
+        {
+          "id": "pick-one",
+          "title": "Pick one",
+          "shot": "pov",
+          "position": "At the first rail or shelf",
+          "direction": "Phone at chest height, reach in and bring the first pick toward the lens, tag showing.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Pick one",
+              "script": "Pick one, and the price is right on the tag."
+            },
+            {
+              "text": "First find",
+              "script": "First find, and it already looks like a deal."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-budget-challenge_pick-one.jpg",
+          "overlays": []
+        },
+        {
+          "id": "pick-two",
+          "title": "Pick two",
+          "shot": "medium",
+          "position": "Along the next shelf or rail",
+          "direction": "Slide slowly along the shelf, stop on the second pick, hold, then flick the phone right.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Pick two",
+              "script": "Pick two, and here is the price on the tag."
+            },
+            {
+              "text": "Still under budget",
+              "script": "Still under budget, and here is the second pick."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-budget-challenge_pick-two.jpg",
+          "overlays": []
+        },
+        {
+          "id": "pick-three",
+          "title": "Pick three",
+          "shot": "detail",
+          "position": "At the counter, the third pick laid down",
+          "direction": "Start mid-flick, stop above the third pick on the counter and hold it with the tag showing.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Pick three",
+              "script": "Pick three, and this one decides if I stay under."
+            },
+            {
+              "text": "Last one",
+              "script": "Last one, and I really hope the maths works out."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-budget-challenge_pick-three.jpg",
+          "overlays": []
+        },
+        {
+          "id": "till",
+          "title": "The total",
+          "shot": "medium",
+          "position": "Behind the cashier's shoulder, with their okay",
+          "direction": "Ask the cashier first. Film over their shoulder as they ring it up and move in slowly to the total.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The total",
+              "script": "Here is the total at the till, under fifty dollars."
+            },
+            {
+              "text": "Did I make it",
+              "script": "Did I make it under budget? Look at the screen."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-budget-challenge_till.jpg",
+          "overlays": []
+        },
+        {
+          "id": "haul",
+          "title": "The haul",
+          "shot": "wide",
+          "position": "At a table or the floor, standing above",
+          "direction": "Lay all three picks out, start straight above one tag and lift the phone slowly so all three appear.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The whole haul",
+              "script": "All three together, and this is everything I got for fifty."
+            },
+            {
+              "text": "Full haul",
+              "script": "The full haul, with the price of each on screen."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-budget-challenge_haul.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "Outside the shop, bag in hand",
+          "direction": "Front camera at arm's length, a little above eye level, holding the bag. Give your verdict.",
+          "seconds": 5,
+          "prompter": "Three pieces, under fifty, and here is the one worth the trip.",
+          "captions": [
+            {
+              "text": "Verdict",
+              "script": "Three pieces, under fifty, and here is the one worth the trip."
+            },
+            {
+              "text": "Would I do it again",
+              "script": "Would I do it again here? Yes, and with less money."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-budget-challenge_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "shop-owner-pick",
+      "venueKinds": [
+        "shopping"
+      ],
+      "title": "Owner's pick",
+      "summary": "The owner pulls the one piece they would keep, says why, and you try it on with the price on screen.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "ask",
+          "title": "The ask",
+          "shot": "medium",
+          "position": "At the counter, facing the owner",
+          "direction": "Back camera on the owner at the counter, front camera on you. Move in slowly as you ask.",
+          "seconds": 6,
+          "prompter": "I asked the owner to pick one thing in this shop for me.",
+          "captions": [
+            {
+              "text": "Owner's pick",
+              "script": "I asked the owner to pick one thing in this shop for me."
+            },
+            {
+              "text": "Dress me",
+              "script": "Asked the owner to choose for me, I have no say today."
+            }
+          ],
+          "pip": true,
+          "imageURL": "shop-owner-pick_ask.jpg",
+          "overlays": []
+        },
+        {
+          "id": "pull",
+          "title": "The pull",
+          "shot": "medium",
+          "position": "Behind the owner's shoulder, at the rail",
+          "direction": "Stand behind the owner's shoulder and hold still while they pull their pick off the rail or shelf.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Straight to it",
+              "script": "Straight to this rail, no hesitation at all."
+            },
+            {
+              "text": "They knew",
+              "script": "They knew exactly where it was."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-owner-pick_pull.jpg",
+          "overlays": []
+        },
+        {
+          "id": "why",
+          "title": "Why this one",
+          "shot": "medium",
+          "position": "Facing the owner, the piece held up",
+          "direction": "Back camera on the owner holding the piece, front camera on you. Say what they told you about it.",
+          "seconds": 5,
+          "prompter": "They say this is the piece they would keep for themselves.",
+          "captions": [
+            {
+              "text": "Why this one",
+              "script": "They say this is the piece they would keep for themselves."
+            },
+            {
+              "text": "Their reason",
+              "script": "Here is their reason, and why this one stands out."
+            }
+          ],
+          "pip": true,
+          "imageURL": "shop-owner-pick_why.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tag",
+          "title": "The price",
+          "shot": "detail",
+          "position": "Same spot, the tag in your fingers",
+          "direction": "Phone straight above the tag, move down slowly until the price fills the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The price",
+              "script": "And the price on the tag, which made the choice easy."
+            },
+            {
+              "text": "Here's the tag",
+              "script": "Here is the tag, so you know exactly what it costs."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-owner-pick_tag.jpg",
+          "overlays": []
+        },
+        {
+          "id": "try",
+          "title": "On me",
+          "shot": "medium",
+          "position": "In front of the shop mirror",
+          "direction": "Start with the phone close to the fabric you are now wearing, then lean back slowly to show the whole outfit.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "On me",
+              "script": "And here it is on me, the owner was right."
+            },
+            {
+              "text": "The fit",
+              "script": "The fit, the colour, and I would not have picked it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-owner-pick_try.jpg",
+          "overlays": []
+        },
+        {
+          "id": "verdict",
+          "title": "Verdict",
+          "shot": "selfie",
+          "position": "By the counter, wearing the piece",
+          "direction": "Front camera at arm's length, a little above eye level. Say if you are keeping it.",
+          "seconds": 6,
+          "prompter": "They were right, I would never have picked this off the rail myself.",
+          "captions": [
+            {
+              "text": "Verdict",
+              "script": "They were right, I would never have picked this off the rail myself."
+            },
+            {
+              "text": "Keeping it",
+              "script": "Keeping it, and I am coming back for their next pick."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-owner-pick_verdict.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "shop-music-demo",
+      "venueKinds": [
+        "shopping"
+      ],
+      "title": "Music shop demo",
+      "summary": "Staff play a few bars, the wall of instruments, you try the same one, their tip and the price.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "chord",
+          "title": "First chord",
+          "shot": "detail",
+          "position": "Beside the staff member, phone above their hands",
+          "direction": "Hold the phone above the staff member's hands as they play the first chord. Keep it still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Listen to this",
+              "script": "Listen to this before I tell you what it costs."
+            },
+            {
+              "text": "First chord",
+              "script": "First chord on this one. Turn the sound up."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-music-demo_chord.jpg",
+          "overlays": []
+        },
+        {
+          "id": "player",
+          "title": "The player",
+          "shot": "medium",
+          "position": "In front of the staff member, a step away",
+          "direction": "Start close on their hands at eye level, then lean back slowly so the player and the instrument appear.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Staff demo",
+              "script": "Staff demo. Listen to how it sounds in the right hands."
+            },
+            {
+              "text": "A few bars",
+              "script": "A few bars from someone who actually knows how to play."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-music-demo_player.jpg",
+          "overlays": []
+        },
+        {
+          "id": "wall",
+          "title": "The wall",
+          "shot": "medium",
+          "position": "In front of the instrument wall",
+          "direction": "Phone at eye height, walk slowly sideways along the wall of instruments.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The whole wall",
+              "script": "The whole wall, with the prices on the tags."
+            },
+            {
+              "text": "Pick one",
+              "script": "Pick one off this wall and ask to try it."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-music-demo_wall.jpg",
+          "overlays": []
+        },
+        {
+          "id": "try",
+          "title": "My turn",
+          "shot": "detail",
+          "position": "Seated with the instrument, phone held above your hands",
+          "direction": "Back camera on your hands on the instrument, front camera on you. Play a few notes and say how it feels.",
+          "seconds": 5,
+          "prompter": "I can barely play, but this one made me sound almost decent.",
+          "captions": [
+            {
+              "text": "My turn",
+              "script": "I can barely play, but this one made me sound almost decent."
+            },
+            {
+              "text": "Trying it",
+              "script": "Trying it myself, and it is easier to play than mine."
+            }
+          ],
+          "pip": true,
+          "imageURL": "shop-music-demo_try.jpg",
+          "overlays": []
+        },
+        {
+          "id": "tip",
+          "title": "Staff tip",
+          "shot": "medium",
+          "position": "Facing the staff member",
+          "direction": "Back camera on the staff member, front camera on you. Say the tip they gave you.",
+          "seconds": 6,
+          "prompter": "Here is their tip for beginners, straight from behind the counter.",
+          "captions": [
+            {
+              "text": "Staff tip",
+              "script": "Here is their tip for beginners, straight from behind the counter."
+            },
+            {
+              "text": "Best advice",
+              "script": "Best advice I got today, and it is simple."
+            }
+          ],
+          "pip": true,
+          "imageURL": "shop-music-demo_tip.jpg",
+          "overlays": []
+        },
+        {
+          "id": "price",
+          "title": "The price",
+          "shot": "detail",
+          "position": "At the instrument, the tag in your fingers",
+          "direction": "Phone straight above the price tag on the instrument, move down slowly until the price fills the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The price",
+              "script": "Here is the price of the one I played, and where to find it."
+            },
+            {
+              "text": "Take it home",
+              "script": "This is what it costs to take this one home."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-music-demo_price.jpg",
+          "overlays": []
+        }
+      ]
+    },
+    {
+      "id": "shop-tour",
+      "venueKinds": [
+        "shopping"
+      ],
+      "title": "Shop tour",
+      "summary": "Through the door, the main rail, the corner nobody notices, one find with its price, and the till.",
+      "featuresMenuItem": false,
+      "steps": [
+        {
+          "id": "door",
+          "title": "Walk in",
+          "shot": "pov",
+          "position": "Outside, a few steps from the shop door",
+          "direction": "Phone at chest height, walk slowly up to the door until it fills the screen.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Shop tour",
+              "script": "Quick tour of a shop I keep coming back to."
+            },
+            {
+              "text": "Come in with me",
+              "script": "Come in with me, here is what is inside."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-tour_door.jpg",
+          "overlays": []
+        },
+        {
+          "id": "inside",
+          "title": "Inside",
+          "shot": "wide",
+          "position": "Just inside the door",
+          "direction": "Start close on the first thing inside the door, then lean back slowly to show the whole shop.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Inside",
+              "script": "This is the whole shop, and every wall is full."
+            },
+            {
+              "text": "First look",
+              "script": "First look, and I know I will be here a while."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-tour_inside.jpg",
+          "overlays": []
+        },
+        {
+          "id": "rail",
+          "title": "Main rail",
+          "shot": "detail",
+          "position": "At the main rail or wall",
+          "direction": "Hold the phone close to the rail, slide slowly along it and stop on one tag, then flick the phone right.",
+          "seconds": 5,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "Price range",
+              "script": "Here is the price range on this rail, read off the tags."
+            },
+            {
+              "text": "The main rail",
+              "script": "The main rail. Here is how it is laid out."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-tour_rail.jpg",
+          "overlays": []
+        },
+        {
+          "id": "corner",
+          "title": "The corner",
+          "shot": "medium",
+          "position": "In the back corner of the shop",
+          "direction": "Start mid-flick, slow down and keep turning slowly across the corner nobody notices.",
+          "seconds": 4,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The corner",
+              "script": "The corner nobody notices, and it has the best stuff."
+            },
+            {
+              "text": "Go to the back",
+              "script": "Go all the way to the back, trust me."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-tour_corner.jpg",
+          "overlays": []
+        },
+        {
+          "id": "find",
+          "title": "One find",
+          "shot": "detail",
+          "position": "In the corner, a find in your hands",
+          "direction": "Phone above your hands, show one find from the corner and its price tag. Hold still.",
+          "seconds": 3,
+          "prompter": "",
+          "captions": [
+            {
+              "text": "The find",
+              "script": "Found this back there, and here is what it costs."
+            },
+            {
+              "text": "Corner find",
+              "script": "Corner find, price on the tag, and it is mine."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-tour_find.jpg",
+          "overlays": []
+        },
+        {
+          "id": "till",
+          "title": "At the till",
+          "shot": "selfie",
+          "position": "At the till, the counter behind you",
+          "direction": "Front camera at arm's length, a little above eye level, the till behind you. Say where to start.",
+          "seconds": 5,
+          "prompter": "Ask at the till about anything, and here is where to start.",
+          "captions": [
+            {
+              "text": "Ask at the till",
+              "script": "Ask at the till about anything, and here is where to start."
+            },
+            {
+              "text": "When they open",
+              "script": "Here is when they are open, so plan your visit."
+            }
+          ],
+          "pip": false,
+          "imageURL": "shop-tour_till.jpg",
+          "overlays": []
+        }
+      ]
+    }
+  ],
+  "shotPlan": {
+    "shop-find-of-the-day": {
+      "find": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The find grows toward the lens until the tag is readable; cut to the rail where it hung."
+      },
+      "rail": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "Hangers or spines slide past at an even pace and stop on the gap; cut to the label from above."
+      },
+      "label": {
+        "angle": "high",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "whip",
+        "reads": "The label fills the frame, held, then the frame flicks right onto the price tag."
+      },
+      "tag": {
+        "angle": "high",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The flick settles on the tag and holds; cut to the front camera."
+      },
+      "why": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face and find at arm's length, held still; the camera flips to the shopfront."
+      },
+      "shopfront": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "tilt-down",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The sign slides up out of frame and the door appears below it; hold for the outro."
+      }
+    },
+    "shop-try-on": {
+      "pick": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The hand pulls the piece toward the lens; cut to the fabric and tag from above."
+      },
+      "tag": {
+        "angle": "high",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "Fabric then tag fill the frame from above; cut to eye level at the changing room."
+      },
+      "curtain": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "push-through",
+        "reads": "The curtain grows until its fabric fills the frame; the next shot opens on the curtain sliding away."
+      },
+      "reveal": {
+        "angle": "low",
+        "start": "detail",
+        "end": "medium",
+        "move": "reveal-from-behind",
+        "seconds": 4,
+        "transitionOut": "match-cut",
+        "reads": "The curtain slides away and the outfit appears, one turn; match-cut on the creator to the mirror."
+      },
+      "second": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "Same place in frame, a different outfit, one turn; cut to the front camera."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and both pieces at arm's length, held still; the camera flips to the sign outside."
+      },
+      "sign": {
+        "angle": "low",
+        "start": "medium",
+        "end": "medium",
+        "move": "tilt-down",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The sign slides up and the door appears; hold for the outro."
+      }
+    },
+    "shop-budget-challenge": {
+      "budget": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and door at arm's length, held still; the camera flips to the first pick."
+      },
+      "pick-one": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The pick grows toward the lens until the tag reads; cut to eye level along the next shelf."
+      },
+      "pick-two": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-right",
+        "seconds": 4,
+        "transitionOut": "whip",
+        "reads": "Items slide past and stop on pick two, then the frame flicks right."
+      },
+      "pick-three": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The flick settles above the pick and its tag; cut to over the cashier's shoulder."
+      },
+      "till": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 4,
+        "transitionOut": "pull-back-reveal",
+        "reads": "The total grows until it fills the frame; the next shot starts on one tag and pulls back."
+      },
+      "haul": {
+        "angle": "top-down",
+        "start": "detail",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "From one tag the frame rises until all three picks lie in it; cut to the front camera."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and bag at arm's length, held still for the outro."
+      }
+    },
+    "shop-owner-pick": {
+      "ask": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "close",
+        "move": "push-in",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The owner grows in the back camera as the creator asks; cut to behind the owner at the rail."
+      },
+      "pull": {
+        "angle": "over-shoulder",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "Over the shoulder, the owner's hand finds the piece and lifts it; cut to the owner holding it up."
+      },
+      "why": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The owner holds the piece up in the back camera, still; cut to the tag from above."
+      },
+      "tag": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "push-through",
+        "reads": "The tag grows until the fabric fills the frame; the next shot opens on the same fabric, worn."
+      },
+      "try": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The fabric fills the frame, then the outfit appears around it; cut to the front camera."
+      },
+      "verdict": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "Face and outfit at arm's length, held still for the outro."
+      }
+    },
+    "shop-music-demo": {
+      "chord": {
+        "angle": "high",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "pull-back-reveal",
+        "reads": "Fingers on the strings or keys fill the frame; the next shot starts on the same hands and pulls back."
+      },
+      "player": {
+        "angle": "eye-level",
+        "start": "detail",
+        "end": "medium",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "From the hands, the player and the instrument appear around them; cut to walking the wall."
+      },
+      "wall": {
+        "angle": "pov",
+        "start": "medium",
+        "end": "medium",
+        "move": "truck-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "Headstocks or keys slide past at an even pace; cut to above the creator's hands."
+      },
+      "try": {
+        "angle": "high",
+        "start": "close",
+        "end": "close",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "The creator's hands play from above in the back camera; cut to the staff member at eye level."
+      },
+      "tip": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 6,
+        "transitionOut": "cut",
+        "reads": "The staff member in the back camera, held still while the creator speaks; cut to the price tag."
+      },
+      "price": {
+        "angle": "top-down",
+        "start": "close",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The tag grows until the price fills the frame; hold for the outro."
+      }
+    },
+    "shop-tour": {
+      "door": {
+        "angle": "pov",
+        "start": "wide",
+        "end": "detail",
+        "move": "push-in",
+        "seconds": 3,
+        "transitionOut": "push-through",
+        "reads": "The door grows until it fills the frame; the next shot opens inside."
+      },
+      "inside": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "wide",
+        "move": "pull-out",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The first rack shrinks as the whole shop appears around it; cut close to the main rail."
+      },
+      "rail": {
+        "angle": "eye-level",
+        "start": "close",
+        "end": "close",
+        "move": "truck-right",
+        "seconds": 5,
+        "transitionOut": "whip",
+        "reads": "Hangers slide past the lens and stop on a tag, then the frame flicks right into the corner."
+      },
+      "corner": {
+        "angle": "eye-level",
+        "start": "medium",
+        "end": "medium",
+        "move": "pan-right",
+        "seconds": 4,
+        "transitionOut": "cut",
+        "reads": "The flick settles and the back corner turns past slowly; cut to one find from above."
+      },
+      "find": {
+        "angle": "high",
+        "start": "detail",
+        "end": "detail",
+        "move": "static",
+        "seconds": 3,
+        "transitionOut": "cut",
+        "reads": "The find and its tag fill the frame from above; cut to the front camera at the till."
+      },
+      "till": {
+        "angle": "high",
+        "start": "medium",
+        "end": "medium",
+        "move": "static",
+        "seconds": 5,
+        "transitionOut": "cut",
+        "reads": "Face and counter at arm's length, held still for the outro."
+      }
+    }
+  }
+}

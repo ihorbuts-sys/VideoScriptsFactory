@@ -1,0 +1,24 @@
+Draw a functional live shot guide in the approved watercolor sketch style. Camera geometry and movement are the specification, not a decorative story illustration.
+Reference 1: existing guide's six camera-view keyframes. Match its START crop, END crop, subject placement, and motion direction. Its background is only for legibility.
+Reference 2: same guide's 3D strip; use its camera elevation and perspective.
+Reference 3: a SINGLE approved watercolor pose, STYLE ONLY. Copy the loose pencil contours, pale slate-blue pigment, textured translucent wash extending outside the lines. Do not copy its subject or layout.
+
+GUIDE glass_flight_high_truckr_cc
+THIS TAKE ONLY: The glasses slide past from light to dark, the front rims faster than the back
+ANGLE: Camera from ABOVE at about 45 degrees: clear top surfaces and foreshortening. Do not make it eye-level or straight overhead.
+
+MOVEMENT: Camera trucks right: foreground and background slide with different parallax. Keep the viewing angle and resource size.
+Six required camera states, numbered only in this prompt (no labels in artwork):
+Frame 1: {"distance_m":0.113,"elevation_deg":45.0,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.0,"subject_size_relative_to_first":1.0}
+Frame 2: {"distance_m":0.113,"elevation_deg":45.0,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.009,"subject_size_relative_to_first":1.0}
+Frame 3: {"distance_m":0.113,"elevation_deg":45.0,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.018,"subject_size_relative_to_first":1.0}
+Frame 4: {"distance_m":0.113,"elevation_deg":45.0,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.026,"subject_size_relative_to_first":1.0}
+Frame 5: {"distance_m":0.113,"elevation_deg":45.0,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.035,"subject_size_relative_to_first":1.0}
+Frame 6: {"distance_m":0.113,"elevation_deg":45.0,"azimuth_deg":0.0,"yaw_deg":0.0,"pitch_deg":0.0,"lateral_m":0.044,"subject_size_relative_to_first":1.0}
+
+OUTPUT: Exactly SIX portrait camera-view keyframes in TWO columns and THREE rows. Each cell is 9:16, tall and narrow. Entire atlas approximately 768 x 2048. Equal cell size, uniform grid, clear transparent gutters. Read across rows. Do NOT use square cells.
+All poses show ONE continuous take, the SAME subject and coherent spatial layout. No cut to another angle, no next shot, no new scene, no finished-result insert. Framing should change ONLY as specified above. Draw THROUGH the phone lens, with no filming operator or filming phone in the view.
+One pale slate-blue watercolor pigment only; no color accents or darkening. Opacity will be reduced programmatically AFTER all frame generation, so preserve normal generated alpha now. Truly transparent background with irregular watercolor edges; no solid panel rectangle, checkerboard drawing or page background.
+NO drawn mouths, lips, teeth or smile lines. Minimal schematic faces and schematic makeup. MAXIMUM TWO visible hands per frame, including background and partial hands; hide all other hands. No detached limbs or extra fingers.
+The camera stays in ordinary visitor-accessible space, never behind a staff counter/till, inside a staff kitchen or at a restricted prep bench. View staff from the customer side or through a public viewing window. An own-hands top-down task may be at the visitor's own table.
+No labels, text, prices, numbers, arrows, frame borders, viewfinder UI or watermark in the generated artwork.

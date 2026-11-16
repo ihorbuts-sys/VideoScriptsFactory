@@ -1,0 +1,523 @@
+# Reusable guide models
+
+Historical scene-component inventory. For the later Tripo/functional library, use the [4 November 2026 filesystem audit](../../catalog/lineart-study/objects/available-models.md); the prototype statuses below predate those models.
+
+Audited 178 published guides and 473 named mesh/component families. 70 guides contain full people or anatomical hands.
+
+Human scenes must be rebuilt with the approved creator, barista and friend with sculpted locs. Existing realistic MakeHuman actors are not accepted as the new cast. Both full-color and transparent ghost renders are required for every replacement.
+
+## First reusable asset batch
+
+| Asset | Category | Guides using corresponding parts | Design sheet | Native model |
+|---|---|---|---|---|
+| [rack_shelf_tray](rack_shelf_tray/) | fixture_parts | 0 | Pending | reviewed_for_scene_proof |
+| [creator_head](creator_head/) | character_parts | 0 | Pending | rendered_pending_visual_review |
+| [friend_locs_head](friend_locs_head/) | character_parts | 0 | Pending | rendered_pending_visual_review |
+| [barista_head](barista_head/) | character_parts | 0 | Pending | character_study_pending_rig_and_identity_review |
+| [latte_cup](latte_cup/) | tableware | 0 | Generated | reviewed_for_scene_proof |
+| [saucer](saucer/) | tableware | 0 | Generated | reviewed_for_scene_proof |
+| [croissant_oozing](croissant_oozing/) | food | 4 | Generated | reviewed_for_scene_proof |
+| [croissant](croissant/) | food | 20 | Generated | reviewed_for_scene_proof |
+| [filled_croissant](filled_croissant/) | food | 4 | Generated | not_built |
+| [pastry_rack](pastry_rack/) | fixtures | 8 | Generated | reviewed_for_scene_proof |
+| [display_case](display_case/) | fixtures | 5 | Generated | not_built |
+| [bar_counter](bar_counter/) | fixtures | 26 | Generated | reviewed_for_scene_proof |
+| [dining_chair](dining_chair/) | furniture | 18 | Generated | reviewed_for_scene_proof |
+| [dining_table](dining_table/) | furniture | 81 | Generated | reviewed_for_scene_proof |
+| [storefront](storefront/) | architecture | 42 | Generated | rejected_structural_fidelity |
+| [signboard](signboard/) | architecture | 6 | Generated | rejected_reference_mismatch |
+| [pastry_box](pastry_box/) | packaging | 4 | Generated | rejected_reference_mismatch |
+| [kitchen_tongs](kitchen_tongs/) | utensils | 1 | Generated | rejected_reference_mismatch |
+| [cup_saucer](cup_saucer/) | tableware | 34 | Generated | superseded_by_separate_vessels |
+| [kettle](kettle/) | equipment | 1 | Generated | rejected_reference_mismatch |
+| [espresso_machine](espresso_machine/) | equipment | 4 | Generated | rejected_reference_mismatch |
+| [menu_board](menu_board/) | resources | 57 | Generated | rejected_reference_mismatch |
+| [bar_stool](bar_stool/) | furniture | 8 | Generated | reviewed_for_scene_proof |
+| [drinking_glass](drinking_glass/) | tableware | 16 | Generated | reviewed_for_scene_proof |
+| [bottle](bottle/) | tableware | 20 | Generated | reviewed_for_scene_proof |
+| [pendant](pendant/) | fixtures | 5 | Generated | not_built |
+| [plant](plant/) | decor | 1 | Generated | not_built |
+| [serving_tray](serving_tray/) | tableware | 4 | Generated | not_built |
+| [cutlery](cutlery/) | tableware | 28 | Generated | not_built |
+| [laptop](laptop/) | resources | 3 | Generated | not_built |
+| [glazed_door](glazed_door/) | architecture | 20 | Generated | not_built |
+| [window](window/) | architecture | 40 | Generated | not_built |
+| [wall_shelf](wall_shelf/) | fixtures | 20 | Generated | reviewed_for_scene_proof |
+
+## Complete component inventory
+
+Component names below come from the saved scenes; a component is not automatically a standalone prop. The JSON retains every guide relationship.
+
+- Anatomical massage hand R: 1 guides
+- Anatomical pinch hand L: 7 guides
+- Anatomical pinch hand R: 22 guides
+- Anatomical point hand R: 9 guides
+- Anatomical relaxed hand L: 1 guides
+- Anatomical relaxed hand R: 4 guides
+- Applicator bristle: 7 guides
+- Attached MAKER paper: 5 guides
+- Attached PRICE TAG paper: 5 guides
+- Attached tag string: 5 guides
+- Backbar bottle: 1 guides
+- Backbar shelf: 1 guides
+- Bar counter: 1 guides
+- Bar counter front: 1 guides
+- Bar front panel stile: 1 guides
+- Bar seat 1 circular footrest: 1 guides
+- Bar seat 1 curved back: 1 guides
+- Bar seat 1 sculpted seat: 1 guides
+- Bar seat 1 splayed bentwood leg: 1 guides
+- Bar seat 2 circular footrest: 1 guides
+- Bar seat 2 curved back: 1 guides
+- Bar seat 2 sculpted seat: 1 guides
+- Bar seat 2 splayed bentwood leg: 1 guides
+- Bar seat 3 circular footrest: 1 guides
+- Bar seat 3 curved back: 1 guides
+- Bar seat 3 sculpted seat: 1 guides
+- Bar seat 3 splayed bentwood leg: 1 guides
+- Bar stool circular footrest: 1 guides
+- Bar stool curved back: 1 guides
+- Bar stool sculpted seat: 1 guides
+- Bar stool splayed bentwood leg: 1 guides
+- Bar top with visible customer lip: 6 guides
+- Basil leaf: 12 guides
+- Bed support: 3 guides
+- Bench board: 6 guides
+- Bench support: 6 guides
+- Bite on the fork: 3 guides
+- Bound soundbox edge: 4 guides
+- Box base: 4 guides
+- Box end: 4 guides
+- Box hinged lid: 4 guides
+- Box side: 4 guides
+- Bridge base: 4 guides
+- Bridge saddle: 4 guides
+- Bridge string pin 01: 4 guides
+- Bridge string pin 02: 4 guides
+- Bridge string pin 03: 4 guides
+- Bridge string pin 04: 4 guides
+- Bridge string pin 05: 4 guides
+- Bridge string pin 06: 4 guides
+- Brunch cup coffee surface: 1 guides
+- Brunch cup hollow ceramic body: 1 guides
+- Brunch cup open handle: 1 guides
+- Brush or driver handle: 7 guides
+- Burger lower bun: 12 guides
+- Burger patty: 12 guides
+- Burger upper bun: 12 guides
+- Button placket: 5 guides
+- Case side support: 5 guides
+- Chair seen in the mirror: 4 guides
+- Chocolate filling centre: 4 guides
+- Chocolate filling contour: 4 guides
+- Client cape over the shoulders: 1 guides
+- Clipper blade tooth: 3 guides
+- Clipper contoured body: 3 guides
+- Clipper metal blade: 3 guides
+- Clothing rail: 7 guides
+- Clothing rail upright: 7 guides
+- Coach shoe: 1 guides
+- Coffee bean: 1 guides
+- Coffee machine public face: 1 guides
+- Comb spine: 6 guides
+- Comb tooth: 6 guides
+- Continuous bar top: 1 guides
+- Cooking portion: 1 guides
+- Cooking steam: 1 guides
+- Counter tumbler: 1 guides
+- Crayon: 1 guides
+- Cream dollop on the plate: 2 guides
+- Cream filling cross-section: 4 guides
+- Cream filling rim: 4 guides
+- Cream smear on the plate: 2 guides
+- Cream swirl: 2 guides
+- Croissant half: 20 guides
+- Cropped curved massage surface: 1 guides
+- Cropped surface curvature: 1 guides
+- Cup coffee surface: 28 guides
+- Cup hollow ceramic body: 29 guides
+- Cup open handle: 29 guides
+- Cup steam beside the pastry: 1 guides
+- Curtain fabric: 1 guides
+- Customer bar stool circular footrest: 6 guides
+- Customer bar stool curved back: 6 guides
+- Customer bar stool sculpted seat: 6 guides
+- Customer bar stool splayed bentwood leg: 6 guides
+- Customer counter top: 1 guides
+- Customer foot rail: 7 guides
+- Customer-facing bar carcass: 6 guides
+- Cut hair falling: 1 guides
+- Cut hair on the floor: 1 guides
+- Cut hair strand: 5 guides
+- Cymbal: 1 guides
+- Cymbal stand: 1 guides
+- Daylight on the floor: 2 guides
+- Daylight on the floor ray: 2 guides
+- Dining chair bent back: 18 guides
+- Dining chair leg: 18 guides
+- Dining chair seat: 18 guides
+- Display bottle: 6 guides
+- Distant tap handle: 6 guides
+- Distant tap neck: 6 guides
+- Door jamb: 12 guides
+- Door lintel: 12 guides
+- Door pull handle: 11 guides
+- Doorway edge in the foreground: 1 guides
+- Dough rim: 1 guides
+- Draped towel edge: 3 guides
+- Drink layer 1: 1 guides
+- Drink layer 2: 1 guides
+- Drum throne: 1 guides
+- Dumbbell grip: 4 guides
+- Dumbbell weight: 4 guides
+- Egg white: 1 guides
+- Egg yolk: 1 guides
+- Espresso into ordered cup: 1 guides
+- Espresso into supported cup: 1 guides
+- Eye line landmark: 12 guides
+- Fabric fold seam: 5 guides
+- Faint back-bar bottle: 5 guides
+- Far-side bar bottle: 6 guides
+- Finger: 1 guides
+- Fingerboard position marker 12: 4 guides
+- Fingerboard position marker 15: 4 guides
+- Fingerboard position marker 17: 4 guides
+- Fingerboard position marker 19: 4 guides
+- Fingerboard position marker 3: 4 guides
+- Fingerboard position marker 5: 4 guides
+- Fingerboard position marker 7: 4 guides
+- Fingerboard position marker 9: 4 guides
+- Fixed curved tap: 5 guides
+- Flight glass liquid level: 1 guides
+- Flight glass open bowl: 1 guides
+- Flip-flop sole: 1 guides
+- Flip-flop strap: 1 guides
+- Floor tom: 1 guides
+- Floor tom stand: 1 guides
+- Flour on the dough: 1 guides
+- Flow inside the served glass: 2 guides
+- Folded food napkin: 4 guides
+- Folded garment body: 5 guides
+- Folded sleeve: 5 guides
+- Folded towel: 1 guides
+- Folded treatment towel: 1 guides
+- Food tongs arm: 1 guides
+- Food tray base: 3 guides
+- Foreground cup reveal coffee surface: 1 guides
+- Foreground cup reveal hollow ceramic body: 1 guides
+- Foreground cup reveal open handle: 1 guides
+- Fork handle: 11 guides
+- Fork stamped body: 17 guides
+- Fork tine: 11 guides
+- Fret 01: 4 guides
+- Fret 02: 4 guides
+- Fret 03: 4 guides
+- Fret 04: 4 guides
+- Fret 05: 4 guides
+- Fret 06: 4 guides
+- Fret 07: 4 guides
+- Fret 08: 4 guides
+- Fret 09: 4 guides
+- Fret 10: 4 guides
+- Fret 11: 4 guides
+- Fret 12: 4 guides
+- Fret 13: 4 guides
+- Fret 14: 4 guides
+- Fret 15: 4 guides
+- Fret 16: 4 guides
+- Fret 17: 4 guides
+- Fret 18: 4 guides
+- Fret 19: 4 guides
+- Fret 20: 4 guides
+- Game goal: 1 guides
+- Game table: 1 guides
+- Garment centre seam: 8 guides
+- Garment hem: 8 guides
+- Garment with sleeves: 8 guides
+- Garnish placed on food: 1 guides
+- Glazed door rail: 11 guides
+- Glazed door vertical frame: 11 guides
+- Grill bar: 1 guides
+- Grinder bean hopper: 1 guides
+- Grinder body: 1 guides
+- Grinder chute: 1 guides
+- Ground coffee falling: 1 guides
+- Ground coffee mound: 1 guides
+- Guitar fret: 1 guides
+- Guitar fretboard: 1 guides
+- Guitar headstock: 1 guides
+- Guitar lower bout: 1 guides
+- Guitar string: 1 guides
+- Guitar upper bout: 1 guides
+- Guitar wall neck support: 1 guides
+- Hairdryer body: 5 guides
+- Hairdryer cord: 5 guides
+- Hairdryer handle: 5 guides
+- Hairdryer nozzle: 5 guides
+- Hairspray aerosol can: 5 guides
+- Hairspray cap: 5 guides
+- Hanger: 8 guides
+- Hanger hook: 8 guides
+- Heel strap button flange: 4 guides
+- Heel strap button screw: 4 guides
+- Held cup coffee surface: 2 guides
+- Held cup hollow ceramic body: 2 guides
+- Held cup open handle: 2 guides
+- Hollow acoustic body back plate: 4 guides
+- Hollow acoustic body finite side ribs: 4 guides
+- Individually fretted fingerboard: 4 guides
+- Inlaid soundhole rosette: 4 guides
+- Instrument stand rail: 1 guides
+- Kettle handle: 1 guides
+- Kettle spout: 1 guides
+- Keyboard body: 1 guides
+- Kick drum shell: 1 guides
+- Laminated pastry seam: 19 guides
+- Laptop keyboard base: 3 guides
+- Latte rosetta leaf: 1 guides
+- Lens-covering cape: 1 guides
+- Lettuce folded edge: 12 guides
+- Lighting truss beam: 1 guides
+- Lighting truss post: 1 guides
+- Lock of hair: 1 guides
+- Lunch water liquid level: 1 guides
+- Lunch water open bowl: 1 guides
+- Machine drip tray: 1 guides
+- MakeHuman person creator_f_bag: 1 guides
+- MakeHuman person creator_f_glass: 1 guides
+- MakeHuman person creator_f_seated: 3 guides
+- MakeHuman person creator_f_selfie: 5 guides
+- MakeHuman person creator_f_stand: 7 guides
+- MakeHuman person creator_m_bench: 2 guides
+- MakeHuman person creator_m_curl: 1 guides
+- MakeHuman person creator_m_glass: 7 guides
+- MakeHuman person creator_m_guitar: 2 guides
+- MakeHuman person creator_m_seated: 2 guides
+- MakeHuman person creator_m_selfie: 1 guides
+- MakeHuman person creator_m_stand: 5 guides
+- MakeHuman person creator_m_work: 3 guides
+- MakeHuman person queue_a_guitar: 1 guides
+- MakeHuman person queue_a_stand: 3 guides
+- MakeHuman person queue_b_seated: 1 guides
+- MakeHuman person queue_b_stand: 2 guides
+- MakeHuman person queue_c_stand: 3 guides
+- MakeHuman person queue_c_work: 1 guides
+- Meat portion: 1 guides
+- Menu board backing: 23 guides
+- Menu frame rail: 23 guides
+- Menu frame side: 23 guides
+- Menu resource lettering: 23 guides
+- Microphone stand: 1 guides
+- Milk pitcher handle: 2 guides
+- Milk pitcher pouring lip: 2 guides
+- Milk spreading on coffee surface: 1 guides
+- Milk spreading on the ordered coffee: 1 guides
+- Milk stream from pitcher lip: 1 guides
+- Milk stream into ordered cup: 1 guides
+- Mirror edge only: 1 guides
+- Necessary changing curtain: 1 guides
+- Necessary foreground door edge: 7 guides
+- Nut: 4 guides
+- Open laptop screen: 3 guides
+- Open milk pitcher: 2 guides
+- Opened yolk: 1 guides
+- Ordered coffee coffee surface: 1 guides
+- Ordered coffee hollow ceramic body: 1 guides
+- Ordered coffee open handle: 1 guides
+- Original tapered headstock: 4 guides
+- Palm: 1 guides
+- Palm over the lens: 1 guides
+- Paper bag handle: 1 guides
+- Paper lunch: 1 guides
+- Paper order bag: 1 guides
+- Paper price: 1 guides
+- Paper resource: 10 guides
+- Paper treatment: 1 guides
+- Pasta coil: 12 guides
+- Pastry crumb: 3 guides
+- Pastry shelf: 5 guides
+- Pendant ceiling track: 1 guides
+- Pendant cord: 5 guides
+- Pendant shade: 5 guides
+- Peripheral treatment towel: 1 guides
+- Person seen in the mirror: 2 guides
+- Pizza dough being turned: 1 guides
+- Placard foot: 1 guides
+- Place-setting knife: 15 guides
+- Plant leaf: 1 guides
+- Plant pot: 1 guides
+- Plant stem: 1 guides
+- Plate with formed rim: 47 guides
+- Portafilter basket: 1 guides
+- Portafilter fork: 1 guides
+- Portafilter handle: 1 guides
+- Pour stream: 2 guides
+- Public attraction arch: 2 guides
+- Public coffee machine: 2 guides
+- Public counter front: 1 guides
+- Public counter surface: 17 guides
+- Public machine spout: 1 guides
+- Public repair bench: 2 guides
+- Public serving ledge: 4 guides
+- Public studio desk: 1 guides
+- Public till: 1 guides
+- Public-facing espresso outlet: 1 guides
+- Public-side grill surface: 1 guides
+- Public-view oven front frame: 2 guides
+- Purchased shelf bottle: 1 guides
+- Quiet floor seam: 1 guides
+- Quiet food steam: 6 guides
+- Quiet menu price field: 14 guides
+- Quiet menu row: 14 guides
+- Quiet resource row: 10 guides
+- Quiet tabletop: 81 guides
+- Quiet water glass liquid level: 2 guides
+- Quiet water glass open bowl: 2 guides
+- Readable folded collar: 5 guides
+- Reception counter: 1 guides
+- Repair object: 2 guides
+- Repair workpiece: 6 guides
+- Round brush bristle ring: 5 guides
+- Round brush handle: 5 guides
+- Salon chair arm: 8 guides
+- Salon chair foot: 8 guides
+- Salon chair upholstered back: 8 guides
+- Salon chair upholstered seat: 8 guides
+- Salon footrest: 8 guides
+- Same ordered visitor-side glass liquid level: 5 guides
+- Same ordered visitor-side glass open bowl: 5 guides
+- Saucer: 32 guides
+- Sauna backrest board: 2 guides
+- Sauna door wood plank: 1 guides
+- Sauna stone: 2 guides
+- Sauna stove: 2 guides
+- Schematic nail plate: 3 guides
+- Schematic rear cafe counter: 1 guides
+- Scissors blade: 3 guides
+- Scissors finger loop: 3 guides
+- Seasonal drink coffee surface: 1 guides
+- Seasonal drink hollow ceramic body: 1 guides
+- Seasonal drink open handle: 1 guides
+- Seated neck heel: 4 guides
+- Seated string anchor bar: 4 guides
+- Seated tuning machine: 4 guides
+- Second friend glass liquid level: 1 guides
+- Second friend glass open bowl: 1 guides
+- Serving spout to receiving glass: 2 guides
+- Serving window jamb: 3 guides
+- Serving window side: 1 guides
+- Serving window top: 1 guides
+- Shelf supporting surface: 9 guides
+- Shirt button: 5 guides
+- Short tap spout: 2 guides
+- Singer microphone stand: 1 guides
+- Skin surface cross contour: 1 guides
+- Small folded coaster: 5 guides
+- Small kettle body: 1 guides
+- Small kit trolley: 2 guides
+- Snare drum: 1 guides
+- Snare drum stand: 1 guides
+- Soundboard with real circular soundhole: 4 guides
+- Stage platform: 1 guides
+- Stage spot beam edge: 1 guides
+- Stage spot can: 1 guides
+- Steam from the ordered coffee: 1 guides
+- String 01: 4 guides
+- String 02: 4 guides
+- String 03: 4 guides
+- String 04: 4 guides
+- String 05: 4 guides
+- String 06: 4 guides
+- Studio resource name: 1 guides
+- Studio sign backing: 1 guides
+- Styling mirror frame: 4 guides
+- Styling station shelf: 4 guides
+- Subtle pressure edge: 1 guides
+- Supported flight paddle: 1 guides
+- Table pedestal: 16 guides
+- Tabletop grill: 1 guides
+- Tail strap button flange: 4 guides
+- Tail strap button screw: 4 guides
+- Tap handle: 5 guides
+- Tapered maple neck: 4 guides
+- Tasting glass liquid level: 6 guides
+- Tasting glass open bowl: 6 guides
+- Thin cheese layer: 12 guides
+- Thumb: 1 guides
+- Ticket price-board stand: 1 guides
+- Tint bowl: 1 guides
+- Tomato slice: 12 guides
+- Towel edge stitching: 1 guides
+- Training frame: 2 guides
+- Treatment bed mattress: 3 guides
+- Treatment lamp rim: 1 guides
+- Treatment pillow: 3 guides
+- Treatment towel: 3 guides
+- Truck grounded wheel: 3 guides
+- Truck lower body: 3 guides
+- Truck roof: 3 guides
+- Truck window side pillar: 3 guides
+- Tuner button: 4 guides
+- Tuner shaft: 4 guides
+- Tuning post: 4 guides
+- Tuning post string winding 01: 4 guides
+- Tuning post string winding 02: 4 guides
+- Tuning post string winding 03: 4 guides
+- Tuning post string winding 04: 4 guides
+- Tuning post string winding 05: 4 guides
+- Tuning post string winding 06: 4 guides
+- Venue name sign: 5 guides
+- Venue resource : 7 guides
+- Venue resource ACTIVITY: 1 guides
+- Venue resource ASK TEAM: 1 guides
+- Venue resource BOOK: 1 guides
+- Venue resource BOOKED: 1 guides
+- Venue resource BOOKING / OPTIONS: 1 guides
+- Venue resource CONSULTATION: 1 guides
+- Venue resource DETAIL: 5 guides
+- Venue resource DETAILS: 1 guides
+- Venue resource DRINK: 1 guides
+- Venue resource DURATION: 1 guides
+- Venue resource ENTRY: 1 guides
+- Venue resource EXTRAS: 1 guides
+- Venue resource FACE + BODY: 1 guides
+- Venue resource FROM: 1 guides
+- Venue resource INCLUDED: 1 guides
+- Venue resource ITEM: 1 guides
+- Venue resource KIDS MENU: 1 guides
+- Venue resource LUNCH MENU: 1 guides
+- Venue resource LUNCH PRICE: 1 guides
+- Venue resource MAIN + SIDE: 1 guides
+- Venue resource MAKER: 5 guides
+- Venue resource ORDER HERE: 3 guides
+- Venue resource PICK: 1 guides
+- Venue resource PRICE: 14 guides
+- Venue resource PRICE LIST: 1 guides
+- Venue resource PRICE TAG: 5 guides
+- Venue resource RECEIPT: 1 guides
+- Venue resource RELAXATION: 1 guides
+- Venue resource SELECT YOUR CARE: 1 guides
+- Venue resource SERVICE: 6 guides
+- Venue resource SIGNATURE CARE: 1 guides
+- Venue resource STARTING FROM: 1 guides
+- Venue resource TICKET: 1 guides
+- Venue resource TODAY: 1 guides
+- Venue resource TOTAL: 1 guides
+- Venue resource TREATMENTS: 1 guides
+- Venue resource VENUE: 5 guides
+- Venue resource WIFI: 3 guides
+- Venue resource WORK: 6 guides
+- Visible food rack: 3 guides
+- Visible problem crack: 1 guides
+- Warm lit pendant lip: 5 guides
+- Warm switched-on bulb: 5 guides
+- Water bottle: 1 guides
+- Water from kettle spout into cup: 1 guides
+- Water rising inside cup: 1 guides
+- Wifi card: 3 guides
+- Window crossbar: 22 guides
+- Window light on the floor: 1 guides
+- Window light on the floor ray: 1 guides
+- Window mullion: 22 guides
+- Window side: 22 guides
+- Window-facing rim highlight: 16 guides

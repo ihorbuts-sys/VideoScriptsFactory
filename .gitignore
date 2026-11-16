@@ -1,0 +1,37 @@
+# VideoGuides: code, rules, briefs and data are tracked; renders, scenes, models and bundles stay on disk and are
+# pinned by assets/manifest.json (sha256).
+*
+!*/
+!.gitignore
+!*.py
+!*.cjs
+!*.sh
+!*.md
+!*.txt
+!*.toml
+!scripts/**/*.json
+!guides/p0/*.json
+!guides/p0/renders/*_checks.json
+!previews/active-art-revision.json
+!research/**/*.json
+!briefs/**
+!skills/**
+!agents/**
+!assets/manifest.json
+api/bundle/
+api/p0-bundle/
+api/*backups/
+**/__pycache__/
+**/node_modules/
+**/.venv/
+catalog/public-gallery-site/
+catalog/public-gallery-upload/
+guides/blender_motion/vendor/
+_loop/
+!media_manifest.json
+!scriptwriter/*.json
+!scriptwriter/menubar/*.swift
+
+# working files, not part of the handoff
+**/scratch/
+guides/blender_motion/backups-*/

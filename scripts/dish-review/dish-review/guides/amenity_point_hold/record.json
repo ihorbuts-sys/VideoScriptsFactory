@@ -1,0 +1,47 @@
+{
+ "id": "amenity_point_hold",
+ "title": "Hold on the amenity sign",
+ "shotType": "detail",
+ "technique": "chest-height 2 in push-in, then hold, 1x",
+ "durationSec": 4,
+ "startTrigger": "motion",
+ "capturePreset": {
+  "stabilization": "cinematicExtendedEnhanced",
+  "continuousFocus": true,
+  "locksFocusExposureWhiteBalance": false,
+  "lensLocked": true,
+  "frameRate": 30
+ },
+ "setupBeatSeconds": 0,
+ "invariant": "Phone at chest height about 18 in from the sign; push in about 2 in, then hold still.",
+ "sourceScene": "plate_low_push_in_v2",
+ "newObjects": "none",
+ "composition": "center",
+ "camera": "back",
+ "sourceSetup": "Seated chest height (lens about 3 ft 3 in above the floor, 5 in above the sign centre), 1x; 20 in to 18 in from the sign in about 3 s at an even pace, then a 1 s hold. Hero: the blank card holder standing 3 in in from the near table edge, turned 15 deg.",
+ "alphaFactor": 1,
+ "fps": 15,
+ "resolution": [
+  405,
+  720
+ ],
+ "selectorResolution": [
+  120,
+  213
+ ],
+ "targetHoldFrames": 8,
+ "finalHoldFrames": 7,
+ "sourceBriefSHA256": "deb3b1c56aae04b4e6165801f8a62aef390c02af767b330ebf2d7d3a6b66cb73",
+ "availability": "draft",
+ "phoneOrientation": "portrait",
+ "showsFace": false,
+ "needsHelper": false,
+ "guideVisibleToCreator": true,
+ "units": "us",
+ "zoomHint": "1x",
+ "forSteps": [
+  "dish-review.amenities",
+  "drink-review.amenities",
+  "venue-review.amenities"
+ ]
+}

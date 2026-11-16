@@ -1,0 +1,36 @@
+{
+  "id": "menu_card_top_v2",
+  "status": "passed",
+  "frames": 60,
+  "seconds": 4,
+  "durationSec": 3,
+  "setupBeatSeconds": 0,
+  "alphaFactor": 1,
+  "global_opacity_baked": false,
+  "maximum_alpha": 255,
+  "target_first_and_last_identical": true,
+  "poster_equals_frame_zero": true,
+  "encoded_frames_preserved": true,
+  "selector_size": [
+    120,
+    213
+  ],
+  "animation_size": [
+    405,
+    720
+  ],
+  "initial_hold_frames": 8,
+  "final_hold_frames": 7,
+  "visible_motion": true,
+  "hero_pixel_band_checked": true,
+  "maximum_hands": 0,
+  "detailed_people": 0,
+  "silhouettes": 0,
+  "fixed_lens": true,
+  "fixed_lighting": true,
+  "local_yellow_edge_glow": true,
+  "steam_edge_glow": false,
+  "glow_from_native_yellow_contours_only": true,
+  "triangle_markers": [],
+  "sha256": "f5cba4bf5011bf80b1f8409b38d23bd4bf482ab243c813ea99430d1363b5c60c"
+}
